@@ -1,0 +1,35 @@
+import type { LegacyProvinceMapping } from '../types/admin.js';
+
+export const legacyProvinceMappings: LegacyProvinceMapping[] = [
+  { legacy_province_name: 'Ha Giang', current_province_code: 'tuyen-quang' },
+  { legacy_province_name: 'Yen Bai', current_province_code: 'lao-cai' },
+  { legacy_province_name: 'Bac Kan', current_province_code: 'thai-nguyen' },
+  { legacy_province_name: 'Vinh Phuc', current_province_code: 'phu-tho' },
+  { legacy_province_name: 'Hoa Binh', current_province_code: 'phu-tho' },
+  { legacy_province_name: 'Bac Giang', current_province_code: 'bac-ninh' },
+  { legacy_province_name: 'Thai Binh', current_province_code: 'hung-yen' },
+  { legacy_province_name: 'Hai Duong', current_province_code: 'hai-phong' },
+  { legacy_province_name: 'Ha Nam', current_province_code: 'ninh-binh' },
+  { legacy_province_name: 'Nam Dinh', current_province_code: 'ninh-binh' },
+  { legacy_province_name: 'Quang Binh', current_province_code: 'quang-tri' },
+  { legacy_province_name: 'Quang Nam', current_province_code: 'da-nang' },
+  { legacy_province_name: 'Kon Tum', current_province_code: 'quang-ngai' },
+  { legacy_province_name: 'Binh Dinh', current_province_code: 'gia-lai' },
+  { legacy_province_name: 'Ninh Thuan', current_province_code: 'khanh-hoa' },
+  { legacy_province_name: 'Dak Nong', current_province_code: 'lam-dong' },
+  { legacy_province_name: 'Binh Thuan', current_province_code: 'lam-dong' },
+  { legacy_province_name: 'Phu Yen', current_province_code: 'dak-lak' },
+  { legacy_province_name: 'Binh Duong', current_province_code: 'ho-chi-minh-city' },
+  { legacy_province_name: 'Ba Ria Vung Tau', current_province_code: 'ho-chi-minh-city' },
+  { legacy_province_name: 'Ba Ria - Vung Tau', current_province_code: 'ho-chi-minh-city' },
+  { legacy_province_name: 'Binh Phuoc', current_province_code: 'dong-nai' },
+  { legacy_province_name: 'Long An', current_province_code: 'tay-ninh' },
+  { legacy_province_name: 'Soc Trang', current_province_code: 'can-tho' },
+  { legacy_province_name: 'Hau Giang', current_province_code: 'can-tho' },
+  { legacy_province_name: 'Ben Tre', current_province_code: 'vinh-long' },
+  { legacy_province_name: 'Tra Vinh', current_province_code: 'vinh-long' },
+  { legacy_province_name: 'Tien Giang', current_province_code: 'dong-thap' },
+  { legacy_province_name: 'Bac Lieu', current_province_code: 'ca-mau' },
+  { legacy_province_name: 'Kien Giang', current_province_code: 'an-giang' }
+];
+
