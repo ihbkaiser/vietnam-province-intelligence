@@ -1,4 +1,4 @@
-import type { Feature, FeatureCollection, Polygon } from 'geojson';
+import type { Feature, FeatureCollection, MultiPolygon, Polygon } from 'geojson';
 
 export type ProvinceKind = 'province' | 'city';
 export type CommuneType = 'xa' | 'phuong' | 'dac_khu';
@@ -22,8 +22,8 @@ export interface ProvinceFeatureProperties {
   province_kind: ProvinceKind;
 }
 
-export type ProvinceFeature = Feature<Polygon, ProvinceFeatureProperties>;
-export type ProvinceFeatureCollection = FeatureCollection<Polygon, ProvinceFeatureProperties>;
+export type ProvinceFeature = Feature<Polygon | MultiPolygon, ProvinceFeatureProperties>;
+export type ProvinceFeatureCollection = FeatureCollection<Polygon | MultiPolygon, ProvinceFeatureProperties>;
 
 export interface ProvinceSummary extends ProvinceFeatureProperties {
   aliases: string[];

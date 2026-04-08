@@ -1,0 +1,353 @@
+﻿{
+  "name": {
+    "value": "Tây Ninh",
+    "last_updated": "2025-06-30",
+    "source": "S1"
+  },
+  "administrative_code": {
+    "value": "80",
+    "last_updated": "2025-07-01",
+    "source": "S2"
+  },
+  "former_provinces": {
+    "value": ["Long An", "Tây Ninh"],
+    "description": "Tỉnh Tây Ninh mới được thành lập trên cơ sở sắp xếp toàn bộ diện tích tự nhiên và quy mô dân số của tỉnh Long An và tỉnh Tây Ninh (cũ).",
+    "last_updated": "2025-06-30",
+    "source": "S1"
+  },
+  "location": {
+    "latitude": {
+      "value": ” từ 10độ57’08” đến 11độ46’36” vĩ độ Bắc”,
+      "last_updated": "2026-03-19",
+      "source": "Chưa thấy nguồn chính thức hậu sáp nhập công bố một tọa độ điểm chuẩn duy nhất cho toàn tỉnh mới"
+    },
+    "longitude": {
+      "value": “ từ 105độ48’43” đến 106độ22’48” kinh độ Đông “,
+      "last_updated": "2026-03-19",
+      "source": "Chưa thấy nguồn chính thức hậu sáp nhập công bố một tọa độ điểm chuẩn duy nhất cho toàn tỉnh mới"
+    },
+    "adjacent_areas": {
+      "provinces": {
+        "value": ["Đồng Nai", "Đồng Tháp", "TP. Hồ Chí Minh", "Tiền Giang"],
+        "last_updated": "2025-06-30",
+        "source": "S1+S12"
+      },
+      "countries": {
+        "value": ["Campuchia"],
+        "last_updated": "2025-06-30",
+        "source": "S1"
+      },
+      "seas": {
+        "value": [],
+        "last_updated": "2025-06-30",
+        "source": "S1+S12"
+      }
+    }
+  },
+  "area": {
+    "total_km2": {
+      "value": 8536.44,
+      "last_updated": "2025-06-30",
+      "source": "S1"
+    }
+  },
+  "administrative_structure": {
+    "wards_communes_count": {
+      "value": 96,
+      "last_updated": "2025-06-16",
+      "source": "S3"
+    },
+    "wards_communes_list": {
+      "value": [14 phường , 82 xã]
+        "Phường An Tịnh",
+        "Phường Bình Minh",
+        "Phường Gia Lộc",
+        "Phường Gò Dầu",
+        "Phường Hòa Thành",
+        "Phường Khánh Hậu",
+        "Phường Kiến Tường",
+        "Phường Long An",
+        "Phường Long Hoa",
+        "Phường Ninh Thạnh",
+        "Phường Tân An",
+        "Phường Tân Ninh",
+        "Phường Thanh Điền",
+        "Phường Trảng Bàng",
+        "Xã An Lục Long",
+        "Xã An Ninh",
+        "Xã Bến Cầu",
+        "Xã Bến Lức",
+        "Xã Bình Đức",
+        "Xã Bình Hiệp",
+        "Xã Bình Hòa",
+        "Xã Bình Thành",
+        "Xã Cần Đước",
+        "Xã Cần Giuộc",
+        "Xã Cầu Khởi",
+        "Xã Châu Thành",
+        "Xã Dương Minh Châu",
+        "Xã Đông Thành",
+        "Xã Đức Hòa",
+        "Xã Đức Huệ",
+        "Xã Đức Lập",
+        "Xã Hảo Đước",
+        "Xã Hậu Nghĩa",
+        "Xã Hậu Thạnh",
+        "Xã Hiệp Hoà",
+        "Xã Hòa Hội",
+        "Xã Hòa Khánh",
+        "Xã Hưng Điền",
+        "Xã Hưng Thuận",
+        "Xã Khánh Hưng",
+        "Xã Long Cang",
+        "Xã Long Chữ",
+        "Xã Long Hựu",
+        "Xã Long Thuận",
+        "Xã Lộc Ninh",
+        "Xã Lương Hoà",
+        "Xã Mộc Hóa",
+        "Xã Mỹ An",
+        "Xã Mỹ Hạnh",
+        "Xã Mỹ Lệ",
+        "Xã Mỹ Lộc",
+        "Xã Mỹ Quý",
+        "Xã Mỹ Thạnh",
+        "Xã Mỹ Yên",
+        "Xã Nhơn Hòa Lập",
+        "Xã Nhơn Ninh",
+        "Xã Nhựt Tảo",
+        "Xã Ninh Điền",
+        "Xã Phước Chỉ",
+        "Xã Phước Lý",
+        "Xã Phước Thạnh",
+        "Xã Phước Vinh",
+        "Xã Phước Vĩnh Tây",
+        "Xã Rạch Kiến",
+        "Xã Tầm Vu",
+        "Xã Tân Biên",
+        "Xã Tân Châu",
+        "Xã Tân Đông",
+        "Xã Tân Hoà",
+        "Xã Tân Hội",
+        "Xã Tân Hưng",
+        "Xã Tân Lân",
+        "Xã Tân Lập",
+        "Xã Tân Long",
+        "Xã Tân Phú",
+        "Xã Tân Tập",
+        "Xã Tân Tây",
+        "Xã Tân Thành",
+        "Xã Tân Thạnh",
+        "Xã Tân Trụ",
+        "Xã Thạnh Bình",
+        "Xã Thạnh Đức",
+        "Xã Thạnh Hóa",
+        "Xã Thạnh Lợi",
+        "Xã Thạnh Phước",
+        "Xã Thủ Thừa",
+        "Xã Thuận Mỹ",
+        "Xã Trà Vong",
+        "Xã Truông Mít",
+        "Xã Tuyên Bình",
+        "Xã Tuyên Thạnh",
+        "Xã Vàm Cỏ",
+        "Xã Vĩnh Châu",
+        "Xã Vĩnh Công",
+        "Xã Vĩnh Hưng",
+        "Xã Vĩnh Thạnh"
+      ],
+      "last_updated": "2025-06-16",
+      "source": "S3"
+    }
+  },
+  "population": {
+    "total": {
+      "value": 3254170,
+      "last_updated": "2025-06-30",
+      "source": "S1"
+    },
+    "density_per_km2": {
+      "value": 381.21,
+      "last_updated": "2026-03-19",
+      "source": "S4"
+    },
+    "ethnic_groups": {
+      "value": 22,
+      "last_updated": "2026-03-19",
+      "source": "Chưa thấy cơ cấu % dân tộc được cơ quan nhà nước công bố riêng cho tỉnh Tây Ninh mới sau sáp nhập"
+    }
+  },
+  "economy": {
+    "scale": {
+      "value": "GRDP năm 2025 ước tăng 9,52%; GRDP bình quân đầu người theo giá hiện hành đạt 115,65 triệu đồng; cơ cấu kinh tế: nông, lâm nghiệp và thủy sản 16,42%, công nghiệp - xây dựng 50,20%, dịch vụ 28,35%, thuế sản phẩm trừ trợ cấp sản phẩm 5,03%.",
+      "last_updated": "2026-01-06",
+      "source": "S5"
+    },
+    "main_sectors": {
+      "value": [
+        "Nông, lâm nghiệp và thủy sản",
+        "Công nghiệp và xây dựng",
+        "Thương mại - dịch vụ"
+      ],
+      "last_updated": "2026-01-06",
+      "source": "S5"
+    },
+    "gdp": {
+      "value": {
+        "amount_usd": 4550,
+        "year": 2025
+      },
+      "last_updated": "2026-03-19",
+      "source": "Nguồn chính thức đã kiểm tra công bố GRDP theo VND/chỉ số tăng trưởng, chưa thấy công bố GRDP quy USD cho tỉnh mới"
+    }
+  },
+  "tourism": {
+    "attractions": {
+      "value": [
+        {
+          "name": "Núi Bà Đen",
+          "type": "Danh thắng / du lịch tâm linh",
+          "description": "Điểm nhấn du lịch nổi bật của tỉnh, được giới thiệu là 'nóc nhà Nam Bộ', gắn với hành hương và lễ hội.",
+          "rating": null
+        },
+        {
+          "name": "Tòa Thánh Cao Đài",
+          "type": "Kiến trúc tôn giáo",
+          "description": "Công trình kiến trúc tôn giáo đặc sắc, là biểu tượng văn hóa tâm linh của địa phương.",
+          "rating": null
+        },
+        {
+          "name": "Khu bảo tồn đất ngập nước Láng Sen",
+          "type": "Du lịch sinh thái / bảo tồn",
+          "description": "Không gian sinh thái tiêu biểu của Đồng Tháp Mười, nổi bật với sen súng và hệ chim nước.",
+          "rating": null
+        },
+        {
+          "name": "Nhà trăm cột",
+          "type": "Di tích kiến trúc nghệ thuật",
+          "description": "Di sản kiến trúc gỗ truyền thống Nam Bộ tại khu vực Cần Đước.",
+          "rating": null
+        },
+        {
+          "name": "Căn cứ Trung ương Cục miền Nam",
+          "type": "Di tích lịch sử",
+          "description": "Di tích quốc gia đặc biệt gắn với lịch sử kháng chiến.",
+          "rating": null
+        }
+      ],
+      "last_updated": "2025-08-18",
+      "source": "S6"
+    },
+    "local_specialties": {
+      "value": [
+        {
+          "name": "Bánh tráng trộn Tây Ninh",
+          "type": "Món ăn vặt / đặc sản"
+        },
+        {
+          "name": "Bánh tráng phơi sương",
+          "type": "Đặc sản"
+        },
+        {
+          "name": "Bánh canh Trảng Bàng",
+          "type": "Đặc sản"
+        },
+        {
+          "name": "Gạo nàng thơm Chợ Đào",
+          "type": "Nông sản đặc sản"
+        },
+        {
+          "name": "Lẩu mắm",
+          "type": "Ẩm thực đặc sản"
+        }
+      ],
+      "last_updated": "2025-08-18",
+      "source": "S7"
+    },
+    "culture": {
+      "festivals": {
+        "value": [
+          "Hội xuân Núi Bà Đen",
+          "Lễ Vía Bà Linh Sơn Thánh Mẫu",
+          "Lễ hội truyền thống Làm Chay Đình Tân Xuân"
+        ],
+        "last_updated": "2026-03-19",
+        "source": "S8"
+      },
+      "events": {
+        "value": [
+          "BaDen Mountain International Marathon",
+          "Chợ lá trên đỉnh Núi Bà Đen"
+        ],
+        "last_updated": "2026-03-19",
+        "source": "S8"
+      }
+    }
+  },
+  "infrastructure": {
+    "airport": {
+      "value": [],
+      "last_updated": "2026-03-19",
+      "source": "Chưa ghi nhận sân bay dân dụng đang khai thác được cơ quan tỉnh/cổng chính phủ công bố cho tỉnh mới trong các nguồn đã kiểm tra"
+    },
+    "seaport": {
+      "value": ["Cảng Quốc tế Long An"],
+      "last_updated": "2025-07-30",
+      "source": "S9"
+    },
+    "railway_station": {
+      "value": [],
+      "last_updated": "2026-03-19",
+      "source": "Chưa ghi nhận ga đường sắt đang khai thác được cơ quan tỉnh/cổng chính phủ công bố cho tỉnh mới trong các nguồn đã kiểm tra"
+    },
+    "other_transport": {
+      "value": [
+        "Cửa khẩu quốc tế Mộc Bài",
+        "Cửa khẩu quốc tế Xa Mát",
+        "Cửa khẩu quốc tế Tân Nam",
+        "Cửa khẩu quốc tế Bình Hiệp",
+        "Cao tốc TP. Hồ Chí Minh - Mộc Bài (đang triển khai)",
+        "Vành đai 3 TP. Hồ Chí Minh",
+        "Vành đai 4 TP. Hồ Chí Minh"
+      ],
+      "last_updated": "2025-12-08",
+      "source": "S9"
+    }
+  },
+  "environment": {
+    "climate": {
+      "type": {
+        "value": null,
+        "last_updated": "2026-03-19",
+        "source": "Chưa thấy mô tả khí hậu tổng hợp được cơ quan nhà nước công bố riêng cho tỉnh Tây Ninh mới sau sáp nhập"
+      },
+      "average_temperature_c": {
+        "value": “27độ tới 28độ”,
+        "last_updated": "2026-03-19",
+        "source": "Chưa thấy nhiệt độ trung bình năm được cơ quan nhà nước công bố riêng cho tỉnh Tây Ninh mới sau sáp nhập"
+      }
+    },
+    "ecology": {
+      "forests": {
+        "value": ["Vườn quốc gia Lò Gò - Xa Mát"],
+        "last_updated": "2026-02-09",
+        "source": "S10"
+      },
+      "sea": {
+        "value": [],
+        "last_updated": "2025-06-30",
+        "source": "S1+S12"
+      },
+      "other_resources": {
+        "value": [
+          "Khu bảo tồn đất ngập nước Láng Sen",
+          "Hồ Dầu Tiếng",
+          "Vùng sinh thái Đồng Tháp Mười",
+          "Tài nguyên cửa khẩu biên giới với Campuchia"
+        ],
+        "last_updated": "2025-12-08",
+        "source": "S10"
+      }
+    }
+  }
+}

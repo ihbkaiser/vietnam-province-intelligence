@@ -9,9 +9,12 @@
     "lint": "tsc --noEmit"
   },
   "dependencies": {
+    "@types/leaflet": "^1.9.21",
     "d3-geo": "^3.1.1",
+    "leaflet": "^1.9.4",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-leaflet": "^4.2.1",
     "react-router-dom": "^6.30.0",
     "react-simple-maps": "^3.0.0",
     "tailwindcss-animate": "^1.0.7"

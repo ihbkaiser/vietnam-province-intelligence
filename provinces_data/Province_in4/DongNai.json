@@ -1,0 +1,387 @@
+﻿{
+  "name": {
+    "value": "Đồng Nai",
+    "last_updated": "2025-07-01",
+    "source": "Chính phủ - Chi tiết 34 đơn vị hành chính cấp tỉnh"
+  },
+  "administrative_code": {
+    "value": "75",
+    "last_updated": "2025-07-04",
+    "source": "Quyết định 19/2025/QĐ-TTg, bảng danh mục và mã số 34 tỉnh thành mới"
+  },
+  "former_provinces": {
+    "value": [
+      "Bình Phước",
+      "Đồng Nai"
+    ],
+    "description": "Tỉnh Đồng Nai mới được hình thành bằng việc sắp xếp toàn bộ diện tích tự nhiên và quy mô dân số của tỉnh Bình Phước và tỉnh Đồng Nai.",
+    "last_updated": "2025-07-01",
+    "source": "Chính phủ - Chi tiết 34 đơn vị hành chính cấp tỉnh"
+  },
+  "location": {
+    "latitude"10độ30’ đến 11độ34’
+      "value": null,
+      "last_updated": "2025-07-01",
+      "source": "Chưa thấy nguồn chính thức công bố một tọa độ tâm địa lý duy nhất cho tỉnh sau sáp nhập; bản đồ hành chính chính thức chỉ thể hiện phạm vi tọa độ khoảng 10°40'–12°10'B."
+    },
+    "longitude": 106độ45’ đến 107độ35’
+      "value": null,
+      "last_updated": "2025-07-01",
+      "source": "Chưa thấy nguồn chính thức công bố một tọa độ tâm địa lý duy nhất cho tỉnh sau sáp nhập; bản đồ hành chính chính thức chỉ thể hiện phạm vi tọa độ khoảng 106°20'–107°30'Đ."
+    },
+    "adjacent_areas": {
+      "provinces": {
+        "value": [
+          "Lâm Đồng",
+          "Tây Ninh",
+          "Thành phố Hồ Chí Minh"
+        ],
+        "last_updated": "2025-07-01",
+        "source": "Bản đồ hành chính tỉnh Đồng Nai và bài định vị Đồng Nai trên bản đồ cả nước"
+      },
+      "countries": {
+        "value": [
+          "Campuchia"
+        ],
+        "last_updated": "2025-07-01",
+        "source": "Bản đồ hành chính tỉnh Đồng Nai và bài định vị Đồng Nai trên bản đồ cả nước"
+      },
+      "seas": 
+        "value": [],
+        "last_updated": "2025-07-01",
+        "source": "Bản đồ hành chính chính thức không thể hiện tỉnh Đồng Nai giáp biển sau sáp nhập."
+      }
+    }
+  },
+  "area": {
+    "total_km2": {
+      "value": 12737.18,
+      "last_updated": "2025-07-01",
+      "source": "Chính phủ - Chi tiết 34 đơn vị hành chính cấp tỉnh"
+    }
+  },
+  "administrative_structure": {
+    "wards_communes_count": {
+      "value": 95,
+      "last_updated": "2025-06-22",
+      "source": "Nghị quyết 1662/NQ-UBTVQH15, bài tổng hợp của Cổng Chính phủ"
+    },
+    "wards_communes_list": {
+      "value": [72 xã và 23 phường],
+        "Đại Phước",
+        "Nhơn Trạch",
+        "Phước An",
+        "Phước Thái",
+        "Long Phước",
+        "Long Thành",
+        "Bình An",
+        "An Phước",
+        "An Viễn",
+        "Bình Minh",
+        "Trảng Bom",
+        "Bàu Hàm",
+        "Hưng Thịnh",
+        "Dầu Giây",
+        "Gia Kiệm",
+        "Thống Nhất",
+        "Xuân Quế",
+        "Xuân Đường",
+        "Cẩm Mỹ",
+        "Sông Ray",
+        "Xuân Đông",
+        "Xuân Định",
+        "Xuân Phú",
+        "Xuân Lộc",
+        "Xuân Hòa",
+        "Xuân Thành",
+        "Xuân Bắc",
+        "La Ngà",
+        "Định Quán",
+        "Phú Vinh",
+        "Phú Hòa",
+        "Tà Lài",
+        "Nam Cát Tiên",
+        "Tân Phú",
+        "Phú Lâm",
+        "Trị An",
+        "Tân An",
+        "Nha Bích",
+        "Tân Quan",
+        "Tân Hưng",
+        "Tân Khai",
+        "Minh Đức",
+        "Lộc Thành",
+        "Lộc Ninh",
+        "Lộc Hưng",
+        "Lộc Tấn",
+        "Lộc Thạnh",
+        "Lộc Quang",
+        "Tân Tiến",
+        "Thiện Hưng",
+        "Hưng Phước",
+        "Phú Nghĩa",
+        "Đa Kia",
+        "Bình Tân",
+        "Long Hà",
+        "Phú Riềng",
+        "Phú Trung",
+        "Thuận Lợi",
+        "Đồng Tâm",
+        "Tân Lợi",
+        "Đồng Phú",
+        "Phước Sơn",
+        "Nghĩa Trung",
+        "Bù Đăng",
+        "Thọ Sơn",
+        "Đak Nhau",
+        "Bom Bo",
+        "phường Biên Hòa",
+        "phường Trấn Biên",
+        "phường Tam Hiệp",
+        "phường Long Bình",
+        "phường Trảng Dài",
+        "phường Hố Nai",
+        "phường Long Hưng",
+        "phường Bình Lộc",
+        "phường Bảo Vinh",
+        "phường Xuân Lập",
+        "phường Long Khánh",
+        "phường Hàng Gòn",
+        "phường Tân Triều",
+        "phường Minh Hưng",
+        "phường Chơn Thành",
+        "phường Bình Long",
+        "phường An Lộc",
+        "phường Phước Bình",
+        "phường Phước Long",
+        "phường Đồng Xoài",
+        "phường Bình Phước",
+        "phường Phước Tân",
+        "phường Tam Phước",
+        "xã Thanh Sơn",
+        "xã Đak Lua",
+        "xã Phú Lý",
+        "xã Bù Gia Mập",
+        "xã Đăk Ơ"
+      ],
+      "last_updated": "2025-06-22",
+      "source": "Danh sách 95 xã, phường của tỉnh Đồng Nai mới theo Nghị quyết 1662/NQ-UBTVQH15"
+    }
+  },
+  "population": {
+    "total": 
+      "value": 4491408,
+      "last_updated": "2025-07-01",
+      "source": "Chính phủ - Chi tiết 34 đơn vị hành chính cấp tỉnh"
+    },
+    "density_per_km2": {
+      "value": 352.62,
+      "last_updated": "2025-07-01",
+      "source": "Tính từ dân số 4.491.408 người và diện tích 12.737,18 km² theo nguồn Chính phủ; phép tính = 352,6218519 người/km²."
+    },
+    "ethnic_groups": {
+      "value":  36 dân tộc
+      "last_updated": "2025-07-01",
+      "source": "Chưa thấy cơ cấu phần trăm dân tộc chính thức cho Đồng Nai sau hợp nhất; nguồn tỉnh chỉ nêu toàn tỉnh có hơn 50 dân tộc."
+    }
+  },
+  "economy": {
+    "scale": {
+      "value": "GRDP năm 2025 gần 678 nghìn tỷ đồng, thuộc nhóm địa phương có quy mô kinh tế lớn của cả nước",
+      "last_updated": "2025-12-01",
+      "source": "Báo cáo tóm tắt tình hình kinh tế - xã hội năm 2025 của tỉnh Đồng Nai"
+    },
+    "main_sectors": {
+      "value": [
+        "Công nghiệp - xây dựng",
+        "Thương mại - dịch vụ",
+        "Nông, lâm nghiệp và thủy sản"
+      ],
+      "last_updated": "2025-12-01",
+      "source": "Cơ cấu GRDP trong Báo cáo kinh tế - xã hội 2025 của tỉnh Đồng Nai"
+    },
+    "gdp": {
+      "value": {
+        "amount_usd": 6.036,
+        "year": 2025
+      },
+      "last_updated": "2025-07-01",
+      "source": "Cổng thông tin tỉnh Đồng Nai nêu quy mô kinh tế dự kiến đạt 676.733 tỷ đồng, khoảng 26 tỷ USD."
+    }
+  },
+  "tourism": {
+    "attractions": {
+      "value": [
+        {
+          "name": "Vườn quốc gia Cát Tiên",
+          "type": "du lịch sinh thái / vườn quốc gia",
+          "description": "Điểm du lịch sinh thái tiêu biểu, nay thuộc xã Nam Cát Tiên của tỉnh Đồng Nai mới.",
+          "rating": null
+        },
+        {
+          "name": "Vườn quốc gia Bù Gia Mập",
+          "type": "du lịch sinh thái / vườn quốc gia",
+          "description": "Một trong hai vườn quốc gia nổi bật của Đồng Nai mới sau sáp nhập.",
+          "rating": null
+        },
+        {
+          "name": "Thác Đắk Mai",
+          "type": "thác / du lịch sinh thái",
+          "description": "Điểm đến sinh thái được cổng thông tin tỉnh giới thiệu trong không gian du lịch mới của Đồng Nai.",
+          "rating": null
+        },
+        {
+          "name": "Bàu Sấu",
+          "type": "đất ngập nước / du lịch sinh thái",
+          "description": "Điểm tham quan sinh thái đặc trưng trong Vườn quốc gia Cát Tiên.",
+          "rating": null
+        },
+        {
+          "name": "Khu du lịch Bửu Long",
+          "type": "cảnh quan - giải trí",
+          "description": "Điểm du lịch nổi tiếng của khu vực Biên Hòa, tiếp tục là sản phẩm du lịch trọng điểm của tỉnh.",
+          "rating": null
+        },
+        {
+          "name": "Khu du lịch Sơn Tiên",
+          "type": "giải trí",
+          "description": "Tổ hợp vui chơi, giải trí quy mô lớn được tỉnh giới thiệu như một điểm hút khách.",
+          "rating": null
+        },
+        {
+          "name": "Căn cứ Tà Thiết",
+          "type": "di tích lịch sử",
+          "description": "Di tích lịch sử cách mạng tiêu biểu của phần địa bàn Bình Phước cũ.",
+          "rating": null
+        },
+        {
+          "name": "Khu bảo tồn văn hóa dân tộc S’tiêng sóc Bom Bo",
+          "type": "văn hóa - lịch sử",
+          "description": "Điểm đến văn hóa đặc trưng gắn với cộng đồng S’tiêng ở Đồng Nai mới.",
+          "rating": null
+        }
+      ],
+      "last_updated": "2025-07-01",
+      "source": "Cổng thông tin tỉnh Đồng Nai và Sở VHTTDL Đồng Nai"
+    },
+    "local_specialties": {
+      "value": [
+        {
+          "name": "Bưởi Tân Triều",
+          "type": "trái cây / đặc sản địa phương"
+        },
+        {
+          "name": "Hạt điều",
+          "type": "nông sản"
+        },
+        {
+          "name": "Sầu riêng",
+          "type": "trái cây"
+        },
+        {
+          "name": "Chuối",
+          "type": "trái cây"
+        }
+      ],
+      "last_updated": "2026-01-21",
+      "source": "Sở KH&CN Đồng Nai về làng bưởi Tân Triều và Báo cáo KTXH 2025 của tỉnh về cây trồng nổi bật"
+    },
+    "culture": {
+      "festivals": {
+        "value": [
+          "Lễ hội Sayangva (mừng lúa mới) của đồng bào Chơ Ro",
+          "Lễ cấp sắc của người Dao",
+          "Lễ hội kỳ yên tại đình làng"
+        ],
+        "last_updated": "2025-07-01",
+        "source": "Bài Đặc sắc văn hóa Đồng Nai trên cổng thông tin tỉnh"
+      },
+      "events": 
+        "value": [
+          "Các hoạt động văn hóa - du lịch gắn với hệ thống di sản, du lịch sinh thái và du lịch nông nghiệp của Đồng Nai mới"
+        ],
+        "last_updated": "2025-07-01",
+        "source": "Nguồn tỉnh có nêu định hướng và hoạt động quảng bá du lịch sau sáp nhập, nhưng chưa thấy danh mục sự kiện thường niên chính thức, ổn định cho toàn tỉnh mới."
+      }
+    }
+  },
+  "infrastructure": {
+    "airport": {
+      "value": [
+        "Cảng hàng không quốc tế Long Thành"
+      ],
+      "last_updated": "2025-12-01",
+      "source": "Báo cáo KTXH 2025 của tỉnh và cổng thông tin tỉnh Đồng Nai"
+    },
+    "seaport": {
+      "value": [
+        "Cảng Phước An"
+      ],
+      "last_updated": "2025-12-01",
+      "source": "Báo cáo KTXH 2025 của tỉnh Đồng Nai"
+    },
+    "railway_station": {
+      "value": [
+        "Ga Biên Hòa",
+        "Ga Long Khánh"
+      ],
+      "last_updated": "2026-03-16",
+      "source": "Báo Đồng Nai điện tử về Ga Biên Hòa và Ga Long Khánh"
+    },
+    "other_transport": {
+      "value": [
+        "Đường bộ",
+        "Đường sắt",
+        "Đường hàng không",
+        "Đường hàng hải",
+        "Đường thủy nội địa",
+        "10 tuyến cao tốc dài gần 400 km",
+        "Khu kinh tế cửa khẩu quốc tế Hoa Lư"
+      ],
+      "last_updated": "2025-12-01",
+      "source": "Báo cáo KTXH 2025 của tỉnh và bài định vị Đồng Nai trên bản đồ cả nước"
+    }
+  },
+  "environment": {
+
+
+    "climate": mùa mưa và mùa khô      "type": {
+        "value": null,
+        "last_updated": "2025-07-01",
+        "source": "Chưa thấy tài liệu chính thức hậu sáp nhập công bố một mô tả khí hậu chung, chuẩn hóa cho toàn tỉnh Đồng Nai mới."
+      },
+      "average_temperature_c": {
+        "value": khoảng từ 26 đến 27độ
+        "last_updated": "2025-07-01",
+        "source": "Chưa thấy số nhiệt độ trung bình năm chính thức cho toàn tỉnh Đồng Nai mới sau hợp nhất."
+      }
+    },
+    "ecology": {
+      "forests": {
+        "value": [
+          "Vườn quốc gia Bù Gia Mập",
+          "Vườn quốc gia Cát Tiên",
+          "Khu Dự trữ sinh quyển Đồng Nai"
+        ],
+        "last_updated": "2025-07-01",
+        "source": "Cổng thông tin tỉnh Đồng Nai và Sở VHTTDL Đồng Nai"
+      },
+      "sea": {
+        "value": [],
+        "last_updated": "2025-07-01",
+        "source": "Bản đồ hành chính chính thức không thể hiện tỉnh Đồng Nai giáp biển."
+      },
+      "other_resources": {
+        "value": [
+          "Điều",
+          "Cao su",
+          "Bưởi",
+          "Sầu riêng",
+          "Chuối"
+        ],
+        "last_updated": "2025-12-01",
+        "source": "Báo cáo KTXH 2025 của tỉnh Đồng Nai nêu các loại cây trồng nổi bật trên hơn 1 triệu ha đất nông nghiệp."
+      }
+    }
+  }
+}

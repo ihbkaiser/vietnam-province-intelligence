@@ -8,7 +8,9 @@ interface CommuneSeedInput {
   aliases?: string[];
 }
 
-const communeOverrides: Record<string, CommuneSeedInput[]> = {
+// Chỉ chứa xã/phường đã được xác minh thật sự.
+// Chạy scripts/fetchCommuneSeeds.mjs để lấy toàn bộ dữ liệu từ OSM.
+const verifiedCommunes: Record<string, CommuneSeedInput[]> = {
   hanoi: [
     {
       commune_code: 'hanoi-ba-dinh',
@@ -95,42 +97,27 @@ const communeOverrides: Record<string, CommuneSeedInput[]> = {
   ]
 };
 
-function splitProvinceBox(province: ProvinceSeed): [CommuneSeed['bbox'], CommuneSeed['bbox']] {
+function generateBboxes(province: ProvinceSeed, count: number): CommuneSeed['bbox'][] {
   const [west, south, east, north] = province.bbox;
-  const midLat = Number(((south + north) / 2).toFixed(5));
+  const latStep = (north - south) / Math.max(count, 1);
 
-  return [
-    [west, midLat, east, north],
-    [west, south, east, midLat]
-  ];
-}
-
-function defaultCommunes(province: ProvinceSeed): CommuneSeedInput[] {
-  const primaryType: CommuneType = province.province_kind === 'city' ? 'phuong' : 'xa';
-  const secondaryType: CommuneType = province.province_kind === 'city' ? 'phuong' : 'phuong';
-  const provinceLabel = province.province_name.replace(/^Thành phố /, '');
-
-  return [
-    {
-      commune_code: `${province.province_code}-center`,
-      commune_name: `${primaryType === 'phuong' ? 'phường' : 'xã'} Trung tâm ${provinceLabel}`,
-      commune_type: primaryType,
-      aliases: [`Trung tam ${provinceLabel}`]
-    },
-    {
-      commune_code: `${province.province_code}-south`,
-      commune_name: `${secondaryType === 'phuong' ? 'phường' : 'xã'} Phía Nam ${provinceLabel}`,
-      commune_type: secondaryType,
-      aliases: [`Phia nam ${provinceLabel}`]
-    }
-  ];
+  return Array.from({ length: count }, (_, i): CommuneSeed['bbox'] => [
+    west,
+    Number((south + i * latStep).toFixed(5)),
+    east,
+    Number((south + (i + 1) * latStep).toFixed(5))
+  ]);
 }
 
 export const communeSeeds: CommuneSeed[] = provinceSeeds.flatMap((province) => {
-  const seedInputs = communeOverrides[province.province_code] ?? defaultCommunes(province);
-  const boxes = splitProvinceBox(province);
+  const seedInputs = verifiedCommunes[province.province_code];
 
-  return seedInputs.slice(0, 2).map((seed, index) => ({
+  // Không có dữ liệu thật → bỏ qua, không tạo tên giả
+  if (!seedInputs || seedInputs.length === 0) return [];
+
+  const boxes = generateBboxes(province, seedInputs.length);
+
+  return seedInputs.map((seed, index) => ({
     commune_code: seed.commune_code,
     commune_name: seed.commune_name,
     commune_type: seed.commune_type,

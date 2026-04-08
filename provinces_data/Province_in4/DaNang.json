@@ -1,0 +1,347 @@
+﻿{
+  "name": {
+    "value": "Thành phố Đà Nẵng",
+    "last_updated": "2025-07-01",
+    "source": "SRC1"
+  },
+  "administrative_code": {
+    "value": "48",
+    "last_updated": "2025-07-01",
+    "source": "SRC2"
+  },
+  "former_provinces": {
+    "value": ["Quảng Nam", "Đà Nẵng"],
+    "description": "Thành phố Đà Nẵng mới được hình thành từ việc sáp nhập toàn bộ tỉnh Quảng Nam và thành phố Đà Nẵng cũ.",
+    "last_updated": "2025-07-01",
+    "source": "SRC1"
+  },
+  "location": {
+    "latitude": {
+      "value": null,
+      "last_updated": "2026-03-19",
+      "source": "Chưa thấy nguồn chính thức công bố một tọa độ tâm hành chính/cực trị duy nhất cho toàn thành phố sau sáp nhập"
+    },
+    "longitude": {
+      "value": null,
+      "last_updated": "2026-03-19",
+      "source": "Chưa thấy nguồn chính thức công bố một tọa độ tâm hành chính/cực trị duy nhất cho toàn thành phố sau sáp nhập"
+    },
+    "adjacent_areas": {
+      "provinces": {
+        "value": ["Thành phố Huế", "Tỉnh Quảng Ngãi"],
+        "last_updated": "2025-07-01",
+        "source": "SRC5"
+      },
+      "countries": {
+        "value": ["Lào"],
+        "last_updated": "2025-07-01",
+        "source": "SRC5"
+      },
+      "seas": {
+        "value": ["Biển Đông"],
+        "last_updated": "2025-07-01",
+        "source": "SRC5"
+      }
+    }
+  },
+  "area": {
+    "total_km2": {
+      "value": 11867.18,
+      "last_updated": "2025-07-01",
+      "source": "SRC4"
+    }
+  },
+  "administrative_structure": {
+    "wards_communes_count": {
+      "value": 94,
+      "last_updated": "2025-07-01",
+      "source": "SRC3"
+    },
+    "wards_communes_list": {
+      "value": [
+        "Hải Châu",
+        "Hòa Cường",
+        "Thanh Khê",
+        "An Khê",
+        "An Hải",
+        "Sơn Trà",
+        "Ngũ Hành Sơn",
+        "Hòa Khánh",
+        "Hải Vân",
+        "Liên Chiểu",
+        "Cẩm Lệ",
+        "Hòa Xuân",
+        "Tam Kỳ",
+        "Quảng Phú",
+        "Hương Trà",
+        "Bàn Thạch",
+        "Điện Bàn",
+        "Điện Bàn Đông",
+        "An Thắng",
+        "Điện Bàn Bắc",
+        "Hội An",
+        "Hội An Đông",
+        "Hội An Tây",
+        "Hòa Vang",
+        "Hòa Tiến",
+        "Bà Nà",
+        "Núi Thành",
+        "Tam Mỹ",
+        "Tam Anh",
+        "Đức Phú",
+        "Tam Xuân",
+        "Tây Hồ",
+        "Chiên Đàn",
+        "Phú Ninh",
+        "Lãnh Ngọc",
+        "Tiên Phước",
+        "Thạnh Bình",
+        "Sơn Cẩm Hà",
+        "Trà Liên",
+        "Trà Giáp",
+        "Trà Tân",
+        "Trà Đốc",
+        "Trà My",
+        "Nam Trà My",
+        "Trà Tập",
+        "Trà Vân",
+        "Trà Linh",
+        "Trà Leng",
+        "Thăng Bình",
+        "Thăng An",
+        "Thăng Trường",
+        "Thăng Điền",
+        "Thăng Phú",
+        "Đông Dương",
+        "Quế Sơn Trung",
+        "Quế Sơn",
+        "Xuân Phú",
+        "Nông Sơn",
+        "Quế Phước",
+        "Duy Nghĩa",
+        "Nam Phước",
+        "Duy Xuyên",
+        "Thu Bồn",
+        "Điện Bàn Tây",
+        "Gò Nổi",
+        "Đại Lộc",
+        "Hà Nha",
+        "Thượng Đức",
+        "Vu Gia",
+        "Phú Thuận",
+        "Thạnh Mỹ",
+        "Bến Giằng",
+        "Nam Giang",
+        "Đắc Pring",
+        "La Dêê",
+        "La Êê",
+        "Sông Vàng",
+        "Sông Kôn",
+        "Đông Giang",
+        "Bến Hiên",
+        "Avương",
+        "Tây Giang",
+        "Hùng Sơn",
+        "Hiệp Đức",
+        "Việt An",
+        "Phước Trà",
+        "Khâm Đức",
+        "Phước Năng",
+        "Phước Chánh",
+        "Phước Thành",
+        "Phước Hiệp",
+        "Tam Hải",
+        "Tân Hiệp",
+        "Đặc khu Hoàng Sa"
+      ],
+      "last_updated": "2025-07-01",
+      "source": "SRC3"
+    }
+  },
+  "population": {
+    "total": {
+      "value": 3065628,
+      "last_updated": "2025-07-01",
+      "source": "SRC4"
+    },
+    "density_per_km2": {
+      "value": 258.33,
+      "last_updated": "2025-07-01",
+      "source": "Tính từ SRC4: 3.065.628 / 11.867,18"
+    },
+    "ethnic_groups": {
+      "value": [],
+      "last_updated": "2026-03-19",
+      "source": "Chưa thấy cơ cấu tỷ lệ dân tộc chính thức cấp thành phố sau sáp nhập được công bố trong các nguồn chính thức đã kiểm tra"
+    }
+  },
+  "economy": {
+    "scale": {
+      "value": "Quy mô GRDP năm 2025 ước đạt 316,1 nghìn tỷ đồng, xếp thứ 13/34 tỉnh, thành",
+      "last_updated": "2025-12-31",
+      "source": "SRC6"
+    },
+    "main_sectors": {
+      "value": ["Dịch vụ", "Công nghiệp - xây dựng", "Nông, lâm nghiệp và thủy sản"],
+      "last_updated": "2025-12-31",
+      "source": "SRC6"
+    },
+    "gdp": {
+      "value": {
+        "amount_usd": null,
+        "year": 2025
+      },
+      "last_updated": "2026-03-19",
+      "source": "Chưa thấy số GRDP/GDP sau sáp nhập được cơ quan chính thức công bố trực tiếp bằng USD"
+    }
+  },
+  "tourism": {
+    "attractions": {
+      "value": [
+        {
+          "name": "Phố cổ Hội An",
+          "type": "Di sản văn hóa thế giới",
+          "description": "Đô thị thương cảng Đông Nam Á bảo tồn rất tốt, được UNESCO ghi danh.",
+          "rating": null
+        },
+        {
+          "name": "Thánh địa Mỹ Sơn",
+          "type": "Di sản văn hóa thế giới",
+          "description": "Quần thể đền tháp Chăm Pa, từng là trung tâm tôn giáo - chính trị quan trọng của vương quốc Champa.",
+          "rating": null
+        },
+        {
+          "name": "Danh thắng Ngũ Hành Sơn",
+          "type": "Danh thắng - tâm linh",
+          "description": "Cụm núi đá vôi ven biển với hệ thống hang động, chùa và điểm ngắm cảnh nổi tiếng.",
+          "rating": null
+        },
+        {
+          "name": "Sun World Bà Nà Hills",
+          "type": "Khu du lịch nghỉ dưỡng - giải trí",
+          "description": "Khu du lịch trên núi Bà Nà, nổi bật với khí hậu mát mẻ và tổ hợp vui chơi giải trí quy mô lớn.",
+          "rating": null
+        },
+        {
+          "name": "Cù Lao Chàm - Hội An",
+          "type": "Khu dự trữ sinh quyển thế giới",
+          "description": "Quần đảo và vùng sinh quyển ven biển được UNESCO công nhận, nổi bật về sinh thái biển đảo.",
+          "rating": null
+        }
+      ],
+      "last_updated": "2025-09-26",
+      "source": "SRC7"
+    },
+    "local_specialties": {
+      "value": [
+        {
+          "name": "Mì Quảng",
+          "type": "Món mì đặc sản"
+        },
+        {
+          "name": "Cao lầu Hội An",
+          "type": "Món mì đặc sản"
+        },
+        {
+          "name": "Bánh tráng cuốn thịt heo",
+          "type": "Ẩm thực đặc sản"
+        }
+      ],
+      "last_updated": "2025-09-22",
+      "source": "SRC8"
+    },
+    "culture": {
+      "festivals": {
+        "value": [
+          "Lễ hội Quán Thế Âm Ngũ Hành Sơn",
+          "Lễ hội Nguyên Tiêu Hội An",
+          "Lễ hội đèn lồng Hội An"
+        ],
+        "last_updated": "2026-03-11",
+        "source": "SRC7"
+      },
+      "events": {
+        "value": [
+          "Lễ hội Pháo hoa Quốc tế Đà Nẵng (DIFF)",
+          "Hội An Memories Show"
+        ],
+        "last_updated": "2026-03-16",
+        "source": "SRC7"
+      }
+    }
+  },
+  "infrastructure": {
+    "airport": {
+      "value": [
+        "Cảng hàng không quốc tế Đà Nẵng",
+        "Sân bay Chu Lai"
+      ],
+      "last_updated": "2026-03-09",
+      "source": "SRC9"
+    },
+    "seaport": {
+      "value": [
+        "Cảng Liên Chiểu",
+        "Cảng Chu Lai"
+      ],
+      "last_updated": "2025-09-06",
+      "source": "SRC9"
+    },
+    "railway_station": {
+      "value": [
+        "Ga Đà Nẵng",
+        "Ga Tam Kỳ"
+      ],
+      "last_updated": "2026-03-19",
+      "source": "Ga Đà Nẵng được nhắc trong quy hoạch giao thông đô thị chính thức; Ga Tam Kỳ là ga đường sắt quốc gia lớn trong phạm vi thành phố sau sáp nhập"
+    },
+    "other_transport": {
+      "value": [
+        "Định hướng đường sắt đô thị kết nối sân bay Đà Nẵng - Hội An - Tam Kỳ - Chu Lai"
+      ],
+      "last_updated": "2025-10-24",
+      "source": "SRC9"
+    }
+  },
+  "environment": {
+    "climate": {
+      "type": {
+        "value": "Nhiệt đới gió mùa, phân hóa theo không gian ven biển - đồng bằng - trung du - miền núi",
+        "last_updated": "2026-03-19",
+        "source": "Mô tả tổng hợp phù hợp đặc điểm không gian tự nhiên mở rộng sau sáp nhập; không thấy một mô tả khí hậu duy nhất sau sáp nhập được công bố chính thức dưới dạng chuẩn hóa"
+      },
+      "average_temperature_c": {
+        "value": null,
+        "last_updated": "2026-03-19",
+        "source": "Chưa thấy nhiệt độ trung bình năm chính thức cho toàn thành phố sau sáp nhập"
+      }
+    },
+    "ecology": {
+      "forests": {
+        "value": [
+          "Khu bảo tồn thiên nhiên Sơn Trà",
+          "Khu bảo tồn thiên nhiên Bà Nà - Núi Chúa"
+        ],
+        "last_updated": "2025-11-01",
+        "source": "SRC10"
+      },
+      "sea": {
+        "value": [
+          "Biển Đông",
+          "Khu dự trữ sinh quyển thế giới Cù Lao Chàm - Hội An"
+        ],
+        "last_updated": "2025-08-06",
+        "source": "SRC10"
+      },
+      "other_resources": {
+        "value": [
+          "Tài nguyên du lịch di sản văn hóa",
+          "Tài nguyên sinh thái biển đảo",
+          "Cảnh quan núi - rừng - ven biển"
+        ],
+        "last_updated": "2025-08-06",
+        "source": "SRC7, SRC10"
+      }
+    }
+  }
+}

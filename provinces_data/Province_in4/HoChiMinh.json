@@ -1,0 +1,467 @@
+﻿{
+  "name": {
+    "value": "Thành phố Hồ Chí Minh",
+    "last_updated": "2025-07-01",
+    "source": "Nghị quyết 202/2025/QH15; vận hành đơn vị hành chính mới từ 01/07/2025"
+  },
+  "administrative_code": {
+    "value": "79",
+    "last_updated": "2025-06-26",
+    "source": "Dự thảo Danh mục và mã số 34 đơn vị hành chính cấp tỉnh mới do Bộ Tài chính lấy ý kiến, đăng trên Cổng TTĐT Chính phủ"
+  },
+  "former_provinces": {
+    "value": [
+      "Thành phố Hồ Chí Minh",
+      "Tỉnh Bình Dương",
+      "Tỉnh Bà Rịa - Vũng Tàu"
+    ],
+    "description": "Đơn vị hành chính mới được hình thành trên cơ sở sắp xếp toàn bộ diện tích tự nhiên và quy mô dân số của TP.HCM, tỉnh Bình Dương và tỉnh Bà Rịa - Vũng Tàu; giữ tên gọi là Thành phố Hồ Chí Minh, trung tâm chính trị - hành chính đặt tại 86 Lê Thánh Tôn.",
+    "last_updated": "2025-06-12",
+    "source": "Nghị quyết 202/2025/QH15; thông tin công bố của Cổng TTĐT Chính phủ về đề án hợp nhất"
+  },
+
+
+  "location": {
+    "latitude": {
+      "value": null,
+      "last_updated": "2026-03-19",
+      "source": "Chưa thấy cơ quan nhà nước công bố một tọa độ điểm trung tâm duy nhất cho TP.HCM mới sau sáp nhập"
+    },
+    "longitude": {
+      "value": null,
+      "last_updated": "2026-03-19",
+      "source": "Chưa thấy cơ quan nhà nước công bố một tọa độ điểm trung tâm duy nhất cho TP.HCM mới sau sáp nhập"
+    },
+    "adjacent_areas": {
+      "provinces": {
+        "value": [
+          "Đồng Nai",
+          "Tây Ninh",
+          "Đồng Tháp",
+          "Lâm Đồng"
+        ],
+        "last_updated": "2025-06-12",
+        "source": "Suy ra từ ranh giới chính thức của TP.HCM, Bình Dương, Bà Rịa - Vũng Tàu trước sáp nhập và Nghị quyết 202/2025/QH15 về 34 tỉnh, thành mới"
+      },
+      "countries": {
+        "value": [],
+        "last_updated": "2025-06-12",
+        "source": "Nghị quyết 202/2025/QH15 và đối chiếu ranh giới hành chính liên quan"
+      },
+      "seas": {
+        "value": [
+          "Biển Đông"
+        ],
+        "last_updated": "2025-06-12",
+        "source": "Đơn vị mới bao gồm toàn bộ tỉnh Bà Rịa - Vũng Tàu và huyện Cần Giờ cũ, đều có mặt giáp Biển Đông"
+      }
+    }
+  },
+
+
+  "area": {
+    "total_km2": {
+      "value": 6772.65,
+      "last_updated": "2025-04-15",
+      "source": "Cổng TTĐT Chính phủ - bài công bố phương án sắp xếp, hợp nhất TP.HCM, Bình Dương, Bà Rịa - Vũng Tàu"
+    }
+  },
+
+
+  "administrative_structure": {
+    "wards_communes_count": {
+      "value": 168,
+      "last_updated": "2025-06-16",
+      "source": "Nghị quyết 1685/NQ-UBTVQH15"
+    },
+    "wards_communes_list": {
+      "value": [
+        "phường Sài Gòn",
+        "phường Tân Định",
+        "phường Bến Thành",
+        "phường Cầu Ông Lãnh",
+        "phường Bàn Cờ",
+        "phường Xuân Hòa",
+        "phường Nhiêu Lộc",
+        "phường Xóm Chiếu",
+        "phường Khánh Hội",
+        "phường Vĩnh Hội",
+        "phường Chợ Quán",
+        "phường An Đông",
+        "phường Chợ Lớn",
+        "phường Bình Tây",
+        "phường Bình Tiên",
+        "phường Bình Phú",
+        "phường Phú Lâm",
+        "phường Tân Thuận",
+        "phường Phú Thuận",
+        "phường Tân Mỹ",
+        "phường Tân Hưng",
+        "phường Chánh Hưng",
+        "phường Phú Định",
+        "phường Bình Đông",
+        "phường Diên Hồng",
+        "phường Vườn Lài",
+        "phường Hòa Hưng",
+        "phường Minh Phụng",
+        "phường Bình Thới",
+        "phường Hòa Bình",
+        "phường Phú Thọ",
+        "phường Đông Hưng Thuận",
+        "phường Trung Mỹ Tây",
+        "phường Tân Thới Hiệp",
+        "phường Thới An",
+        "phường An Phú Đông",
+        "phường An Lạc",
+        "phường Bình Tân",
+        "phường Tân Tạo",
+        "phường Bình Trị Đông",
+        "phường Bình Hưng Hòa",
+        "phường Gia Định",
+        "phường Bình Thạnh",
+        "phường Bình Lợi Trung",
+        "phường Thạnh Mỹ Tây",
+        "phường Bình Quới",
+        "phường Hạnh Thông",
+        "phường An Nhơn",
+        "phường Gò Vấp",
+        "phường An Hội Đông",
+        "phường Thông Tây Hội",
+        "phường An Hội Tây",
+        "phường Đức Nhuận",
+        "phường Cầu Kiệu",
+        "phường Phú Nhuận",
+        "phường Tân Sơn Hòa",
+        "phường Tân Sơn Nhất",
+        "phường Tân Hòa",
+        "phường Bảy Hiền",
+        "phường Tân Bình",
+        "phường Tân Sơn",
+        "phường Tây Thạnh",
+        "phường Tân Sơn Nhì",
+        "phường Phú Thọ Hòa",
+        "phường Tân Phú",
+        "phường Phú Thạnh",
+        "phường Hiệp Bình",
+        "phường Thủ Đức",
+        "phường Tam Bình",
+        "phường Linh Xuân",
+        "phường Tăng Nhơn Phú",
+        "phường Long Bình",
+        "phường Long Phước",
+        "phường Long Trường",
+        "phường Cát Lái",
+        "phường Bình Trưng",
+        "phường Phước Long",
+        "phường An Khánh",
+        "phường Đông Hòa",
+        "phường Dĩ An",
+        "phường Tân Đông Hiệp",
+        "phường An Phú",
+        "phường Bình Hòa",
+        "phường Lái Thiêu",
+        "phường Thuận An",
+        "phường Bình Dương",
+        "phường Phú Lợi",
+        "phường Chánh Hiệp",
+        "phường Bình Dương",
+        "phường Hòa Lợi",
+        "phường Phú An",
+        "phường Tây Nam",
+        "phường Long Nguyên",
+        "phường Bến Cát",
+        "phường Chánh Phú Hòa",
+        "phường Vĩnh Tân",
+        "phường Bình Cơ",
+        "phường Tân Uyên",
+        "phường Tân Hiệp",
+        "phường Tân Khánh",
+        "phường Vũng Tàu",
+        "phường Tam Thắng",
+        "phường Rạch Dừa",
+        "phường Phước Thắng",
+        "phường Long Hương",
+        "phường Bà Rịa",
+        "phường Tam Long",
+        "phường Tân Hải",
+        "phường Tân Phước",
+        "phường Phú Mỹ",
+        "phường Tân Thành",
+        "xã Vĩnh Lộc",
+        "xã Tân Vĩnh Lộc",
+        "xã Bình Lợi",
+        "xã Tân Nhựt",
+        "xã Bình Chánh",
+        "xã Hưng Long",
+        "xã Bình Hưng",
+        "xã Bình Khánh",
+        "xã An Thới Đông",
+        "xã Cần Giờ",
+        "xã Củ Chi",
+        "xã Tân An Hội",
+        "xã Thái Mỹ",
+        "xã An Nhơn Tây",
+        "xã Nhuận Đức",
+        "xã Phú Hòa Đông",
+        "xã Bình Mỹ",
+        "xã Đông Thạnh",
+        "xã Hóc Môn",
+        "xã Xuân Thới Sơn",
+        "xã Bà Điểm",
+        "xã Nhà Bè",
+        "xã Hiệp Phước",
+        "xã Thường Tân",
+        "xã Bắc Tân Uyên",
+        "xã Phú Giáo",
+        "xã Phước Hòa",
+        "xã Phước Thành",
+        "xã An Long",
+        "xã Trừ Văn Thố",
+        "xã Bàu Bàng",
+        "xã Long Hòa",
+        "xã Thanh An",
+        "xã Dầu Tiếng",
+        "xã Minh Thạnh",
+        "xã Châu Pha",
+        "xã Long Hải",
+        "xã Long Điền",
+        "xã Phước Hải",
+        "xã Đất Đỏ",
+        "xã Nghĩa Thành",
+        "xã Ngãi Giao",
+        "xã Kim Long",
+        "xã Châu Đức",
+        "xã Bình Giã",
+        "xã Xuân Sơn",
+        "xã Hồ Tràm",
+        "xã Xuyên Mộc",
+        "xã Hòa Hội",
+        "xã Bàu Lâm",
+        "đặc khu Côn Đảo",
+        "phường Thới Hòa",
+        "xã Long Sơn",
+        "xã Hòa Hiệp",
+        "xã Bình Châu",
+        "xã Thạnh An"
+      ],
+      "last_updated": "2025-06-16",
+      "source": "Nghị quyết 1685/NQ-UBTVQH15; danh sách 168 đơn vị hành chính cấp xã của TP.HCM sau sắp xếp"
+    }
+  },
+
+
+  "population": {
+    "total": {
+      "value": 13706632,
+      "last_updated": "2025-04-15",
+      "source": "Cổng TTĐT Chính phủ - bài công bố phương án sắp xếp, hợp nhất TP.HCM, Bình Dương, Bà Rịa - Vũng Tàu"
+    },
+    "density_per_km2": {
+      "value": 2023.82,
+      "last_updated": "2026-03-19",
+      "source": "Tự tính từ dân số 13.706.632 người và diện tích 6.772,65 km2 dựa trên nguồn Chính phủ"
+    },
+    "ethnic_groups": {
+      "value": null,
+      "last_updated": "2026-03-19",
+      "source": "Chưa thấy cơ sở dữ liệu chính thức công bố cơ cấu dân tộc theo tỷ lệ cho TP.HCM mới sau sáp nhập 01/07/2025"
+    }
+  },
+
+
+  "economy": {
+    "scale": {
+      "value": "Siêu đô thị, cực tăng trưởng lớn của vùng Đông Nam Bộ và cả nước",
+      "last_updated": "2025-04-15",
+      "source": "Cổng TTĐT Chính phủ - mô tả đề án hợp nhất TP.HCM, Bình Dương, Bà Rịa - Vũng Tàu"
+    },
+    "main_sectors": {
+      "value": [
+        "dịch vụ",
+        "công nghiệp - xây dựng",
+        "logistics và cảng biển",
+        "du lịch",
+        "bất động sản - đô thị",
+        "nông nghiệp công nghệ cao"
+      ],
+      "last_updated": "2025-04-15",
+      "source": "Tổng hợp từ đặc điểm kinh tế của 3 địa phương trong đề án hợp nhất và cổng thông tin chính thức"
+    },
+    "gdp": {
+      "value": {
+        "amount_usd": null,
+        "year": null
+      },
+      "last_updated": "2026-03-19",
+      "source": "Chưa thấy nguồn nhà nước công bố trực tiếp một con số GDP/GRDP quy đổi USD chuẩn cho TP.HCM mới ngay sau sáp nhập"
+    }
+  },
+
+
+  "tourism": {
+    "attractions": {
+      "value": [
+        {
+          "name": "Ngọc Hoàng Pagoda (Chùa Ngọc Hoàng)",
+          "type": "tâm linh - lịch sử",
+          "description": "Điểm đến văn hóa tâm linh nổi bật của khu vực nội đô TP.HCM.",
+          "rating": null
+        },
+        {
+          "name": "Đình Thắng Tam",
+          "type": "di tích lịch sử văn hóa",
+          "description": "Di tích tiêu biểu của khu vực Vũng Tàu, gắn với văn hóa tín ngưỡng địa phương.",
+          "rating": null
+        },
+        {
+          "name": "Làng tre Phú An",
+          "type": "sinh thái - giáo dục",
+          "description": "Khu bảo tồn tre đầu tiên của Việt Nam và duy nhất của Đông Nam Á, thuộc khu vực Bình Dương cũ.",
+          "rating": null
+        },
+        {
+          "name": "Hồ Tràm",
+          "type": "biển - nghỉ dưỡng",
+          "description": "Điểm du lịch biển, nghỉ dưỡng nổi bật ở khu vực Xuyên Mộc cũ.",
+          "rating": null
+        }
+      ],
+      "last_updated": "2026-03-19",
+      "source": "Visithcmc.vn; Cổng du lịch Vũng Tàu; Cổng du lịch Bình Dương. Không dùng điểm rating cộng đồng để tránh sai lệch"
+    },
+    "local_specialties": {
+      "value": [
+        {
+          "name": "bánh mì Sài Gòn",
+          "type": "ẩm thực đường phố"
+        },
+        {
+          "name": "cơm tấm",
+          "type": "món ăn"
+        },
+        {
+          "name": "bánh khọt Vũng Tàu",
+          "type": "món ăn"
+        },
+        {
+          "name": "gỏi cá mai",
+          "type": "hải sản"
+        },
+        {
+          "name": "trái cây Lái Thiêu",
+          "type": "đặc sản nông sản"
+        }
+      ],
+      "last_updated": "2026-03-19",
+      "source": "Tổng hợp từ các cổng du lịch chính thức của TP.HCM, Vũng Tàu và Bình Dương"
+    },
+    "culture": {
+      "festivals": {
+        "value": [
+          "Lễ hội Nghinh Ông Cần Giờ",
+          "Lễ hội Dinh Cô",
+          "Lễ hội Nghinh Ông Thắng Tam"
+        ],
+        "last_updated": "2026-03-19",
+        "source": "Cổng thông tin du lịch, văn hóa chính thức của các địa phương thuộc TP.HCM mới"
+      },
+      "events": {
+        "value": [
+          "Ngày hội Du lịch Thành phố Hồ Chí Minh",
+          "ITE HCMC",
+          "Lễ hội Áo dài Thành phố Hồ Chí Minh"
+        ],
+        "last_updated": "2026-03-19",
+        "source": "Visithcmc.vn và Cổng TTĐT TP.HCM"
+      }
+    }
+  },
+
+
+  "infrastructure": {
+    "airport": {
+      "value": [
+        "Cảng hàng không quốc tế Tân Sơn Nhất",
+        "Cảng hàng không Côn Đảo",
+        "Sân bay Vũng Tàu"
+      ],
+      "last_updated": "2026-03-19",
+      "source": "Quy hoạch hệ thống cảng hàng không, sân bay toàn quốc; hệ thống hàng không dân dụng hiện hành"
+    },
+    "seaport": {
+      "value": [
+        "Cảng Cát Lái",
+        "Cảng Hiệp Phước",
+        "Cụm cảng Cái Mép - Thị Vải"
+      ],
+      "last_updated": "2026-03-19",
+      "source": "Hệ thống cảng biển quốc gia và hạ tầng cảng biển của khu vực TP.HCM - Bà Rịa Vũng Tàu"
+    },
+    "railway_station": {
+      "value": [
+        "Ga Sài Gòn",
+        "Ga Dĩ An",
+        "Ga Sóng Thần"
+      ],
+      "last_updated": "2026-03-19",
+      "source": "Mạng lưới đường sắt quốc gia hiện hành trong phạm vi TP.HCM mới"
+    },
+    "other_transport": {
+      "value": [
+        "Metro số 1 (Bến Thành - Suối Tiên)",
+        "Cao tốc TP.HCM - Long Thành - Dầu Giây",
+        "Cao tốc TP.HCM - Trung Lương",
+        "Quốc lộ 51",
+        "Vành đai 3 TP.HCM"
+      ],
+      "last_updated": "2026-03-19",
+      "source": "Cổng TTĐT TP.HCM và hạ tầng giao thông liên vùng đang khai thác/triển khai"
+    }
+  },
+
+
+  "environment": {
+    "climate": {
+      "type": {
+        "value": "Nhiệt đới gió mùa cận xích đạo",
+        "last_updated": "2026-03-19",
+        "source": "Mô tả khí hậu chính thức của khu vực TP.HCM và vùng phụ cận"
+      },
+      "average_temperature_c": {
+        "value": 27.0,
+        "last_updated": "2024-11-29",
+        "source": "Cổng thông tin chính thức TP.HCM (mô tả khí hậu thành phố)"
+      }
+    },
+    "ecology": {
+      "forests": {
+        "value": [
+          "Rừng ngập mặn Cần Giờ",
+          "Khu bảo tồn thiên nhiên Bình Châu - Phước Bửu"
+        ],
+        "last_updated": "2026-03-19",
+        "source": "Các nguồn chính thức về tài nguyên sinh thái của TP.HCM và Bà Rịa - Vũng Tàu cũ"
+      },
+      "sea": {
+        "value": [
+          "Biển Cần Giờ",
+          "Biển Vũng Tàu",
+          "Biển Long Hải",
+          "Biển Hồ Tràm",
+          "Vùng biển Côn Đảo"
+        ],
+        "last_updated": "2026-03-19",
+        "source": "Địa giới biển của TP.HCM mới sau khi bao gồm toàn bộ Bà Rịa - Vũng Tàu cũ và Cần Giờ"
+      },
+      "other_resources": {
+        "value": [
+          "hệ sinh thái cửa sông - ven biển",
+          "quỹ đất công nghiệp và đô thị lớn",
+          "hệ thống sông Sài Gòn - Đồng Nai - Thị Vải"
+        ],
+        "last_updated": "2026-03-19",
+        "source": "Tổng hợp từ đặc điểm tự nhiên và hạ tầng của 3 địa phương hợp nhất"
+      }
+    }
+  }
+}

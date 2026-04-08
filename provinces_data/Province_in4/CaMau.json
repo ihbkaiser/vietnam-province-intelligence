@@ -1,0 +1,323 @@
+﻿{
+  "name": {
+    "value": "Cà Mau",
+    "last_updated": "2025-07-01",
+    "source": "Nghị quyết 202/2025/QH15; tỉnh Cà Mau chính thức hoạt động từ 1/7/2025"
+  },
+  "administrative_code": {
+    "value": "96",
+    "last_updated": "2025-07-01",
+    "source": "Quyết định 19/2025/QĐ-TTg - Bảng danh mục và mã số các đơn vị hành chính Việt Nam"
+  },
+  "former_provinces": {
+    "value": ["Cà Mau", "Bạc Liêu"],
+    "description": "Tỉnh Cà Mau mới được hình thành trên cơ sở sắp xếp toàn bộ diện tích tự nhiên và quy mô dân số của tỉnh Cà Mau và tỉnh Bạc Liêu, lấy tên là tỉnh Cà Mau.",
+    "last_updated": "2025-06-12",
+    "source": "Nghị quyết 202/2025/QH15"
+  },
+
+
+  "location": {
+    "latitude": {
+      "value"8độ33’ đến 9độ33’
+      "last_updated": "2026-03-19",
+      "source": "Chưa tìm thấy công bố chính thức đáng tin cậy về tọa độ chuẩn đại diện cho toàn tỉnh Cà Mau mới sau sáp nhập"
+    },
+    "longitude": {
+      "value":104độ43’ đến 105độ25’
+      "last_updated": "2026-03-19",
+      "source": "Chưa tìm thấy công bố chính thức đáng tin cậy về tọa độ chuẩn đại diện cho toàn tỉnh Cà Mau mới sau sáp nhập"
+    },
+    "adjacent_areas": {
+      "provinces": {
+        "value": ["An Giang", "Thành phố Cần Thơ"],
+        "last_updated": "2025-07-01",
+        "source": "Suy luận từ Nghị quyết 202/2025/QH15 và danh mục 34 đơn vị hành chính cấp tỉnh sau sắp xếp"
+      },
+      "countries": {
+        "value": [],
+        "last_updated": "2025-07-01",
+        "source": "Cà Mau không có biên giới đất liền với quốc gia nào"
+      },
+      "seas": {
+        "value": ["Biển Đông", "Vịnh Thái Lan"],
+        "last_updated": "2025-07-01",
+        "source": "Cổng TTĐT tỉnh Cà Mau; mô tả Mũi Cà Mau và điều kiện tự nhiên"
+      }
+    }
+  },
+
+
+  "area": {
+    "total_km2": {
+      "value": 7942.39,
+      "last_updated": "2025-06-30",
+      "source": "Cổng TTĐT tỉnh Cà Mau - Địa giới hành chính tỉnh Cà Mau"
+    }
+  },
+
+
+  "administrative_structure": {
+    "wards_communes_count": {
+      "value": 64,
+      "last_updated": "2025-06-16",
+      "source": "Nghị quyết 1655/NQ-UBTVQH15"
+    },
+    "wards_communes_list": {
+      "value": [
+        "Tân Thuận",
+        "Tân Tiến",
+        "Tạ An Khương",
+        "Trần Phán",
+        "Thanh Tùng",
+        "Đầm Dơi",
+        "Quách Phẩm",
+        "U Minh",
+        "Nguyễn Phích",
+        "Khánh Lâm",
+        "Khánh An",
+        "Phan Ngọc Hiển",
+        "Đất Mũi",
+        "Tân Ân",
+        "Khánh Bình",
+        "Đá Bạc",
+        "Khánh Hưng",
+        "Sông Đốc",
+        "Trần Văn Thời",
+        "Thới Bình",
+        "Trí Phải",
+        "Tân Lộc",
+        "Biển Bạch",
+        "Đất Mới",
+        "Năm Căn",
+        "Tam Giang",
+        "Cái Đôi Vàm",
+        "Nguyễn Việt Khái",
+        "Phú Tân",
+        "Phú Mỹ",
+        "Lương Thế Trân",
+        "Tân Hưng",
+        "Hưng Mỹ",
+        "Cái Nước",
+        "Phong Thạnh",
+        "Hồng Dân",
+        "Vĩnh Lộc",
+        "Ninh Thạnh Lợi",
+        "Ninh Quới",
+        "Gành Hào",
+        "Định Thành",
+        "An Trạch",
+        "Long Điền",
+        "Đông Hải",
+        "Hòa Bình",
+        "Vĩnh Mỹ",
+        "Vĩnh Hậu",
+        "Phước Long",
+        "Vĩnh Phước",
+        "Phong Hiệp",
+        "Vĩnh Thanh",
+        "Vĩnh Lợi",
+        "Hưng Hội",
+        "Châu Thới",
+        "Hồ Thị Kỷ",
+        "Bạc Liêu",
+        "Vĩnh Trạch",
+        "Hiệp Thành",
+        "Giá Rai",
+        "Láng Tròn",
+        "An Xuyên",
+        "Lý Văn Lâm",
+        "Tân Thành",
+        "Hòa Thành"
+      ],
+      "last_updated": "2025-06-16",
+      "source": "Nghị quyết 1655/NQ-UBTVQH15; danh sách 64 xã, phường của tỉnh Cà Mau mới"
+    }
+  },
+
+
+  "population": {
+    "total": {
+      "value": 2606672,
+      "last_updated": "2025-06-30",
+      "source": "Cổng TTĐT tỉnh Cà Mau - Dân số/Địa giới hành chính tỉnh Cà Mau"
+    },
+    "density_per_km2": {
+      "value": 328.2,
+      "last_updated": "2025-06-30",
+      "source": "Tính từ dân số 2.606.672 người và diện tích 7.942,39 km2 theo Cổng TTĐT tỉnh Cà Mau"
+    },
+    "ethnic_groups": {
+      "value": 20
+      "last_updated": "2026-03-19",
+      "source": "Chưa tìm thấy bảng cơ cấu dân tộc theo tỷ lệ phần trăm được công bố chính thức cho tỉnh Cà Mau mới sau sáp nhập"
+    }
+  },
+
+
+  "economy": {
+    "scale": {
+      "value":,
+      "last_updated": "2026-03-19",
+      "source": "Chưa tìm thấy chỉ tiêu quy mô kinh tế tổng hợp được công bố chính thức riêng cho tỉnh Cà Mau mới sau sáp nhập"
+    },
+    "main_sectors": {
+      "value": [
+        "thủy sản",
+        "nông nghiệp",
+        "năng lượng tái tạo",
+        "du lịch"
+      ],
+      "last_updated": "2026-03-19",
+      "source": "Cổng TTĐT tỉnh Cà Mau; các trang thông tin chính thức của Cà Mau và Bạc Liêu về thủy sản, điện gió và du lịch"
+    },
+    "gdp": {
+      "value": 90.000 tỷ đồng.
+      "last_updated": "2026-03-19",
+      "source": "Chưa tìm thấy số GDP/GRDP quy đổi USD được công bố chính thức cho tỉnh Cà Mau mới sau sáp nhập"
+    }
+  },
+
+
+  "tourism": {
+    "attractions": {
+      "value": [
+        {
+          "name": "Mũi Cà Mau",
+          "type": "Danh thắng/điểm cực Nam",
+          "description": "Điểm cực Nam trên đất liền Việt Nam, thuộc xã Đất Mũi; biểu tượng du lịch tiêu biểu của tỉnh.",
+          "rating": null
+        },
+        {
+          "name": "Vườn Quốc gia Mũi Cà Mau",
+          "type": "Vườn quốc gia/Ramsar",
+          "description": "Khu hệ sinh thái đất ngập nước và rừng ngập mặn tiêu biểu ở vùng đất mũi.",
+          "rating": null
+        },
+        {
+          "name": "Vườn Quốc gia U Minh Hạ",
+          "type": "Vườn quốc gia/sinh thái rừng tràm",
+          "description": "Khu rừng tràm đất than bùn đặc trưng, quan trọng về bảo tồn và du lịch sinh thái.",
+          "rating": null
+        },
+        {
+          "name": "Khu lưu niệm nghệ thuật Đờn ca tài tử Nam Bộ và nhạc sĩ Cao Văn Lầu",
+          "type": "Di tích văn hóa",
+          "description": "Điểm nhấn văn hóa của vùng Bạc Liêu cũ, gắn với bản Dạ cổ hoài lang.",
+          "rating": null
+        },
+        {
+          "name": "Cánh đồng điện gió Bạc Liêu",
+          "type": "Du lịch công nghiệp/cảnh quan",
+          "description": "Quần thể điện gió ven biển nổi tiếng của vùng Bạc Liêu cũ.",
+          "rating": null
+        }
+      ],
+      "last_updated": "2026-03-19",
+      "source": "Cổng TTĐT tỉnh Cà Mau; Vườn quốc gia Mũi Cà Mau; Vườn quốc gia U Minh Hạ; Trung tâm Xúc tiến Du lịch Bạc Liêu"
+    },
+    "local_specialties": {
+      "value": [
+        {
+          "name": "Cua biển Cà Mau",
+          "type": "Hải sản"
+        },
+        {
+          "name": "Ba khía muối Rạch Gốc",
+          "type": "Đặc sản/di sản nghề truyền thống"
+        }
+      ],
+      "last_updated": "2026-03-19",
+      "source": "Cổng TTĐT tỉnh Cà Mau; Trung tâm Thông tin Xúc tiến Du lịch Đất Mũi; mục Di sản văn hóa phi vật thể tỉnh Cà Mau"
+    },
+    "culture": {
+      "festivals": {
+        "value": [
+          "Ngày hội Cua Cà Mau",
+          "Lễ hội Dạ cổ hoài lang"
+        ],
+        "last_updated": "2026-03-19",
+        "source": "Cổng TTĐT tỉnh Cà Mau; Cổng TTĐT tỉnh Bạc Liêu"
+      },
+      "events": {
+        "value": [
+          "Các hoạt động văn hóa - du lịch gắn với Mũi Cà Mau",
+          "Các hoạt động tưởng niệm và quảng bá nghệ thuật Đờn ca tài tử Nam Bộ"
+        ],
+        "last_updated": "2026-03-19",
+        "source": "Cổng TTĐT tỉnh Cà Mau; Trung tâm Xúc tiến Du lịch Bạc Liêu"
+      }
+    }
+  },
+
+
+  "infrastructure": {
+    "airport": {
+      "value": ["Cảng hàng không Cà Mau"],
+      "last_updated": "2025-08-19",
+      "source": "Cổng TTĐT tỉnh Cà Mau - Khởi công dự án mở rộng, nâng cấp Cảng hàng không Cà Mau"
+    },
+    "seaport": {
+      "value": [
+        "Cảng Năm Căn",
+        "Cảng cá Gành Hào"
+      ],
+      "last_updated": "2026-03-19",
+      "source": "Khu kinh tế Năm Căn; thông tin chính thức của tỉnh Bạc Liêu về dự án nâng cấp, mở rộng cảng cá Gành Hào"
+    },
+    "railway_station": {
+      "value": [],
+      "last_updated": "2026-03-19",
+      "source": "Chưa có công bố chính thức về ga đường sắt đang khai thác trên địa bàn tỉnh Cà Mau"
+    },
+    "other_transport": {
+      "value": [],
+      "last_updated": "2026-03-19",
+      "source": "Chưa tổng hợp do chưa tìm thấy danh mục hậu sáp nhập được công bố chính thức ở cấp tỉnh mới"
+    }
+  },
+
+
+  "environment": {
+    "climate": {
+      "type": {
+        "value": "Cận xích đạo, nhiệt đới gió mùa",
+        "last_updated": "2025-08-05",
+        "source": "Cổng TTĐT tỉnh Cà Mau - Khí hậu"
+      },
+      "average_temperature_c": {
+        "value": null,
+        "last_updated": "2026-03-19",
+        "source": "Chưa tìm thấy chỉ tiêu nhiệt độ trung bình năm được công bố chính thức riêng cho tỉnh Cà Mau mới sau sáp nhập"
+      }
+    },
+    "ecology": {
+      "forests": {
+        "value": [
+          "Vườn Quốc gia U Minh Hạ",
+          "Vườn Quốc gia Mũi Cà Mau",
+          "Rừng ngập mặn ven biển"
+        ],
+        "last_updated": "2026-03-19",
+        "source": "Cổng TTĐT tỉnh Cà Mau; trang chính thức của Vườn Quốc gia U Minh Hạ và Vườn Quốc gia Mũi Cà Mau"
+      },
+      "sea": {
+        "value": [
+          "Biển Đông",
+          "Vịnh Thái Lan"
+        ],
+        "last_updated": "2025-07-01",
+        "source": "Cổng TTĐT tỉnh Cà Mau; mô tả chính thức về Mũi Cà Mau"
+      },
+      "other_resources": {
+        "value": [
+          "Đất ngập nước ven biển",
+          "Nguồn lợi thủy sản",
+          "Tiềm năng gió ven biển"
+        ],
+        "last_updated": "2026-03-19",
+        "source": "Cổng TTĐT tỉnh Cà Mau; thông tin chính thức về thủy sản và điện gió Bạc Liêu"
+      }
+    }
+  }
+}

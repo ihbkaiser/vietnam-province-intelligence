@@ -1,11 +1,12 @@
+import { createRequire } from 'module';
 import type {
   CommuneFeatureCollection,
   CommuneSeed,
-  ProvinceFeatureCollection,
-  ProvinceSeed
+  ProvinceFeatureCollection
 } from '../types/admin.js';
 import { communeSeeds } from './communeSeeds.js';
-import { provinceSeeds } from './provinceSeeds.js';
+
+const require = createRequire(import.meta.url);
 
 function bboxToPolygon([west, south, east, north]: [number, number, number, number]) {
   return [
@@ -17,22 +18,6 @@ function bboxToPolygon([west, south, east, north]: [number, number, number, numb
       [west, south]
     ]
   ];
-}
-
-function provinceToFeature(province: ProvinceSeed): ProvinceFeatureCollection['features'][number] {
-  return {
-    type: 'Feature',
-    properties: {
-      province_id: province.province_id,
-      province_code: province.province_code,
-      province_name: province.province_name,
-      province_kind: province.province_kind
-    },
-    geometry: {
-      type: 'Polygon',
-      coordinates: bboxToPolygon(province.bbox)
-    }
-  };
 }
 
 function communeToFeature(commune: CommuneSeed): CommuneFeatureCollection['features'][number] {
@@ -51,10 +36,8 @@ function communeToFeature(commune: CommuneSeed): CommuneFeatureCollection['featu
   };
 }
 
-export const provinceGeoJson: ProvinceFeatureCollection = {
-  type: 'FeatureCollection',
-  features: provinceSeeds.map(provinceToFeature)
-};
+export const provinceGeoJson: ProvinceFeatureCollection =
+  require('./realProvinceFeatures.json') as ProvinceFeatureCollection;
 
 export const communeGeoJson: CommuneFeatureCollection = {
   type: 'FeatureCollection',

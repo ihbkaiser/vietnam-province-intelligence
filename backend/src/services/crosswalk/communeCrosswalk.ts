@@ -1,7 +1,8 @@
 import { aliasRecords } from '../../data/aliasRecords.js';
+import { legacyCommuneMappings } from '../../data/legacyCommuneMappings.js';
 import { loadCommuneSeeds } from '../../data/loaders.js';
 import type {
-  CommuneSeed, 
+  CommuneSeed,
   ResolutionAlternative
 } from '../../types/admin.js';
 import { normalizeVietnameseAdminName } from '../normalize/normalizeVietnameseAdminName.js';
@@ -134,4 +135,43 @@ export function resolveCommuneFromNames(params: {
     isUnique: false,
     explanation: ['Không tìm thấy tên xã/phường hiện tại khớp trong phạm vi tỉnh/thành đã xác định.']
   };
+}
+
+export function resolveCommuneFromLegacyName(params: {
+  legacyCommuneName: string | null;
+  legacyDistrictName?: string | null;
+  legacyProvinceName?: string | null;
+}): CommuneSeed | null {
+  if (!params.legacyCommuneName) return null;
+
+  const normalizedLegacy = normalizeVietnameseAdminName(params.legacyCommuneName);
+
+  const mappings = legacyCommuneMappings.filter((mapping) => {
+    if (normalizeVietnameseAdminName(mapping.legacy_commune_name) !== normalizedLegacy) return false;
+
+    if (params.legacyDistrictName && mapping.legacy_district_name) {
+      if (
+        normalizeVietnameseAdminName(mapping.legacy_district_name) !==
+        normalizeVietnameseAdminName(params.legacyDistrictName)
+      ) {
+        return false;
+      }
+    }
+
+    if (params.legacyProvinceName && mapping.legacy_province_name) {
+      if (
+        normalizeVietnameseAdminName(mapping.legacy_province_name) !==
+        normalizeVietnameseAdminName(params.legacyProvinceName)
+      ) {
+        return false;
+      }
+    }
+
+    return mapping.is_default;
+  });
+
+  if (!mappings.length) return null;
+
+  const currentCode = mappings[0].current_commune_code;
+  return communes.find((commune) => commune.commune_code === currentCode) ?? null;
 }

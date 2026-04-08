@@ -1,0 +1,293 @@
+﻿{
+  "name": {
+    "value": "Quảng Ngãi",
+    "last_updated": "2025-06-12",
+    "source": "Nghị quyết 202/2025/QH15 của Quốc hội về sắp xếp đơn vị hành chính cấp tỉnh"
+  },
+  "administrative_code": {
+    "value": "51",
+    "last_updated": "2025-07-01",
+    "source": "Quyết định 19/2025/QĐ-TTg ban hành Bảng danh mục và mã số các đơn vị hành chính Việt Nam"
+  },
+  "former_provinces": {
+    "value": ["Kon Tum", "Quảng Ngãi"],
+    "description": "Tỉnh Quảng Ngãi mới được hình thành bằng việc sắp xếp toàn bộ diện tích tự nhiên và quy mô dân số của tỉnh Kon Tum và tỉnh Quảng Ngãi cũ.",
+    "last_updated": "2025-06-12",
+    "source": "Nghị quyết 202/2025/QH15 của Quốc hội"
+  },
+
+
+  "location": {
+    "latitude": {
+      "value": null,
+      "last_updated": "2026-03-19",
+      "source": "Chưa tìm thấy trong nguồn chính thức đã đối chiếu một giá trị tọa độ chuẩn duy nhất cho toàn tỉnh mới"
+    },
+    "longitude": {
+      "value": null,
+      "last_updated": "2026-03-19",
+      "source": "Chưa tìm thấy trong nguồn chính thức đã đối chiếu một giá trị tọa độ chuẩn duy nhất cho toàn tỉnh mới"
+    },
+    "adjacent_areas": {
+      "provinces": {
+        "value": ["Đà Nẵng", "Gia Lai"],
+        "last_updated": "2026-03-19",
+        "source": "Bản đồ tra cứu các đơn vị hành chính Việt Nam (Bộ Nông nghiệp và Môi trường), đối chiếu Nghị quyết 202/2025/QH15"
+      },
+      "countries": {
+        "value": ["Lào", "Campuchia"],
+        "last_updated": "2026-03-19",
+        "source": "Bản đồ tra cứu các đơn vị hành chính Việt Nam (Bộ Nông nghiệp và Môi trường), đối chiếu địa giới Kon Tum cũ"
+      },
+      "seas": {
+        "value": ["Biển Đông"],
+        "last_updated": "2026-03-19",
+        "source": "Bản đồ tra cứu các đơn vị hành chính Việt Nam (Bộ Nông nghiệp và Môi trường)"
+      }
+    }
+  },
+
+
+  "area": {
+    "total_km2": {
+      "value": 14832.55,
+      "last_updated": "2025-06-12",
+      "source": "Nghị quyết 202/2025/QH15 của Quốc hội"
+    }
+  },
+
+
+  "administrative_structure": {
+    "wards_communes_count": {
+      "value": 96,
+      "last_updated": "2025-07-01",
+      "source": "Nghị quyết 1677/NQ-UBTVQH15 về sắp xếp các đơn vị hành chính cấp xã của tỉnh Quảng Ngãi năm 2025"
+    },
+    "wards_communes_list": {
+      "value": [
+        "Xã Tịnh Khê",
+        "Xã An Phú",
+        "Xã Nguyễn Nghiêm",
+        "Xã Khánh Cường",
+        "Xã Bình Minh",
+        "Xã Bình Chương",
+        "Xã Bình Sơn",
+        "Xã Vạn Tường",
+        "Xã Đông Sơn",
+        "Xã Trường Giang",
+        "Xã Ba Gia",
+        "Xã Sơn Tịnh",
+        "Xã Thọ Phong",
+        "Xã Tư Nghĩa",
+        "Xã Vệ Giang",
+        "Xã Nghĩa Giang",
+        "Xã Trà Giang",
+        "Xã Nghĩa Hành",
+        "Xã Đình Cương",
+        "Xã Thiện Tín",
+        "Xã Phước Giang",
+        "Xã Long Phụng",
+        "Xã Mỏ Cày",
+        "Xã Mộ Đức",
+        "Xã Lân Phong",
+        "Xã Trà Bồng",
+        "Xã Đông Trà Bồng",
+        "Xã Tây Trà",
+        "Xã Thanh Bồng",
+        "Xã Cà Đam",
+        "Xã Tây Trà Bồng",
+        "Xã Sơn Hạ",
+        "Xã Sơn Linh",
+        "Xã Sơn Hà",
+        "Xã Sơn Thủy",
+        "Xã Sơn Kỳ",
+        "Xã Sơn Tây",
+        "Xã Sơn Tây Thượng",
+        "Xã Sơn Tây Hạ",
+        "Xã Minh Long",
+        "Xã Sơn Mai",
+        "Xã Ba Vì",
+        "Xã Ba Tô",
+        "Xã Ba Dinh",
+        "Xã Ba Tơ",
+        "Xã Ba Vinh",
+        "Xã Ba Động",
+        "Xã Đặng Thùy Trâm",
+        "Xã Ngọk Bay",
+        "Xã Ia Chim",
+        "Xã Đăk Rơ Wa",
+        "Xã Đăk Pxi",
+        "Xã Đăk Mar",
+        "Xã Đăk Ui",
+        "Xã Ngọk Réo",
+        "Xã Đăk Hà",
+        "Xã Ngọk Tụ",
+        "Xã Đăk Tô",
+        "Xã Kon Đào",
+        "Xã Đăk Sao",
+        "Xã Đăk Tờ Kan",
+        "Xã Tu Mơ Rông",
+        "Xã Măng Ri",
+        "Xã Bờ Y",
+        "Xã Sa Loong",
+        "Xã Dục Nông",
+        "Xã Xốp",
+        "Xã Ngọc Linh",
+        "Xã Đăk Plô",
+        "Xã Đăk Pék",
+        "Xã Đăk Môn",
+        "Xã Sa Thầy",
+        "Xã Sa Bình",
+        "Xã Ya Ly",
+        "Xã Ia Tơi",
+        "Xã Đăk Kôi",
+        "Xã Kon Braih",
+        "Xã Đăk Rve",
+        "Xã Măng Đen",
+        "Xã Măng Bút",
+        "Xã Kon Plông",
+        "Phường Trương Quang Trọng",
+        "Phường Cẩm Thành",
+        "Phường Nghĩa Lộ",
+        "Phường Trà Câu",
+        "Phường Đức Phổ",
+        "Phường Sa Huỳnh",
+        "Phường Kon Tum",
+        "Phường Đăk Cấm",
+        "Phường Đăk Bla",
+        "Đặc khu Lý Sơn",
+        "Xã Đăk Long",
+        "Xã Ba Xa",
+        "Xã Rờ Kơi",
+        "Xã Mô Rai",
+        "Xã Ia Đal"
+      ],
+      "last_updated": "2025-07-01",
+      "source": "Nghị quyết 1677/NQ-UBTVQH15; bài tổng hợp Danh sách 96 xã, phường, đặc khu của tỉnh Quảng Ngãi mới"
+    }
+  },
+
+
+  "population": {
+    "total": {
+      "value": 2161755,
+      "last_updated": "2025-06-12",
+      "source": "Nghị quyết 202/2025/QH15 của Quốc hội"
+    },
+    "density_per_km2": {
+      "value": 145.74,
+      "last_updated": "2025-06-12",
+      "source": "Tính từ diện tích và dân số nêu tại Nghị quyết 202/2025/QH15"
+    },
+    "ethnic_groups": {
+      "value": null,
+      "last_updated": "2026-03-19",
+      "source": "Chưa tìm thấy nguồn chính thức công bố cơ cấu phần trăm dân tộc cho tỉnh Quảng Ngãi mới sau sáp nhập"
+    }
+  },
+
+
+  "economy": {
+    "scale": {
+      "value": null,
+      "last_updated": "2026-03-19",
+      "source": "Chưa tìm thấy nguồn chính thức thống nhất cho quy mô kinh tế của tỉnh Quảng Ngãi mới sau sáp nhập"
+    },
+    "main_sectors": {
+      "value": null,
+      "last_updated": "2026-03-19",
+      "source": "Chưa tổng hợp từ một nguồn chính thức duy nhất cho tỉnh mới sau sáp nhập"
+    },
+    "gdp": {
+      "value": {
+        "amount_usd": null,
+        "year": null
+      },
+      "last_updated": "2026-03-19",
+      "source": "Chưa tìm thấy nguồn chính thức công bố GDP/GRDP quy đổi USD cho tỉnh Quảng Ngãi mới sau sáp nhập"
+    }
+  },
+
+
+  "tourism": {
+    "attractions": {
+      "value": null,
+      "last_updated": "2026-03-19",
+      "source": "Không sử dụng dữ liệu xếp hạng/rating từ nguồn thương mại; chưa có bộ dữ liệu rating chính thức phù hợp"
+    },
+    "local_specialties": {
+      "value": null,
+      "last_updated": "2026-03-19",
+      "source": "Chưa lập danh mục thống nhất từ một nguồn chính thức duy nhất cho toàn tỉnh mới"
+    },
+    "culture": {
+      "festivals": {
+        "value": null,
+        "last_updated": "2026-03-19",
+        "source": "Chưa lập danh mục thống nhất từ một nguồn chính thức duy nhất cho toàn tỉnh mới"
+      },
+      "events": {
+        "value": null,
+        "last_updated": "2026-03-19",
+        "source": "Chưa lập danh mục thống nhất từ một nguồn chính thức duy nhất cho toàn tỉnh mới"
+      }
+    }
+  },
+
+
+  "infrastructure": {
+    "airport": {
+      "value": null,
+      "last_updated": "2026-03-19",
+      "source": "Chưa xác nhận được danh mục sân bay đang khai thác thuộc phạm vi tỉnh mới từ một nguồn chính thức duy nhất"
+    },
+    "seaport": {
+      "value": ["Cảng Dung Quất", "Cảng Sa Kỳ"],
+      "last_updated": "2026-03-19",
+      "source": "Cổng thông tin KKT Dung Quất và các KCN Quảng Ngãi; các thông tin quy hoạch, khai thác cảng của tỉnh Quảng Ngãi"
+    },
+    "railway_station": {
+      "value": null,
+      "last_updated": "2026-03-19",
+      "source": "Chưa đối chiếu được danh mục ga đường sắt thuộc tỉnh mới từ nguồn chính thức đủ trực tiếp"
+    },
+    "other_transport": {
+      "value": ["Cửa khẩu quốc tế Bờ Y"],
+      "last_updated": "2025-10-05",
+      "source": "Quyết định 1184/QĐ-UBND về việc ban hành Nội quy cửa khẩu quốc tế Bờ Y, tỉnh Quảng Ngãi"
+    }
+  },
+
+
+  "environment": {
+    "climate": {
+      "type": {
+        "value": null,
+        "last_updated": "2026-03-19",
+        "source": "Tỉnh mới bao gồm cả duyên hải Nam Trung Bộ và vùng núi Tây Nguyên; chưa có mô tả khí hậu thống nhất bằng một nguồn chính thức duy nhất cho toàn tỉnh mới"
+      },
+      "average_temperature_c": {
+        "value": null,
+        "last_updated": "2026-03-19",
+        "source": "Chưa tìm thấy số liệu nhiệt độ trung bình năm chính thức cho toàn tỉnh Quảng Ngãi mới sau sáp nhập"
+      }
+    },
+    "ecology": {
+      "forests": {
+        "value": null,
+        "last_updated": "2026-03-19",
+        "source": "Chưa lập danh mục hệ sinh thái/rừng tiêu biểu từ một nguồn chính thức duy nhất cho toàn tỉnh mới"
+      },
+      "sea": {
+        "value": ["Biển Đông"],
+        "last_updated": "2026-03-19",
+        "source": "Bản đồ tra cứu các đơn vị hành chính Việt Nam (Bộ Nông nghiệp và Môi trường)"
+      },
+      "other_resources": {
+        "value": null,
+        "last_updated": "2026-03-19",
+        "source": "Chưa tổng hợp từ một nguồn chính thức duy nhất cho toàn tỉnh mới"
+      }
+    }
+  }
+}

@@ -1,0 +1,336 @@
+﻿{
+  "name": {
+    "value": "Thái Nguyên",
+    "last_updated": "2025-06-12",
+    "source": "Nghị quyết 202/2025/QH15"
+  },
+  "administrative_code": {
+    "value": "19",
+    "last_updated": "2025-07-01",
+    "source": "Quyết định 19/2025/QĐ-TTg- Bảng danh mục và mã số các đơn vị hành chính Việt Nam"
+  },
+  "former_provinces": {
+    "value": ["Bắc Kạn", "Thái Nguyên"],
+    "description": "Tỉnh Thái Nguyên (mới) được hình thành từ việc sắp xếp toàn bộ diện tích tự nhiên và quy mô dân số của tỉnh Bắc Kạn và tỉnh Thái Nguyên.",
+    "last_updated": "2025-06-12",
+    "source": "Nghị quyết 202/2025/QH15 của Quốc hội"
+  },
+
+
+  "location": {
+    "latitude": {
+      "value": 21.5925,
+      "last_updated": "2026-03-22",
+      "source": "Tọa độ trung tâm hành chính tỉnh Thái Nguyên mới"
+    },
+    "longitude": {
+      "value": 105.8442,
+      "last_updated": "2026-03-22",
+      "source": "Tọa độ trung tâm hành chính tỉnh Thái Nguyên mới"
+    },
+    "adjacent_areas": {
+      "provinces": {
+        "value": ["Bắc Ninh", "Cao Bằng", "Lạng Sơn", "Phú Thọ", "Tuyên Quang", "Hà Nội"],
+        "last_updated": "2025-06-12",
+        "source": "Nghị quyết 202/2025/QH15"
+      },
+      "countries": {
+        "value": [],
+        "last_updated": "2025-06-12",
+        "source": "Cục đo đạc và bản đồ Việt Nam"
+      },
+      "seas": {
+        "value": [],
+        "last_updated": "2025-06-12",
+        "source": "Nghị quyết 202/2025/QH15"
+      }
+    }
+  },
+
+
+  "area": {
+    "total_km2": {
+      "value": 8375.21,
+      "last_updated": "2025-06-12",
+      "source": "Nghị quyết 202/2025/QH15"
+    }
+  },
+
+
+  "administrative_structure": {
+    "wards_communes_count": {
+      "value": 285,
+      "last_updated": "2025-06-16",
+      "source": "Nghị quyết 1683/NQ-UBTVQH15"
+    },
+    "wards_communes_list": {
+      "value": [
+        "Tân Cương",
+        "Đại Phúc",
+        "Thành Công",
+        "Định Hóa",
+        "Bình Yên",
+        "Trung Hội",
+        "Phượng Tiến",
+        "Phú Đình",
+        "Bình Thành",
+        "Kim Phượng",
+        "Lam Vỹ",
+        "Võ Nhai",
+        "Dân Tiến",
+        "Nghinh Tường",
+        "Thần Sa",
+        "La Hiên",
+        "Tràng Xá",
+        "Phú Lương",
+        "Vô Tranh",
+        "Yên Trạch",
+        "Hợp Thành",
+        "Đồng Hỷ",
+        "Quang Sơn",
+        "Trại Cau",
+        "Nam Hòa",
+        "Văn Hán",
+        "Văn Lăng",
+        "Đại Từ",
+        "Đức Lương",
+        "Phú Thịnh",
+        "La Bằng",
+        "Phú Lạc",
+        "An Khánh",
+        "Quân Chu",
+        "Vạn Phú",
+        "Phú Xuyên",
+        "Phú Bình",
+        "Tân Thành",
+        "Điềm Thụy",
+        "Kha Sơn",
+        "Tân Khánh",
+        "Bằng Thành",
+        "Nghiên Loan",
+        "Cao Minh",
+        "Ba Bể",
+        "Chợ Rã",
+        "Phúc Lộc",
+        "Thượng Minh",
+        "Đồng Phúc",
+        "Bằng Vân",
+        "Ngân Sơn",
+        "Nà Phặc",
+        "Hiệp Lực",
+        "Nam Cường",
+        "Quảng Bạch",
+        "Yên Thịnh",
+        "Chợ Đồn",
+        "Yên Phong",
+        "Nghĩa Tá",
+        "Phủ Thông",
+        "Cẩm Giàng",
+        "Vĩnh Thông",
+        "Bạch Thông",
+        "Phong Quang",
+        "Văn Lang",
+        "Cường Lợi",
+        "Na Rì",
+        "Trần Phú",
+        "Côn Minh",
+        "Xuân Dương",
+        "Tân Kỳ",
+        "Thanh Mai",
+        "Thanh Thịnh",
+        "Chợ Mới",
+        "Yên Bình",
+        "Phan Đình Phùng",
+        "Linh Sơn",
+        "Tích Lương",
+        "Gia Sàng",
+        "Quyết Thắng",
+        "Quan Triều",
+        "Sông Công",
+        "Bá Xuyên",
+        "Bách Quang",
+        "Phổ Yên",
+        "Vạn Xuân",
+        "Trung Thành",
+        "Phúc Thuận",
+        "Đức Xuân",
+        "Bắc Kạn",
+        "Sảng Mộc",
+        "Thượng Quan"
+      ],
+      "last_updated": "2025-06-16",
+      "source": "Nghị quyết 1683/NQ-UBTVQH15; bài tổng hợp danh sách 92 xã, phường mới của tỉnh Thái Nguyên trên Cổng TTĐT Chính phủ"
+    }
+  },
+
+
+  "population": {
+    "total": {
+      "value": 1799489,
+      "last_updated": "2025-06-12",
+      "source": "Nghị quyết 202/2025/QH15"
+    },
+    "density_per_km2": {
+      "value": 214.86,
+      "last_updated": "2025-06-12",
+      "source": "Tính từ số liệu dân số và diện tích trong Nghị quyết 202/2025/QH15"
+    },
+    "ethnic_groups": {
+      "value": null,
+      "last_updated": "2025-03-19",
+      "source": "Chưa thấy nguồn chính thức công bố cơ cấu % dân tộc cho tỉnh Thái Nguyên mới sau sáp nhập"
+    }
+  },
+
+
+  "economy": {
+    "scale": {
+      "value": "Không gian kinh tế mới kết hợp nền tảng công nghiệp vững chắc của Thái Nguyên với tiềm năng nông nghiệp, tài nguyên và du lịch của Bắc Kạn.",
+      "last_updated": "2025-07-03",
+      "source": "Thông báo 344/TB-VPCP; Báo Chính phủ 04/07/2025"
+    },
+    "main_sectors": {
+      "value": ["công nghiệp", "thương mại - dịch vụ", "nông nghiệp", "du lịch"],
+      "last_updated": "2025-07-03",
+      "source": "Thông báo 344/TB-VPCP; Báo Chính phủ 04/07/2025"
+    },
+    "gdp": {
+      "value": {
+        "amount_usd": null,
+        "year": null
+      },
+      "last_updated": "2025-03-19",
+      "source": "Chưa thấy nguồn chính thức công bố GRDP/GDP quy đổi USD cho tỉnh Thái Nguyên mới sau sáp nhập"
+    }
+  },
+
+
+  "tourism": {
+    "attractions": {
+      "value": [
+        {
+          "name": "ATK Định Hóa",
+          "type": "Di tích lịch sử cách mạng",
+          "description": "Điểm đến tiêu biểu trong sản phẩm du lịch 'hành trình kết nối địa chỉ đỏ' của Thái Nguyên.",
+          "rating": null
+        },
+        {
+          "name": "Hồ Núi Cốc",
+          "type": "Khu du lịch sinh thái",
+          "description": "Điểm du lịch sinh thái nổi bật của Thái Nguyên, gắn với huyền thoại Hồ Núi Cốc.",
+          "rating": null
+        },
+        {
+          "name": "Vườn quốc gia Ba Bể / Hồ Ba Bể",
+          "type": "Du lịch sinh thái - danh thắng",
+          "description": "Khu du lịch Ba Bể nổi bật với hồ nước, hang động, thác nước và hệ sinh thái rừng nhiệt đới, là điểm đến hấp dẫn của vùng hồ Ba Bể.",
+          "rating": null
+        },
+        {
+          "name": "ATK Chợ Đồn",
+          "type": "Di tích lịch sử cách mạng",
+          "description": "Điểm đến trên hành trình du lịch ATK của vùng Việt Bắc, có thể kết nối với ATK Định Hóa và Tân Trào.",
+          "rating": null
+        }
+      ],
+      "last_updated": "2025-03-19",
+      "source": "Cục Du lịch Quốc gia Việt Nam; Cổng TTĐT tỉnh Thái Nguyên"
+    },
+    "local_specialties": {
+      "value": [
+        {
+          "name": "Chè Tân Cương",
+          "type": "Trà đặc sản"
+        },
+        {
+          "name": "Gạo Bao thai Chợ Đồn",
+          "type": "Nông sản đặc sản"
+        },
+        {
+          "name": "Bí xanh thơm Ba Bể",
+          "type": "Nông sản đặc sản"
+        }
+      ],
+      "last_updated": "2025-03-19",
+      "source": "Cổng TTĐT tỉnh Thái Nguyên; Cổng TTĐT tỉnh Bắc Kạn"
+    },
+    "culture": {
+      "festivals": {
+        "value": [
+          "Lễ hội Hương sắc trà xuân vùng chè đặc sản Tân Cương",
+          "Lễ hội Thái Nguyên - Hương sắc danh trà",
+          "Lễ hội Lồng tồng Ba Bể"
+        ],
+        "last_updated": "2025-03-19",
+        "source": "Cổng TTĐT tỉnh Thái Nguyên; Cục Du lịch Quốc gia Việt Nam"
+      },
+      "events": {
+        "value": [
+          "Tuần Văn hóa - Du lịch Bắc Kạn gắn với trải nghiệm bí xanh thơm Ba Bể"
+        ],
+        "last_updated": "2025-03-19",
+        "source": "Cổng TTĐT tỉnh Bắc Kạn"
+      }
+    }
+  },
+
+
+  "infrastructure": {
+    "airport": {
+      "value": [],
+      "last_updated": "2025-03-19",
+      "source": "Chưa thấy nguồn chính thức công bố sân bay dân dụng trên địa bàn tỉnh Thái Nguyên mới"
+    },
+    "seaport": {
+      "value": [],
+      "last_updated": "2025-06-12",
+      "source": "Nghị quyết 202/2025/QH15 xác định tỉnh không giáp biển"
+    },
+    "railway_station": {
+      "value": ["Ga Thái Nguyên"],
+      "last_updated": "2025-03-19",
+      "source": "Hệ thống thông tin Đường sắt Việt Nam"
+    },
+    "other_transport": {
+      "value": ["Cao tốc CT.07 Hà Nội - Thái Nguyên - Chợ Mới", "Quốc lộ 3"],
+      "last_updated": "2025-03-19",
+      "source": "Cổng TTĐT tỉnh Thái Nguyên; tài liệu dự án CT.07"
+    }
+  },
+
+
+  "environment": {
+    "climate": {
+      "type": {
+        "value": "Nhiệt đới gió mùa",
+        "last_updated": "2025-12-03",
+        "source": "Cổng TTĐT tỉnh Thái Nguyên (mục điều kiện tự nhiên, khí hậu)"
+      },
+      "average_temperature_c": {
+        "value": null,
+        "last_updated": "2025-03-19",
+        "source": "Chưa thấy nguồn chính thức công bố một giá trị nhiệt độ trung bình năm thống nhất cho toàn tỉnh mới sau sáp nhập"
+      }
+    },
+    "ecology": {
+      "forests": {
+        "value": [
+          "Vườn quốc gia Ba Bể",
+          "Khu bảo tồn thiên nhiên Thần Sa - Phượng Hoàng"
+        ],
+        "last_updated": "2025-03-19",
+        "source": "Cục Du lịch Quốc gia Việt Nam; thông tin bảo tồn thiên nhiên Thần Sa - Phượng Hoàng"
+      },
+      "sea": {
+        "value": [],
+        "last_updated": "2025-06-12",
+        "source": "Nghị quyết 202/2025/QH15"
+      },
+      "other_resources": {
+        "value": ["tài nguyên du lịch", "tài nguyên rừng", "tài nguyên khoáng sản"],
+        "last_updated": "2025-07-03",
+        "source": "Thông báo 344/TB-VPCP; Báo Chính phủ 04/07/2025"
+      }
+    }
+  }
+}

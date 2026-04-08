@@ -2,6 +2,7 @@ import { Router } from 'express';
 import { loadProvinceGeoJson } from '../data/loaders.js';
 import { communeSeeds } from '../data/communeSeeds.js';
 import { getProvinceByCode } from '../services/crosswalk/provinceCrosswalk.js';
+import { loadProvinceInfo } from '../data/provinceInfo.js';
 
 export const provincesRouter = Router();
 
@@ -18,11 +19,11 @@ provincesRouter.get('/:provinceCode', (request, response) => {
   }
 
   const communeCount = communeSeeds.filter((commune) => commune.province_code === province.province_code).length;
+  const province_info = loadProvinceInfo(province.province_code);
 
   response.json({
     ...province,
     commune_count: communeCount,
-    placeholder_details:
-      'Đây là nội dung giữ chỗ cho trang chi tiết. Có thể thay bằng dữ liệu hành chính hoặc dữ liệu kinh tế - xã hội thực tế sau này.'
+    province_info
   });
 });

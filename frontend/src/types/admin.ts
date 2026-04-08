@@ -9,11 +9,87 @@ export interface ProvinceFeatureProperties {
 
 export type ProvinceCollection = FeatureCollection<Polygon, ProvinceFeatureProperties>;
 
+export interface ProvinceInfoField<T> {
+  value: T;
+  last_updated?: string;
+  source?: string;
+  description?: string;
+}
+
+export interface ProvinceAttraction {
+  name: string;
+  type: string;
+  description?: string;
+  rating?: number | null;
+}
+
+export interface ProvinceSpecialty {
+  name: string;
+  type: string;
+}
+
+export interface ProvinceInfo {
+  name?: ProvinceInfoField<string>;
+  administrative_code?: ProvinceInfoField<string>;
+  former_provinces?: ProvinceInfoField<string[]> & { description?: string };
+  location?: {
+    latitude?: ProvinceInfoField<number | null>;
+    longitude?: ProvinceInfoField<number | null>;
+    adjacent_areas?: {
+      provinces?: ProvinceInfoField<string[]>;
+      countries?: ProvinceInfoField<string[]>;
+      seas?: ProvinceInfoField<string[]>;
+    };
+  };
+  area?: {
+    total_km2?: ProvinceInfoField<number | null>;
+  };
+  administrative_structure?: {
+    wards_communes_count?: ProvinceInfoField<number | null>;
+    wards_communes_list?: ProvinceInfoField<string[]>;
+  };
+  population?: {
+    total?: ProvinceInfoField<number | null>;
+    density_per_km2?: ProvinceInfoField<number | null>;
+    ethnic_groups?: ProvinceInfoField<string[]>;
+  };
+  economy?: {
+    scale?: ProvinceInfoField<string | null>;
+    main_sectors?: ProvinceInfoField<string[]>;
+    gdp?: ProvinceInfoField<{ amount_usd: number; year: number } | null>;
+  };
+  tourism?: {
+    attractions?: ProvinceInfoField<ProvinceAttraction[]>;
+    local_specialties?: ProvinceInfoField<ProvinceSpecialty[]>;
+    culture?: {
+      festivals?: ProvinceInfoField<string[]>;
+      events?: ProvinceInfoField<string[]>;
+    };
+  };
+  infrastructure?: {
+    airport?: ProvinceInfoField<string[]>;
+    seaport?: ProvinceInfoField<string[]>;
+    railway_station?: ProvinceInfoField<string[]>;
+    other_transport?: ProvinceInfoField<string[]>;
+  };
+  environment?: {
+    climate?: {
+      type?: ProvinceInfoField<string | null>;
+      average_temperature_c?: ProvinceInfoField<number | null>;
+    };
+    ecology?: {
+      forests?: ProvinceInfoField<string[]>;
+      sea?: ProvinceInfoField<string[]>;
+      other_resources?: ProvinceInfoField<string[]>;
+    };
+  };
+}
+
 export interface ProvinceDetail extends ProvinceFeatureProperties {
   aliases: string[];
   description: string;
   commune_count: number;
-  placeholder_details: string;
+  province_info: ProvinceInfo | null;
 }
 
 export interface ResolveAdminUnitResponse {

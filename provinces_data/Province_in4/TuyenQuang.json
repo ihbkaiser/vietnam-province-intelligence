@@ -1,0 +1,350 @@
+﻿{
+  "name": {
+    "value": "Tuyên Quang",
+    "last_updated": "2025-07-01",
+    "source": "Nghị quyết 202/2025/QH15; chính thức hoạt động từ 01/07/2025 theo Nghị quyết 1684/NQ-UBTVQH15"
+  },
+  "administrative_code": {
+    "value": "08",
+    "last_updated": "2025-07-01",
+    "source": "Danh sach ma tinh thanh 34 tinh thanh Viat Nam"
+  },
+  "former_provinces": {
+    "value": ["Tuyên Quang", "Hà Giang"],
+    "description": "Tỉnh Tuyên Quang mới được tạo thành từ việc sắp xếp toàn bộ diện tích tự nhiên và quy mô dân số của tỉnh Hà Giang và tỉnh Tuyên Quang cũ.",
+    "last_updated": "2025-06-12",
+    "source": "Nghị quyết 202/2025/QH15"
+  },
+  "location": {
+    "latitude": {
+      "value": “21°48' - 21°50' độ vĩ Bắc và 105°13' - 105°15' độ kinh Đông”
+      "last_updated": "2025-07-01",
+      "source": ""
+    },
+    "longitude": {
+      "value": null,
+      "last_updated": "2025-07-01",
+      "source": 
+    },
+    "adjacent_areas": {
+      "provinces": {
+        "value": ["Cao Bằng", "Lào Cai", "Phú Thọ", "Thái Nguyên"],
+        "last_updated": "2025-06-12",
+        "source": "Nghị quyết 202/2025/QH15"
+      },
+      "countries": {
+        "value": ["Trung Quốc"],
+        "last_updated": "2025-06-12",
+        "source": "Nghị quyết 202/2025/QH15"
+      },
+      "seas": {
+        "value": [],
+        "last_updated": "2025-06-12",
+        "source": "Nghị quyết 202/2025/QH15"
+      }
+    }
+  },
+  "area": {
+    "total_km2": {
+      "value": 13795.5,
+      "last_updated": "2025-06-12",
+      "source": "Nghị quyết 202/2025/QH15"
+    }
+  },
+  "administrative_structure": {
+    "wards_communes_count": {
+      "value": 124,
+      "last_updated": "2025-07-01",
+      "source": "Nghị quyết 1684/NQ-UBTVQH15"
+    },
+    "wards_communes_list": {
+      "value": [
+        "Thượng Lâm",
+        "Lâm Bình",
+        "Minh Quang",
+        "Bình An",
+        "Côn Lôn",
+        "Yên Hoa",
+        "Thượng Nông",
+        "Hồng Thái",
+        "Nà Hang",
+        "Tân Mỹ",
+        "Yên Lập",
+        "Tân An",
+        "Chiêm Hóa",
+        "Hòa An",
+        "Kiên Đài",
+        "Tri Phú",
+        "Kim Bình",
+        "Yên Nguyên",
+        "Yên Phú",
+        "Bạch Xa",
+        "Phù Lưu",
+        "Hàm Yên",
+        "Bình Xa",
+        "Thái Sơn",
+        "Thái Hòa",
+        "Hùng Lợi",
+        "Trung Sơn",
+        "Thái Bình",
+        "Tân Long",
+        "Xuân Vân",
+        "Lực Hành",
+        "Yên Sơn",
+        "Nhữ Khê",
+        "Tân Trào",
+        "Minh Thanh",
+        "Sơn Dương",
+        "Bình Ca",
+        "Tân Thanh",
+        "Sơn Thủy",
+        "Phú Lương",
+        "Trường Sinh",
+        "Hồng Sơn",
+        "Đồng Thọ",
+        "Lũng Cú",
+        "Đồng Văn",
+        "Sà Phìn",
+        "Phố Bảng",
+        "Lũng Phìn",
+        "Sủng Máng",
+        "Sơn Vĩ",
+        "Mèo Vạc",
+        "Khâu Vai",
+        "Niêm Sơn",
+        "Tát Ngà",
+        "Thắng Mố",
+        "Bạch Đích",
+        "Yên Minh",
+        "Mậu Duệ",
+        "Du Già",
+        "Đường Thượng",
+        "Lũng Tám",
+        "Cán Tỷ",
+        "Nghĩa Thuận",
+        "Quản Bạ",
+        "Tùng Vài",
+        "Yên Cường",
+        "Đường Hồng",
+        "Bắc Mê",
+        "Minh Ngọc",
+        "Ngọc Đường",
+        "Lao Chải",
+        "Thanh Thủy",
+        "Phú Linh",
+        "Linh Hồ",
+        "Bạch Ngọc",
+        "Vị Xuyên",
+        "Việt Lâm",
+        "Tân Quang",
+        "Đồng Tâm",
+        "Liên Hiệp",
+        "Bằng Hành",
+        "Bắc Quang",
+        "Hùng An",
+        "Vĩnh Tuy",
+        "Đồng Yên",
+        "Tiên Yên",
+        "Xuân Giang",
+        "Bằng Lang",
+        "Yên Thành",
+        "Quang Bình",
+        "Tân Trịnh",
+        "Thông Nguyên",
+        "Hồ Thầu",
+        "Nậm Dịch",
+        "Tân Tiến",
+        "Hoàng Su Phì",
+        "Thàng Tín",
+        "Bản Máy",
+        "Pờ Ly Ngài",
+        "Xín Mần",
+        "Pà Vầy Sủ",
+        "Nấm Dẩn",
+        "Trung Thịnh",
+        "Khuôn Lùng",
+        "Mỹ Lâm",
+        "Minh Xuân",
+        "Nông Tiến",
+        "An Tường",
+        "Bình Thuận",
+        "Hà Giang 1",
+        "Hà Giang 2",
+        "Trung Hà",
+        "Liên Thiết",
+        "Hùng Đức",
+        "Minh Sơn",
+        "Minh Tân",
+        "Thuận Hòa",
+        "Tùng Bá",
+        "Thượng Sơn",
+        "Cao Bồ",
+        "Ngọc Long",
+        "Giáp Trung",
+        "Tiên Nguyên",
+        "Quảng Nguyên"
+      ],
+      "last_updated": "2025-07-01",
+      "source": "Nghị quyết 1684/NQ-UBTVQH15"
+    }
+  },
+  "population": {
+    "total": {
+      "value": 1865270,
+      "last_updated": "2025-06-12",
+      "source": "Nghị quyết 202/2025/QH15"
+    },
+    "density_per_km2": {
+      "value": 135.21,
+      "last_updated": "2025-06-12",
+      "source": "Tính từ diện tích và dân số nêu tại Nghị quyết 202/2025/QH15"
+    },
+    "ethnic_groups": {
+      "value": [“Cơ cấu dân tộc chủ yếu bao gồm người Kinh, Tày, Dao, Mông, Nùng, Sán Chay (Sán Chay gồm Cao Lan, Sán Chỉ), Pà Thẻn, Lô Lô, Pu Péo, với tỷ lệ dân tộc thiểu số cao, đặc biệt có 5 dân tộc rất ít người (Lô Lô, Cờ Lao, Pà Thẻn, Bố Y, Pu Péo)”],
+      "last_updated": "2025-07-01",
+      "source": “Source là để nguồn của thông tin mình tìm được”. 
+    }
+  },
+  "economy": {
+    "scale": {
+      "value": "Chưa thấy nguồn công bố chính thức về quy mô GRDP danh nghĩa của tỉnh Tuyên Quang mới sau hợp nhất; nguồn chính thức hiện tra cứu được mới công bố tốc độ tăng trưởng GRDP 9 tháng năm 2025 là 6,83%.",
+      "last_updated": "2025-10-23",
+      "source": "Cổng Thông tin điện tử tỉnh Tuyên Quang"
+    },
+    "main_sectors": {
+      "value": [
+        "Nông, lâm nghiệp và thủy sản",
+        "Công nghiệp và xây dựng",
+        "Dịch vụ"
+      ],
+      "last_updated": "2025-10-23",
+      "source": "Cổng Thông tin điện tử tỉnh Tuyên Quang"
+    },
+    "gdp": {
+      "value": {
+        "amount_usd": null,
+        "year": 2025
+      },
+      "last_updated": "2025-10-23",
+      "source": "Chưa thấy nguồn công bố chính thức về GRDP/GDP quy đổi USD của tỉnh Tuyên Quang mới sau hợp nhất"
+    }
+  },
+  "tourism": {
+    "attractions": {
+      "value": [
+        {
+          "name": "Khu du lịch sinh thái Na Hang - Lâm Bình",
+          "type": "Sinh thái",
+          "description": "Khu du lịch sinh thái rừng phòng hộ, gắn với cảnh quan hồ, rừng và văn hóa cộng đồng.",
+          "rating": null
+        },
+        {
+          "name": "Cột cờ Quốc gia Lũng Cú",
+          "type": "Di tích biểu tượng chủ quyền",
+          "description": "Điểm đến biểu tượng của tỉnh Tuyên Quang mới sau hợp nhất, nằm trên đỉnh núi Rồng.",
+          "rating": null
+        },
+        {
+          "name": "Cao nguyên đá Đồng Văn",
+          "type": "Cảnh quan địa chất",
+          "description": "Không gian cảnh quan đá vôi đặc sắc thuộc phần địa bàn cũ của Hà Giang, nay thuộc tỉnh Tuyên Quang mới.",
+          "rating": null
+        }
+      ],
+      "last_updated": "2025-08-20",
+      "source": "Cổng Thông tin điện tử tỉnh Tuyên Quang; các trang thông tin du lịch/chính quyền thuộc tỉnh"
+    },
+    "local_specialties": {
+      "value": [],
+      "last_updated": "2025-07-01",
+      "source": "Chưa tổng hợp đủ nguồn chính thức cấp tỉnh sau hợp nhất để liệt kê tuyệt đối chính xác"
+    },
+    "culture": {
+      "festivals": {
+        "value": [
+          "Lễ hội Thành Tuyên",
+          "Lễ hội Nhảy lửa Pà Thẻn",
+          "Lễ hội hoa lê Hồng Thái",
+          "Lễ hội Mùa vàng - Làng nhà rêu Xà Phìn"
+        ],
+        "last_updated": "2025-12-04",
+        "source": "Cổng Thông tin điện tử tỉnh Tuyên Quang"
+      },
+      "events": {
+        "value": [
+          "Liên hoan trình diễn di sản văn hóa phi vật thể",
+          "Các hoạt động du lịch cộng đồng tại Na Hang - Lâm Bình"
+        ],
+        "last_updated": "2025-09-17",
+        "source": "Cổng Thông tin điện tử tỉnh Tuyên Quang; Sở Văn hóa, Thể thao và Du lịch tỉnh Tuyên Quang"
+      }
+    }
+  },
+  "infrastructure": {
+    "airport": {
+      "value": [],
+      "last_updated": "2025-07-01",
+      "source": "Chưa thấy nguồn chính thức cho thấy tỉnh có sân bay đang khai thác dân dụng"
+    },
+    "seaport": {
+      "value": [],
+      "last_updated": "2025-07-01",
+      "source": "Tỉnh nội địa, không có cửa biển"
+    },
+    "railway_station": {
+      "value": [],
+      "last_updated": "2025-08-28",
+      "source": "Cổng Thông tin điện tử tỉnh Tuyên Quang"
+    },
+    "other_transport": {
+      "value": [
+        "Cao tốc Tuyên Quang - Phú Thọ",
+        "Cao tốc Tuyên Quang - Hà Giang",
+        "Quốc lộ 2",
+        "Quốc lộ 2C",
+        "Quốc lộ 37",
+        "Quốc lộ 279",
+        "Quốc lộ 3B",
+        "Quốc lộ 2D",
+        "Quốc lộ 280",
+        "Đường Hồ Chí Minh"
+      ],
+      "last_updated": "2025-08-28",
+      "source": "Cổng Thông tin điện tử tỉnh Tuyên Quang"
+    }
+  },
+  "environment": {
+    "climate": {
+      "type": {
+        "value": “nhiệt đới gió mùa ẩm, đặc trưng với mùa đông lạnh ít mưa và mùa hạ nóng ẩm mưa nhiều”,
+        "last_updated": "2025-07-01",
+        "source": "Nguồn dữ liệu (link)."
+      },
+      "average_temperature_c": {
+        "value":Lấy ở phần ‘nhiệt độ trung bình năm’,
+        "last_updated": "2025-07-01",
+        "source": "Chưa thấy nguồn công bố chính thức nhiệt độ trung bình năm của toàn tỉnh Tuyên Quang mới sau hợp nhất"
+      }
+    },
+    "ecology": {
+      "forests": {
+        "value": [
+          "Rừng phòng hộ Na Hang",
+          "Khu vực sinh thái Na Hang - Lâm Bình"
+        ],
+        "last_updated": "2024-04-17",
+        "source": "Cổng Thông tin điện tử tỉnh Tuyên Quang"
+      },
+      "sea": {
+        "value": [],
+        "last_updated": "2025-07-01",
+        "source": "Tỉnh nội địa, không giáp biển"
+      },
+      "other_resources": {
+        "value": [],
+        "last_updated": "2025-07-01",
+        "source": "Chưa tổng hợp đủ nguồn công bố chính thức sau hợp nhất"
+      }
+    }
+  }
+}

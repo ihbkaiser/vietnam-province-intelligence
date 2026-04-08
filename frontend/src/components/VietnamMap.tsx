@@ -1,8 +1,9 @@
-import { geoMercator } from 'd3-geo';
-import { MouseEvent, useMemo, useState } from 'react';
-import { Geographies, Geography, ComposableMap } from 'react-simple-maps';
+import { useEffect, useRef } from 'react';
+import L from 'leaflet';
+import 'leaflet/dist/leaflet.css';
 import type { ProvinceCollection, ProvinceFeatureProperties } from '../types/admin';
 import { ProvinceTooltip } from './ProvinceTooltip';
+import { useState } from 'react';
 
 interface VietnamMapProps {
   provinces: ProvinceCollection;
@@ -14,121 +15,109 @@ interface VietnamMapProps {
   }) => void;
 }
 
-const MAP_WIDTH = 960;
-const MAP_HEIGHT = 640;
+const PROVINCE_DEFAULT = '#9fc7c7';
+const PROVINCE_HOVER = '#0f6d70';
+const PROVINCE_SELECTED = '#dc7f5f';
+const PROVINCE_BORDER = '#fdfaf4';
 
 export function VietnamMap({ provinces, selectedProvinceCode, onSelectProvince }: VietnamMapProps) {
+  const mapRef = useRef<L.Map | null>(null);
+  const mapContainerRef = useRef<HTMLDivElement>(null);
+  const geoJsonLayerRef = useRef<L.GeoJSON | null>(null);
   const [hoveredProvince, setHoveredProvince] = useState<ProvinceFeatureProperties | null>(null);
-  const projection = useMemo(
-    () =>
-      geoMercator()
-        .center([107.5, 16.7])
-        .scale(2900)
-        .translate([MAP_WIDTH / 2, MAP_HEIGHT / 2]),
-    []
-  );
 
-  const getCoordinatesFromClick = (event: MouseEvent<SVGPathElement>) => {
-    const svg = event.currentTarget.ownerSVGElement;
-    if (!svg) {
-      return null;
-    }
+  // Initialize the map once
+  useEffect(() => {
+    if (!mapContainerRef.current || mapRef.current) return;
 
-    const rect = svg.getBoundingClientRect();
-    const viewBox = svg.viewBox.baseVal;
-    const viewWidth = viewBox?.width || svg.clientWidth;
-    const viewHeight = viewBox?.height || svg.clientHeight;
+    const map = L.map(mapContainerRef.current, {
+      center: [16.7, 107.5],
+      zoom: 6,
+      zoomControl: true,
+      attributionControl: true,
+    });
 
-    const x = ((event.clientX - rect.left) / rect.width) * viewWidth;
-    const y = ((event.clientY - rect.top) / rect.height) * viewHeight;
-    if (!projection.invert) {
-      return null;
-    }
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+      maxZoom: 19,
+    }).addTo(map);
 
-    const inverted = projection.invert([x, y]);
+    mapRef.current = map;
 
-    if (!inverted) {
-      return null;
-    }
-
-    return {
-      lon: Number(inverted[0].toFixed(6)),
-      lat: Number(inverted[1].toFixed(6))
+    return () => {
+      map.remove();
+      mapRef.current = null;
     };
-  };
+  }, []);
+
+  // Add/update province GeoJSON layer whenever provinces or selection changes
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map) return;
+
+    if (geoJsonLayerRef.current) {
+      geoJsonLayerRef.current.remove();
+    }
+
+    const layer = L.geoJSON(provinces as GeoJSON.FeatureCollection, {
+      style: (feature) => {
+        const code = feature?.properties?.province_code;
+        const isSelected = code === selectedProvinceCode;
+        return {
+          fillColor: isSelected ? PROVINCE_SELECTED : PROVINCE_DEFAULT,
+          fillOpacity: 0.55,
+          color: PROVINCE_BORDER,
+          weight: 1.5,
+        };
+      },
+      onEachFeature: (feature, featureLayer) => {
+        const province = feature.properties as ProvinceFeatureProperties;
+
+        featureLayer.on('mouseover', () => {
+          (featureLayer as L.Path).setStyle({
+            fillColor: PROVINCE_HOVER,
+            fillOpacity: 0.75,
+          });
+          setHoveredProvince(province);
+        });
+
+        featureLayer.on('mouseout', () => {
+          const isSelected = province.province_code === selectedProvinceCode;
+          (featureLayer as L.Path).setStyle({
+            fillColor: isSelected ? PROVINCE_SELECTED : PROVINCE_DEFAULT,
+            fillOpacity: 0.55,
+          });
+          setHoveredProvince(null);
+        });
+
+        featureLayer.on('click', (e: L.LeafletMouseEvent) => {
+          onSelectProvince({
+            province,
+            lat: Number(e.latlng.lat.toFixed(6)),
+            lon: Number(e.latlng.lng.toFixed(6)),
+          });
+        });
+      },
+    });
+
+    layer.addTo(map);
+    geoJsonLayerRef.current = layer;
+  }, [provinces, selectedProvinceCode, onSelectProvince]);
 
   return (
-    <div className="map-shell relative overflow-hidden rounded-[2rem] border border-white/70 p-4 shadow-panel">
-      <div className="absolute left-4 top-4 z-10 rounded-full bg-white/85 px-4 py-2 text-xs uppercase tracking-[0.18em] text-ink/65 backdrop-blur">
+    <div className="map-shell relative overflow-hidden rounded-[2rem] border border-white/70 shadow-panel">
+      <div className="absolute left-4 top-4 z-[1000] rounded-full bg-white/85 px-4 py-2 text-xs uppercase tracking-[0.18em] text-ink/65 backdrop-blur">
         Bấm vào bản đồ để lấy `lat`, `lon`
       </div>
       {hoveredProvince ? (
-        <div className="absolute right-4 top-4 z-10">
+        <div className="absolute right-4 top-4 z-[1000]">
           <ProvinceTooltip
             provinceName={hoveredProvince.province_name}
             provinceCode={hoveredProvince.province_code}
           />
         </div>
       ) : null}
-      <ComposableMap
-        width={MAP_WIDTH}
-        height={MAP_HEIGHT}
-        projection="geoMercator"
-        projectionConfig={{ center: [107.5, 16.7], scale: 2900 }}
-        className="h-[520px] w-full"
-      >
-        <Geographies geography={provinces}>
-          {({ geographies }) =>
-            geographies.map((geography) => {
-              const province = geography.properties as unknown as ProvinceFeatureProperties;
-              const isSelected = selectedProvinceCode === province.province_code;
-              const isHovered = hoveredProvince?.province_code === province.province_code;
-
-              return (
-                <Geography
-                  key={geography.rsmKey}
-                  geography={geography}
-                  onMouseEnter={() => setHoveredProvince(province)}
-                  onMouseLeave={() => setHoveredProvince(null)}
-                  onClick={(event) => {
-                    const clickedCoordinates = getCoordinatesFromClick(event);
-                    if (!clickedCoordinates) {
-                      return;
-                    }
-
-                    onSelectProvince({
-                      province,
-                      ...clickedCoordinates
-                    });
-                  }}
-                  style={{
-                    default: {
-                      fill: isSelected ? '#dc7f5f' : isHovered ? '#0f6d70' : '#9fc7c7',
-                      stroke: '#fdfaf4',
-                      strokeWidth: 1.2,
-                      outline: 'none',
-                      cursor: 'pointer'
-                    },
-                    hover: {
-                      fill: '#0f6d70',
-                      stroke: '#fdfaf4',
-                      strokeWidth: 1.2,
-                      outline: 'none',
-                      cursor: 'pointer'
-                    },
-                    pressed: {
-                      fill: '#102430',
-                      stroke: '#fdfaf4',
-                      strokeWidth: 1.2,
-                      outline: 'none'
-                    }
-                  }}
-                />
-              );
-            })
-          }
-        </Geographies>
-      </ComposableMap>
+      <div ref={mapContainerRef} className="h-[520px] w-full" />
     </div>
   );
 }

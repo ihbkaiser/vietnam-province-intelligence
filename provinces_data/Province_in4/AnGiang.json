@@ -1,0 +1,395 @@
+﻿{
+  "name": {
+    "value": "An Giang",
+    "last_updated": "2025-07-01",
+    "source": "Nghị quyết 202/2025/QH15; Cổng TTĐT tỉnh An Giang (mới)"
+  },
+  "administrative_code": {
+    "value": "91",
+    "last_updated": "2025-07-01",
+    "source": "Quyết định 19/2025/QĐ-TTg về Bảng danh mục và mã số các đơn vị hành chính Việt Nam"
+  },
+  "former_provinces": {
+    "value": ["An Giang", "Kiên Giang"],
+    "description": "Tỉnh An Giang mới được hình thành từ việc sắp xếp toàn bộ diện tích tự nhiên và quy mô dân số của tỉnh An Giang và tỉnh Kiên Giang.",
+    "last_updated": "2025-07-01",
+    "source": "Nghị quyết 202/2025/QH15; Cổng TTĐT tỉnh An Giang (mới)"
+  },
+  "location": {
+    "latitude": {
+      ”value”:10độ10’ đến 10độ57’
+      "last_updated": "2026-03-19",
+      "source": "Chưa thấy nguồn chính thức công bố một cặp tọa độ chuẩn duy nhất cho toàn tỉnh An Giang mới sau sáp nhập"
+    },
+    "longitude": {
+      "value":,104độ46’ đến 105độ35’
+      "last_updated": "2026-03-19",
+      "source": "Chưa thấy nguồn chính thức công bố một cặp tọa độ chuẩn duy nhất cho toàn tỉnh An Giang mới sau sáp nhập"
+    },
+    "adjacent_areas": {
+      "provinces": {
+        "value": ["Cà Mau", "Đồng Tháp", "Thành phố Cần Thơ"],
+        "last_updated": "2025-06-30",
+        "source": "Cổng TTĐT tỉnh An Giang (mới) - bài công bố các nghị quyết, quyết định của Trung ương"
+      },
+      "countries": {
+        "value": ["Campuchia"],
+        "last_updated": "2025-06-30",
+        "source": "Cổng TTĐT tỉnh An Giang (mới) - bài công bố các nghị quyết, quyết định của Trung ương"
+      },
+      "seas": {
+        "value": ["Biển Đông"],
+        "last_updated": "2025-06-30",
+        "source": "Cổng TTĐT tỉnh An Giang (mới) - bài công bố các nghị quyết, quyết định của Trung ương"
+      }
+    }
+  },
+  "area": {
+    "total_km2": {
+      "value": 9888.91,
+      "last_updated": "2025-07-01",
+      "source": "Nghị quyết 202/2025/QH15; bài Chi tiết 34 đơn vị hành chính cấp tỉnh"
+    }
+  },
+  "administrative_structure": {
+    "wards_communes_count": {
+      "value": 102,
+      "last_updated": "2025-07-01",
+      "source": "Nghị quyết 1654/NQ-UBTVQH15; bài Danh sách 102 xã, phường, đặc khu của tỉnh An Giang mới"
+    },
+    "wards_communes_list": {
+      "value": [
+        "An Phú",
+        "Vĩnh Hậu",
+        "Nhơn Hội",
+        "Khánh Bình",
+        "Phú Hữu",
+        "Tân An",
+        "Châu Phong",
+        "Vĩnh Xương",
+        "Phú Tân",
+        "Phú An",
+        "Bình Thạnh Đông",
+        "Chợ Vàm",
+        "Hòa Lạc",
+        "Phú Lâm",
+        "Châu Phú",
+        "Mỹ Đức",
+        "Vĩnh Thạnh Trung",
+        "Bình Mỹ",
+        "Thạnh Mỹ Tây",
+        "An Cư",
+        "Núi Cấm",
+        "Ba Chúc",
+        "Tri Tôn",
+        "Ô Lâm",
+        "Cô Tô",
+        "Vĩnh Gia",
+        "An Châu",
+        "Bình Hòa",
+        "Cần Đăng",
+        "Vĩnh Hanh",
+        "Vĩnh An",
+        "Chợ Mới",
+        "Cù Lao Giêng",
+        "Hội An",
+        "Long Điền",
+        "Nhơn Mỹ",
+        "Long Kiến",
+        "Thoại Sơn",
+        "Óc Eo",
+        "Định Mỹ",
+        "Phú Hòa",
+        "Vĩnh Trạch",
+        "Tây Phú",
+        "Vĩnh Bình",
+        "Vĩnh Thuận",
+        "Vĩnh Phong",
+        "Vĩnh Hòa",
+        "U Minh Thượng",
+        "Đông Hòa",
+        "Tân Thạnh",
+        "Đông Hưng",
+        "An Minh",
+        "Vân Khánh",
+        "Tây Yên",
+        "Đông Thái",
+        "An Biên",
+        "Định Hòa",
+        "Gò Quao",
+        "Vĩnh Hòa Hưng",
+        "Vĩnh Tuy",
+        "Giồng Riềng",
+        "Thạnh Hưng",
+        "Long Thạnh",
+        "Hòa Hưng",
+        "Ngọc Chúc",
+        "Hòa Thuận",
+        "Tân Hội",
+        "Tân Hiệp",
+        "Thạnh Đông",
+        "Thạnh Lộc",
+        "Châu Thành",
+        "Bình An",
+        "Hòn Đất",
+        "Sơn Kiên",
+        "Mỹ Thuận",
+        "Hòa Điền",
+        "Kiên Lương",
+        "Giang Thành",
+        "Vĩnh Điều",
+        "phường Long Xuyên",
+        "phường Bình Đức",
+        "phường Mỹ Thới",
+        "phường Châu Đốc",
+        "phường Vĩnh Tế",
+        "phường Tân Châu",
+        "phường Long Phú",
+        "phường Tịnh Biên",
+        "phường Thới Sơn",
+        "phường Chi Lăng",
+        "phường Vĩnh Thông",
+        "phường Rạch Giá",
+        "phường Hà Tiên",
+        "phường Tô Châu",
+        "đặc khu Kiên Hải",
+        "đặc khu Phú Quốc",
+        "đặc khu Thổ Châu",
+        "Mỹ Hòa Hưng",
+        "Bình Giang",
+        "Bình Sơn",
+        "Hòn Nghệ",
+        "Sơn Hải",
+        "Tiên Hải"
+      ],
+      "last_updated": "2025-07-01",
+      "source": "Nghị quyết 1654/NQ-UBTVQH15; bài Danh sách 102 xã, phường, đặc khu của tỉnh An Giang mới"
+    }
+  },
+  "population": {
+    "total": {
+      "value": 4952238,
+      "last_updated": "2025-07-01",
+      "source": "Nghị quyết 202/2025/QH15; bài Chi tiết 34 đơn vị hành chính cấp tỉnh"
+    },
+    "density_per_km2": {
+      "value": 500.79,
+      "last_updated": "2025-07-01",
+      "source": "Tính từ số liệu diện tích và dân số chính thức theo Nghị quyết 202/2025/QH15"
+    },
+    "ethnic_groups": {
+      "value": [],
+      "last_updated": "2026-03-19",
+      "source": "Chưa thấy cơ quan nhà nước công bố cơ cấu tỷ lệ các dân tộc cho tỉnh An Giang mới sau sáp nhập"
+    }
+  },
+  "economy": {
+    "scale": {
+      "value": "Quy mô kinh tế lớn nhất vùng Tây Nam Bộ; là cực tăng trưởng mới của Đồng bằng sông Cửu Long",
+      "last_updated": "2025-07-14",
+      "source": "Báo Điện tử Chính phủ - An Giang: Lựa chọn phát triển cho vị trí đặc biệt, tiềm năng độc đáo"
+    },
+    "main_sectors": {
+      "value": [
+        "nông nghiệp công nghệ cao",
+        "kinh tế biển",
+        "kinh tế biên mậu",
+        "logistics",
+        "du lịch",
+        "công nghiệp và xây dựng",
+        "thương mại - dịch vụ"
+      ],
+      "last_updated": "2025-07-14",
+      "source": "Báo Điện tử Chính phủ - An Giang: Lựa chọn phát triển cho vị trí đặc biệt, tiềm năng độc đáo; An Giang hướng ra biển lớn, phát triển thành Trung tâm kinh tế biển quốc gia"
+    },
+    "gdp": {
+      "value": {
+        "amount_usd": 10,71% trở lên
+        "year": 2026      },
+      "last_updated": "2026-03-19",
+      "source": "Chưa thấy số GDP/GRDP danh nghĩa quy đổi USD chính thức được công bố riêng cho tỉnh An Giang mới sau sáp nhập"
+    }
+  },
+  "tourism": {
+    "attractions": {
+      "value": [
+        {
+          "name": "Phú Quốc",
+          "type": "du lịch biển đảo",
+          "description": "Trung tâm dịch vụ, du lịch sinh thái chất lượng cao, du lịch biển đảo tầm cỡ quốc gia và quốc tế.",
+          "rating": null
+        },
+        {
+          "name": "Hà Tiên - Kiên Lương - Kiên Hải",
+          "type": "du lịch sinh thái biển đảo, văn hóa, lịch sử",
+          "description": "Cụm điểm đến biển đảo gắn với văn hóa và di tích lịch sử.",
+          "rating": null
+        },
+        {
+          "name": "Miếu Bà Chúa Xứ núi Sam",
+          "type": "du lịch tâm linh",
+          "description": "Điểm tâm linh tiêu biểu của tỉnh, gắn với Lễ hội Vía Bà Chúa Xứ núi Sam.",
+          "rating": null
+        },
+        {
+          "name": "Khu du lịch Núi Cấm",
+          "type": "du lịch sinh thái, tâm linh",
+          "description": "Điểm đến nổi tiếng ở vùng Bảy Núi.",
+          "rating": null
+        },
+        {
+          "name": "Vườn quốc gia U Minh Thượng",
+          "type": "du lịch sinh thái rừng",
+          "description": "Hệ sinh thái rừng đặc sắc, gắn với nghiên cứu khoa học và du lịch sinh thái.",
+          "rating": null
+        },
+        {
+          "name": "Vườn quốc gia Phú Quốc",
+          "type": "du lịch sinh thái rừng, biển đảo",
+          "description": "Khu vực giàu đa dạng sinh học, có vai trò lớn đối với du lịch nghỉ dưỡng và sinh thái.",
+          "rating": null
+        },
+        {
+          "name": "Rừng tràm Trà Sư",
+          "type": "du lịch sinh thái",
+          "description": "Điểm sinh thái ngập nước nổi tiếng của An Giang.",
+          "rating": null
+        },
+        {
+          "name": "Khu di tích khảo cổ Óc Eo - Ba Thê",
+          "type": "di tích khảo cổ, văn hóa",
+          "description": "Khu di tích khảo cổ trọng điểm đang được tỉnh thúc đẩy hồ sơ đề cử Di sản Thế giới.",
+          "rating": null
+        }
+      ],
+      "last_updated": "2026-03-19",
+      "source": "Cổng TTĐT tỉnh An Giang - bài phát triển du lịch; bài về di sản Óc Eo - Ba Thê; Báo Điện tử Chính phủ"
+    },
+    "local_specialties": {
+      "value": [
+        {
+          "name": "mắm Châu Đốc",
+          "type": "đặc sản chế biến thủy sản"
+        },
+        {
+          "name": "sản phẩm thốt nốt vùng Bảy Núi",
+          "type": "đặc sản nông sản - chế biến"
+        },
+        {
+          "name": "cốm dẹp Ô Lâm",
+          "type": "đặc sản truyền thống Khmer"
+        },
+        {
+          "name": "bún quậy Phú Quốc",
+          "type": "đặc sản ẩm thực"
+        },
+        {
+          "name": "nước mắm Phú Quốc",
+          "type": "đặc sản chế biến thủy sản"
+        }
+      ],
+      "last_updated": "2026-03-19",
+      "source": "Cổng TTĐT tỉnh An Giang - chuyên mục Ẩm thực/Đặc sản; Cổng du lịch Phú Quốc"
+    },
+    "culture": {
+      "festivals": {
+        "value": [
+          "Lễ hội Vía Bà Chúa Xứ núi Sam",
+          "Lễ hội Tao đàn Chiêu Anh Các",
+          "Lễ Ok Om Bok của đồng bào Khmer"
+        ],
+        "last_updated": "2026-03-19",
+        "source": "Cổng TTĐT tỉnh An Giang; bài Mùa hẹn Vía Bà; bài về Tao đàn Chiêu Anh Các; bài về cốm dẹp Ô Lâm"
+      },
+      "events": {
+        "value": [
+          "APEC 2027 tại đặc khu Phú Quốc"
+        ],
+        "last_updated": "2026-03-19",
+        "source": "Cổng TTĐT tỉnh An Giang; Cổng TTĐT đặc khu Phú Quốc"
+      }
+    }
+  },
+  "infrastructure": {
+    "airport": {
+      "value": [
+        "Cảng hàng không quốc tế Phú Quốc",
+        "Cảng hàng không Rạch Giá"
+      ],
+      "last_updated": "2026-03-19",
+      "source": "Cổng TTĐT tỉnh An Giang; Báo Điện tử Chính phủ"
+    },
+    "seaport": {
+      "value": [
+        "Rạch Giá",
+        "Hà Tiên",
+        "Vịnh Đầm"
+      ],
+      "last_updated": "2026-03-19",
+      "source": "Báo Điện tử Chính phủ; Cổng TTĐT đặc khu Phú Quốc"
+    },
+    "railway_station": {
+      "value": [],
+      "last_updated": "2026-03-19",
+      "source": "Không thấy tỉnh An Giang mới có ga đường sắt đang vận hành trong các nguồn chính thức đã kiểm tra"
+    },
+    "other_transport": {
+      "value": [
+        "đường bộ ven biển kết nối An Biên - Rạch Giá",
+        "đường kết nối Rạch Giá - Long Xuyên",
+        "cao tốc Châu Đốc - Cần Thơ - Sóc Trăng",
+        "hệ thống đường thủy và cảng phục vụ biển đảo"
+      ],
+      "last_updated": "2026-03-19",
+      "source": "Cổng TTĐT tỉnh An Giang; Báo Điện tử Chính phủ"
+    }
+  },
+  "environment": {
+    "climate": {
+      "type": {
+        "value": "khí hậu nhiệt đới gió mùa, chịu ảnh hưởng của gió mùa Tây Nam và gió mùa Đông Bắc",
+        "last_updated": "2025-12-05",
+        "source": "Cổng TTĐT tỉnh An Giang - mục Điều kiện tự nhiên"
+      },
+      "average_temperature_c": {
+        "value":  khoảng 27°C - 28°C.
+
+
+
+
+        "last_updated": "2026-03-19",
+        "source": "Nguồn chính thức mình kiểm tra mô tả tính chất nhiệt độ nhưng chưa công bố một trị số trung bình năm chuẩn riêng cho tỉnh An Giang mới sau sáp nhập"
+      }
+    },
+    "ecology": {
+      "forests": {
+        "value": [
+          "Vườn quốc gia U Minh Thượng",
+          "Vườn quốc gia Phú Quốc",
+          "rừng tràm Trà Sư"
+        ],
+        "last_updated": "2026-03-19",
+        "source": "Cổng TTĐT tỉnh An Giang; Báo Điện tử Chính phủ"
+      },
+      "sea": {
+        "value": [
+          "vùng biển hơn 63.000 km2",
+          "hơn 140 đảo lớn nhỏ"
+        ],
+        "last_updated": "2026-01-30",
+        "source": "Báo Điện tử Chính phủ - An Giang hướng ra biển lớn, phát triển thành Trung tâm kinh tế biển quốc gia"
+      },
+      "other_resources": {
+        "value": [
+          "tài nguyên biển đảo",
+          "đa dạng sinh học",
+          "nguồn lợi thủy sản",
+          "tài nguyên nông nghiệp đầu nguồn Mekong",
+          "tài nguyên văn hóa - khảo cổ Óc Eo"
+        ],
+        "last_updated": "2026-03-19",
+        "source": "Báo Điện tử Chính phủ; Cổng TTĐT tỉnh An Giang"
+      }
+    }
+  }
+}

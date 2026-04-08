@@ -1,0 +1,349 @@
+﻿{
+  "name": {
+    "value": "Hưng Yên",
+    "last_updated": "2025-07-01",
+    "source": "Nghị quyết 202/2025/QH15, Điều 1, khoản 6; https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-202-2025-QH15-sap-xep-don-vi-hanh-chinh-cap-tinh-648951.aspx"
+  },
+  "administrative_code": {
+    "value": null,
+    "last_updated": "2026-03-19",
+    "source": "Chưa điền vì trong phiên tra cứu này chưa trích xuất được trực tiếp Phụ lục I của Quyết định 19/2025/QĐ-TTg với mã cấp tỉnh của Hưng Yên mới từ nguồn chính thức ở mức đủ chắc chắn. Nguồn văn bản gốc: https://vanban.chinhphu.vn/?docid=214409&pageid=27160"
+  },
+  "former_provinces": {
+    "value": ["Hưng Yên", "Thái Bình"],
+    "description": "Tỉnh Hưng Yên mới được tạo thành từ việc sắp xếp toàn bộ diện tích tự nhiên và quy mô dân số của tỉnh Thái Bình và tỉnh Hưng Yên cũ.",
+    "last_updated": "2025-07-01",
+    "source": "Nghị quyết 202/2025/QH15, Điều 1, khoản 6; https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-202-2025-QH15-sap-xep-don-vi-hanh-chinh-cap-tinh-648951.aspx"
+  },
+
+
+  "location": {
+    "latitude": {
+      "value": null,
+      "last_updated": "2026-03-19",
+      "source": "Chưa điền vì chưa có nguồn công bố chính thức, rõ ràng về tọa độ chuẩn/centroid của tỉnh Hưng Yên mới sau sáp nhập trong các nguồn truy cập được ở phiên này."
+    },
+    "longitude": {
+      "value": null,
+      "last_updated": "2026-03-19",
+      "source": "Chưa điền vì chưa có nguồn công bố chính thức, rõ ràng về tọa độ chuẩn/centroid của tỉnh Hưng Yên mới sau sáp nhập trong các nguồn truy cập được ở phiên này."
+    },
+    "adjacent_areas": {
+      "provinces": {
+        "value": ["Bắc Ninh", "Ninh Bình",”Hà nội”],
+        "last_updated": "2025-07-01",
+        "source": "Nghị quyết 202/2025/QH15, Điều 1, khoản 6; https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-202-2025-QH15-sap-xep-don-vi-hanh-chinh-cap-tinh-648951.aspx"
+      },
+      "countries": {
+        "value": [],
+        "last_updated": "2025-07-01",
+        "source": "Nghị quyết 202/2025/QH15, Điều 1, khoản 6 xác định Hưng Yên mới không giáp quốc gia nào; https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-202-2025-QH15-sap-xep-don-vi-hanh-chinh-cap-tinh-648951.aspx"
+      },
+      "seas": {
+        "value": ["Biển Đông"],
+        "last_updated": "2025-07-01",
+        "source": "Nghị quyết 202/2025/QH15, Điều 1, khoản 6; https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-202-2025-QH15-sap-xep-don-vi-hanh-chinh-cap-tinh-648951.aspx"
+      }
+    }
+  },
+
+
+  "area": {
+    "total_km2": {
+      "value": 2514.81,
+      "last_updated": "2025-07-01",
+      "source": "Nghị quyết 202/2025/QH15, Điều 1, khoản 6; https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-202-2025-QH15-sap-xep-don-vi-hanh-chinh-cap-tinh-648951.aspx"
+    }
+  },
+
+
+  "administrative_structure": {
+    "wards_communes_count": {
+      "value": 104,
+      "last_updated": "2025-06-16",
+      "source": "Nghị quyết 1666/NQ-UBTVQH15; https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-quyet-so-1666-nq-ubtvqh15-sap-xep-cac-dvhc-cap-xa-cua-tinh-hung-yen-nam-2025-119250616195158879.htm"
+    },
+    "wards_communes_list": {
+      "value": [
+        "Tân Hưng",
+        "Hoàng Hoa Thám",
+        "Tiên Lữ",
+        "Tiên Hoa",
+        "Quang Hưng",
+        "Đoàn Đào",
+        "Tiên Tiến",
+        "Tống Trân",
+        "Lương Bằng",
+        "Nghĩa Dân",
+        "Hiệp Cường",
+        "Đức Hợp",
+        "Ân Thi",
+        "Xuân Trúc",
+        "Phạm Ngũ Lão",
+        "Nguyễn Trãi",
+        "Hồng Quang",
+        "Khoái Châu",
+        "Triệu Việt Vương",
+        "Việt Tiến",
+        "Chí Minh",
+        "Châu Ninh",
+        "Yên Mỹ",
+        "Việt Yên",
+        "Hoàn Long",
+        "Nguyễn Văn Linh",
+        "Như Quỳnh",
+        "Lạc Đạo",
+        "Đại Đồng",
+        "Nghĩa Trụ",
+        "Phụng Công",
+        "Văn Giang",
+        "Mễ Sở",
+        "Thái Thụy",
+        "Đông Thụy Anh",
+        "Bắc Thụy Anh",
+        "Thụy Anh",
+        "Nam Thụy Anh",
+        "Bắc Thái Ninh",
+        "Thái Ninh",
+        "Đông Thái Ninh",
+        "Nam Thái Ninh",
+        "Tây Thái Ninh",
+        "Tây Thụy Anh",
+        "Tiền Hải",
+        "Tây Tiền Hải",
+        "Ái Quốc",
+        "Đồng Châu",
+        "Đông Tiền Hải",
+        "Nam Cường",
+        "Hưng Phú",
+        "Nam Tiền Hải",
+        "Đông Hưng",
+        "Bắc Tiên Hưng",
+        "Đông Tiên Hưng",
+        "Nam Đông Hưng",
+        "Bắc Đông Quan",
+        "Bắc Đông Hưng",
+        "Đông Quan",
+        "Nam Tiên Hưng",
+        "Tiên Hưng",
+        "Quỳnh Phụ",
+        "Minh Thọ",
+        "Nguyễn Du",
+        "Quỳnh An",
+        "Ngọc Lâm",
+        "Đồng Bằng",
+        "A Sào",
+        "Phụ Dực",
+        "Tân Tiến",
+        "Hưng Hà",
+        "Tiên La",
+        "Lê Quý Đôn",
+        "Hồng Minh",
+        "Thần Khê",
+        "Diên Hà",
+        "Ngự Thiên",
+        "Long Hưng",
+        "Kiến Xương",
+        "Lê Lợi",
+        "Quang Lịch",
+        "Vũ Quý",
+        "Bình Thanh",
+        "Bình Định",
+        "Hồng Vũ",
+        "Bình Nguyên",
+        "Trà Giang",
+        "Vũ Thư",
+        "Thư Trì",
+        "Tân Thuận",
+        "Thư Vũ",
+        "Vũ Tiên",
+        "Vạn Xuân",
+        "Phố Hiến",
+        "Sơn Nam",
+        "Hồng Châu",
+        "Mỹ Hào",
+        "Đường Hào",
+        "Thượng Hồng",
+        "Thái Bình",
+        "Trần Lãm",
+        "Trần Hưng Đạo",
+        "Trà Lý",
+        "Vũ Phúc"
+      ],
+      "last_updated": "2025-06-16",
+      "source": "Danh sách tổng hợp theo Điều 1 Nghị quyết 1666/NQ-UBTVQH15; nguồn truy xuất đầy đủ: https://thuvienphapluat.vn/hoi-dap-phap-luat/danh-sach-ten-104-xa-phuong-tinh-hung-yen-sau-sap-nhap-tinh-2025-chi-tiet-the-nao-138053911.html và bản gốc nghị quyết: https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-quyet-so-1666-nq-ubtvqh15-sap-xep-cac-dvhc-cap-xa-cua-tinh-hung-yen-nam-2025-119250616195158879.htm"
+    }
+  },
+
+
+  "population": {
+    "total": {
+      "value": 3567943,
+      "last_updated": "2025-07-01",
+      "source": "Nghị quyết 202/2025/QH15, Điều 1, khoản 6; https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-202-2025-QH15-sap-xep-don-vi-hanh-chinh-cap-tinh-648951.aspx"
+    },
+    "density_per_km2": {
+      "value": 1418.77,
+      "last_updated": "2025-07-01",
+      "source": "Tính từ dân số 3.567.943 người và diện tích 2.514,81 km2 theo Nghị quyết 202/2025/QH15; nguồn gốc số liệu: https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-202-2025-QH15-sap-xep-don-vi-hanh-chinh-cap-tinh-648951.aspx"
+    },
+    "ethnic_groups": {
+      "value": [],
+      "last_updated": "2026-03-19",
+      "source": "Chưa điền tỷ trọng phần trăm vì chưa có bảng cơ cấu dân tộc chính thức của tỉnh Hưng Yên mới sau sáp nhập được công bố trong nguồn truy cập được ở phiên này."
+    }
+  },
+
+
+  "economy": {
+    "scale": {
+      "value": "Tỉnh thuộc vùng đồng bằng sông Hồng, phát triển theo hướng công nghiệp - dịch vụ - nông nghiệp công nghệ cao; không gian công nghiệp mở rộng với khu kinh tế, khu công nghiệp và cụm công nghiệp.",
+      "last_updated": "2025-06-30",
+      "source": "Cổng thông tin tỉnh Hưng Yên và Cổng thông tin đại biểu nhân dân tỉnh Hưng Yên; https://hungyen.gov.vn/loi-gioi-thieu-ve-tinh-hung-yen-c29235.html ; https://ddbqhhdnd.hungyen.gov.vn/dia-phuong/dau-an-hung-yen.html"
+    },
+    "main_sectors": {
+      "value": ["Công nghiệp", "Dịch vụ", "Nông nghiệp công nghệ cao"],
+      "last_updated": "2025-06-30",
+      "source": "Tổng hợp từ giới thiệu chính thức và bài viết 'Dấu ấn Hưng Yên'; https://hungyen.gov.vn/loi-gioi-thieu-ve-tinh-hung-yen-c29235.html ; https://ddbqhhdnd.hungyen.gov.vn/dia-phuong/dau-an-hung-yen.html"
+    },
+    "gdp": {
+      "value": {
+        "amount_usd": null,
+        "year": null
+      },
+      "last_updated": "2026-03-19",
+      "source": "Chưa điền vì chưa có chỉ tiêu GDP/GRDP theo USD được công bố chính thức cho tỉnh Hưng Yên mới sau sáp nhập trong nguồn truy cập được ở phiên này."
+    }
+  },
+
+
+  "tourism": {
+    "attractions": {
+      "value": [
+        {
+          "name": "Khu di tích quốc gia đặc biệt Phố Hiến",
+          "type": "Di tích lịch sử - văn hóa",
+          "description": "Điểm du lịch văn hóa tiêu biểu của Hưng Yên, được tỉnh tổ chức tour tham quan chính thức.",
+          "rating": null
+        },
+        {
+          "name": "Di tích quốc gia đặc biệt Chùa Keo",
+          "type": "Di tích tôn giáo - kiến trúc",
+          "description": "Di tích quốc gia đặc biệt tại xã Vũ Tiên, nổi bật về giá trị lịch sử, kiến trúc và tâm linh.",
+          "rating": null
+        },
+        {
+          "name": "Khu lăng mộ và đền thờ các vị vua triều Trần",
+          "type": "Di tích lịch sử quốc gia đặc biệt",
+          "description": "Di tích gắn với đất phát tích vương triều Trần, là địa điểm tổ chức Lễ hội đền Trần cấp tỉnh.",
+          "rating": null
+        }
+      ],
+      "last_updated": "2026-03-19",
+      "source": "Cổng du lịch tỉnh Hưng Yên; https://dulich.hungyen.gov.vn/vi/home ; https://dulich.hungyen.gov.vn/en/home ; https://dulich.hungyen.gov.vn/vi/detailnews/?id=news_4023&t=khai-mac-le-hoi-den-tran-tinh-hung-yen-nam-2026- ; https://vuthu.hungyen.gov.vn/kham-pha-di-tich-quoc-gia-dac-biet-chua-keo-hung-yen-gia-tri-lich-su-kien-truc-va-tam-linh-ngan-nam--c2375.html"
+    },
+    "local_specialties": {
+      "value": [
+        {
+          "name": "Nhãn lồng Hưng Yên",
+          "type": "Trái cây đặc sản"
+        },
+        {
+          "name": "Bánh cáy",
+          "type": "Bánh truyền thống"
+        },
+        {
+          "name": "Canh cá",
+          "type": "Món ăn địa phương"
+        }
+      ],
+      "last_updated": "2026-03-19",
+      "source": "Cổng du lịch tỉnh Hưng Yên; https://dulich.hungyen.gov.vn/vi/restaurants ; https://dulich.hungyen.gov.vn/vi/detailrestaurant/?id=2121 ; https://dulich.hungyen.gov.vn/vi/detailrestaurant/?id=1932"
+    },
+    "culture": {
+      "festivals": {
+        "value": [
+          "Lễ hội đền Trần",
+          "Lễ hội chùa Keo",
+          "Lễ hội đền Phù Ủng",
+          "Lễ hội đền, chùa Phượng Vũ",
+          "Lễ hội A Sào",
+          "Lễ hội đền Tiên La",
+          "Lễ hội đền Đồng Bằng"
+        ],
+        "last_updated": "2026-03-19",
+        "source": "Cổng du lịch tỉnh Hưng Yên; https://dulich.hungyen.gov.vn/en/home ; https://dulich.hungyen.gov.vn/vi/detailnews/?id=news_4023&t=khai-mac-le-hoi-den-tran-tinh-hung-yen-nam-2026- ; https://dulich.hungyen.gov.vn/vi/detailevents/?id=event_386 ; https://hungyen.gov.vn/le-hoi-chua-keo-mua-thu-nam-2025-c283522.html"
+      },
+      "events": {
+        "value": [
+          "Tour du lịch Phố Hiến xuân 2026",
+          "Hội báo Xuân và Không gian Chợ Tết Việt năm 2026",
+          "Giao lưu các câu lạc bộ chèo tại lễ hội đền Trần"
+        ],
+        "last_updated": "2026-03-19",
+        "source": "Cổng du lịch tỉnh Hưng Yên; https://dulich.hungyen.gov.vn/en/home ; https://dulich.hungyen.gov.vn/vi/detailevents/?id=event_810"
+      }
+    }
+  },
+
+
+  "infrastructure": {
+    "airport": {
+      "value": [],
+      "last_updated": "2026-03-19",
+      "source": "Trong các nguồn chính thức truy cập được ở phiên này, chưa ghi nhận sân bay dân dụng đặt trên địa bàn tỉnh Hưng Yên mới."
+    },
+    "seaport": {
+      "value": ["Cảng Diêm Điền"],
+      "last_updated": "2026-03-19",
+      "source": "Nguồn tham chiếu về cửa khẩu cảng Diêm Điền và khu vực cảng Diêm Điền trên cổng thông tin tỉnh Thái Bình cũ; https://www.thaibinh.gov.vn/tin-tuc-su-kien/tin-tong-hop/don-bien-phong-cua-khau-cang-diem-dien-day-manh-phong-trao-t.html ; https://www.thaibinh.gov.vn/tin-tuc-su-kien/tin-tong-hop/uy-ban-nhan-dan-tinh-nghe-va-cho-y-kien-ve-mot-so-noi-dung-q5.html"
+    },
+    "railway_station": {
+      "value": [],
+      "last_updated": "2026-03-19",
+      "source": "Chưa ghi nhận ga đường sắt quốc gia nằm trong địa bàn tỉnh Hưng Yên mới từ các nguồn chính thức truy cập được ở phiên này."
+    },
+    "other_transport": {
+      "value": [
+        "Đường Vành đai 4 - Vùng Thủ đô Hà Nội (đoạn qua Hưng Yên)",
+        "Các trục đường bộ kết nối liên tỉnh giữa không gian Hưng Yên - Thái Bình",
+        "Du lịch đường thủy trên sông Hồng về Phố Hiến"
+      ],
+      "last_updated": "2026-03-19",
+      "source": "Cổng thông tin đại biểu nhân dân tỉnh Hưng Yên và Cổng du lịch tỉnh Hưng Yên; https://ddbqhhdnd.hungyen.gov.vn/dia-phuong/bai-2-ha-tang-giao-thong-ket-noi-vung-loi-the-cho-khong-gian-phat-trien-moi.html ; https://dulich.hungyen.gov.vn/"
+    }
+  },
+
+
+  "environment": {
+    "climate": {
+      "type": {
+        "value": "Nhiệt đới gió mùa, đặc trưng đồng bằng sông Hồng",
+        "last_updated": "2026-03-19",
+        "source": "Mô tả tổng hợp thận trọng theo vị trí địa lý chính thức của tỉnh trong vùng đồng bằng sông Hồng và hệ thống khí tượng quốc gia; https://hungyen.gov.vn/loi-gioi-thieu-ve-tinh-hung-yen-c29235.html ; https://nchmf.gov.vn/Kttvsite/vi-VN/1/hung-yen-w33.html"
+      },
+      "average_temperature_c": {
+        "value": null,
+        "last_updated": "2026-03-19",
+        "source": "Chưa điền vì chưa truy xuất được chỉ tiêu nhiệt độ trung bình năm của toàn tỉnh Hưng Yên mới từ nguồn công bố chính thức đủ rõ ràng trong phiên này."
+      }
+    },
+    "ecology": {
+      "forests": {
+        "value": [],
+        "last_updated": "2026-03-19",
+        "source": "Chưa truy xuất được danh mục khu rừng tiêu biểu cấp tỉnh mới từ nguồn chính thức trong phiên này; địa hình tỉnh chủ yếu là đồng bằng."
+      },
+      "sea": {
+        "value": ["Biển Đông", "Vùng biển ven bờ khu vực Thái Thụy - Tiền Hải"],
+        "last_updated": "2026-03-19",
+        "source": "Nghị quyết 202/2025/QH15 xác định tỉnh giáp Biển Đông; hệ thống dự báo biển tỉnh Hưng Yên mới tại Đài KTTV tỉnh Hưng Yên; https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-202-2025-QH15-sap-xep-don-vi-hanh-chinh-cap-tinh-648951.aspx ; https://kttv.hungyen.gov.vn/"
+      },
+      "other_resources": {
+        "value": ["Đất phù sa đồng bằng", "Tài nguyên sông nước vùng sông Hồng"],
+        "last_updated": "2026-03-19",
+        "source": "Mô tả tổng hợp thận trọng từ đặc điểm địa lý chính thức và hoạt động du lịch đường thủy Phố Hiến; https://hungyen.gov.vn/loi-gioi-thieu-ve-tinh-hung-yen-c29235.html ; https://dulich.hungyen.gov.vn/"
+      }
+    }
+  }
+}

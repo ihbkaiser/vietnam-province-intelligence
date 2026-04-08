@@ -1,0 +1,257 @@
+﻿{
+  "name": {
+    "value": "Ninh Bình",
+    "last_updated": "2025-06-12",
+    "source": "Nghị quyết số 202/2025/QH15; Đề án hợp nhất tỉnh Hà Nam, Ninh Bình và Nam Định thành tỉnh Ninh Bình"
+  },
+  "administrative_code": {
+    "value": "37",
+    "last_updated": "2025-06-12",
+    "source": "Tổng cục thống kê- Danh mục mã đơn vị hành chính Việt Nam"
+  },
+  "former_provinces": {
+    "value": ["Hà Nam", "Nam Định", "Ninh Bình"],
+    "description": "Tỉnh Ninh Bình mới được thành lập trên cơ sở hợp nhất 03 tỉnh Hà Nam, Nam Định và Ninh Bình; trung tâm chính trị - hành chính đặt tại Hoa Lư.",
+    "last_updated": "2025-04-26",
+    "source": "Báo Ninh Bình - Tóm tắt Đề án hợp nhất tỉnh Hà Nam, tỉnh Ninh Bình và tỉnh Nam Định thành tỉnh Ninh Bình"
+  },
+
+
+  "location": {
+    "latitude": {
+      "value": 20.25,
+      "last_updated": "2026-03-22",
+      "source": "Tọa độ trung tâm hành chính mới tại Hoa Lư"
+    },
+    "longitude": {
+      "value": 105.97,
+      "last_updated": "2026-03-22",
+      "source": "Tọa độ trung tâm hành chính mới tại Hoa Lư"
+    },
+    "adjacent_areas": {
+      "provinces": {
+        "value": ["Hà Nội", "Hưng Yên", "Thái Bình", "Hòa Bình", "Thanh Hóa", "Hải Phòng"
+],
+        "last_updated": "2025-06-12",
+        "source": "Nghị quyết 202/2025/QH15"
+      },
+      "countries": {
+        "value": [],
+        "last_updated": "2025-06-12",
+        "source": "Không giáp biên giới quốc tế"
+      },
+      "seas": {
+        "value": [ "Vịnh Bắc Bộ"],
+        "last_updated": "2025-08-14",
+        "source":  "Nghị quyết số 202/2025/QH15; Quy hoạch không gian biển tỉnh Ninh Bình giai đoạn 2021-2030"      
+    }
+  },
+
+
+  "area": {
+    "total_km2": {
+      "value": 3942.6,
+      "last_updated": "2026-01-01",
+      "source": "Nghị quyết số 202/2025/QH15; Niên giám thống kê tỉnh Ninh Bình năm 2026 "
+    }
+  },
+
+
+  "administrative_structure": {
+    "wards_communes_count": {
+      "value": 129,
+      "last_updated": "2025-06-16",
+      "source": "Nghị quyết số 1674/NQ-UBTVQH15; Cổng thông tin điện tử tỉnh Ninh Bình"
+    },
+    "wards_communes_list": {
+      "value": [
+        "Bình Lục", "Bình Mỹ", "Bình An", "Bình Giang", "Bình Sơn", "Liêm Hà", "Tân Thanh", "Thanh Bình", "Thanh Lâm", "Thanh Liêm",
+        "Lý Nhân", "Nam Xang", "Bắc Lý", "Vĩnh Trụ", "Trần Thương", "Nhân Hà", "Nam Lý", "Nam Trực", "Nam Minh", "Nam Đồng",
+        "Nam Ninh", "Nam Hồng", "Minh Tân", "Hiển Khánh", "Vụ Bản", "Liên Minh", "Ý Yên", "Yên Đồng", "Yên Cường", "Vạn Thắng",
+        "Vũ Dương", "Tân Minh", "Phong Doanh", "Cổ Lễ", "Ninh Giang", "Cát Thành", "Trực Ninh", "Quang Hưng", "Minh Thái", "Ninh Cường",
+        "Xuân Trường", "Xuân Hưng", "Xuân Giang", "Xuân Hồng", "Hải Hậu", "Hải Anh", "Hải Tiến", "Hải Hưng", "Hải An", "Hải Quang",
+        "Hải Xuân", "Hải Thịnh", "Giao Minh", "Giao Hòa", "Giao Thủy", "Giao Phúc", "Giao Hưng", "Giao Bình", "Giao Ninh", "Đồng Thịnh",
+        "Nghĩa Hưng", "Nghĩa Sơn", "Hồng Phong", "Quỹ Nhất", "Nghĩa Lâm", "Rạng Đông", "Gia Viễn", "Đại Hoàng", "Gia Hưng", "Gia Phong",
+        "Gia Vân", "Gia Trấn", "Nho Quan", "Gia Lâm", "Gia Tường", "Phú Sơn", "Cúc Phương", "Phú Long", "Thanh Sơn", "Quỳnh Lưu",
+        "Yên Khánh", "Khánh Nhạc", "Khánh Thiện", "Khánh Hội", "Khánh Trung", "Yên Mô", "Yên Từ", "Yên Mạc", "Đồng Thái", "Chất Bình",
+        "Kim Sơn", "Quang Thiện", "Phát Diệm", "Lai Thành", "Định Hóa", "Bình Minh", "Kim Đông",
+        "Duy Tiên", "Duy Tân", "Đồng Văn", "Duy Hà", "Tiên Sơn", "Lê Hồ", "Nguyễn Úy", "Lý Thường Kiệt", "Kim Thanh", "Tam Chúc",
+        "Kim Bảng", "Hà Nam", "Phù Vân", "Châu Sơn", "Phủ Lý", "Liêm Tuyền", "Nam Định", "Thiên Trường", "Đông A", "Vị Khê",
+        "Thành Nam", "Trường Thi", "Hồng Quang", "Mỹ Lộc", "Tây Hoa Lư", "Hoa Lư", "Nam Hoa Lư", "Đông Hoa Lư", "Tam Điệp", "Yên Sơn",
+        "Trung Sơn", "Yên Thắng"
+      ],
+      "last_updated": "2025-07-01",
+      "source": "Cổng thông tin điện tử tỉnh Ninh Bình - 129 đơn vị hành chính cấp xã của tỉnh Ninh Bình sau sắp xếp, sáp nhập"
+    }
+  },
+
+
+  "population": {
+    "total": {
+      "value": 4412264,
+      "last_updated": "2025-04-26",
+      "source": "Báo Ninh Bình - Tóm tắt Đề án hợp nhất tỉnh Hà Nam, tỉnh Ninh Bình và tỉnh Nam Định thành tỉnh Ninh Bình"
+    },
+    "density_per_km2": {
+      "value": 1119.13,
+      "last_updated": "2025-04-26",
+      "source": "Tính từ dân số 4.412.264 người và diện tích 3.942,6 km² trong Đề án hợp nhất"
+    },
+    "ethnic_groups": {
+      "value": [],
+      "last_updated": null,
+      "source": null
+    }
+  },
+
+
+  "economy": {
+    "scale": {
+      "value": "Quy mô nền kinh tế năm 2025 ước đạt 342.812 tỷ đồng; GRDP theo giá so sánh 2010 ước đạt 187.794 tỷ đồng.",
+      "last_updated": "2026-01-05",
+      "source": "Báo Ninh Bình - Họp báo công bố số liệu thống kê kinh tế-xã hội tỉnh Ninh Bình năm 2025"
+    },
+    "main_sectors": {
+      "value": ["Nông, lâm nghiệp và thủy sản", "Công nghiệp và xây dựng", "Dịch vụ"],
+      "last_updated": "2026-01-05",
+      "source": "Báo Ninh Bình - Họp báo công bố số liệu thống kê kinh tế-xã hội tỉnh Ninh Bình năm 2025"
+    },
+    "gdp": {
+      "value": {
+        "amount_usd": null,
+        "year": 2025
+      },
+      "last_updated": null,
+      "source": null
+    }
+  },
+
+
+  "tourism": {
+    "attractions": {
+      "value": [
+        {
+          "name": "Quần thể danh thắng Tràng An",
+          "type": "Di sản văn hóa và thiên nhiên thế giới",
+          "description": "Di sản hỗn hợp đầu tiên của Việt Nam và Đông Nam Á, là tài nguyên du lịch tiêu biểu nhất của tỉnh.",
+          "rating": null
+        },
+        {
+          "name": "Tam Cốc - Bích Động",
+          "type": "Khu du lịch sinh thái - thắng cảnh",
+          "description": "Danh thắng nổi tiếng với tuyến du thuyền trên sông Ngô Đồng, được mệnh danh là “Nam thiên đệ nhị động”.",
+          "rating": null
+        },
+        {
+          "name": "Chùa Bái Đính",
+          "type": "Du lịch văn hóa - tâm linh",
+          "description": "Quần thể chùa lớn, nằm trong Tràng An, nổi bật với nhiều kỷ lục kiến trúc Phật giáo quy mô lớn.",
+          "rating": null
+        },
+        {
+          "name": "Khu du lịch Tam Chúc",
+          "type": "Khu du lịch văn hóa - tâm linh - sinh thái",
+          "description": "Một trong 47 địa điểm tiềm năng phát triển thành khu du lịch quốc gia, vùng lõi khoảng 4.000 ha.",
+          "rating": null
+        },
+        {
+          "name": "Đền Trần - Chùa Phổ Minh",
+          "type": "Di tích quốc gia đặc biệt",
+          "description": "Quần thể di tích tiêu biểu của văn hóa thời Trần, tọa lạc tại phường Nam Định.",
+          "rating": null
+        },
+        {
+          "name": "Vườn quốc gia Cúc Phương",
+          "type": "Vườn quốc gia",
+          "description": "Vườn quốc gia đầu tiên của Việt Nam, có hệ sinh thái rừng đặc dụng và đa dạng sinh học cao.",
+          "rating": null
+        }
+      ],
+      "last_updated": "2025-08-15",
+      "source": "Sở Du lịch Ninh Bình - Tổng quan Du lịch Ninh Bình; các trang giới thiệu điểm đến"
+    },
+    "local_specialties": {
+      "value": [
+        { "name": "Dê núi Ninh Bình", "type": "Món ăn đặc sản" },
+        { "name": "Cơm cháy Ninh Bình", "type": "Món ăn đặc sản" },
+        { "name": "Nem chua Yên Mạc", "type": "Món ăn đặc sản" },
+        { "name": "Mắm tép Gia Viễn", "type": "Đặc sản" },
+        { "name": "Rượu Kim Sơn", "type": "Đồ uống đặc sản" },
+        { "name": "Nem nắm Giao Thủy", "type": "Món ăn đặc sản" },
+        { "name": "Bánh cuốn Phủ Lý", "type": "Món ăn đặc sản" },
+        { "name": "Phở Vân Cù", "type": "Món ăn đặc sản" }
+      ],
+      "last_updated": "2026-03-17",
+      "source": "Sở Du lịch Ninh Bình - chuyên mục Ẩm thực Ninh Bình và các bài giới thiệu ẩm thực địa phương"
+    },
+    "culture": {
+      "festivals": {
+        "value": ["Lễ hội Hoa Lư", "Lễ hội Khai ấn Đền Trần", "Khai hội Xuân Tam Chúc"],
+        "last_updated": "2026-03-03",
+        "source": "Sở Du lịch Ninh Bình - các bài về Lễ hội Hoa Lư, Khai ấn Đền Trần, Xuân Tam Chúc"
+      },
+      "events": {
+        "value": ["Tuần du lịch Ninh Bình 2025 - Sắc vàng Tam Cốc – Tràng An"],
+        "last_updated": "2025-05-23",
+        "source": "Sở Du lịch Ninh Bình - Tuần du lịch Ninh Bình năm 2025"
+      }
+    }
+  },
+
+
+  "infrastructure": {
+    "airport": {
+      "value": [],
+      "last_updated": "2026-03-19",
+      "source": "Chưa thấy nguồn công khai chính thức xác nhận sân bay đang khai thác trong địa giới tỉnh Ninh Bình mới; quy hoạch chỉ nêu định hướng xây dựng cảng hàng không quốc tế"
+    },
+    "seaport": {
+      "value": [],
+      "last_updated": "2026-03-19",
+      "source": "Chưa thấy danh mục công khai chính thức, thống nhất ở cấp tỉnh mới để điền chính xác theo yêu cầu này"
+    },
+    "railway_station": {
+      "value": ["Ga Phủ Lý", "Ga Nam Định", "Ga Ninh Bình"],
+      "last_updated": "2026-03-19",
+      "source": "Các quy hoạch/gợi dẫn hạ tầng giao thông và mạng đường sắt hiện hữu trong khu vực tỉnh Ninh Bình mới"
+    },
+    "other_transport": {
+      "value": ["Quốc lộ 1A", "Quốc lộ 10", "đường sắt Bắc - Nam", "đường thủy nội địa", "đường biển"],
+      "last_updated": "2025-08-14",
+      "source": "Cổng thông tin điện tử tỉnh Ninh Bình - Điều kiện tự nhiên; Sở Du lịch Ninh Bình - Tổng quan Du lịch Ninh Bình"
+    }
+  },
+
+
+  "environment": {
+    "climate": {
+      "type": {
+        "value": "Nhiệt đới gió mùa",
+        "last_updated": "2026-03-17",
+        "source": "Cổng thông tin điện tử tỉnh Ninh Bình - Điều kiện tự nhiên"
+      },
+      "average_temperature_c": {
+        "value": 23,
+        "last_updated": "2026-03-17",
+        "source": "Cổng thông tin điện tử tỉnh Ninh Bình - Điều kiện tự nhiên"
+      }
+    },
+    "ecology": {
+      "forests": {
+        "value": ["Vườn quốc gia Cúc Phương", "Vườn quốc gia Xuân Thủy", "rừng ngập mặn Kim Sơn"],
+        "last_updated": "2025-09-10",
+        "source": "Sở Du lịch Ninh Bình - Tổng quan Du lịch Ninh Bình; Vườn quốc gia Cúc Phương; Vườn quốc gia Xuân Thủy"
+      },
+      "sea": {
+        "value": ["Vùng ven biển Kim Sơn", "Cửa Ba Lạt", "Biển Thịnh Long", "Biển Rạng Đông"],
+        "last_updated": "2026-02-01",
+        "source": "Sở Du lịch Ninh Bình - Tổng quan Du lịch Ninh Bình; Cửa Ba Lạt - Nơi con sông Hồng chảy về với biển"
+      },
+      "other_resources": {
+        "value": ["núi đá vôi Tràng An - Tam Cốc", "đất ngập nước Vân Long", "suối khoáng nóng Kênh Gà"],
+        "last_updated": "2025-08-14",
+        "source": "Sở Du lịch Ninh Bình - Tổng quan Du lịch Ninh Bình"
+      }
+    }
+  }
+}

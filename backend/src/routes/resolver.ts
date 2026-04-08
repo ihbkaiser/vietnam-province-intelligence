@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { MockReverseGeocodeProvider } from '../services/reverseGeocode/mockProvider.js';
+import { NominatimReverseGeocodeProvider } from '../services/reverseGeocode/nominatimProvider.js';
 import { OpenMapReverseGeocodeProvider } from '../services/reverseGeocode/openMapProvider.js';
 import { resolveAdminUnit } from '../services/resolver/resolveAdminUnit.js';
 import type { ReverseGeocodeProvider } from '../services/reverseGeocode/provider.js';
@@ -32,13 +32,13 @@ class FallbackReverseGeocodeProvider implements ReverseGeocodeProvider {
   }
 }
 
-const mockProvider = new MockReverseGeocodeProvider();
-const provider = process.env.OPENMAP_API_KEY
+const nominatimProvider = new NominatimReverseGeocodeProvider();
+const provider: ReverseGeocodeProvider = process.env.OPENMAP_API_KEY
   ? new FallbackReverseGeocodeProvider(
       new OpenMapReverseGeocodeProvider({ apiKey: process.env.OPENMAP_API_KEY }),
-      mockProvider
+      nominatimProvider
     )
-  : mockProvider;
+  : nominatimProvider;
 
 export const resolverRouter = Router();
 

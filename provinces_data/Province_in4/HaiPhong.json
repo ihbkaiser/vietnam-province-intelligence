@@ -1,0 +1,404 @@
+﻿{
+  "name": {
+    "value": "Thành phố Hải Phòng",
+    "last_updated": "2025-07-01",
+    "source": "Nghị quyết 202/2025/QH15"
+  },
+  "administrative_code": {
+    "value": 31,
+    "last_updated": "2026-03-22",
+    "source": "Tổng hợp đơn vị hành chính cấp xấu sáp nhập"
+  },
+  "former_provinces": {
+    "value": [
+      "Thành phố Hải Phòng",
+      "Tỉnh Hải Dương"
+    ],
+    "description": "Thành phố Hải Phòng mới được hình thành trên cơ sở sắp xếp toàn bộ diện tích tự nhiên và quy mô dân số của thành phố Hải Phòng và tỉnh Hải Dương.",
+    "last_updated": "2025-06-12",
+    "source": "Nghị quyết 202/2025/QH15"
+  },
+  "location": {
+    "latitude": {
+      "value": 20.9405,
+      "last_updated": "2026-03-22",
+      "source": "Tọa độ trung tâm hành chính Thành phố Hải Phòng mới "
+    },
+    "longitude": {
+      "value": 106.4525,
+      "last_updated": "2026-03-22",
+      "source": "Tọa độ trung tâm hành chính Thành phố Hải Phòng mới "
+    },
+    "adjacent_areas": {
+      "provinces": {
+        "value": [
+          "Bắc Ninh",
+          "Hưng Yên",
+          "Quảng Ninh"
+          "Thái Bình"
+
+
+        ],
+        "last_updated": "2025-06-12",
+        "source": "Nghị quyết 202/2025/QH15"
+      },
+      "countries": {
+        "value": [],
+        "last_updated": "2025-06-12",
+        "source": "Thành phố ven biển,không giáp biên giới đất liền quốc tế"
+      },
+      "seas": {
+        "value": ["Vịnh Bắc Bộ"),
+          "Biển Đông"
+        ],
+        "last_updated": "2025-03-22",
+        "source": "Cổng thông tin điện tử Thành Phố Hải Phòng"
+      }
+    }
+  },
+  "area": {
+    "total_km2": {
+      "value": 3194.72,
+      "last_updated": "2025-06-12",
+      "source": "Nghị quyết 202/2025/QH15 của quốc hội về việc thành lập TP Hải Phòng mới"
+    }
+  },
+  "administrative_structure": {
+    "wards_communes_count": {
+      "value": 114,
+      "last_updated": "2025-07-01",
+      "source": "Nghị quyết sô 1669/NQ-UBTVQH15 về sắp xếp đơn vị hành chính cấp xã của TP Hải Phòng mới "
+    },
+    "wards_communes_list": {
+      "value": [
+        "Thủy Nguyên",
+        "Thiên Hương",
+        "Hòa Bình",
+        "Nam Triệu",
+        "Bạch Đằng",
+        "Lưu Kiếm",
+        "Lê Ích Mộc",
+        "Hồng Bàng",
+        "Hồng An",
+        "Ngô Quyền",
+        "Gia Viên",
+        "Lê Chân",
+        "An Biên",
+        "Hải An",
+        "Đông Hải",
+        "Kiến An",
+        "Phù Liễn",
+        "Nam Đồ Sơn",
+        "Đồ Sơn",
+        "Hưng Đạo",
+        "Dương Kinh",
+        "An Dương",
+        "An Hải",
+        "An Phong",
+        "Hải Dương",
+        "Lê Thanh Nghị",
+        "Việt Hòa",
+        "Thành Đông",
+        "Nam Đồng",
+        "Tân Hưng",
+        "Thạch Khôi",
+        "Tứ Minh",
+        "Ái Quốc",
+        "Chu Văn An",
+        "Chí Linh",
+        "Trần Hưng Đạo",
+        "Nguyễn Trãi",
+        "Trần Nhân Tông",
+        "Lê Đại Hành",
+        "Kinh Môn",
+        "Nguyễn Đại Năng",
+        "Trần Liễu",
+        "Bắc An Phụ",
+        "Phạm Sư Mạnh",
+        "Nhị Chiểu",
+        "An Hưng",
+        "An Khánh",
+        "An Quang",
+        "An Trường",
+        "An Lão",
+        "Kiến Thụy",
+        "Kiến Minh",
+        "Kiến Hải",
+        "Kiến Hưng",
+        "Nghi Dương",
+        "Quyết Thắng",
+        "Tiên Lãng",
+        "Tân Minh",
+        "Tiên Minh",
+        "Chấn Hưng",
+        "Hùng Thắng",
+        "Vĩnh Bảo",
+        "Nguyễn Bỉnh Khiêm",
+        "Vĩnh Am",
+        "Vĩnh Hải",
+        "Vĩnh Hòa",
+        "Vĩnh Thịnh",
+        "Vĩnh Thuận",
+        "Việt Khê",
+        "Nam An Phụ",
+        "Nam Sách",
+        "Thái Tân",
+        "Trần Phú",
+        "Hợp Tiến",
+        "An Phú",
+        "Thanh Hà",
+        "Hà Tây",
+        "Hà Bắc",
+        "Hà Nam",
+        "Hà Đông",
+        "Mao Điền",
+        "Cẩm Giàng",
+        "Cẩm Giang",
+        "Tuệ Tĩnh",
+        "Kẻ Sặt",
+        "Bình Giang",
+        "Đường An",
+        "Thượng Hồng",
+        "Gia Lộc",
+        "Yết Kiêu",
+        "Gia Phúc",
+        "Trường Tân",
+        "Tứ Kỳ",
+        "Tân Kỳ",
+        "Đại Sơn",
+        "Chí Minh",
+        "Lạc Phượng",
+        "Nguyên Giáp",
+        "Ninh Giang",
+        "Vĩnh Lại",
+        "Khúc Thừa Dụ",
+        "Tân An",
+        "Hồng Châu",
+        "Thanh Miện",
+        "Bắc Thanh Miện",
+        "Hải Hưng",
+        "Nguyễn Lương Bằng",
+        "Nam Thanh Miện",
+        "Phú Thái",
+        "Lai Khê",
+        "An Thành",
+        "Kim Thành",
+        "Đặc khu Cát Hải",
+        "Đặc khu Bạch Long Vĩ"
+      ],
+      "last_updated": "2025-07-01",
+      "source": "Nghị quyết 1669/NQ-UBTVQH15"
+    }
+  },
+  "population": {
+    "total": {
+      "value": 4664124,
+      "last_updated": "2025-06-30",
+      "source": "Dữ liệu dân số hợp nhất theo nghị quyết 202/2025/QH15"
+    },
+    "density_per_km2": {
+      "value": 1458.5,
+      "last_updated": "2026-03-22",
+      "source": "Tính từ dân số và diện tích trong Nghị quyết 202/2025/QH15"
+    },
+    "ethnic_groups": {
+      "value": null,
+      "last_updated": "2026-03-19",
+      "source": "Chưa tìm thấy cơ cấu dân tộc theo tỷ lệ % cho toàn thành phố Hải Phòng mới sau sáp nhập từ nguồn công bố chính thức cấp tỉnh mới"
+    }
+  },
+  "economy": {
+    "scale": {
+      "value": "Cực tăng trưởng của vùng phía Bắc, trung tâm kinh tế biển và cửa ngõ giao thương quốc tế của khu vực",
+      "last_updated": "2026-03-11",
+      "source": "Quyết định 423/QĐ-TTg được Báo Điện tử Chính phủ tường thuật"
+    },
+    "main_sectors": {
+      "value": [
+        "Kinh tế biển",
+        "Công nghiệp công nghệ cao",
+        "Công nghiệp chế biến, chế tạo",
+        "Logistics",
+        "Cảng biển",
+        "Thương mại - dịch vụ",
+        "Nông nghiệp"
+      ],
+      "last_updated": "2026-03-11",
+      "source": "Quyết định 423/QĐ-TTg; định hướng quy hoạch thành phố Hải Phòng đến 2050, tầm nhìn 2075"
+    },
+    "gdp": {
+      "value": {
+        "amount_usd": null,
+        "year": null
+      },
+      "last_updated": "2026-03-19",
+      "source": "Chưa tìm thấy số GDP/GRDP bằng USD đã công bố chính thức cho toàn thành phố Hải Phòng mới sau sáp nhập"
+    }
+  },
+  "tourism": {
+    "attractions": {
+      "value": [
+        {
+          "name": "Quần đảo Cát Bà",
+          "type": "Di sản thiên nhiên / du lịch biển đảo",
+          "description": "Là phần thuộc Hải Phòng trong Di sản thế giới 'Ha Long Bay - Cat Ba Archipelago' do UNESCO ghi danh.",
+          "rating": null
+        },
+        {
+          "name": "Khu di tích quốc gia đặc biệt Côn Sơn - Kiếp Bạc",
+          "type": "Di tích lịch sử - văn hóa",
+          "description": "Trung tâm di tích lịch sử, văn hóa lớn của xứ Đông; gắn với lễ hội Côn Sơn - Kiếp Bạc.",
+          "rating": null
+        },
+        {
+          "name": "Đồ Sơn",
+          "type": "Khu du lịch biển",
+          "description": "Một trong các điểm du lịch biển nổi bật của Hải Phòng.",
+          "rating": null
+        },
+        {
+          "name": "Tràng Kênh - Bạch Đằng",
+          "type": "Di tích - danh thắng",
+          "description": "Quần thể núi đá, sông nước và di tích lịch sử ở khu vực Thủy Nguyên.",
+          "rating": null
+        }
+      ],
+      "last_updated": "2026-03-19",
+      "source": "UNESCO World Heritage Centre; Cổng du lịch Hải Phòng; Cổng thông tin Hải Dương"
+    },
+    "local_specialties": {
+      "value": [
+        {
+          "name": "Bánh đa cua Hải Phòng",
+          "type": "Ẩm thực"
+        },
+        {
+          "name": "Mắm cá Cát Hải",
+          "type": "Gia vị / đặc sản biển"
+        },
+        {
+          "name": "Chả mực Hải Phòng",
+          "type": "Hải sản chế biến"
+        },
+        {
+          "name": "Bánh đậu xanh Hải Dương",
+          "type": "Bánh truyền thống"
+        },
+        {
+          "name": "Vải thiều Thanh Hà",
+          "type": "Trái cây"
+        },
+        {
+          "name": "Bánh đa Lộ Cương",
+          "type": "Bánh truyền thống"
+        }
+      ],
+      "last_updated": "2026-03-19",
+      "source": "Cổng thông tin điện tử thành phố Hải Phòng (bản tiếng Anh); Cổng thông tin điện tử tỉnh Hải Dương; Liên minh Hợp tác xã tỉnh Hải Dương"
+    },
+    "culture": {
+      "festivals": {
+        "value": [
+          "Lễ hội Hoa Phượng Đỏ",
+          "Lễ hội Côn Sơn - Kiếp Bạc",
+          "Lễ hội chọi trâu Đồ Sơn",
+          "Lễ hội vật cầu Kim Sơn"
+        ],
+        "last_updated": "2026-03-19",
+        "source": "Cổng thông tin Hải Phòng; Cổng thông tin Hải Dương; Cổng du lịch Hải Phòng"
+      },
+      "events": {
+        "value": [
+          "Lễ hội Hoa Phượng Đỏ",
+          "Mùa du lịch Cát Bà",
+          "Mùa lễ hội xuân Côn Sơn - Kiếp Bạc"
+        ],
+        "last_updated": "2026-03-19",
+        "source": "Cổng du lịch Hải Phòng; Cổng thông tin Hải Dương"
+      }
+    }
+  },
+  "infrastructure": {
+    "airport": {
+      "value": [
+        "Cảng hàng không quốc tế Cát Bi"
+      ],
+      "last_updated": "2026-03-11",
+      "source": "Quyết định 423/QĐ-TTg; định hướng quy hoạch thành phố Hải Phòng"
+    },
+    "seaport": {
+      "value": [
+        "Cảng biển Hải Phòng",
+        "Khu bến Lạch Huyện",
+        "Khu bến Đình Vũ",
+        "Khu bến Nam Đồ Sơn"
+      ],
+      "last_updated": "2025-07-09",
+      "source": "Quy hoạch chi tiết phát triển vùng đất, vùng nước cảng biển Hải Phòng; Báo Điện tử Chính phủ"
+    },
+    "railway_station": {
+      "value": [
+        "Ga Hải Phòng",
+        "Ga Hải Dương",
+        "Ga Phú Thái"
+      ],
+      "last_updated": "2026-03-11",
+      "source": "Quyết định 423/QĐ-TTg nêu định hướng đầu mối đường sắt quốc gia; tên ga lấy theo hiện trạng mạng đường sắt trên địa bàn"
+    },
+    "other_transport": {
+      "value": [
+        "Hệ thống cao tốc Hà Nội - Hải Phòng",
+        "Cao tốc Hải Phòng - Hạ Long - Móng Cái (kết nối vùng)",
+        "Đường thủy nội địa",
+        "Hệ thống logistics đa phương thức"
+      ],
+      "last_updated": "2026-03-11",
+      "source": "Quyết định 423/QĐ-TTg; định hướng đầu mối vận tải đa phương thức"
+    }
+  },
+  "environment": {
+    "climate": {
+      "type": {
+        "value": "Khí hậu nhiệt đới gió mùa ẩm, ven biển",
+        "last_updated": "2026-03-19",
+        "source": "Đặc trưng tự nhiên vùng duyên hải Bắc Bộ; mô tả trên các cổng thông tin chính thức về Hải Phòng"
+      },
+      "average_temperature_c": {
+        "value": null,
+        "last_updated": "2026-03-19",
+        "source": "Chưa tìm thấy số nhiệt độ trung bình năm đã công bố chính thức cho toàn thành phố Hải Phòng mới sau sáp nhập"
+      }
+    },
+    "ecology": {
+      "forests": {
+        "value": [
+          "Vườn quốc gia Cát Bà",
+          "Rừng ngập mặn ven biển",
+          "Khu vực núi Chí Linh - Côn Sơn"
+        ],
+        "last_updated": "2026-03-11",
+        "source": "UNESCO; Quyết định 423/QĐ-TTg"
+      },
+      "sea": {
+        "value": [
+          "Biển Đông",
+          "Vịnh Lan Hạ",
+          "Vùng biển Cát Bà",
+          "Vùng biển Bạch Long Vĩ"
+        ],
+        "last_updated": "2026-03-19",
+        "source": "UNESCO; Cổng du lịch Hải Phòng"
+      },
+      "other_resources": {
+        "value": [
+          "Hệ sinh thái biển đảo",
+          "Tài nguyên cảng biển - luồng hàng hải",
+          "Cảnh quan karst biển",
+          "Đất nông nghiệp phù sa vùng đồng bằng"
+        ],
+        "last_updated": "2026-03-11",
+        "source": "UNESCO; Quyết định 423/QĐ-TTg"
+      }
+    }
+  }
+}

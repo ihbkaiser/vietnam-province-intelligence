@@ -1,0 +1,342 @@
+﻿{
+  "name": {
+    "value": "Khánh Hòa",
+    "last_updated": "2025-06-12",
+    "source": "Nghị quyết 202/2025/QH15 của Quốc hội về sắp xếp đơn vị hành chính cấp tỉnh"
+  },
+  "administrative_code": {
+    "value": "56",
+    "last_updated": "2025-07-01",
+    "source": "Quyết định 19/2025/QĐ-TTg ban hành Bảng danh mục và mã số các đơn vị hành chính Việt Nam"
+  },
+  "former_provinces": {
+    "value": ["Khánh Hòa", "Ninh Thuận"],
+    "description": "Tỉnh Khánh Hòa mới được hình thành trên cơ sở sắp xếp toàn bộ diện tích tự nhiên và quy mô dân số của tỉnh Khánh Hòa và tỉnh Ninh Thuận; giữ tên gọi là tỉnh Khánh Hòa.",
+    "last_updated": "2025-06-12",
+    "source": "Nghị quyết 202/2025/QH15 của Quốc hội"
+  },
+
+
+  "location": {
+    "latitude": {
+      "value": null,
+      "last_updated": "2026-03-19",
+      "source": "Chưa có một tọa độ chuẩn hành chính duy nhất của tỉnh Khánh Hòa mới được công bố chính thức trong văn bản pháp lý tra cứu được"
+    },
+    "longitude": {
+      "value": null,
+      "last_updated": "2026-03-19",
+      "source": "Chưa có một tọa độ chuẩn hành chính duy nhất của tỉnh Khánh Hòa mới được công bố chính thức trong văn bản pháp lý tra cứu được"
+    },
+    "adjacent_areas": {
+      "provinces": {
+        "value": ["Đắk Lắk", "Lâm Đồng"],
+        "last_updated": "2025-06-12",
+        "source": "Thông tin công bố theo Nghị quyết 202/2025/QH15"
+      },
+      "countries": {
+        "value": [],
+        "last_updated": "2025-06-12",
+        "source": "Nghị quyết 202/2025/QH15 và thông tin công bố kèm theo không ghi nhận biên giới quốc gia trên đất liền của tỉnh Khánh Hòa mới"
+      },
+      "seas": {
+        "value": ["Biển Đông"],
+        "last_updated": "2025-06-12",
+        "source": "Thông tin công bố theo Nghị quyết 202/2025/QH15"
+      }
+    }
+  },
+
+
+  "area": {
+    "total_km2": {
+      "value": 8555.86,
+      "last_updated": "2025-06-12",
+      "source": "Thông tin công bố kèm Nghị quyết 202/2025/QH15"
+    }
+  },
+
+
+  "administrative_structure": {
+    "wards_communes_count": {
+      "value": 65,
+      "last_updated": "2025-06-16",
+      "source": "Nghị quyết 1667/NQ-UBTVQH15 về sắp xếp các đơn vị hành chính cấp xã của tỉnh Khánh Hòa năm 2025"
+    },
+    "wards_communes_list": {
+      "value": [
+        "Nam Cam Ranh",
+        "Bắc Ninh Hòa",
+        "Tân Định",
+        "Nam Ninh Hòa",
+        "Tây Ninh Hòa",
+        "Hòa Trí",
+        "Đại Lãnh",
+        "Tu Bông",
+        "Vạn Thắng",
+        "Vạn Ninh",
+        "Vạn Hưng",
+        "Diên Khánh",
+        "Diên Lạc",
+        "Diên Điền",
+        "Diên Lâm",
+        "Diên Thọ",
+        "Suối Hiệp",
+        "Cam Lâm",
+        "Suối Dầu",
+        "Cam Hiệp",
+        "Cam An",
+        "Bắc Khánh Vĩnh",
+        "Trung Khánh Vĩnh",
+        "Tây Khánh Vĩnh",
+        "Nam Khánh Vĩnh",
+        "Khánh Vĩnh",
+        "Khánh Sơn",
+        "Tây Khánh Sơn",
+        "Đông Khánh Sơn",
+        "Ninh Phước",
+        "Phước Hữu",
+        "Phước Hậu",
+        "Thuận Nam",
+        "Cà Ná",
+        "Phước Hà",
+        "Phước Dinh",
+        "Ninh Hải",
+        "Xuân Hải",
+        "Vĩnh Hải",
+        "Thuận Bắc",
+        "Công Hải",
+        "Ninh Sơn",
+        "Lâm Sơn",
+        "Anh Dũng",
+        "Mỹ Sơn",
+        "Bác Ái Đông",
+        "Bác Ái",
+        "Bác Ái Tây",
+        "Nha Trang",
+        "Bắc Nha Trang",
+        "Tây Nha Trang",
+        "Nam Nha Trang",
+        "Bắc Cam Ranh",
+        "Cam Ranh",
+        "Cam Linh",
+        "Ba Ngòi",
+        "Ninh Hòa",
+        "Đông Ninh Hòa",
+        "Hòa Thắng",
+        "Phan Rang",
+        "Đông Hải",
+        "Ninh Chử",
+        "Bảo An",
+        "Đô Vinh",
+        "Trường Sa"
+      ],
+      "last_updated": "2025-06-16",
+      "source": "Nghị quyết 1667/NQ-UBTVQH15"
+    }
+  },
+
+
+  "population": {
+    "total": {
+      "value": 2243554,
+      "last_updated": "2025-06-12",
+      "source": "Thông tin công bố kèm Nghị quyết 202/2025/QH15"
+    },
+    "density_per_km2": {
+      "value": 262.22,
+      "last_updated": "2025-06-12",
+      "source": "Tính từ diện tích 8.555,86 km2 và dân số 2.243.554 người công bố kèm Nghị quyết 202/2025/QH15"
+    },
+    "ethnic_groups": {
+      "value": [],
+      "last_updated": "2026-03-19",
+      "source": "Chưa tìm thấy bảng cơ cấu dân tộc theo tỷ lệ phần trăm được cơ quan có thẩm quyền công bố riêng cho tỉnh Khánh Hòa mới sau sáp nhập"
+    }
+  },
+
+
+  "economy": {
+    "scale": {
+      "value": "Chưa có số liệu GRDP hợp nhất chính thức được công bố riêng cho tỉnh Khánh Hòa mới sau sáp nhập",
+      "last_updated": "2026-03-19",
+      "source": "Chưa tìm thấy báo cáo GRDP hợp nhất cấp tỉnh sau sáp nhập từ cơ quan thống kê/cơ quan nhà nước trong phạm vi tra cứu"
+    },
+    "main_sectors": {
+      "value": [
+        "Kinh tế biển",
+        "Du lịch",
+        "Dịch vụ logistics",
+        "Công nghiệp chế biến, chế tạo",
+        "Công nghiệp năng lượng",
+        "Năng lượng tái tạo",
+        "Nông nghiệp công nghệ cao",
+        "Thủy sản"
+      ],
+      "last_updated": "2026-03-19",
+      "source": "Định hướng phát triển theo quy hoạch và thông tin chỉ đạo phát triển của Khánh Hòa và Ninh Thuận trước sáp nhập"
+    },
+    "gdp": {
+      "value": null,
+      "last_updated": "2026-03-19",
+      "source": "Chưa có số liệu GRDP/GDP hợp nhất bằng USD được công bố chính thức riêng cho tỉnh Khánh Hòa mới sau sáp nhập"
+    }
+  },
+
+
+  "tourism": {
+    "attractions": {
+      "value": [
+        {
+          "name": "Tháp Bà Pô Nagar",
+          "type": "Di tích lịch sử - văn hóa",
+          "description": "Quần thể kiến trúc Chăm Pa tiêu biểu tại Nha Trang; lễ hội Tháp Bà là di sản văn hóa phi vật thể quốc gia.",
+          "rating": null
+        },
+        {
+          "name": "Vịnh Nha Trang",
+          "type": "Vịnh biển",
+          "description": "Trung tâm du lịch biển đảo nổi bật của tỉnh, gắn với hệ sinh thái biển và chuỗi sản phẩm du lịch nghỉ dưỡng.",
+          "rating": null
+        },
+        {
+          "name": "Vịnh Cam Ranh",
+          "type": "Vịnh biển",
+          "description": "Vịnh nước sâu lớn, đồng thời là không gian phát triển du lịch biển và dịch vụ cảng.",
+          "rating": null
+        },
+        {
+          "name": "Vịnh Vĩnh Hy",
+          "type": "Danh thắng biển",
+          "description": "Một trong những thắng cảnh biển nổi bật của khu vực phía nam tỉnh Khánh Hòa mới.",
+          "rating": null
+        },
+        {
+          "name": "Vườn quốc gia Núi Chúa",
+          "type": "Vườn quốc gia/Khu dự trữ sinh quyển",
+          "description": "Khu vực có giá trị sinh thái biển - rừng đặc sắc, gắn với du lịch sinh thái và bảo tồn thiên nhiên.",
+          "rating": null
+        },
+        {
+          "name": "VinWonders Nha Trang",
+          "type": "Khu vui chơi giải trí",
+          "description": "Tổ hợp vui chơi, giải trí và nghỉ dưỡng lớn tại Hòn Tre, là điểm hút khách quan trọng của du lịch Khánh Hòa.",
+          "rating": null
+        }
+      ],
+      "last_updated": "2026-03-19",
+      "source": "Cổng thông tin du lịch Khánh Hòa, thông tin lễ hội/điểm đến chính thức và UNESCO"
+    },
+    "local_specialties": {
+      "value": [
+        {
+          "name": "Yến sào Khánh Hòa",
+          "type": "Đặc sản"
+        },
+        {
+          "name": "Nem Ninh Hòa",
+          "type": "Đặc sản"
+        },
+        {
+          "name": "Bún cá Ninh Đông",
+          "type": "Đặc sản"
+        },
+        {
+          "name": "Nho Ninh Thuận",
+          "type": "Nông sản đặc sản"
+        },
+        {
+          "name": "Táo Ninh Thuận",
+          "type": "Nông sản đặc sản"
+        }
+      ],
+      "last_updated": "2026-03-19",
+      "source": "Cổng thông tin du lịch Khánh Hòa và thông tin quảng bá đặc sản địa phương"
+    },
+    "culture": {
+      "festivals": {
+        "value": [
+          "Festival Biển Nha Trang - Khánh Hòa",
+          "Lễ hội Tháp Bà Pô Nagar",
+          "Lễ hội Yến sào Khánh Hòa",
+          "Lễ hội Cầu Ngư",
+          "Lễ hội Nho - Vang Ninh Thuận"
+        ],
+        "last_updated": "2026-03-19",
+        "source": "Cổng thông tin du lịch Khánh Hòa, Sở Văn hóa Thể thao và Du lịch Khánh Hòa, Cổng thông tin Ninh Thuận"
+      },
+      "events": {
+        "value": [
+          "Các hoạt động Lễ hội Văn hóa - Du lịch biển 2025",
+          "Các sự kiện kích cầu du lịch Nha Trang - Khánh Hòa",
+          "Không gian trình diễn và bảo tồn nghề gốm Chăm Bàu Trúc"
+        ],
+        "last_updated": "2026-03-19",
+        "source": "Cổng thông tin du lịch Khánh Hòa, UNESCO"
+      }
+    }
+  },
+
+
+  "infrastructure": {
+    "airport": {
+      "value": ["Cảng hàng không quốc tế Cam Ranh"],
+      "last_updated": "2026-03-19",
+      "source": "Thông tin hạ tầng giao thông và du lịch tỉnh Khánh Hòa"
+    },
+    "seaport": {
+      "value": ["Cảng Nha Trang", "Cảng Cam Ranh", "Cảng quốc tế Cam Ranh"],
+      "last_updated": "2026-03-19",
+      "source": "Thông tin hạ tầng cảng biển, logistics và du lịch của Khánh Hòa"
+    },
+    "railway_station": {
+      "value": ["Ga Nha Trang", "Ga Diên Khánh", "Ga Cam Ranh", "Ga Tháp Chàm"],
+      "last_updated": "2026-03-19",
+      "source": "Mạng lưới đường sắt Bắc - Nam qua địa bàn Khánh Hòa và Ninh Thuận trước sáp nhập"
+    },
+    "other_transport": {
+      "value": [
+        "Quốc lộ 1",
+        "Đường bộ cao tốc Bắc - Nam phía Đông qua khu vực tỉnh",
+        "Đường sắt Bắc - Nam",
+        "Quốc lộ 27",
+        "Quốc lộ 27C"
+      ],
+      "last_updated": "2026-03-19",
+      "source": "Hạ tầng giao thông trục dọc và trục liên kết vùng của Khánh Hòa - Ninh Thuận"
+    }
+  },
+
+
+  "environment": {
+    "climate": {
+      "type": {
+        "value": "Nhiệt đới gió mùa, khí hậu ven biển khô hạn rõ ở khu vực phía nam (Ninh Thuận cũ)",
+        "last_updated": "2026-03-19",
+        "source": "Đặc điểm khí hậu vùng duyên hải Nam Trung Bộ và quy hoạch Ninh Thuận/Khánh Hòa"
+      },
+      "average_temperature_c": {
+        "value": null,
+        "last_updated": "2026-03-19",
+        "source": "Chưa tìm thấy nhiệt độ trung bình năm được công bố chính thức riêng cho tỉnh Khánh Hòa mới sau sáp nhập"
+      }
+    },
+    "ecology": {
+      "forests": {
+        "value": ["Vườn quốc gia Núi Chúa", "Khu vực rừng Hòn Bà"],
+        "last_updated": "2026-03-19",
+        "source": "Thông tin bảo tồn thiên nhiên và du lịch sinh thái của địa phương"
+      },
+      "sea": {
+        "value": ["Vịnh Nha Trang", "Vịnh Cam Ranh", "Vịnh Vân Phong", "Vịnh Vĩnh Hy"],
+        "last_updated": "2026-03-19",
+        "source": "Thông tin chính thức về không gian biển, du lịch biển và kinh tế biển của địa phương"
+      },
+      "other_resources": {
+        "value": ["Tài nguyên yến sào", "Tiềm năng gió", "Tiềm năng điện mặt trời", "Muối", "Thủy sản biển"],
+        "last_updated": "2026-03-19",
+        "source": "Thông tin quy hoạch và thế mạnh tài nguyên của Khánh Hòa, Ninh Thuận trước sáp nhập"
+      }
+    }
+  }
+}
