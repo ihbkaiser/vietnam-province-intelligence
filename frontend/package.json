@@ -9,6 +9,7 @@
     "lint": "tsc --noEmit"
   },
   "dependencies": {
+    "@openmapvn/openmapvn-gl": "^1.0.1",
     "@types/leaflet": "^1.9.21",
     "d3-geo": "^3.1.1",
     "leaflet": "^1.9.4",

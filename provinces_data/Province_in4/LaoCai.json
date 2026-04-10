@@ -1,36 +1,34 @@
-﻿{
+{
   "name": {
-     "value": "Lào Cai"
-     "last_updated": "2025-06-12",
-     "source": "Nghị quyết 202/2025/QH15 của Quốc hội"
-"description": "Tỉnh Lào Cai mới được thành lập trên cơ sở hợp nhất toàn bộ diện tích tự nhiên và dân số của 2 tỉnh cũ là Lào Cai và Yên Bái.",
-        
+    "value": "Lào Cai",
+    "last_updated": "2025-06-12",
+    "source": "Nghị quyết 202/2025/QH15 của Quốc hội"
   },
   "administrative_code": {
     "value": "15",
-    "last_updated": "2025-09-24",
-    "source": "Cổng TTĐT tỉnh Lào Cai - Thông tin khái quát về tỉnh Lào Cai"
-  },   
-      "value": "15",
     "last_updated": "2025-06-30",
     "source": "Quyết định 19/2025/QĐ-TTg - Bảng danh mục và mã số các đơn vị hành chính Việt Nam"
   },
   "former_provinces": {
     "value": ["Lào Cai", "Yên Bái"],
-
-
-      "value": 22.15
+    "description": "Tỉnh Lào Cai mới được thành lập trên cơ sở hợp nhất toàn bộ diện tích tự nhiên và dân số của 2 tỉnh cũ là Lào Cai và Yên Bái.",
+    "last_updated": "2025-06-12",
+    "source": "Nghị quyết 202/2025/QH15 của Quốc hội"
+  },
+  "location": {
+    "latitude": {
+      "value": 22.15,
       "last_updated": "2026-03-19",
       "source": "Dữ liệu ước tính tọa độ trung tâm tỉnh mới"
     },
     "longitude": {
-      "value": 104.35
+      "value": 104.35,
       "last_updated": "2026-03-19",
       "source": "Dữ liệu ước tính tọa độ trung tâm tỉnh mới"
     },
     "adjacent_areas": {
       "provinces": {
-        "value": ["Tuyên Quang", "Phú Thọ", "Lai Châu", "Sơn La",”Hà Giang”],
+        "value": ["Tuyên Quang", "Phú Thọ", "Lai Châu", "Sơn La", "Hà Giang"],
         "last_updated": "2025-09-18",
         "source": "Cổng TTĐT tỉnh Lào Cai - Vị trí địa lý - Địa hình - Địa giới hành chính của tỉnh Lào Cai"
       },

@@ -19,7 +19,7 @@ provincesRouter.get('/:provinceCode', (request, response) => {
   }
 
   const communeCount = communeSeeds.filter((commune) => commune.province_code === province.province_code).length;
-  const province_info = loadProvinceInfo(province.province_code);
+  const province_info = loadProvinceInfo(province);
 
   response.json({
     ...province,

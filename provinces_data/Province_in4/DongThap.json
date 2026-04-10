@@ -1,4 +1,4 @@
-﻿{
+{
   "name": {
     "value": "Đồng Tháp",
     "last_updated": "2025-06-12",
@@ -17,12 +17,12 @@
   },
   "location": {
     "latitude": {
-      "value": 10độ7’,
+      "value": null,
       "last_updated": "2025-03-19",
       "source": "Chưa tìm thấy nguồn công bố chính thức về tọa độ trung tâm tỉnh Đồng Tháp mới sau sáp nhập"
     },
     "longitude": {
-      "value": 10độ58’
+      "value": "10độ58’",
       "last_updated": "2025-03-19",
       "source": "Chưa tìm thấy nguồn công bố chính thức về tọa độ trung tâm tỉnh Đồng Tháp mới sau sáp nhập"
     },
@@ -191,7 +191,7 @@
   },
   "economy": {
     "scale": {
-      "value": 3 động lực tăng trưởng
+      "value": "3 động lực tăng trưởng",
       "last_updated": "2025-03-19",
       "source": "Chưa tìm thấy chỉ tiêu quy mô kinh tế/GRDP được cơ quan nhà nước công bố riêng cho tỉnh Đồng Tháp mới sau sáp nhập"
     },
@@ -202,7 +202,7 @@
     },
     "gdp": {
       "value": {
-        "amount_usd": 9208 tỷ usd
+        "amount_usd": null,
         "year": 2025
       },
       "last_updated": "2025-03-19",
@@ -267,12 +267,12 @@
   "environment": {
     "climate": {
       "type": {
-        "value": nhiệt đới gió mùa
+        "value": "nhiệt đới gió mùa",
         "last_updated": "2025-03-19",
         "source": "Chưa tìm thấy mô tả khí hậu chính thức riêng cho tỉnh Đồng Tháp mới sau sáp nhập"
       },
       "average_temperature_c": {
-        "value": 27,2
+        "value": 27.2,
         "last_updated": "2025-03-19",
         "source": "Chưa tìm thấy số liệu nhiệt độ trung bình năm chính thức riêng cho tỉnh Đồng Tháp mới sau sáp nhập"
       }

@@ -1,4 +1,4 @@
-﻿{
+{
   "name": {
     "value": "Tuyên Quang",
     "last_updated": "2025-07-01",
@@ -17,14 +17,14 @@
   },
   "location": {
     "latitude": {
-      "value": “21°48' - 21°50' độ vĩ Bắc và 105°13' - 105°15' độ kinh Đông”
+      "value": "21°48' - 21°50' độ vĩ Bắc và 105°13' - 105°15' độ kinh Đông",
       "last_updated": "2025-07-01",
       "source": ""
     },
     "longitude": {
       "value": null,
       "last_updated": "2025-07-01",
-      "source": 
+      "source": ""
     },
     "adjacent_areas": {
       "provinces": {
@@ -200,9 +200,9 @@
       "source": "Tính từ diện tích và dân số nêu tại Nghị quyết 202/2025/QH15"
     },
     "ethnic_groups": {
-      "value": [“Cơ cấu dân tộc chủ yếu bao gồm người Kinh, Tày, Dao, Mông, Nùng, Sán Chay (Sán Chay gồm Cao Lan, Sán Chỉ), Pà Thẻn, Lô Lô, Pu Péo, với tỷ lệ dân tộc thiểu số cao, đặc biệt có 5 dân tộc rất ít người (Lô Lô, Cờ Lao, Pà Thẻn, Bố Y, Pu Péo)”],
+      "value": ["Cơ cấu dân tộc chủ yếu bao gồm người Kinh, Tày, Dao, Mông, Nùng, Sán Chay (Sán Chay gồm Cao Lan, Sán Chỉ), Pà Thẻn, Lô Lô, Pu Péo, với tỷ lệ dân tộc thiểu số cao, đặc biệt có 5 dân tộc rất ít người (Lô Lô, Cờ Lao, Pà Thẻn, Bố Y, Pu Péo)"],
       "last_updated": "2025-07-01",
-      "source": “Source là để nguồn của thông tin mình tìm được”. 
+      "source": "Chưa thấy nguồn công bố chính thức chi tiết cơ cấu dân tộc của toàn tỉnh Tuyên Quang mới."
     }
   },
   "economy": {
@@ -316,12 +316,12 @@
   "environment": {
     "climate": {
       "type": {
-        "value": “nhiệt đới gió mùa ẩm, đặc trưng với mùa đông lạnh ít mưa và mùa hạ nóng ẩm mưa nhiều”,
+        "value": "nhiệt đới gió mùa ẩm, đặc trưng với mùa đông lạnh ít mưa và mùa hạ nóng ẩm mưa nhiều",
         "last_updated": "2025-07-01",
         "source": "Nguồn dữ liệu (link)."
       },
       "average_temperature_c": {
-        "value":Lấy ở phần ‘nhiệt độ trung bình năm’,
+        "value": null,
         "last_updated": "2025-07-01",
         "source": "Chưa thấy nguồn công bố chính thức nhiệt độ trung bình năm của toàn tỉnh Tuyên Quang mới sau hợp nhất"
       }

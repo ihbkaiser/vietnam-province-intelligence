@@ -1,4 +1,4 @@
-﻿{
+{
   "name": {
     "value": "Tây Ninh",
     "last_updated": "2025-06-30",
@@ -17,12 +17,12 @@
   },
   "location": {
     "latitude": {
-      "value": ” từ 10độ57’08” đến 11độ46’36” vĩ độ Bắc”,
+      "value": "từ 10độ57’08” đến 11độ46’36” vĩ độ Bắc",
       "last_updated": "2026-03-19",
       "source": "Chưa thấy nguồn chính thức hậu sáp nhập công bố một tọa độ điểm chuẩn duy nhất cho toàn tỉnh mới"
     },
     "longitude": {
-      "value": “ từ 105độ48’43” đến 106độ22’48” kinh độ Đông “,
+      "value": "từ 105độ48’43” đến 106độ22’48” kinh độ Đông",
       "last_updated": "2026-03-19",
       "source": "Chưa thấy nguồn chính thức hậu sáp nhập công bố một tọa độ điểm chuẩn duy nhất cho toàn tỉnh mới"
     },
@@ -58,7 +58,7 @@
       "source": "S3"
     },
     "wards_communes_list": {
-      "value": [14 phường , 82 xã]
+      "value": [
         "Phường An Tịnh",
         "Phường Bình Minh",
         "Phường Gia Lộc",
@@ -322,7 +322,7 @@
         "source": "Chưa thấy mô tả khí hậu tổng hợp được cơ quan nhà nước công bố riêng cho tỉnh Tây Ninh mới sau sáp nhập"
       },
       "average_temperature_c": {
-        "value": “27độ tới 28độ”,
+        "value": "27độ tới 28độ",
         "last_updated": "2026-03-19",
         "source": "Chưa thấy nhiệt độ trung bình năm được cơ quan nhà nước công bố riêng cho tỉnh Tây Ninh mới sau sáp nhập"
       }

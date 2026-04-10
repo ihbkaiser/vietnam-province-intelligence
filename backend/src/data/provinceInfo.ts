@@ -1,56 +1,78 @@
-import { readFileSync } from 'fs';
+import { readdirSync, readFileSync } from 'fs';
 import path from 'path';
+import { fileURLToPath } from 'url';
+import type { ProvinceSummary } from '../types/admin.js';
+import { normalizeVietnameseAdminName } from '../services/normalize/normalizeVietnameseAdminName.js';
 
-// process.cwd() = thư mục backend/ (nơi tsx được chạy)
-const DATA_DIR = path.resolve(process.cwd(), '../provinces_data/Province_in4');
+const currentDir = path.dirname(fileURLToPath(import.meta.url));
+const DATA_DIR = path.resolve(currentDir, '../../../provinces_data/Province_in4');
 
-// province_code → JSON filename (không có .json)
-const FILE_MAP: Record<string, string> = {
-  'hanoi': 'HaNoi',
-  'hue': 'Hue',
-  'quang-ninh': 'QuangNinh',
-  'cao-bang': 'CaoBang',
-  'lang-son': 'LangSon',
-  'lai-chau': 'LaiChau',
-  'dien-bien': 'DienBien',
-  'son-la': 'SonLa',
-  'thanh-hoa': 'ThanhHoa',
-  'nghe-an': 'NgheAn',
-  'ha-tinh': 'HaTinh',
-  'tuyen-quang': 'TuyenQuang',
-  'lao-cai': 'LaoCai',
-  'thai-nguyen': 'ThaiNguyen',
-  'phu-tho': 'PhuTho',
-  'bac-ninh': 'BacNinh',
-  'hung-yen': 'HungYen',
-  'hai-phong': 'HaiPhong',
-  'ninh-binh': 'NinhBinh',
-  'quang-tri': 'QuangTri',
-  'da-nang': 'DaNang',
-  'quang-ngai': 'QuangNgai',
-  'gia-lai': 'GiaLai',
-  'khanh-hoa': 'KhanhHoa',
-  'lam-dong': 'LamDong',
-  'dak-lak': 'DakLak',
-  'ho-chi-minh-city': 'HoChiMinh',
-  'dong-nai': 'DongNai',
-  'tay-ninh': 'TayNinh',
-  'can-tho': 'CanTho',
-  'vinh-long': 'VinhLong',
-  'dong-thap': 'DongThap',
-  'ca-mau': 'CaMau',
-  'an-giang': 'AnGiang'
-};
+function normalizeFileBasename(fileBasename: string): string {
+  return normalizeVietnameseAdminName(fileBasename.replace(/([a-z])([A-Z])/g, '$1 $2'));
+}
 
-export function loadProvinceInfo(provinceCode: string): Record<string, unknown> | null {
-  const filename = FILE_MAP[provinceCode];
-  if (!filename) return null;
+function buildProvinceInfoLookup(): Map<string, string> {
+  const files = readdirSync(DATA_DIR).filter((file) => file.endsWith('.json'));
+  const lookup = new Map<string, string>();
+
+  for (const file of files) {
+    const basename = path.basename(file, '.json');
+    lookup.set(normalizeFileBasename(basename), path.join(DATA_DIR, file));
+  }
+
+  return lookup;
+}
+
+function buildCandidateKeys(province: Pick<ProvinceSummary, 'province_code' | 'province_name' | 'aliases'>): string[] {
+  const keys = new Set<string>();
+
+  const addKey = (value: string | null | undefined) => {
+    const normalized = normalizeVietnameseAdminName(value);
+    if (normalized) {
+      keys.add(normalized);
+    }
+  };
+
+  addKey(province.province_name);
+  addKey(province.province_code);
+  addKey(province.province_code.replace(/-/g, ' '));
+  addKey(province.province_code.replace(/-city$/, '').replace(/-/g, ' '));
+
+  for (const alias of province.aliases) {
+    addKey(alias);
+  }
+
+  return [...keys];
+}
+
+const provinceInfoLookup = buildProvinceInfoLookup();
+
+function resolveProvinceInfoPath(province: Pick<ProvinceSummary, 'province_code' | 'province_name' | 'aliases'>): string | null {
+  for (const key of buildCandidateKeys(province)) {
+    const filePath = provinceInfoLookup.get(key);
+    if (filePath) {
+      return filePath;
+    }
+  }
+
+  return null;
+}
+
+export function loadProvinceInfo(
+  province: Pick<ProvinceSummary, 'province_code' | 'province_name' | 'aliases'>
+): Record<string, unknown> | null {
+  const filePath = resolveProvinceInfoPath(province);
+
+  if (!filePath) {
+    return null;
+  }
 
   try {
-    const raw = readFileSync(path.join(DATA_DIR, `${filename}.json`), 'utf8');
-    return JSON.parse(raw) as Record<string, unknown>;
+    const raw = readFileSync(filePath, 'utf8');
+    const stripped = raw.charCodeAt(0) === 0xfeff ? raw.slice(1) : raw;
+    return JSON.parse(stripped) as Record<string, unknown>;
   } catch (err) {
-    console.error('[provinceInfo] Failed to load', filename, DATA_DIR, err);
+    console.error('[provinceInfo] Failed to load', province.province_code, filePath, err);
     return null;
   }
 }

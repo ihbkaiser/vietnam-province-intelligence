@@ -1,4 +1,4 @@
-﻿{
+{
   "name": {
     "value": "Thành phố Hải Phòng",
     "last_updated": "2025-07-01",
@@ -34,10 +34,8 @@
         "value": [
           "Bắc Ninh",
           "Hưng Yên",
-          "Quảng Ninh"
+          "Quảng Ninh",
           "Thái Bình"
-
-
         ],
         "last_updated": "2025-06-12",
         "source": "Nghị quyết 202/2025/QH15"
@@ -48,7 +46,7 @@
         "source": "Thành phố ven biển,không giáp biên giới đất liền quốc tế"
       },
       "seas": {
-        "value": ["Vịnh Bắc Bộ"),
+        "value": ["Vịnh Bắc Bộ",
           "Biển Đông"
         ],
         "last_updated": "2025-03-22",

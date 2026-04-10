@@ -1,4 +1,5 @@
 import { Router } from 'express';
+import { resolveAddressTextViaOpenMap, resolveAddressViaOpenMap } from '../services/addressLookup/openMapAddressLookup.js';
 import { NominatimReverseGeocodeProvider } from '../services/reverseGeocode/nominatimProvider.js';
 import { OpenMapReverseGeocodeProvider } from '../services/reverseGeocode/openMapProvider.js';
 import { resolveAdminUnit } from '../services/resolver/resolveAdminUnit.js';
@@ -52,6 +53,50 @@ resolverRouter.post('/resolve-admin-unit', async (request, response) => {
   } catch (error) {
     response.status(400).json({
       message: error instanceof Error ? error.message : 'Lỗi không xác định trong pipeline phân giải địa chỉ.'
+    });
+  }
+});
+
+resolverRouter.post('/resolve-address', async (request, response) => {
+  try {
+    const apiKey = process.env.OPENMAP_API_KEY;
+    if (!apiKey) {
+      response.status(503).json({ message: 'OPENMAP_API_KEY chưa được cấu hình.' });
+      return;
+    }
+
+    const addressText = typeof request.body?.address_text === 'string' ? request.body.address_text.trim() : null;
+    const legacyProvince = typeof request.body?.legacy_province === 'string' ? request.body.legacy_province.trim() : null;
+    const legacyDistrict = typeof request.body?.legacy_district === 'string' ? request.body.legacy_district.trim() : null;
+    const legacyCommune = typeof request.body?.legacy_commune === 'string' ? request.body.legacy_commune.trim() : null;
+
+    let result;
+
+    if (addressText) {
+      // Chế độ nhập địa chỉ tự do
+      result = await resolveAddressTextViaOpenMap({ address_text: addressText, apiKey });
+    } else if (legacyProvince) {
+      // Chế độ nhập theo từng trường
+      result = await resolveAddressViaOpenMap({
+        commune: legacyCommune,
+        district: legacyDistrict,
+        province: legacyProvince,
+        apiKey
+      });
+    } else {
+      response.status(400).json({ message: 'Cần có address_text hoặc legacy_province.' });
+      return;
+    }
+
+    if (!result) {
+      response.status(404).json({ message: 'Không tìm thấy địa chỉ trên OpenMap.' });
+      return;
+    }
+
+    response.json(result);
+  } catch (error) {
+    response.status(400).json({
+      message: error instanceof Error ? error.message : 'Lỗi không xác định khi chuyển đổi địa chỉ.'
     });
   }
 });

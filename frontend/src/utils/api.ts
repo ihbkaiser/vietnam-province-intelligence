@@ -1,4 +1,5 @@
-import type { ProvinceCollection, ProvinceDetail, ResolveAdminUnitResponse } from '../types/admin';
+import type { ProvinceCollection, ProvinceDetail, ResolveAdminUnitResponse, ResolveAddressResponse } from '../types/admin';
+
 
 async function handleJson<T>(response: Response): Promise<T> {
   if (!response.ok) {
@@ -29,5 +30,19 @@ export async function resolveLatLon(lat: number, lon: number): Promise<ResolveAd
   });
 
   return handleJson<ResolveAdminUnitResponse>(response);
+}
+
+export async function resolveAddress(
+  params:
+    | { address_text: string }
+    | { legacy_province: string; legacy_district?: string; legacy_commune?: string }
+): Promise<ResolveAddressResponse> {
+  const response = await fetch('/api/resolve-address', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(params)
+  });
+
+  return handleJson<ResolveAddressResponse>(response);
 }
 

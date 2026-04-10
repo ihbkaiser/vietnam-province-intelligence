@@ -1,4 +1,4 @@
-﻿{
+{
   "name": {
     "value": "Thành phố Cần Thơ",
     "last_updated": "2025-06-12",
@@ -20,13 +20,13 @@
     "source": "Nghị quyết 202/2025/QH15; Cổng TTĐT TP Cần Thơ"
   },
   "location": {
-    "latitude": 9độ14’15” đến 10độ19’38” vĩ độ Bắc,
-      "value": null,
+    "latitude": {
+          "value": null,
       "last_updated": "2026-03-19",
       "source": "Chưa thấy nguồn chính thức công bố một tọa độ chuẩn duy nhất cho toàn thành phố Cần Thơ mới sau sáp nhập"
     },
-    "longitude": 
-      "value": 105độ13’38” đến 106độ 17’15” kinh độ Đông,
+    "longitude": {
+      "value": "105độ13’38” đến 106độ17’15” kinh độ Đông",
       "last_updated": "2026-03-19",
       "source": "Chưa thấy nguồn chính thức công bố một tọa độ chuẩn duy nhất cho toàn thành phố Cần Thơ mới sau sáp nhập"
     },
@@ -69,7 +69,7 @@
       "source": "Nghị quyết 1668/NQ-UBTVQH15"
     },
     "wards_communes_list": {
-      "value": [31 phường và 72 xã]
+      "value": [
         "Phường Ninh Kiều",
         "Phường Cái Khế",
         "Phường Tân An",
@@ -214,7 +214,7 @@
     },
     "gdp": {
       "value": {
-        "amount_usd": ,10% đến 10,5%
+        "amount_usd": null,
         "year": 2025
       },
       "last_updated": "2026-03-19",
@@ -346,7 +346,7 @@
         "source": "Đặc điểm khí hậu phổ biến của vùng Đồng bằng sông Cửu Long; chưa thấy bản mô tả khí hậu hợp nhất riêng cho thành phố Cần Thơ mới"
       },
       "average_temperature_c": {
-        "value": 27độ
+        "value": "27độ",
         "last_updated": "2026-03-19",
         "source": "Chưa thấy số liệu nhiệt độ trung bình năm công bố riêng cho thành phố Cần Thơ mới sau sáp nhập"
       }

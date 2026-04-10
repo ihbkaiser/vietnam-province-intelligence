@@ -1,4 +1,4 @@
-﻿{
+{
   "name": {
     "value": "Vĩnh Long",
     "last_updated": "2025-06-12",
@@ -19,12 +19,12 @@
 
   "location": {
     "latitude": {
-      "value": 9độ52’ đến 10độ19’
+      "value": null,
       "last_updated": "2026-03-19",
       "source": "Chưa xác minh được một bộ tọa độ chuẩn cấp tỉnh hậu sáp nhập từ nguồn công khai chính thức; không suy diễn từ tọa độ trung tâm hành chính hay bản đồ thương mại"
     },
     "longitude": {
-      "value 105độ41’ đến 106độ17’
+      "value": "105độ41’ đến 106độ17’",
       "last_updated": "2026-03-19",
       "source": "Chưa xác minh được một bộ tọa độ chuẩn cấp tỉnh hậu sáp nhập từ nguồn công khai chính thức; không suy diễn từ tọa độ trung tâm hành chính hay bản đồ thương mại"
     },
@@ -208,7 +208,7 @@
       "source": "Tính từ dân số 4.257.581 người và diện tích 6.296,20 km2 theo Nghị quyết số 202/2025/QH15"
     },
     "ethnic_groups": {
-      "value":20
+      "value": ["20 dân tộc"],
       "last_updated": "2026-03-19",
       "source": "Chưa xác minh được cơ cấu tỷ lệ dân tộc hậu sáp nhập được công bố chính thức ở cấp tỉnh mới"
     }
@@ -217,17 +217,17 @@
 
   "economy": {
     "scale": {
-      "value": lớn thứ 3 khu vực
+      "value": "lớn thứ 3 khu vực",
       "last_updated": "2026-03-19",
       "source": "Chưa có chỉ tiêu quy mô kinh tế/GRDP hợp nhất của tỉnh mới được xác minh từ nguồn chính thức công khai"
     },
     "main_sectors": {
-      "value": nông nghiệp hiện đại
+      "value": ["nông nghiệp hiện đại"],
       "last_updated": "2026-03-19",
       "source": "Chưa có danh mục ngành kinh tế chủ lực cấp tỉnh mới được công bố chính thức hậu sáp nhập"
     },
     "gdp": {
-      "value": công trình giao thông trọng điểm
+      "value": null,
       "last_updated": "2026-03-19",
       "source": "Chưa có số liệu GRDP/GDP hợp nhất chính thức của tỉnh mới được xác minh"
     }
@@ -338,14 +338,14 @@
         "source": "Đặc điểm khí hậu chung vùng Đồng bằng sông Cửu Long; chưa thấy mô tả khí hậu cấp tỉnh mới được công bố riêng"
       },
       "average_temperature_c": {
-        "value": 27,3,
+        "value": 27.3,
         "last_updated": "2026-03-19",
         "source": "Chưa xác minh được nhiệt độ trung bình năm cấp tỉnh mới từ nguồn chính thức công khai"
       }
     },
     "ecology": {
       "forests": {
-        "value": rừng thực thụ
+        "value": ["rừng thực thụ"],
         "last_updated": "2026-03-19",
         "source": "Chưa xác minh được danh mục hệ sinh thái rừng cấp tỉnh mới được công bố thống nhất hậu sáp nhập"
       },

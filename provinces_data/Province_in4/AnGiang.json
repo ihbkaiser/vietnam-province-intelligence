@@ -1,4 +1,4 @@
-﻿{
+{
   "name": {
     "value": "An Giang",
     "last_updated": "2025-07-01",
@@ -17,12 +17,12 @@
   },
   "location": {
     "latitude": {
-      ”value”:10độ10’ đến 10độ57’
+      "value": "10độ10’ đến 10độ57’",
       "last_updated": "2026-03-19",
       "source": "Chưa thấy nguồn chính thức công bố một cặp tọa độ chuẩn duy nhất cho toàn tỉnh An Giang mới sau sáp nhập"
     },
     "longitude": {
-      "value":,104độ46’ đến 105độ35’
+      "value": "104độ46’ đến 105độ35’",
       "last_updated": "2026-03-19",
       "source": "Chưa thấy nguồn chính thức công bố một cặp tọa độ chuẩn duy nhất cho toàn tỉnh An Giang mới sau sáp nhập"
     },
@@ -204,8 +204,9 @@
     },
     "gdp": {
       "value": {
-        "amount_usd": 10,71% trở lên
-        "year": 2026      },
+        "amount_usd": null,
+        "year": 2026
+      },
       "last_updated": "2026-03-19",
       "source": "Chưa thấy số GDP/GRDP danh nghĩa quy đổi USD chính thức được công bố riêng cho tỉnh An Giang mới sau sáp nhập"
     }
@@ -352,11 +353,7 @@
         "source": "Cổng TTĐT tỉnh An Giang - mục Điều kiện tự nhiên"
       },
       "average_temperature_c": {
-        "value":  khoảng 27°C - 28°C.
-
-
-
-
+        "value": "khoảng 27°C - 28°C",
         "last_updated": "2026-03-19",
         "source": "Nguồn chính thức mình kiểm tra mô tả tính chất nhiệt độ nhưng chưa công bố một trị số trung bình năm chuẩn riêng cho tỉnh An Giang mới sau sáp nhập"
       }

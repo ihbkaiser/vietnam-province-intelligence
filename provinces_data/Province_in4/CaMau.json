@@ -1,4 +1,4 @@
-﻿{
+{
   "name": {
     "value": "Cà Mau",
     "last_updated": "2025-07-01",
@@ -19,12 +19,12 @@
 
   "location": {
     "latitude": {
-      "value"8độ33’ đến 9độ33’
+      "value": null,
       "last_updated": "2026-03-19",
       "source": "Chưa tìm thấy công bố chính thức đáng tin cậy về tọa độ chuẩn đại diện cho toàn tỉnh Cà Mau mới sau sáp nhập"
     },
     "longitude": {
-      "value":104độ43’ đến 105độ25’
+      "value": "104độ43’ đến 105độ25’",
       "last_updated": "2026-03-19",
       "source": "Chưa tìm thấy công bố chính thức đáng tin cậy về tọa độ chuẩn đại diện cho toàn tỉnh Cà Mau mới sau sáp nhập"
     },
@@ -148,7 +148,7 @@
       "source": "Tính từ dân số 2.606.672 người và diện tích 7.942,39 km2 theo Cổng TTĐT tỉnh Cà Mau"
     },
     "ethnic_groups": {
-      "value": 20
+      "value": ["20 dân tộc"],
       "last_updated": "2026-03-19",
       "source": "Chưa tìm thấy bảng cơ cấu dân tộc theo tỷ lệ phần trăm được công bố chính thức cho tỉnh Cà Mau mới sau sáp nhập"
     }
@@ -157,7 +157,7 @@
 
   "economy": {
     "scale": {
-      "value":,
+      "value": null,
       "last_updated": "2026-03-19",
       "source": "Chưa tìm thấy chỉ tiêu quy mô kinh tế tổng hợp được công bố chính thức riêng cho tỉnh Cà Mau mới sau sáp nhập"
     },
@@ -172,7 +172,7 @@
       "source": "Cổng TTĐT tỉnh Cà Mau; các trang thông tin chính thức của Cà Mau và Bạc Liêu về thủy sản, điện gió và du lịch"
     },
     "gdp": {
-      "value": 90.000 tỷ đồng.
+      "value": null,
       "last_updated": "2026-03-19",
       "source": "Chưa tìm thấy số GDP/GRDP quy đổi USD được công bố chính thức cho tỉnh Cà Mau mới sau sáp nhập"
     }

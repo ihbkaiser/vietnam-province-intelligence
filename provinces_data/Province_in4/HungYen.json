@@ -1,4 +1,4 @@
-﻿{
+{
   "name": {
     "value": "Hưng Yên",
     "last_updated": "2025-07-01",
@@ -30,7 +30,7 @@
     },
     "adjacent_areas": {
       "provinces": {
-        "value": ["Bắc Ninh", "Ninh Bình",”Hà nội”],
+        "value": ["Bắc Ninh", "Ninh Bình","Hà nội"],
         "last_updated": "2025-07-01",
         "source": "Nghị quyết 202/2025/QH15, Điều 1, khoản 6; https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-202-2025-QH15-sap-xep-don-vi-hanh-chinh-cap-tinh-648951.aspx"
       },

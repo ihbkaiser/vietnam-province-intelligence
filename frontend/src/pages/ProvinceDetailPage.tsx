@@ -3,7 +3,7 @@ import { Link, useParams } from 'react-router-dom';
 import { ErrorState } from '../components/ErrorState';
 import { LoadingState } from '../components/LoadingState';
 import { useProvinceDetail } from '../hooks/useProvinceDetail';
-import type { ProvinceAttraction, ProvinceInfo, ProvinceSpecialty } from '../types/admin';
+import type { ProvinceAttraction, ProvinceDisplayValue, ProvinceInfo, ProvinceSpecialty } from '../types/admin';
 
 // ── Helpers ───────────────────────────────────────────────────────────────
 
@@ -55,6 +55,31 @@ function SpecialtyCard({ item }: { item: ProvinceSpecialty }) {
   );
 }
 
+function formatDisplayValue(value: ProvinceDisplayValue, suffix?: string) {
+  if (value == null || value === '') {
+    return null;
+  }
+
+  if (typeof value === 'number') {
+    const formatted = value.toLocaleString('vi-VN');
+    return suffix ? `${formatted} ${suffix}` : formatted;
+  }
+
+  return value;
+}
+
+function formatCoordinate(value: ProvinceDisplayValue) {
+  if (value == null || value === '') {
+    return null;
+  }
+
+  if (typeof value === 'number') {
+    return `${value}°`;
+  }
+
+  return value;
+}
+
 // ── Sections ──────────────────────────────────────────────────────────────
 
 function AdminSection({ info }: { info: ProvinceInfo }) {
@@ -98,9 +123,9 @@ function GeographySection({ info }: { info: ProvinceInfo }) {
   return (
     <Section title="Địa lý">
       <div className="grid gap-3 md:grid-cols-3">
-        <StatCard label="Diện tích" value={info.area?.total_km2?.value != null ? `${info.area.total_km2.value.toLocaleString('vi-VN')} km²` : null} />
-        <StatCard label="Vĩ độ" value={info.location?.latitude?.value != null ? `${info.location.latitude.value}° B` : null} />
-        <StatCard label="Kinh độ" value={info.location?.longitude?.value != null ? `${info.location.longitude.value}° Đ` : null} />
+        <StatCard label="Diện tích" value={formatDisplayValue(info.area?.total_km2?.value ?? null, 'km²')} />
+        <StatCard label="Vĩ độ" value={formatCoordinate(info.location?.latitude?.value ?? null)} />
+        <StatCard label="Kinh độ" value={formatCoordinate(info.location?.longitude?.value ?? null)} />
       </div>
       {adj && (
         <div className="mt-4 grid gap-3 md:grid-cols-3">
@@ -132,13 +157,14 @@ function EconomySection({ info }: { info: ProvinceInfo }) {
   const eco = info.economy;
   if (!eco) return null;
   const gdp = eco.gdp?.value;
+  const gdpAmount = typeof gdp?.amount_usd === 'number' ? gdp.amount_usd : null;
   return (
     <Section title="Kinh tế">
       <div className="grid gap-3 md:grid-cols-2">
-        {gdp && (
+        {gdpAmount != null && gdp && (
           <StatCard
             label={`GRDP (${gdp.year})`}
-            value={`${(gdp.amount_usd / 1e9).toLocaleString('vi-VN', { maximumFractionDigits: 1 })} tỷ USD`}
+            value={`${(gdpAmount / 1e9).toLocaleString('vi-VN', { maximumFractionDigits: 1 })} tỷ USD`}
           />
         )}
         {eco.scale?.value && (
@@ -255,7 +281,7 @@ function EnvironmentSection({ info }: { info: ProvinceInfo }) {
     <Section title="Môi trường & Tự nhiên">
       <div className="grid gap-3 md:grid-cols-2">
         {climate && <StatCard label="Khí hậu" value={climate} />}
-        {avgTemp != null && <StatCard label="Nhiệt độ trung bình" value={`${avgTemp}°C`} />}
+        {avgTemp != null && <StatCard label="Nhiệt độ trung bình" value={typeof avgTemp === 'number' ? `${avgTemp}°C` : avgTemp} />}
       </div>
       {(forests.length > 0 || seas.length > 0 || others.length > 0) && (
         <div className="mt-4 grid gap-4 md:grid-cols-3">

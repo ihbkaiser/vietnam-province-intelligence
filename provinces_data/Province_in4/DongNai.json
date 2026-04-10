@@ -1,4 +1,4 @@
-﻿{
+{
   "name": {
     "value": "Đồng Nai",
     "last_updated": "2025-07-01",
@@ -19,12 +19,12 @@
     "source": "Chính phủ - Chi tiết 34 đơn vị hành chính cấp tỉnh"
   },
   "location": {
-    "latitude"10độ30’ đến 11độ34’
+    "latitude": {
       "value": null,
       "last_updated": "2025-07-01",
       "source": "Chưa thấy nguồn chính thức công bố một tọa độ tâm địa lý duy nhất cho tỉnh sau sáp nhập; bản đồ hành chính chính thức chỉ thể hiện phạm vi tọa độ khoảng 10°40'–12°10'B."
     },
-    "longitude": 106độ45’ đến 107độ35’
+    "longitude": {
       "value": null,
       "last_updated": "2025-07-01",
       "source": "Chưa thấy nguồn chính thức công bố một tọa độ tâm địa lý duy nhất cho tỉnh sau sáp nhập; bản đồ hành chính chính thức chỉ thể hiện phạm vi tọa độ khoảng 106°20'–107°30'Đ."
@@ -46,7 +46,7 @@
         "last_updated": "2025-07-01",
         "source": "Bản đồ hành chính tỉnh Đồng Nai và bài định vị Đồng Nai trên bản đồ cả nước"
       },
-      "seas": 
+      "seas": {
         "value": [],
         "last_updated": "2025-07-01",
         "source": "Bản đồ hành chính chính thức không thể hiện tỉnh Đồng Nai giáp biển sau sáp nhập."
@@ -67,7 +67,7 @@
       "source": "Nghị quyết 1662/NQ-UBTVQH15, bài tổng hợp của Cổng Chính phủ"
     },
     "wards_communes_list": {
-      "value": [72 xã và 23 phường],
+      "value": [
         "Đại Phước",
         "Nhơn Trạch",
         "Phước An",
@@ -169,7 +169,7 @@
     }
   },
   "population": {
-    "total": 
+    "total": {
       "value": 4491408,
       "last_updated": "2025-07-01",
       "source": "Chính phủ - Chi tiết 34 đơn vị hành chính cấp tỉnh"
@@ -180,7 +180,7 @@
       "source": "Tính từ dân số 4.491.408 người và diện tích 12.737,18 km² theo nguồn Chính phủ; phép tính = 352,6218519 người/km²."
     },
     "ethnic_groups": {
-      "value":  36 dân tộc
+      "value": ["36 dân tộc"],
       "last_updated": "2025-07-01",
       "source": "Chưa thấy cơ cấu phần trăm dân tộc chính thức cho Đồng Nai sau hợp nhất; nguồn tỉnh chỉ nêu toàn tỉnh có hơn 50 dân tộc."
     }
@@ -296,7 +296,7 @@
         "last_updated": "2025-07-01",
         "source": "Bài Đặc sắc văn hóa Đồng Nai trên cổng thông tin tỉnh"
       },
-      "events": 
+      "events": {
         "value": [
           "Các hoạt động văn hóa - du lịch gắn với hệ thống di sản, du lịch sinh thái và du lịch nông nghiệp của Đồng Nai mới"
         ],
@@ -343,15 +343,14 @@
     }
   },
   "environment": {
-
-
-    "climate": mùa mưa và mùa khô      "type": {
-        "value": null,
+    "climate": {
+      "type": {
+        "value": "mùa mưa và mùa khô",
         "last_updated": "2025-07-01",
         "source": "Chưa thấy tài liệu chính thức hậu sáp nhập công bố một mô tả khí hậu chung, chuẩn hóa cho toàn tỉnh Đồng Nai mới."
       },
       "average_temperature_c": {
-        "value": khoảng từ 26 đến 27độ
+        "value": "khoảng từ 26 đến 27độ",
         "last_updated": "2025-07-01",
         "source": "Chưa thấy số nhiệt độ trung bình năm chính thức cho toàn tỉnh Đồng Nai mới sau hợp nhất."
       }

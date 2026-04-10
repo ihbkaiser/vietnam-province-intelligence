@@ -16,6 +16,8 @@ export interface ProvinceInfoField<T> {
   description?: string;
 }
 
+export type ProvinceDisplayValue = string | number | null;
+
 export interface ProvinceAttraction {
   name: string;
   type: string;
@@ -30,11 +32,11 @@ export interface ProvinceSpecialty {
 
 export interface ProvinceInfo {
   name?: ProvinceInfoField<string>;
-  administrative_code?: ProvinceInfoField<string>;
+  administrative_code?: ProvinceInfoField<string | number>;
   former_provinces?: ProvinceInfoField<string[]> & { description?: string };
   location?: {
-    latitude?: ProvinceInfoField<number | null>;
-    longitude?: ProvinceInfoField<number | null>;
+    latitude?: ProvinceInfoField<ProvinceDisplayValue>;
+    longitude?: ProvinceInfoField<ProvinceDisplayValue>;
     adjacent_areas?: {
       provinces?: ProvinceInfoField<string[]>;
       countries?: ProvinceInfoField<string[]>;
@@ -42,15 +44,15 @@ export interface ProvinceInfo {
     };
   };
   area?: {
-    total_km2?: ProvinceInfoField<number | null>;
+    total_km2?: ProvinceInfoField<ProvinceDisplayValue>;
   };
   administrative_structure?: {
-    wards_communes_count?: ProvinceInfoField<number | null>;
+    wards_communes_count?: ProvinceInfoField<ProvinceDisplayValue>;
     wards_communes_list?: ProvinceInfoField<string[]>;
   };
   population?: {
-    total?: ProvinceInfoField<number | null>;
-    density_per_km2?: ProvinceInfoField<number | null>;
+    total?: ProvinceInfoField<ProvinceDisplayValue>;
+    density_per_km2?: ProvinceInfoField<ProvinceDisplayValue>;
     ethnic_groups?: ProvinceInfoField<string[]>;
   };
   economy?: {
@@ -75,7 +77,7 @@ export interface ProvinceInfo {
   environment?: {
     climate?: {
       type?: ProvinceInfoField<string | null>;
-      average_temperature_c?: ProvinceInfoField<number | null>;
+      average_temperature_c?: ProvinceInfoField<ProvinceDisplayValue>;
     };
     ecology?: {
       forests?: ProvinceInfoField<string[]>;
@@ -90,6 +92,38 @@ export interface ProvinceDetail extends ProvinceFeatureProperties {
   description: string;
   commune_count: number;
   province_info: ProvinceInfo | null;
+}
+
+export interface ProvinceSummary {
+  province_id: string;
+  province_code: string;
+  province_name: string;
+  province_kind: 'province' | 'city';
+  aliases: string[];
+  description: string;
+}
+
+export interface CommuneSeed {
+  commune_code: string;
+  commune_name: string;
+  commune_type: 'xa' | 'phuong' | 'dac_khu';
+  province_code: string;
+  aliases: string[];
+  bbox: [number, number, number, number];
+}
+
+export interface AddressParts {
+  commune: string | null;
+  district: string | null;
+  province: string | null;
+  formatted_address: string;
+}
+
+export interface ResolveAddressResponse {
+  old_address: AddressParts;
+  new_address: AddressParts;
+  found: boolean;
+  source: 'openmap-admin-v2';
 }
 
 export interface ResolveAdminUnitResponse {
