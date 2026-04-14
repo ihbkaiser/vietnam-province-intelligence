@@ -1,0 +1,433 @@
+﻿{
+  "name": {
+    "value": "Nghệ An",
+    "last_updated": "2025-07-01",
+    "source": "Quốc hội/UBTVQH15; tình trạng sau sắp xếp hành chính có hiệu lực từ 01/07/2025"
+  },
+  "administrative_code": {
+    "value": null,
+    "last_updated": null,
+    "source": "Chưa điền để tránh suy đoán; chưa xác minh được từ nguồn công khai chính thức truy xuất trực tiếp trong phiên tra cứu này"
+  },
+  "former_provinces": {
+    "value": [
+      "Nghệ An"
+    ],
+    "description": "Nghệ An không phải tỉnh hình thành từ sắp xếp cấp tỉnh năm 2025; sau 01/07/2025 tỉnh vẫn là Nghệ An. Thay đổi chủ yếu nằm ở cấp xã theo Nghị quyết 1678/NQ-UBTVQH15.",
+    "last_updated": "2025-07-01",
+    "source": "Nghị quyết số 202/2025/QH15 về sắp xếp đơn vị hành chính cấp tỉnh và Nghị quyết số 1678/NQ-UBTVQH15 về sắp xếp đơn vị hành chính cấp xã của tỉnh Nghệ An"
+  },
+
+
+  "location": {
+    "latitude": {
+      "value": null,
+      "last_updated": null,
+      "source": "Cổng TTĐT Nghệ An công bố dải tọa độ của tỉnh (18°33' đến 19°25' vĩ độ Bắc), không công bố một điểm tâm tỉnh đơn nhất trên trang đã đối chiếu"
+    },
+    "longitude": {
+      "value": null,
+      "last_updated": null,
+      "source": "Cổng TTĐT Nghệ An công bố dải tọa độ của tỉnh (103°52' đến 105°48' kinh độ Đông), không công bố một điểm tâm tỉnh đơn nhất trên trang đã đối chiếu"
+    },
+    "adjacent_areas": {
+      "provinces": {
+        "value": [
+          "Thanh Hóa",
+          "Hà Tĩnh"
+        ],
+        "last_updated": "2025-07-01",
+        "source": "Cổng TTĐT tỉnh Nghệ An - phần giới thiệu chung"
+      },
+      "countries": {
+        "value": [
+          "Lào"
+        ],
+        "last_updated": "2025-07-01",
+        "source": "Cổng TTĐT tỉnh Nghệ An - phần giới thiệu chung"
+      },
+      "seas": {
+        "value": [
+          "Biển Đông"
+        ],
+        "last_updated": "2025-07-01",
+        "source": "Cổng TTĐT tỉnh Nghệ An - phần giới thiệu chung"
+      }
+    }
+  },
+
+
+  "area": {
+    "total_km2": {
+      "value": 16489.97,
+      "last_updated": "2025-07-01",
+      "source": "Cổng TTĐT tỉnh Nghệ An - phần giới thiệu chung"
+    }
+  },
+
+
+  "administrative_structure": {
+    "wards_communes_count": {
+      "value": 130,
+      "last_updated": "2025-07-01",
+      "source": "Nghị quyết số 1678/NQ-UBTVQH15"
+    },
+    "wards_communes_list": {
+      "value": [
+        "xã Anh Sơn",
+        "xã Yên Xuân",
+        "xã Nhân Hòa",
+        "xã Anh Sơn Đông",
+        "xã Vĩnh Tường",
+        "xã Thành Bình Thọ",
+        "xã Con Cuông",
+        "xã Môn Sơn",
+        "xã Mậu Thạch",
+        "xã Cam Phục",
+        "xã Châu Khê",
+        "xã Diễn Châu",
+        "xã Đức Châu",
+        "xã Quảng Châu",
+        "xã Hải Châu",
+        "xã Tân Châu",
+        "xã An Châu",
+        "xã Minh Châu",
+        "xã Hùng Châu",
+        "xã Đô Lương",
+        "xã Bạch Ngọc",
+        "xã Văn Hiến",
+        "xã Bạch Hà",
+        "xã Thuần Trung",
+        "xã Lương Sơn",
+        "xã Hưng Nguyên",
+        "xã Yên Trung",
+        "xã Hưng Nguyên Nam",
+        "xã Lam Thành",
+        "xã Chiêu Lưu",
+        "xã Hữu Kiệm",
+        "xã Mường Típ",
+        "xã Mường Xén",
+        "xã Na Loi",
+        "xã Na Ngoi",
+        "xã Nậm Cắn",
+        "xã Kim Liên",
+        "xã Vạn An",
+        "xã Nam Đàn",
+        "xã Đại Huệ",
+        "xã Thiên Nhẫn",
+        "xã Nghĩa Đàn",
+        "xã Nghĩa Thọ",
+        "xã Nghĩa Lâm",
+        "xã Nghĩa Mai",
+        "xã Nghĩa Hưng",
+        "xã Nghĩa Khánh",
+        "xã Nghĩa Lộc",
+        "xã Nghi Lộc",
+        "xã Phúc Lộc",
+        "xã Đông Lộc",
+        "xã Trung Lộc",
+        "xã Thần Lĩnh",
+        "xã Hải Lộc",
+        "xã Văn Kiều",
+        "xã Mường Quàng",
+        "xã Quế Phong",
+        "xã Thông Thụ",
+        "xã Tiền Phong",
+        "xã Tri Lễ",
+        "xã Quỳ Châu",
+        "xã Châu Tiến",
+        "xã Hùng Chân",
+        "xã Quỳ Hợp",
+        "xã Tam Hợp",
+        "xã Châu Lộc",
+        "xã Châu Hồng",
+        "xã Mường Ham",
+        "xã Mường Chọng",
+        "xã Minh Hợp",
+        "xã Quỳnh Lưu",
+        "xã Quỳnh Văn",
+        "xã Quỳnh Anh",
+        "xã Quỳnh Tam",
+        "xã Quỳnh Phú",
+        "xã Quỳnh Sơn",
+        "xã Quỳnh Thắng",
+        "xã Tân Kỳ",
+        "xã Tân Phú",
+        "xã Tân An",
+        "xã Nghĩa Đồng",
+        "xã Giai Xuân",
+        "xã Nghĩa Hành",
+        "xã Tiên Đồng",
+        "phường Đông Hiếu",
+        "xã Bích Hào",
+        "xã Cát Ngạn",
+        "xã Đại Đồng",
+        "xã Hạnh Lâm",
+        "xã Hoa Quân",
+        "xã Kim Bảng",
+        "xã Sơn Lâm",
+        "xã Tam Đồng",
+        "xã Xuân Lâm",
+        "xã Nga My",
+        "xã Nhôn Mai",
+        "xã Tam Quang",
+        "xã Tam Thái",
+        "xã Tương Dương",
+        "xã Yên Hòa",
+        "xã Yên Na",
+        "xã Yên Thành",
+        "xã Quan Thành",
+        "xã Hợp Minh",
+        "xã Vân Tụ",
+        "xã Vân Du",
+        "xã Quang Đồng",
+        "xã Giai Lạc",
+        "xã Bình Minh",
+        "xã Đông Thành",
+        "phường Hoàng Mai",
+        "phường Quỳnh Mai",
+        "phường Tân Mai",
+        "phường Thái Hòa",
+        "phường Tây Hiếu",
+        "phường Trường Vinh",
+        "phường Thành Vinh",
+        "phường Vinh Hưng",
+        "phường Vinh Phú",
+        "phường Vinh Lộc",
+        "phường Cửa Lò",
+        "xã Keng Đu",
+        "xã Mỹ Lý",
+        "xã Bắc Lý",
+        "xã Huồi Tụ",
+        "xã Mường Lống",
+        "xã Bình Chuẩn",
+        "xã Hữu Khuông",
+        "xã Lượng Minh",
+        "xã Châu Bình"
+      ],
+      "last_updated": "2025-07-01",
+      "source": "Nghị quyết số 1678/NQ-UBTVQH15"
+    }
+  },
+
+
+  "population": {
+    "total": {
+      "value": 3419989,
+      "last_updated": "2022-12-31",
+      "source": "Cổng TTĐT tỉnh Nghệ An, dẫn Niên giám thống kê 2023 (dân số trung bình năm 2022)"
+    },
+    "density_per_km2": {
+      "value": 207,
+      "last_updated": "2022-12-31",
+      "source": "Cổng TTĐT tỉnh Nghệ An, dẫn Niên giám thống kê 2023"
+    },
+    "ethnic_groups": {
+      "value": [
+        {
+          "name": "Kinh",
+          "percentage": null
+        },
+        {
+          "name": "Thái",
+          "percentage": null
+        },
+        {
+          "name": "Thổ",
+          "percentage": null
+        },
+        {
+          "name": "Khơ Mú",
+          "percentage": null
+        },
+        {
+          "name": "H'Mông",
+          "percentage": null
+        },
+        {
+          "name": "Ơ Đu",
+          "percentage": null
+        }
+      ],
+      "last_updated": "2022-12-31",
+      "source": "Cổng TTĐT tỉnh Nghệ An nêu Nghệ An có hơn 500.000 người dân tộc thiểu số, chủ yếu là Thái, Thổ, Khơ Mú, H'Mông, Ơ Đu; không công bố tỷ lệ % chi tiết trong nguồn đã đối chiếu"
+    }
+  },
+
+
+  "economy": {
+    "scale": {
+      "value": "GRDP năm 2024 theo giá hiện hành đạt 216.943.727 triệu đồng; dịch vụ chiếm tỷ trọng lớn nhất 42,68%.",
+      "last_updated": "2024-12-31",
+      "source": "Báo cáo tình hình kinh tế - xã hội tháng 12 và năm 2024 của Cục Thống kê Nghệ An"
+    },
+    "main_sectors": {
+      "value": [
+        "Nông, lâm nghiệp và thủy sản",
+        "Công nghiệp và xây dựng",
+        "Dịch vụ"
+      ],
+      "last_updated": "2024-12-31",
+      "source": "Báo cáo tình hình kinh tế - xã hội tháng 12 và năm 2024 của Cục Thống kê Nghệ An"
+    },
+    "gdp": {
+      "value": {
+        "amount_usd": null,
+        "year": 2024
+      },
+      "last_updated": "2024-12-31",
+      "source": "Nguồn chính thức truy xuất được công bố GRDP bằng VND; không công bố giá trị USD chính thức trong tài liệu đã đối chiếu nên để null để tránh suy diễn"
+    }
+  },
+
+
+  "tourism": {
+    "attractions": {
+      "value": [
+        {
+          "name": "Khu di tích quốc gia đặc biệt Kim Liên",
+          "type": "Di tích lịch sử - văn hóa",
+          "description": "Quần thể di tích gắn với quê hương Chủ tịch Hồ Chí Minh, là điểm đến trọng tâm của du lịch văn hóa Nghệ An.",
+          "rating": null
+        },
+        {
+          "name": "Vườn quốc gia Pù Mát",
+          "type": "Du lịch sinh thái",
+          "description": "Vườn quốc gia nằm trong Khu dự trữ sinh quyển miền Tây Nghệ An, có giá trị đa dạng sinh học rất cao.",
+          "rating": null
+        },
+        {
+          "name": "Khu dự trữ sinh quyển Tây Nghệ An",
+          "type": "Sinh thái - bảo tồn",
+          "description": "Không gian sinh thái lớn ở miền tây tỉnh, gồm nhiều khu bảo tồn và hệ sinh thái rừng đặc dụng.",
+          "rating": null
+        },
+        {
+          "name": "Biển Cửa Lò",
+          "type": "Du lịch biển",
+          "description": "Trung tâm du lịch biển nổi bật của Nghệ An, gắn với không gian ven biển phía đông của tỉnh.",
+          "rating": null
+        }
+      ],
+      "last_updated": "2025-07-01",
+      "source": "Cổng TTĐT tỉnh Nghệ An; tài liệu tài nguyên - môi trường tỉnh; trang thông tin du lịch và lễ hội của tỉnh Nghệ An"
+    },
+    "local_specialties": {
+      "value": [
+        {
+          "name": "Cam Vinh",
+          "type": "Nông sản"
+        },
+        {
+          "name": "Nhút Thanh Chương",
+          "type": "Đặc sản ẩm thực"
+        },
+        {
+          "name": "Tương Nam Đàn",
+          "type": "Đặc sản ẩm thực"
+        },
+        {
+          "name": "Cháo lươn / súp lươn xứ Nghệ",
+          "type": "Ẩm thực địa phương"
+        }
+      ],
+      "last_updated": "2025-12-31",
+      "source": "Các cổng thông tin chính thức của tỉnh Nghệ An, Sở Công Thương Nghệ An, trang du lịch Nam Đàn và trang OCOP Nghệ An"
+    },
+    "culture": {
+      "festivals": {
+        "value": [
+          "Lễ hội Làng Sen"
+        ],
+        "last_updated": "2025-05-01",
+        "source": "Cổng TTĐT tỉnh Nghệ An"
+      },
+      "events": {
+        "value": [],
+        "last_updated": null,
+        "source": "Không điền để tránh gom các sự kiện thời điểm ngắn hạn thành dữ liệu nền cố định của tỉnh"
+      }
+    }
+  },
+
+
+  "infrastructure": {
+    "airport": {
+      "value": [
+        "Cảng hàng không Quốc tế Vinh"
+      ],
+      "last_updated": "2025-07-01",
+      "source": "Cổng TTĐT tỉnh Nghệ An - hạ tầng giao thông"
+    },
+    "seaport": {
+      "value": [
+        "Cảng Cửa Lò"
+      ],
+      "last_updated": "2025-07-01",
+      "source": "Cổng TTĐT tỉnh Nghệ An - hạ tầng giao thông"
+    },
+    "railway_station": {
+      "value": [],
+      "last_updated": null,
+      "source": "Nguồn chính thức đã đối chiếu nêu hệ thống đường sắt và tuyến đi qua tỉnh, nhưng không liệt kê danh sách ga đầy đủ trên trang dùng để trích xuất"
+    },
+    "other_transport": {
+      "value": [
+        "Hệ thống 16 tuyến quốc lộ",
+        "Tuyến đường sắt Bắc - Nam qua Nghệ An",
+        "Tuyến nhánh Cầu Giát - Thái Hòa",
+        "Mạng lưới đường bộ, đường biển và đường thủy nội địa"
+      ],
+      "last_updated": "2025-07-01",
+      "source": "Cổng TTĐT tỉnh Nghệ An - hạ tầng giao thông"
+    }
+  },
+
+
+  "environment": {
+    "climate": {
+      "type": {
+        "value": null,
+        "last_updated": null,
+        "source": "Chưa điền để tránh suy diễn từ nguồn mô tả không phải bộ dữ liệu nền chuẩn hóa cấp tỉnh trong phiên tra cứu này"
+      },
+      "average_temperature_c": {
+        "value": null,
+        "last_updated": null,
+        "source": "Chưa điền để tránh suy diễn từ nguồn khí hậu mô tả theo giai đoạn, không phải trị số chuẩn đơn nhất dùng làm dữ liệu nền"
+      }
+    },
+    "ecology": {
+      "forests": {
+        "value": [
+          "Vườn quốc gia Pù Mát",
+          "Khu bảo tồn thiên nhiên Pù Huống",
+          "Khu bảo tồn thiên nhiên Pù Hoạt"
+        ],
+        "last_updated": "2021-02-23",
+        "source": "Cổng TTĐT tỉnh Nghệ An - tài nguyên thiên nhiên"
+      },
+      "sea": {
+        "value": [
+          "Biển Đông",
+          "Dải bờ biển Nghệ An dài khoảng 82 km"
+        ],
+        "last_updated": "2025-07-01",
+        "source": "Cổng TTĐT tỉnh Nghệ An - phần giới thiệu chung và tài nguyên thiên nhiên"
+      },
+      "other_resources": {
+        "value": [
+          "Đá hoa trắng",
+          "Quặng thiếc",
+          "Vàng",
+          "Chì - kẽm",
+          "Sắt",
+          "Đá quý",
+          "Đá vôi xi măng"
+        ],
+        "last_updated": "2021-02-23",
+        "source": "Cổng TTĐT tỉnh Nghệ An - tài nguyên thiên nhiên"
+      }
+    }
+  }
+}

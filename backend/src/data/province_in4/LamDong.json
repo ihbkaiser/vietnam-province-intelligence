@@ -1,0 +1,375 @@
+﻿{
+  "name": {
+    "value": "Lâm Đồng",
+    "last_updated": "2025-07-01",
+    "source": "Nghị quyết 202/2025/QH15; Cổng TTĐT Chính phủ - Thông tin tỉnh thành"
+  },
+  "administrative_code": {
+    "value": "68",
+    "last_updated": "2025-07-01",
+    "source": "Quyết định 19/2025/QĐ-TTg của Thủ tướng Chính phủ"
+  },
+  "former_provinces": {
+    "value": ["Đắk Nông", "Bình Thuận", "Lâm Đồng"],
+    "description": "Tỉnh Lâm Đồng mới được hình thành trên cơ sở sắp xếp toàn bộ diện tích tự nhiên và quy mô dân số của 3 tỉnh: Đắk Nông, Bình Thuận và Lâm Đồng.",
+    "last_updated": "2025-06-12",
+    "source": "Nghị quyết 202/2025/QH15; bài tổng hợp Chi tiết 34 đơn vị hành chính cấp tỉnh"
+  },
+  "location": {
+    "latitude": {
+      "value": null,
+      "last_updated": "2026-03-19",
+      "source": "Chưa thấy nguồn công khai chính thức hậu sáp nhập công bố một tọa độ chuẩn đại diện cho toàn tỉnh"
+    },
+    "longitude": {
+      "value": null,
+      "last_updated": "2026-03-19",
+      "source": "Chưa thấy nguồn công khai chính thức hậu sáp nhập công bố một tọa độ chuẩn đại diện cho toàn tỉnh"
+    },
+    "adjacent_areas": {
+      "provinces": {
+        "value": ["Đắk Lắk", "Khánh Hòa", "Đồng Nai"],
+        "last_updated": "2025-07-01",
+        "source": "Tổng hợp theo Nghị quyết 202/2025/QH15 và hệ thống 34 đơn vị hành chính cấp tỉnh sau sắp xếp"
+      },
+      "countries": {
+        "value": ["Campuchia"],
+        "last_updated": "2025-07-01",
+        "source": "Tổng hợp theo địa giới phần tỉnh Đắk Nông trước sắp xếp và Nghị quyết 202/2025/QH15"
+      },
+      "seas": {
+        "value": ["Biển Đông"],
+        "last_updated": "2025-07-01",
+        "source": "Tổng hợp theo địa giới phần tỉnh Bình Thuận trước sắp xếp và Nghị quyết 202/2025/QH15"
+      }
+    }
+  },
+  "area": {
+    "total_km2": {
+      "value": 24233.07,
+      "last_updated": "2025-06-12",
+      "source": "Nghị quyết 202/2025/QH15; bài tổng hợp Chi tiết 34 đơn vị hành chính cấp tỉnh"
+    }
+  },
+  "administrative_structure": {
+    "wards_communes_count": {
+      "value": 124,
+      "last_updated": "2025-08-04",
+      "source": "Nghị quyết 1671/NQ-UBTVQH15; Cổng TTĐT Chính phủ - Danh sách 124 xã, phường, đặc khu của tỉnh Lâm Đồng mới"
+    },
+    "wards_communes_list": {
+      "value": [
+        "Lạc Dương",
+        "Đơn Dương",
+        "Ka Đô",
+        "Quảng Lập",
+        "D’Ran",
+        "Hiệp Thạnh",
+        "Đức Trọng",
+        "Tân Hội",
+        "Tà Hine",
+        "Tà Năng",
+        "Đinh Văn Lâm Hà",
+        "Phú Sơn Lâm Hà",
+        "Nam Hà Lâm Hà",
+        "Nam Ban Lâm Hà",
+        "Tân Hà Lâm Hà",
+        "Phúc Thọ Lâm Hà",
+        "Đam Rông 1",
+        "Đam Rông 2",
+        "Đam Rông 3",
+        "Đam Rông 4",
+        "Di Linh",
+        "Hòa Ninh",
+        "Hòa Bắc",
+        "Đinh Trang Thượng",
+        "Bảo Thuận",
+        "Sơn Điền",
+        "Gia Hiệp",
+        "Bảo Lâm 1",
+        "Bảo Lâm 2",
+        "Bảo Lâm 3",
+        "Bảo Lâm 4",
+        "Bảo Lâm 5",
+        "Đạ Huoai",
+        "Đạ Huoai 2",
+        "Đạ Tẻh",
+        "Đạ Tẻh 2",
+        "Đạ Tẻh 3",
+        "Cát Tiên",
+        "Cát Tiên 2",
+        "Cát Tiên 3",
+        "Vĩnh Hảo",
+        "Liên Hương",
+        "Tuy Phong",
+        "Phan Rí Cửa",
+        "Bắc Bình",
+        "Hồng Thái",
+        "Hải Ninh",
+        "Phan Sơn",
+        "Sông Lũy",
+        "Lương Sơn",
+        "Hòa Thắng",
+        "Đông Giang",
+        "La Dạ",
+        "Hàm Thuận Bắc",
+        "Hàm Thuận",
+        "Hồng Sơn",
+        "Hàm Liêm",
+        "Tuyên Quang",
+        "Hàm Thạnh",
+        "Hàm Kiệm",
+        "Tân Thành",
+        "Hàm Thuận Nam",
+        "Tân Lập",
+        "Tân Minh",
+        "Hàm Tân",
+        "Sơn Mỹ",
+        "Tân Hải",
+        "Nghị Đức",
+        "Bắc Ruộng",
+        "Đồng Kho",
+        "Tánh Linh",
+        "Suối Kiết",
+        "Nam Thành",
+        "Đức Linh",
+        "Hoài Đức",
+        "Trà Tân",
+        "Đắk Wil",
+        "Nam Dong",
+        "Cư Jút",
+        "Thuận An",
+        "Đức Lập",
+        "Đắk Mil",
+        "Đắk Sắk",
+        "Nam Đà",
+        "Krông Nô",
+        "Nâm Nung",
+        "Quảng Phú",
+        "Đắk Song",
+        "Đức An",
+        "Thuận Hạnh",
+        "Trường Xuân",
+        "Tà Đùng",
+        "Quảng Khê",
+        "Quảng Tân",
+        "Tuy Đức",
+        "Kiến Đức",
+        "Nhân Cơ",
+        "Quảng Tín",
+        "phường Xuân Hương - Đà Lạt",
+        "phường Cam Ly - Đà Lạt",
+        "phường Lâm Viên - Đà Lạt",
+        "phường Xuân Trường - Đà Lạt",
+        "phường Lang Biang - Đà Lạt",
+        "Phường 1 Bảo Lộc",
+        "Phường 2 Bảo Lộc",
+        "Phường 3 Bảo Lộc",
+        "phường B’Lao",
+        "phường Hàm Thắng",
+        "phường Bình Thuận",
+        "phường Mũi Né",
+        "phường Phú Thủy",
+        "phường Phan Thiết",
+        "phường Tiến Thành",
+        "phường La Gi",
+        "phường Phước Hội",
+        "phường Bắc Gia Nghĩa",
+        "phường Nam Gia Nghĩa",
+        "phường Đông Gia Nghĩa",
+        "đặc khu Phú Quý",
+        "Đạ Huoai 3",
+        "Quảng Hòa",
+        "Quảng Sơn",
+        "Quảng Trực",
+        "Ninh Gia"
+      ],
+      "last_updated": "2025-08-04",
+      "source": "Nghị quyết 1671/NQ-UBTVQH15; Cổng TTĐT Chính phủ - Danh sách 124 xã, phường, đặc khu của tỉnh Lâm Đồng mới"
+    }
+  },
+  "population": {
+    "total": {
+      "value": 3872999,
+      "last_updated": "2025-06-12",
+      "source": "Nghị quyết 202/2025/QH15; bài tổng hợp Chi tiết 34 đơn vị hành chính cấp tỉnh"
+    },
+    "density_per_km2": {
+      "value": 159.82,
+      "last_updated": "2025-06-12",
+      "source": "Tính từ dân số 3.872.999 người và diện tích 24.233,07 km2 theo Nghị quyết 202/2025/QH15"
+    },
+    "ethnic_groups": {
+      "value": null,
+      "last_updated": "2026-03-19",
+      "source": "Chưa thấy bảng tỷ lệ cơ cấu dân tộc chính thức cho tỉnh Lâm Đồng mới sau sáp nhập được công bố công khai"
+    }
+  },
+  "economy": {
+    "scale": {
+      "value": "Thuộc nhóm 10 địa phương có quy mô kinh tế lớn nhất cả nước",
+      "last_updated": "2025-06-03",
+      "source": "Cổng TTĐT tỉnh Lâm Đồng - bài 'Động lực phát triển kinh tế - xã hội của tỉnh Lâm Đồng mới sau sáp nhập (Bài 1)'"
+    },
+    "main_sectors": {
+      "value": [
+        "nông nghiệp công nghệ cao",
+        "du lịch - dịch vụ",
+        "công nghiệp chế biến",
+        "năng lượng",
+        "kinh tế biển và logistics"
+      ],
+      "last_updated": "2025-06-09",
+      "source": "Tổng hợp thận trọng từ loạt bài 'Động lực phát triển kinh tế - xã hội của tỉnh Lâm Đồng mới sau sáp nhập' trên Cổng TTĐT tỉnh Lâm Đồng"
+    },
+    "gdp": {
+      "value": {
+        "amount_usd": null,
+        "year": null
+      },
+      "last_updated": "2026-03-19",
+      "source": "Chưa thấy chỉ tiêu GDP/GRDP hợp nhất của tỉnh Lâm Đồng mới được công bố chính thức bằng USD"
+    }
+  },
+  "tourism": {
+    "attractions": {
+      "value": [
+        {
+          "name": "Khu du lịch quốc gia Hồ Tuyền Lâm",
+          "type": "khu du lịch quốc gia",
+          "description": "Khu du lịch trọng điểm của Đà Lạt, có ban quản lý chuyên trách thuộc tỉnh.",
+          "rating": null
+        },
+        {
+          "name": "Khu du lịch quốc gia Đankia - Suối Vàng",
+          "type": "khu du lịch quốc gia",
+          "description": "Được Thủ tướng phê duyệt quy hoạch tổng thể phát triển khu du lịch quốc gia.",
+          "rating": null
+        },
+        {
+          "name": "Công viên địa chất toàn cầu UNESCO Đắk Nông",
+          "type": "công viên địa chất toàn cầu",
+          "description": "Khu vực di sản địa chất mang giá trị quốc tế, gắn với văn hóa bản địa M’Nông, Mạ, Êđê.",
+          "rating": null
+        },
+        {
+          "name": "Ga Đà Lạt",
+          "type": "di tích/điểm du lịch",
+          "description": "Ga đường sắt cổ được công nhận là điểm du lịch của thành phố Đà Lạt.",
+          "rating": null
+        }
+      ],
+      "last_updated": "2026-03-19",
+      "source": "Ban Quản lý KDLQG Hồ Tuyền Lâm; UNESCO; Báo Điện tử Chính phủ; Tổng công ty Đường sắt Việt Nam"
+    },
+    "local_specialties": {
+      "value": [
+        {
+          "name": "trà Đà Lạt",
+          "type": "đồ uống/đặc sản"
+        },
+        {
+          "name": "cà phê Đà Lạt",
+          "type": "đồ uống/đặc sản"
+        },
+        {
+          "name": "rượu vang Đà Lạt",
+          "type": "đồ uống/đặc sản"
+        },
+        {
+          "name": "thanh long Bình Thuận",
+          "type": "nông sản"
+        }
+      ],
+      "last_updated": "2026-02-05",
+      "source": "Cổng Festival Hoa Đà Lạt; Khuyến nông Lâm Đồng"
+    },
+    "culture": {
+      "festivals": {
+        "value": [
+          "Festival Hoa Đà Lạt",
+          "Không gian văn hóa cồng chiêng Tây Nguyên"
+        ],
+        "last_updated": "2026-03-19",
+        "source": "Cổng Festival Hoa Đà Lạt; UNESCO"
+      },
+      "events": {
+        "value": [
+          "Festival Hoa Đà Lạt - Lâm Đồng",
+          "Tàu du lịch đêm Đà Lạt - Trại Mát"
+        ],
+        "last_updated": "2025-11-05",
+        "source": "Cổng Festival Hoa Đà Lạt; Tổng công ty Đường sắt Việt Nam"
+      }
+    }
+  },
+  "infrastructure": {
+    "airport": {
+      "value": [
+        "Cảng hàng không Liên Khương",
+        "Cảng hàng không Phan Thiết (đang đầu tư xây dựng)"
+      ],
+      "last_updated": "2026-03-05",
+      "source": "ACV - Cảng hàng không Liên Khương; Cục Hàng không Việt Nam"
+    },
+    "seaport": {
+      "value": [],
+      "last_updated": "2026-03-19",
+      "source": "Chưa tổng hợp được danh mục cảng biển hậu sáp nhập từ một nguồn công khai chính thức duy nhất đủ rõ để liệt kê không sai sót"
+    },
+    "railway_station": {
+      "value": [
+        "Ga Đà Lạt"
+      ],
+      "last_updated": "2024-07-11",
+      "source": "Tổng công ty Đường sắt Việt Nam"
+    },
+    "other_transport": {
+      "value": [
+        "tuyến đường sắt du lịch Đà Lạt - Trại Mát",
+        "hệ thống kết nối cao tốc, quốc lộ, sân bay, bến cảng liên vùng đang được phát triển"
+      ],
+      "last_updated": "2025-06-09",
+      "source": "Tổng công ty Đường sắt Việt Nam; Cổng TTĐT tỉnh Lâm Đồng - bài về hệ thống giao thông đa dạng của tỉnh Lâm Đồng mới"
+    }
+  },
+  "environment": {
+    "climate": {
+      "type": {
+        "value": "Đa dạng, phân hóa rõ giữa cao nguyên ôn hòa, cao nguyên nhiệt đới và duyên hải khô nóng",
+        "last_updated": "2026-03-19",
+        "source": "Tổng hợp thận trọng từ các nguồn giới thiệu chính thức về Đà Lạt - Lâm Đồng và đặc trưng không gian của tỉnh Lâm Đồng mới"
+      },
+      "average_temperature_c": {
+        "value": null,
+        "last_updated": "2026-03-19",
+        "source": "Chưa thấy một giá trị nhiệt độ trung bình chính thức duy nhất cho toàn tỉnh mới sau sáp nhập"
+      }
+    },
+    "ecology": {
+      "forests": {
+        "value": [
+          "rừng thông Đà Lạt",
+          "hệ sinh thái rừng cao nguyên khu vực Lâm Đồng - Đắk Nông"
+        ],
+        "last_updated": "2026-03-19",
+        "source": "Nguồn giới thiệu chính thức Đà Lạt - Lâm Đồng; UNESCO Dak Nong UNESCO Global Geopark"
+      },
+      "sea": {
+        "value": [
+          "Biển Đông"
+        ],
+        "last_updated": "2025-07-01",
+        "source": "Địa giới phần tỉnh Bình Thuận hợp nhất vào tỉnh Lâm Đồng mới"
+      },
+      "other_resources": {
+        "value": [
+          "bô xít",
+          "di sản địa chất của Công viên địa chất toàn cầu UNESCO Đắk Nông"
+        ],
+        "last_updated": "2026-03-19",
+        "source": "UNESCO Dak Nong UNESCO Global Geopark; tổng hợp tài nguyên khoáng sản thường được công bố cho khu vực Đắk Nông"
+      }
+    }
+  }
+}

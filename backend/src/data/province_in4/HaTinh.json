@@ -1,0 +1,334 @@
+﻿{
+  "name": {
+    "value": "Hà Tĩnh",
+    "last_updated": "2025-06-12",
+    "source": "Nghị quyết số 202/2025/QH15; bài 'Chi tiết 34 đơn vị hành chính cấp tỉnh'"
+  },
+  "administrative_code": {
+    "value": "42",
+    "last_updated": "2025-07-01",
+    "source": "Quyết định số 19/2025/QĐ-TTg; bài 'Bảng danh mục và mã số của 34 tỉnh thành mới, các đơn vị hành chính cấp xã mới'"
+  },
+  "former_provinces": {
+    "value": ["Hà Tĩnh"],
+    "description": "Hà Tĩnh là một trong 11 tỉnh, thành phố không thực hiện sắp xếp đơn vị hành chính cấp tỉnh năm 2025; sau 01/07/2025 tỉnh không hình thành từ việc hợp nhất với tỉnh khác.",
+    "last_updated": "2025-06-12",
+    "source": "Bài 'Chi tiết 34 đơn vị hành chính cấp tỉnh'"
+  },
+  "location": {
+    "latitude": {
+      "value": null,
+      "last_updated": "2026-03-20",
+      "source": "Chưa thấy nguồn chính thức cấp tỉnh công bố một tọa độ điểm chuẩn/centroid duy nhất sau 01/07/2025"
+    },
+    "longitude": {
+      "value": null,
+      "last_updated": "2026-03-20",
+      "source": "Chưa thấy nguồn chính thức cấp tỉnh công bố một tọa độ điểm chuẩn/centroid duy nhất sau 01/07/2025"
+    },
+    "adjacent_areas": {
+      "provinces": {
+        "value": ["Nghệ An", "Quảng Trị"],
+        "last_updated": "2025-11-25",
+        "source": "Bài 'Giới thiệu chung Hà Tĩnh'"
+      },
+      "countries": {
+        "value": ["Lào"],
+        "last_updated": "2025-11-25",
+        "source": "Bài 'Giới thiệu chung Hà Tĩnh'"
+      },
+      "seas": {
+        "value": ["Biển Đông"],
+        "last_updated": "2025-11-25",
+        "source": "Bài 'Giới thiệu chung Hà Tĩnh'"
+      }
+    }
+  },
+  "area": {
+    "total_km2": {
+      "value": 5994.85,
+      "last_updated": "2026-03-19",
+      "source": "Cổng TTĐT tỉnh Hà Tĩnh - mục 'Bản đồ địa giới tỉnh Hà Tĩnh'"
+    }
+  },
+  "administrative_structure": {
+    "wards_communes_count": {
+      "value": 69,
+      "last_updated": "2025-08-04",
+      "source": "Nghị quyết số 1665/NQ-UBTVQH15; bài 'Danh sách 69 xã, phường mới của tỉnh Hà Tĩnh'"
+    },
+    "wards_communes_list": {
+      "value": [
+        "Phường Thành Sen",
+        "Phường Trần Phú",
+        "Phường Hà Huy Tập",
+        "Phường Sông Trí",
+        "Phường Hải Ninh",
+        "Phường Hoành Sơn",
+        "Phường Vũng Áng",
+        "Phường Bắc Hồng Lĩnh",
+        "Phường Nam Hồng Lĩnh",
+        "Xã Kỳ Xuân",
+        "Xã Kỳ Anh",
+        "Xã Kỳ Hoa",
+        "Xã Kỳ Văn",
+        "Xã Kỳ Khang",
+        "Xã Kỳ Lạc",
+        "Xã Kỳ Thượng",
+        "Xã Cẩm Xuyên",
+        "Xã Thiên Cầm",
+        "Xã Cẩm Duệ",
+        "Xã Cẩm Hưng",
+        "Xã Cẩm Lạc",
+        "Xã Cẩm Trung",
+        "Xã Yên Hòa",
+        "Xã Thạch Lạc",
+        "Xã Đồng Tiến",
+        "Xã Thạch Khê",
+        "Xã Cẩm Bình",
+        "Xã Thạch Hà",
+        "Xã Toàn Lưu",
+        "Xã Việt Xuyên",
+        "Xã Đông Kinh",
+        "Xã Thạch Xuân",
+        "Xã Lộc Hà",
+        "Xã Hồng Lộc",
+        "Xã Mai Phụ",
+        "Xã Can Lộc",
+        "Xã Tùng Lộc",
+        "Xã Gia Hanh",
+        "Xã Trường Lưu",
+        "Xã Xuân Lộc",
+        "Xã Đồng Lộc",
+        "Xã Tiên Điền",
+        "Xã Nghi Xuân",
+        "Xã Cổ Đạm",
+        "Xã Đan Hải",
+        "Xã Đức Thọ",
+        "Xã Đức Quang",
+        "Xã Đức Đồng",
+        "Xã Đức Thịnh",
+        "Xã Đức Minh",
+        "Xã Hương Sơn",
+        "Xã Sơn Tây",
+        "Xã Tứ Mỹ",
+        "Xã Sơn Giang",
+        "Xã Sơn Tiến",
+        "Xã Sơn Hồng",
+        "Xã Kim Hoa",
+        "Xã Sơn Kim 1",
+        "Xã Sơn Kim 2",
+        "Xã Vũ Quang",
+        "Xã Mai Hoa",
+        "Xã Thượng Đức",
+        "Xã Hương Khê",
+        "Xã Hương Phố",
+        "Xã Hương Đô",
+        "Xã Hà Linh",
+        "Xã Hương Bình",
+        "Xã Phúc Trạch",
+        "Xã Hương Xuân"
+      ],
+      "last_updated": "2025-11-25",
+      "source": "Bài 'Giới thiệu chung Hà Tĩnh' và Nghị quyết số 1665/NQ-UBTVQH15"
+    }
+  },
+  "population": {
+    "total": {
+      "value": 1623061,
+      "last_updated": "2026-03-19",
+      "source": "Cổng TTĐT tỉnh Hà Tĩnh - mục 'Bản đồ địa giới tỉnh Hà Tĩnh'"
+    },
+    "density_per_km2": {
+      "value": 270.74,
+      "last_updated": "2026-03-19",
+      "source": "Tính từ dân số 1.623.061 người và diện tích 5.994,85 km² trên Cổng TTĐT tỉnh Hà Tĩnh"
+    },
+    "ethnic_groups": {
+      "value": [
+        {
+          "name": "Kinh",
+          "percentage": null
+        },
+        {
+          "name": "Thái",
+          "percentage": null
+        },
+        {
+          "name": "Mường",
+          "percentage": null
+        },
+        {
+          "name": "Chứt",
+          "percentage": null
+        },
+        {
+          "name": "Lào",
+          "percentage": null
+        }
+      ],
+      "last_updated": "2025-11-25",
+      "source": "Bài 'Giới thiệu chung Hà Tĩnh' chỉ nêu 'chủ yếu là dân tộc Kinh', các dân tộc Thái, Mường, Chứt, Lào chỉ có vài trăm hoặc vài chục; chưa thấy nguồn chính thức sau 01/07/2025 công bố tỷ lệ % chi tiết"
+    }
+  },
+  "economy": {
+    "scale": {
+      "value": "GRDP theo giá hiện hành năm 2025 ước đạt 120.811 tỷ đồng",
+      "last_updated": "2026-01-01",
+      "source": "Báo cáo 'Tình hình kinh tế - xã hội quý IV và cả năm 2025 của tỉnh Hà Tĩnh'"
+    },
+    "main_sectors": {
+      "value": [
+        "Nông, lâm nghiệp và thủy sản",
+        "Công nghiệp và xây dựng",
+        "Dịch vụ"
+      ],
+      "last_updated": "2026-01-01",
+      "source": "Báo cáo 'Tình hình kinh tế - xã hội quý IV và cả năm 2025 của tỉnh Hà Tĩnh'"
+    },
+    "gdp": {
+      "value": {
+        "amount_usd": null,
+        "year": 2025
+      },
+      "last_updated": "2026-03-20",
+      "source": "Nguồn chính thức tỉnh công bố GRDP theo VND (120.811 tỷ đồng), chưa công bố quy đổi USD chính thức"
+    }
+  },
+  "tourism": {
+    "attractions": {
+      "value": [
+        {
+          "name": "Chùa Hương Tích",
+          "type": "Danh lam - tâm linh",
+          "description": "Điểm du lịch tâm linh nổi bật của Hà Tĩnh, được nhắc là 'Hoan Châu đệ nhất danh lam'.",
+          "rating": null
+        },
+        {
+          "name": "Khu di tích lịch sử Ngã ba Đồng Lộc",
+          "type": "Di tích lịch sử",
+          "description": "Di tích lịch sử nổi bật gắn với truyền thống cách mạng của Hà Tĩnh.",
+          "rating": null
+        },
+        {
+          "name": "Biển Thiên Cầm",
+          "type": "Du lịch biển",
+          "description": "Một trong các điểm du lịch biển tiêu biểu của tỉnh.",
+          "rating": null
+        },
+        {
+          "name": "Khu lưu niệm Nguyễn Du",
+          "type": "Di tích văn hóa",
+          "description": "Điểm đến văn hóa gắn với Đại thi hào Nguyễn Du.",
+          "rating": null
+        }
+      ],
+      "last_updated": "2026-03-20",
+      "source": "Cổng TTĐT tỉnh Hà Tĩnh và các bài viết liên quan trên hatinh.gov.vn; không có hệ thống xếp hạng chính thức cấp tỉnh cho từng điểm nên trường rating để null"
+    },
+    "local_specialties": {
+      "value": [
+        {
+          "name": "Bưởi Phúc Trạch",
+          "type": "Trái cây đặc sản"
+        },
+        {
+          "name": "Nhung hươu Hương Sơn",
+          "type": "Đặc sản chăn nuôi"
+        },
+        {
+          "name": "Kẹo cu đơ Hà Tĩnh",
+          "type": "Bánh kẹo đặc sản"
+        }
+      ],
+      "last_updated": "2026-03-20",
+      "source": "Các bài/nguồn chuyên ngành thuộc hệ thống cơ quan tỉnh Hà Tĩnh"
+    },
+    "culture": {
+      "festivals": {
+        "value": [
+          "Lễ hội chùa Hương Tích"
+        ],
+        "last_updated": "2026-02-01",
+        "source": "Bài 'Hà Tĩnh khai hội chùa Hương Tích trong dịp tết Bính Ngọ 2026'"
+      },
+      "events": {
+        "value": [
+          "Khai hội chùa Hương Tích - mở đầu năm du lịch Hà Tĩnh 2026"
+        ],
+        "last_updated": "2026-02-01",
+        "source": "Bài 'Hà Tĩnh khai hội chùa Hương Tích trong dịp tết Bính Ngọ 2026'"
+      }
+    }
+  },
+  "infrastructure": {
+    "airport": {
+      "value": [],
+      "last_updated": "2026-03-20",
+      "source": "Chưa thấy nguồn chính thức của tỉnh công bố sân bay đang khai thác trên địa bàn Hà Tĩnh sau 01/07/2025"
+    },
+    "seaport": {
+      "value": [
+        "Cảng Vũng Áng",
+        "Cảng quốc tế Lào - Việt (bến cảng tại Vũng Áng)"
+      ],
+      "last_updated": "2026-03-14",
+      "source": "eMagazine 'Cảng Vũng Áng - Biểu tượng sâu đậm của tình hữu nghị Việt - Lào'"
+    },
+    "railway_station": {
+      "value": [],
+      "last_updated": "2026-03-20",
+      "source": "Chưa thấy nguồn chính thức dễ kiểm chứng trên Cổng TTĐT tỉnh công bố danh mục ga đường sắt đang khai thác sau 01/07/2025"
+    },
+    "other_transport": {
+      "value": [
+        "Quốc lộ 1",
+        "Quốc lộ 8",
+        "Cao tốc Bắc - Nam phía Đông",
+        "Cửa khẩu quốc tế Cầu Treo"
+      ],
+      "last_updated": "2026-03-16",
+      "source": "Các bài quy hoạch/giao thông trên hatinh.gov.vn"
+    }
+  },
+  "environment": {
+    "climate": {
+      "type": {
+        "value": "Nhiệt đới gió mùa nóng ẩm, mưa nhiều",
+        "last_updated": "2025-11-25",
+        "source": "Bài 'Giới thiệu chung Hà Tĩnh'"
+      },
+      "average_temperature_c": {
+        "value": 23.7,
+        "last_updated": "2025-11-25",
+        "source": "Bài 'Giới thiệu chung Hà Tĩnh'"
+      }
+    },
+    "ecology": {
+      "forests": {
+        "value": [
+          "Vườn quốc gia Vũ Quang"
+        ],
+        "last_updated": "2025-11-25",
+        "source": "Bài 'Giới thiệu chung Hà Tĩnh'"
+      },
+      "sea": {
+        "value": [
+          "Biển Đông"
+        ],
+        "last_updated": "2025-11-25",
+        "source": "Bài 'Giới thiệu chung Hà Tĩnh'"
+      },
+      "other_resources": {
+        "value": [
+          "Hồ Kẻ Gỗ",
+          "Sông La",
+          "Sông Ngàn Sâu",
+          "Nước khoáng nóng Nước Sốt"
+        ],
+        "last_updated": "2026-03-16",
+        "source": "Bài 'Giới thiệu chung Hà Tĩnh' và bài quy hoạch KKT cửa khẩu quốc tế Cầu Treo"
+      }
+    }
+  }
+}

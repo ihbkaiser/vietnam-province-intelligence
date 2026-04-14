@@ -1,0 +1,309 @@
+﻿{
+  "name": {
+    "value": "Thành phố Huế",
+    "last_updated": "2025-07-01",
+    "source": "Nghị quyết 175/2024/QH15; thông tin cập nhật trên Cổng TTĐT thành phố Huế"
+  },
+  "administrative_code": {
+    "value": null,
+    "last_updated": "2025-07-01",
+    "source": "Quyết định 19/2025/QĐ-TTg (Bảng danh mục và mã số các đơn vị hành chính Việt Nam) - cần đối chiếu trực tiếp Phụ lục I để trích đúng mã"
+  },
+  "former_provinces": {
+    "value": ["Thừa Thiên Huế"],
+    "description": "Thành phố Huế trực thuộc trung ương được thành lập trên cơ sở toàn bộ diện tích tự nhiên và quy mô dân số của tỉnh Thừa Thiên Huế; không phải là tỉnh mới do sáp nhập nhiều tỉnh.",
+    "last_updated": "2025-01-01",
+    "source": "Nghị quyết 175/2024/QH15"
+  },
+
+
+  "location": {
+    "latitude": {
+      "value": 16.463713,
+      "last_updated": "2026-03-20",
+      "source": "LatLong.net - tọa độ tham chiếu điểm trung tâm Huế"
+    },
+    "longitude": {
+      "value": 107.590866,
+      "last_updated": "2026-03-20",
+      "source": "LatLong.net - tọa độ tham chiếu điểm trung tâm Huế"
+    },
+    "adjacent_areas": {
+      "provinces": {
+        "value": ["Thành phố Đà Nẵng", "Tỉnh Quảng Trị"],
+        "last_updated": "2025-07-01",
+        "source": "Nghị quyết 175/2024/QH15; danh mục 34 đơn vị hành chính cấp tỉnh sau sắp xếp năm 2025"
+      },
+      "countries": {
+        "value": ["Lào"],
+        "last_updated": "2025-01-01",
+        "source": "Nghị quyết 175/2024/QH15"
+      },
+      "seas": {
+        "value": ["Biển Đông"],
+        "last_updated": "2025-01-01",
+        "source": "Nghị quyết 175/2024/QH15"
+      }
+    }
+  },
+
+
+  "area": {
+    "total_km2": {
+      "value": 4947.11,
+      "last_updated": "2025-01-01",
+      "source": "Nghị quyết 175/2024/QH15"
+    }
+  },
+
+
+  "administrative_structure": {
+    "wards_communes_count": {
+      "value": 40,
+      "last_updated": "2025-07-01",
+      "source": "Nghị quyết 1675/NQ-UBTVQH15"
+    },
+    "wards_communes_list": {
+      "value": [
+        "Phường Phong Điền",
+        "Phường Phong Thái",
+        "Phường Phong Dinh",
+        "Phường Phong Phú",
+        "Phường Phong Quảng",
+        "Phường Hương Trà",
+        "Phường Kim Trà",
+        "Phường Kim Long",
+        "Phường Hương An",
+        "Phường Phú Xuân",
+        "Phường Thuận An",
+        "Phường Hóa Châu",
+        "Phường Mỹ Thượng",
+        "Phường Vỹ Dạ",
+        "Phường Thuận Hóa",
+        "Phường An Cựu",
+        "Phường Thủy Xuân",
+        "Phường Thanh Thủy",
+        "Phường Hương Thủy",
+        "Phường Phú Bài",
+        "Phường Dương Nỗ",
+        "Xã Đan Điền",
+        "Xã Quảng Điền",
+        "Xã Bình Điền",
+        "Xã Phú Vinh",
+        "Xã Phú Hồ",
+        "Xã Phú Vang",
+        "Xã Vinh Lộc",
+        "Xã Hưng Lộc",
+        "Xã Lộc An",
+        "Xã Phú Lộc",
+        "Xã Chân Mây - Lăng Cô",
+        "Xã Long Quảng",
+        "Xã Nam Đông",
+        "Xã Khe Tre",
+        "Xã A Lưới 1",
+        "Xã A Lưới 2",
+        "Xã A Lưới 3",
+        "Xã A Lưới 4",
+        "Xã A Lưới 5"
+      ],
+      "last_updated": "2025-07-01",
+      "source": "Nghị quyết 1675/NQ-UBTVQH15"
+    }
+  },
+
+
+  "population": {
+    "total": {
+      "value": 1236393,
+      "last_updated": "2025-01-01",
+      "source": "Nghị quyết 175/2024/QH15"
+    },
+    "density_per_km2": {
+      "value": 249.92,
+      "last_updated": "2025-01-01",
+      "source": "Tính từ Nghị quyết 175/2024/QH15: 1.236.393 người / 4.947,11 km2"
+    },
+    "ethnic_groups": {
+      "value": null,
+      "last_updated": "2026-03-20",
+      "source": "Cổng TTĐT thành phố Huế có nêu các dân tộc thiểu số hiện diện, nhưng chưa thấy bảng tỷ lệ % chính thức công khai sau mốc 01/07/2025"
+    }
+  },
+
+
+  "economy": {
+    "scale": {
+      "value": "Du lịch - dịch vụ được xác định là ngành kinh tế mũi nhọn",
+      "last_updated": "2025-01-01",
+      "source": "Kế hoạch triển khai Đề án phát triển du lịch, dịch vụ du lịch thành phố Huế giai đoạn 2025-2030, tầm nhìn 2045"
+    },
+    "main_sectors": {
+      "value": [
+        "Du lịch - dịch vụ",
+        "Công nghiệp",
+        "Nông nghiệp - lâm nghiệp - thủy sản"
+      ],
+      "last_updated": "2025-01-01",
+      "source": "Định hướng phát triển du lịch của UBND thành phố Huế; cơ cấu ngành kinh tế địa phương"
+    },
+    "gdp": {
+      "value": null,
+      "last_updated": "2026-03-20",
+      "source": "Chưa tìm được số GRDP/ GDP công khai bằng USD ở cấp thành phố Huế sau mốc 01/07/2025 từ nguồn chính thức đủ chắc để điền chính xác tuyệt đối"
+    }
+  },
+
+
+  "tourism": {
+    "attractions": {
+      "value": [
+        {
+          "name": "Quần thể Di tích Cố đô Huế",
+          "type": "Di sản văn hóa",
+          "description": "Quần thể di sản tiêu biểu của Huế, hạt nhân của du lịch di sản địa phương.",
+          "rating": null
+        },
+        {
+          "name": "Đại Nội Huế",
+          "type": "Di tích cung đình",
+          "description": "Trung tâm Hoàng cung triều Nguyễn, điểm tham quan nổi bật nhất của Huế.",
+          "rating": null
+        },
+        {
+          "name": "Lăng vua Minh Mạng",
+          "type": "Lăng tẩm",
+          "description": "Một trong những lăng vua tiêu biểu của triều Nguyễn, thường nằm trong các tuyến tham quan chính thức.",
+          "rating": null
+        },
+        {
+          "name": "Chùa Thiên Mụ",
+          "type": "Chùa - danh thắng",
+          "description": "Biểu tượng văn hóa, tâm linh nổi tiếng của Huế bên sông Hương.",
+          "rating": null
+        },
+        {
+          "name": "Phá Tam Giang - Cầu Hai",
+          "type": "Cảnh quan sinh thái",
+          "description": "Hệ đầm phá nước lợ lớn, tài nguyên sinh thái và du lịch đặc sắc của Huế.",
+          "rating": null
+        }
+      ],
+      "last_updated": "2026-03-20",
+      "source": "Cổng du lịch Huế; Trung tâm Bảo tồn Di tích Cố đô Huế; các trang thông tin chính thức của Huế"
+    },
+    "local_specialties": {
+      "value": [
+        {
+          "name": "Bún bò Huế",
+          "type": "Món ăn"
+        },
+        {
+          "name": "Cơm hến",
+          "type": "Món ăn"
+        },
+        {
+          "name": "Mè xửng",
+          "type": "Đặc sản quà"
+        },
+        {
+          "name": "Tôm chua",
+          "type": "Đặc sản quà"
+        },
+        {
+          "name": "Bánh bột lọc",
+          "type": "Món ăn"
+        },
+        {
+          "name": "Nem công chả phượng",
+          "type": "Ẩm thực cung đình"
+        }
+      ],
+      "last_updated": "2026-03-20",
+      "source": "Sở Du lịch thành phố Huế; Cổng TTĐT thành phố Huế"
+    },
+    "culture": {
+      "festivals": {
+        "value": [
+          "Festival Huế",
+          "Lễ hội vật làng Sình"
+        ],
+        "last_updated": "2026-03-20",
+        "source": "Cổng TTĐT thành phố Huế; Sở Du lịch thành phố Huế"
+      },
+      "events": {
+        "value": [
+          "Năm Du lịch Quốc gia Huế 2025"
+        ],
+        "last_updated": "2025-03-19",
+        "source": "Cổng TTĐT thành phố Huế"
+      }
+    }
+  },
+
+
+  "infrastructure": {
+    "airport": {
+      "value": ["Cảng hàng không quốc tế Phú Bài"],
+      "last_updated": "2026-03-20",
+      "source": "Cổng TTĐT thành phố Huế; Sở Du lịch thành phố Huế"
+    },
+    "seaport": {
+      "value": ["Cảng Chân Mây"],
+      "last_updated": "2026-03-20",
+      "source": "Cổng TTĐT thành phố Huế"
+    },
+    "railway_station": {
+      "value": ["Ga Huế"],
+      "last_updated": "2026-03-20",
+      "source": "Thông tin du lịch Huế"
+    },
+    "other_transport": {
+      "value": [],
+      "last_updated": "2026-03-20",
+      "source": "Để trống do chưa tổng hợp đủ danh mục hạ tầng vận tải từ một nguồn chính thức duy nhất sau mốc 01/07/2025"
+    }
+  },
+
+
+  "environment": {
+    "climate": {
+      "type": {
+        "value": null,
+        "last_updated": "2026-03-20",
+        "source": "Cổng TTĐT thành phố Huế có chuyên mục khí hậu - thủy văn, nhưng chưa trích được một mô tả ngắn chuẩn hóa duy nhất để điền tuyệt đối chính xác"
+      },
+      "average_temperature_c": {
+        "value": null,
+        "last_updated": "2026-03-20",
+        "source": "Chưa trích được số nhiệt độ trung bình năm từ nguồn chính thức công khai phù hợp để điền chắc chắn"
+      }
+    },
+    "ecology": {
+      "forests": {
+        "value": [
+          "Vườn quốc gia Bạch Mã",
+          "Khu bảo vệ cảnh quan Bắc Hải Vân"
+        ],
+        "last_updated": "2025-10-10",
+        "source": "Cổng TTĐT thành phố Huế"
+      },
+      "sea": {
+        "value": [
+          "Biển Đông",
+          "Phá Tam Giang - Cầu Hai",
+          "Vịnh Lăng Cô"
+        ],
+        "last_updated": "2026-03-20",
+        "source": "Cổng TTĐT thành phố Huế; thông tin du lịch Huế"
+      },
+      "other_resources": {
+        "value": [
+          "Hệ đầm phá Tam Giang - Cầu Hai",
+          "Di sản văn hóa vật thể và phi vật thể của Cố đô Huế"
+        ],
+        "last_updated": "2026-03-20",
+        "source": "Cổng TTĐT thành phố Huế; Trung tâm Bảo tồn Di tích Cố đô Huế"
+      }
+    }
+  }
+}

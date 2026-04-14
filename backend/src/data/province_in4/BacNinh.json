@@ -1,0 +1,367 @@
+﻿{
+  "name": {
+    "value": "Bắc Ninh",
+    "last_updated": "2025-06-12",
+    "source": "Nghị quyết 202/2025/QH15 của Quốc hội về sắp xếp đơn vị hành chính cấp tỉnh"
+  },
+  "administrative_code": {
+    "value": "24",
+    "last_updated": "2025-07-01",
+    "source": "Quyết định 19/2025/QĐ-TTg về Bảng danh mục và mã số các đơn vị hành chính Việt Nam"
+  },
+  "former_provinces": {
+    "value": ["Bắc Giang", "Bắc Ninh"],
+    "description": "Tỉnh Bắc Ninh mới được hình thành bằng việc sắp xếp toàn bộ diện tích tự nhiên và quy mô dân số của tỉnh Bắc Giang và tỉnh Bắc Ninh cũ.",
+    "last_updated": "2025-06-12",
+    "source": "Nghị quyết 202/2025/QH15 của Quốc hội"
+  },
+
+
+  "location": {
+    "latitude": {
+      "value": 21.27,
+      "last_updated": "2026-03-22",
+      "source": "Tọa độ trung tâm hành chính công ting Băc Ninh mới"
+    },
+    "longitude": {
+      "value": 106.19,
+      "last_updated": "2026-03-22",
+      "source": " tọa độ trung tâm hành chính công tỉnh Bắc Ninh mới"
+    },
+    "adjacent_areas": {
+      "provinces": {
+        "value": ["Hà Nội", "Hải Dương", "Hưng Yên", "Lạng Sơn", "Quảng Ninh", "Thái Nguyên"],
+        "last_updated": "2026-03-22",
+        "source": "Suy ra từ ranh giới hành chính chính thức của Bắc Giang cũ và Bắc Ninh cũ trên cổng thông tin chính thức địa phương"
+      },
+      "countries": {
+        "value": [],
+        "last_updated": "2026-03-22",
+        "source": "Tỉnh Bắc Ninh mới không có biên giới quốc tế"
+      },
+      "seas": {
+        "value": [],
+        "last_updated": "2026-03-22",
+        "source": "Tỉnh Bắc Ninh mới là tỉnh nội địa, không giáp biển"
+      }
+    }
+  },
+
+
+  "area": {
+    "total_km2": {
+      "value": 4718.6,
+      "last_updated": "2025-06-12",
+      "source": "Nghị quyết 202/2025/QH15; bài tổng hợp chính thức 'Chi tiết 34 đơn vị hành chính cấp tỉnh'"
+    }
+  },
+
+
+  "administrative_structure": {
+    "wards_communes_count": {
+      "value": 99,
+      "last_updated": "2025-08-04",
+      "source": "Nghị quyết 1658/NQ-UBTVQH15; bài công bố danh sách 99 xã, phường của tỉnh Bắc Ninh mới"
+    },
+    "wards_communes_list": {
+      "value": [
+        "Chi Lăng",
+        "Phù Lãng",
+        "Yên Phong",
+        "Văn Môn",
+        "Tam Giang",
+        "Yên Trung",
+        "Tam Đa",
+        "Tiên Du",
+        "Liên Bão",
+        "Tân Chi",
+        "Đại Đồng",
+        "Phật Tích",
+        "Gia Bình",
+        "Nhân Thắng",
+        "Đại Lai",
+        "Cao Đức",
+        "Đông Cứu",
+        "Lương Tài",
+        "Lâm Thao",
+        "Trung Chính",
+        "Trung Kênh",
+        "Đại Sơn",
+        "Sơn Động",
+        "Tây Yên Tử",
+        "Dương Hưu",
+        "Yên Định",
+        "An Lạc",
+        "Vân Sơn",
+        "Biển Động",
+        "Lục Ngạn",
+        "Đèo Gia",
+        "Sơn Hải",
+        "Tân Sơn",
+        "Biên Sơn",
+        "Sa Lý",
+        "Nam Dương",
+        "Kiên Lao",
+        "Lục Sơn",
+        "Trường Sơn",
+        "Cẩm Lý",
+        "Đông Phú",
+        "Nghĩa Phương",
+        "Lục Nam",
+        "Bắc Lũng",
+        "Bảo Đài",
+        "Lạng Giang",
+        "Mỹ Thái",
+        "Kép",
+        "Tân Dĩnh",
+        "Tiên Lục",
+        "Yên Thế",
+        "Bố Hạ",
+        "Đồng Kỳ",
+        "Xuân Lương",
+        "Tam Tiến",
+        "Tân Yên",
+        "Ngọc Thiện",
+        "Nhã Nam",
+        "Phúc Hòa",
+        "Quang Trung",
+        "Hợp Thịnh",
+        "Hiệp Hòa",
+        "Hoàng Vân",
+        "Đồng Việt",
+        "Xuân Cẩm",
+        "Tuấn Đạo",
+        "Kinh Bắc",
+        "Võ Cường",
+        "Vũ Ninh",
+        "Hạp Lĩnh",
+        "Nam Sơn",
+        "Từ Sơn",
+        "Tam Sơn",
+        "Đồng Nguyên",
+        "Phù Khê",
+        "Thuận Thành",
+        "Mão Điền",
+        "Trạm Lộ",
+        "Trí Quả",
+        "Song Liễu",
+        "Ninh Xá",
+        "Quế Võ",
+        "Phương Liễu",
+        "Nhân Hòa",
+        "Đào Viên",
+        "Bồng Lai",
+        "Chũ",
+        "Phượng Sơn",
+        "Tự Lạn",
+        "Việt Yên",
+        "Nếnh",
+        "Vân Hà",
+        "Bắc Giang",
+        "Đa Mai",
+        "Tiền Phong",
+        "Tân An",
+        "Yên Dũng",
+        "Tân Tiến",
+        "Cảnh Thụy"
+      ],
+      "last_updated": "2025-08-04",
+      "source": "Nghị quyết 1658/NQ-UBTVQH15; bài công bố danh sách 99 xã, phường của tỉnh Bắc Ninh mới"
+    }
+  },
+
+
+  "population": {
+    "total": {
+      "value": 3619433,
+      "last_updated": "2025-06-12",
+      "source": "Nghị quyết 202/2025/QH15; bài tổng hợp chính thức 'Chi tiết 34 đơn vị hành chính cấp tỉnh'"
+    },
+    "density_per_km2": {
+      "value": 767.06,
+      "last_updated": "2026-03-19",
+      "source": "Tính từ dân số 3.619.433 người và diện tích 4.718,6 km2 theo Nghị quyết 202/2025/QH15"
+    },
+    "ethnic_groups": {
+      "value": [],
+      "last_updated": "2026-03-19",
+      "source": "Chưa tìm thấy bảng cơ cấu dân tộc theo tỷ lệ phần trăm chính thức cho toàn tỉnh Bắc Ninh mới sau sáp nhập"
+    }
+  },
+
+
+  "economy": {
+    "scale": {
+      "value": "GRDP theo giá hiện hành năm 2025 ước đạt hơn 522 nghìn tỷ đồng; thuộc nhóm địa phương tăng trưởng hai con số, là một trong hai trung tâm xuất nhập khẩu lớn nhất Việt Nam.",
+      "last_updated": "2026-01-18",
+      "source": "Báo Chính phủ, phát biểu của Bí thư Tỉnh ủy Bắc Ninh Nguyễn Hồng Thái"
+    },
+    "main_sectors": {
+      "value": [
+        "Công nghiệp công nghệ cao và điện tử",
+        "Công nghiệp xanh và công nghiệp hỗ trợ",
+        "Thương mại - dịch vụ - logistics",
+        "Nông nghiệp sinh thái, công nghệ cao, đa giá trị",
+        "Kinh tế số"
+      ],
+      "last_updated": "2026-01-18",
+      "source": "Báo Chính phủ, phát biểu của Bí thư Tỉnh ủy Bắc Ninh Nguyễn Hồng Thái"
+    },
+    "gdp": {
+      "value": {
+        "amount_usd": null,
+        "year": 2025
+      },
+      "last_updated": "2026-03-19",
+      "source": "Nguồn chính thức hiện có công bố GRDP bằng VND, chưa thấy công bố GDP/GRDP hậu sáp nhập theo USD ở cấp tỉnh"
+    }
+  },
+
+
+  "tourism": {
+    "attractions": {
+      "value": [
+        {
+          "name": "Khu bảo tồn thiên nhiên Tây Yên Tử",
+          "type": "Du lịch sinh thái / bảo tồn thiên nhiên",
+          "description": "Khu bảo tồn thiên nhiên tiêu biểu của vùng Sơn Động - Tây Yên Tử, gắn với hệ sinh thái rừng và tuyến du lịch sinh thái.",
+          "rating": null
+        },
+        {
+          "name": "Khe Rỗ",
+          "type": "Du lịch sinh thái / rừng nguyên sinh",
+          "description": "Điểm đến sinh thái thuộc Khu bảo tồn thiên nhiên Tây Yên Tử, nổi bật với rừng nguyên sinh và trải nghiệm khám phá thiên nhiên.",
+          "rating": null
+        },
+        {
+          "name": "Hồ Cấm Sơn",
+          "type": "Danh thắng / du lịch sinh thái hồ",
+          "description": "Hồ lớn ở khu vực Lục Ngạn, cảnh quan thiên nhiên đặc sắc, thường được ví như 'Hạ Long trên cạn'.",
+          "rating": null
+        },
+        {
+          "name": "Đền Bà Chúa Kho",
+          "type": "Di tích lịch sử - văn hóa / du lịch tâm linh",
+          "description": "Di tích lịch sử văn hóa nổi tiếng của Bắc Ninh, điểm đến tín ngưỡng lớn mỗi năm.",
+          "rating": null
+        },
+        {
+          "name": "Không gian Dân ca Quan họ Bắc Ninh",
+          "type": "Di sản văn hóa phi vật thể / du lịch văn hóa",
+          "description": "Không gian văn hóa gắn với Dân ca Quan họ Bắc Ninh - di sản văn hóa phi vật thể đại diện của nhân loại.",
+          "rating": null
+        },
+        {
+          "name": "Di tích Chiến thắng Xương Giang",
+          "type": "Di tích lịch sử",
+          "description": "Di tích gắn với chiến thắng Xương Giang, một dấu mốc lịch sử quan trọng trong kháng chiến chống quân Minh.",
+          "rating": null
+        }
+      ],
+      "last_updated": "2026-03-19",
+      "source": "Cổng thông tin du lịch Bắc Giang; Cổng thông tin đối ngoại Bắc Giang; Cổng thông tin điện tử tỉnh Bắc Ninh; Thành ủy Bắc Ninh"
+    },
+    "local_specialties": {
+      "value": [
+        {
+          "name": "Vải thiều Lục Ngạn",
+          "type": "Nông sản / trái cây đặc sản"
+        },
+        {
+          "name": "Cam, bưởi Lục Ngạn",
+          "type": "Nông sản / trái cây đặc sản"
+        }
+      ],
+      "last_updated": "2025-12-22",
+      "source": "Cổng thông tin đối ngoại tỉnh Bắc Giang"
+    },
+    "culture": {
+      "festivals": {
+        "value": [
+          "Lễ hội kỷ niệm Chiến thắng Xương Giang",
+          "Lễ hội khởi nghĩa Yên Thế"
+        ],
+        "last_updated": "2026-03-19",
+        "source": "Cổng thông tin đối ngoại tỉnh Bắc Giang"
+      },
+      "events": {
+        "value": [
+          "Các hoạt động quảng bá, bảo tồn và khai thác giá trị Dân ca Quan họ Bắc Ninh như một sản phẩm du lịch văn hóa"
+        ],
+        "last_updated": "2024-12-31",
+        "source": "Cổng thông tin điện tử tỉnh Bắc Ninh"
+      }
+    }
+  },
+
+
+  "infrastructure": {
+    "airport": {
+      "value": [
+        "Cảng hàng không quốc tế Gia Bình (đang triển khai đầu tư/xây dựng theo quy hoạch)"
+      ],
+      "last_updated": "2025-11-14",
+      "source": "Thông tin chính thức về dự án Cảng hàng không quốc tế Gia Bình; phát biểu chính thức của lãnh đạo tỉnh về hạ tầng ưu tiên"
+    },
+    "seaport": {
+      "value": [],
+      "last_updated": "2026-03-19",
+      "source": "Tỉnh Bắc Ninh mới là tỉnh nội địa, không có cảng biển"
+    },
+    "railway_station": {
+      "value": [],
+      "last_updated": "2026-03-19",
+      "source": "Chưa tìm thấy danh mục ga đường sắt cấp tỉnh hậu sáp nhập được công bố chính thức trong cùng một nguồn chuẩn hóa"
+    },
+    "other_transport": {
+      "value": [
+        "Đường Vành đai 4",
+        "Đường Vành đai 5",
+        "Tuyến kết nối Cảng hàng không quốc tế Gia Bình - Hà Nội",
+        "Tuyến đường sắt Lào Cai - Hà Nội - Hải Phòng",
+        "Trục Hà Nội - Lạng Sơn - Hải Phòng - Quảng Ninh - Móng Cái",
+        "Hệ thống logistics và cảng ICD"
+      ],
+      "last_updated": "2026-01-18",
+      "source": "Báo Chính phủ, phát biểu của Bí thư Tỉnh ủy Bắc Ninh Nguyễn Hồng Thái"
+    }
+  },
+
+
+  "environment": {
+    "climate": {
+      "type": {
+        "value": "Khí hậu nhiệt đới gió mùa ẩm; mùa hè nóng ẩm mưa nhiều, mùa đông lạnh và khô hơn",
+        "last_updated": "2026-03-19",
+        "source": "Tổng hợp từ mô tả điều kiện tự nhiên chính thức của Bắc Giang và Bắc Ninh cũ"
+      },
+      "average_temperature_c": {
+        "value": null,
+        "last_updated": "2026-03-19",
+        "source": "Chưa tìm thấy số liệu nhiệt độ trung bình năm chính thức, thống nhất cho toàn tỉnh Bắc Ninh mới sau sáp nhập"
+      }
+    },
+    "ecology": {
+      "forests": {
+        "value": [
+          "Khu bảo tồn thiên nhiên Tây Yên Tử",
+          "Rừng nguyên sinh Khe Rỗ"
+        ],
+        "last_updated": "2026-03-19",
+        "source": "Cổng thông tin du lịch Bắc Giang"
+      },
+      "sea": {
+        "value": [],
+        "last_updated": "2026-03-19",
+        "source": "Tỉnh Bắc Ninh mới không giáp biển"
+      },
+      "other_resources": {
+        "value": [
+          "Hồ Cấm Sơn"
+        ],
+        "last_updated": "2026-03-19",
+        "source": "Cổng thông tin du lịch Bắc Giang"
+      }
+    }
+  }
+}

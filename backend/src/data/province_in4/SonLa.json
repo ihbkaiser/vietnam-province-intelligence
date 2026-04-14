@@ -1,0 +1,368 @@
+﻿{
+  "name": {
+    "value": "Sơn La",
+    "last_updated": "2025-07-01",
+    "source": "Nghị quyết 202/2025/QH15; Sơn La là tỉnh không thực hiện sắp xếp cấp tỉnh năm 2025"
+  },
+  "administrative_code": {
+    "value": "14",
+    "last_updated": "2025-07-01",
+    "source": "Bộ mã đơn vị hành chính Việt Nam (mã tỉnh Sơn La dùng phổ biến: 14; cần đối chiếu bộ mã chính thức nội bộ nếu dùng làm master data)"
+  },
+  "former_provinces": {
+    "value": ["Sơn La"],
+    "description": "Tỉnh Sơn La không được tạo bởi sáp nhập cấp tỉnh trong đợt 2025; chỉ có sắp xếp đơn vị hành chính cấp xã.",
+    "last_updated": "2025-07-01",
+    "source": "Nghị quyết 202/2025/QH15; Nghị quyết 1681/NQ-UBTVQH15"
+  },
+
+
+  "location": {
+    "latitude": {
+      "value": 21.3417,
+      "last_updated": "2025-07-01",
+      "source": "Tính theo trung điểm dải tọa độ địa lý tỉnh Sơn La công bố trên Cổng thông tin điện tử tỉnh Sơn La"
+    },
+    "longitude": {
+      "value": 104.1083,
+      "last_updated": "2025-07-01",
+      "source": "Tính theo trung điểm dải tọa độ địa lý tỉnh Sơn La công bố trên Cổng thông tin điện tử tỉnh Sơn La"
+    },
+    "adjacent_areas": {
+      "provinces": {
+        "value": ["Lai Châu", "Yên Bái", "Thanh Hóa", "Phú Thọ", "Điện Biên"],
+        "last_updated": "2025-07-01",
+        "source": "Cổng thông tin điện tử tỉnh Sơn La - Vị trí địa lý"
+      },
+      "countries": {
+        "value": ["Lào"],
+        "last_updated": "2025-07-01",
+        "source": "Cổng thông tin điện tử tỉnh Sơn La - Vị trí địa lý"
+      },
+      "seas": {
+        "value": [],
+        "last_updated": "2025-07-01",
+        "source": "Cổng thông tin điện tử tỉnh Sơn La - Vị trí địa lý"
+      }
+    }
+  },
+
+
+  "area": {
+    "total_km2": {
+      "value": 14109.83,
+      "last_updated": "2025-07-01",
+      "source": "Cổng thông tin điện tử tỉnh Sơn La (1.410.983 ha)"
+    }
+  },
+
+
+  "administrative_structure": {
+    "wards_communes_count": {
+      "value": 75,
+      "last_updated": "2025-07-01",
+      "source": "Nghị quyết 1681/NQ-UBTVQH15; danh sách 75 xã, phường mới của tỉnh Sơn La"
+    },
+    "wards_communes_list": {
+      "value": [
+        "Đoàn Kết",
+        "Lóng Sập",
+        "Chiềng Sơn",
+        "Vân Hồ",
+        "Song Khủa",
+        "Tô Múa",
+        "Xuân Nha",
+        "Quỳnh Nhai",
+        "Mường Chiên",
+        "Mường Giôn",
+        "Mường Sại",
+        "Thuận Châu",
+        "Nậm Lầu",
+        "Muổi Nọi",
+        "Mường Khiêng",
+        "Co Mạ",
+        "Bình Thuận",
+        "Mường É",
+        "Long Hẹ",
+        "Mường La",
+        "Chiềng Lao",
+        "Mường Bú",
+        "Chiềng Hoa",
+        "Bắc Yên",
+        "Tà Xùa",
+        "Tạ Khoa",
+        "Xím Vàng",
+        "Pắc Ngà",
+        "Chiềng Sại",
+        "Phù Yên",
+        "Gia Phù",
+        "Tường Hạ",
+        "Mường Cơi",
+        "Mường Bang",
+        "Tân Phong",
+        "Kim Bon",
+        "Yên Châu",
+        "Chiềng Hặc",
+        "Lóng Phiêng",
+        "Yên Sơn",
+        "Chiềng Mai",
+        "Mai Sơn",
+        "Phiêng Pằn",
+        "Chiềng Mung",
+        "Phiêng Cằm",
+        "Mường Chanh",
+        "Tà Hộc",
+        "Chiềng Sung",
+        "Bó Sinh",
+        "Chiềng Khương",
+        "Mường Hung",
+        "Chiềng Khoong",
+        "Mường Lầm",
+        "Nậm Ty",
+        "Sông Mã",
+        "Huổi Một",
+        "Chiềng Sơ",
+        "Sốp Cộp",
+        "Púng Bánh",
+        "phường Tô Hiệu",
+        "phường Chiềng An",
+        "phường Chiềng Cơi",
+        "phường Chiềng Sinh",
+        "phường Mộc Châu",
+        "phường Mộc Sơn",
+        "phường Vân Sơn",
+        "phường Thảo Nguyên",
+        "Mường Lạn",
+        "Phiêng Khoài",
+        "Suối Tọ",
+        "Ngọc Chiến",
+        "Tân Yên",
+        "Mường Bám",
+        "Mường Lèo"
+      ],
+      "last_updated": "2025-07-01",
+      "source": "Danh sách 75 xã, phường mới của tỉnh Sơn La công bố từ Nghị quyết 1681/NQ-UBTVQH15"
+    }
+  },
+
+
+  "population": {
+    "total": {
+      "value": 1330600,
+      "last_updated": "2024-12-31",
+      "source": "Số dân 2024 được các nguồn tra cứu công khai hiện hành dẫn theo bộ số liệu thống kê tỉnh; chưa thấy bảng hậu 1/7/2025 công khai đồng bộ ở cấp tỉnh"
+    },
+    "density_per_km2": {
+      "value": 94.3,
+      "last_updated": "2024-12-31",
+      "source": "Tính từ dân số 2024 và diện tích tự nhiên 14.109,83 km2"
+    },
+    "ethnic_groups": {
+      "value": [
+        {
+          "name": "Thái",
+          "percentage": 53.61
+        },
+        {
+          "name": "Kinh",
+          "percentage": 18.47
+        },
+        {
+          "name": "Mông",
+          "percentage": 14.75
+        }
+      ],
+      "last_updated": "2024-12-31",
+      "source": "Nguồn tổng hợp công khai phổ biến về cơ cấu dân tộc Sơn La; cổng tỉnh xác nhận Sơn La có đa dân tộc nhưng không công bố cùng lúc bảng % hậu 1/7/2025"
+    }
+  },
+
+
+  "economy": {
+    "scale": {
+      "value": "Quy mô kinh tế cấp tỉnh; nông nghiệp và công nghiệp chế biến nông sản là trụ cột, du lịch là ngành quan trọng",
+      "last_updated": "2025-10-22",
+      "source": "Cổng thông tin điện tử tỉnh Sơn La; báo cáo GRDP 9 tháng 2025"
+    },
+    "main_sectors": {
+      "value": [
+        "Nông nghiệp",
+        "Công nghiệp chế biến nông sản",
+        "Thủy điện",
+        "Thương mại - dịch vụ",
+        "Du lịch"
+      ],
+      "last_updated": "2025-10-22",
+      "source": "Cổng thông tin điện tử tỉnh Sơn La; Quy hoạch tỉnh Sơn La"
+    },
+    "gdp": {
+      "value": {
+        "amount_usd": 1062516509.8,
+        "year": 2025
+      },
+      "last_updated": "2025-10-22",
+      "source": "Quy đổi tham chiếu từ GRDP 9 tháng 2025 theo giá so sánh 2010 là 27.094,171 tỷ đồng sang USD ở mức 25.500 VND/USD; không phải GRDP năm theo giá hiện hành nên chỉ dùng tham khảo, không nên coi là chỉ tiêu GDP chính thức"
+    }
+  },
+
+
+  "tourism": {
+    "attractions": {
+      "value": [
+        {
+          "name": "Khu du lịch quốc gia Mộc Châu",
+          "type": "Khu du lịch quốc gia",
+          "description": "Điểm đến du lịch trọng điểm của Sơn La, được Bộ Văn hóa, Thể thao và Du lịch công nhận là Khu du lịch quốc gia.",
+          "rating": 5.0
+        },
+        {
+          "name": "Di tích quốc gia đặc biệt Nhà tù Sơn La",
+          "type": "Di tích lịch sử",
+          "description": "Di tích lịch sử cách mạng tiêu biểu của tỉnh Sơn La.",
+          "rating": 4.8
+        },
+        {
+          "name": "Cầu kính Bạch Long",
+          "type": "Cầu kính du lịch",
+          "description": "Cầu đi bộ đáy kính tại Mộc Châu, từng được Guinness công nhận là dài nhất thế giới.",
+          "rating": 4.5
+        },
+        {
+          "name": "Thác Dải Yếm",
+          "type": "Thắng cảnh thiên nhiên",
+          "description": "Thác nước nổi tiếng của Mộc Châu, gắn với tuyến du lịch sinh thái - trải nghiệm.",
+          "rating": 4.5
+        }
+      ],
+      "last_updated": "2026-03-20",
+      "source": "Bộ VHTTDL/Tổng cục Du lịch Việt Nam; Cục Di sản văn hóa; Tripadvisor (đối với rating trải nghiệm du khách)"
+    },
+    "local_specialties": {
+      "value": [
+        {
+          "name": "Chè Mộc Châu",
+          "type": "Nông sản - đồ uống"
+        },
+        {
+          "name": "Mận hậu Sơn La",
+          "type": "Trái cây"
+        },
+        {
+          "name": "Xoài Sơn La",
+          "type": "Trái cây"
+        },
+        {
+          "name": "Sữa Mộc Châu",
+          "type": "Sản phẩm sữa"
+        },
+        {
+          "name": "Thịt trâu gác bếp",
+          "type": "Ẩm thực truyền thống"
+        }
+      ],
+      "last_updated": "2026-01-22",
+      "source": "Cổng thông tin điện tử tỉnh Sơn La; các công bố OCOP và nông sản tỉnh Sơn La"
+    },
+    "culture": {
+      "festivals": {
+        "value": [
+          "Lễ hội Hoa Ban",
+          "Lễ Xên Mường",
+          "Ngày hội Hoa Sơn Tra",
+          "Lễ hội Mừng cơm mới",
+          "Lễ Hết Chá"
+        ],
+        "last_updated": "2025-03-18",
+        "source": "Cổng dữ liệu mở tỉnh Sơn La; cổng du lịch/văn hóa tỉnh Sơn La"
+      },
+      "events": {
+        "value": [
+          "Ngày hội Hoa Sơn Tra",
+          "Các hoạt động du lịch Mộc Châu",
+          "Các hoạt động văn hóa dân tộc tại Bảo tàng và Thư viện tỉnh Sơn La"
+        ],
+        "last_updated": "2026-03-20",
+        "source": "Cổng thông tin điện tử tỉnh Sơn La; cổng du lịch/di sản văn hóa Sơn La"
+      }
+    }
+  },
+
+
+  "infrastructure": {
+    "airport": {
+      "value": ["Cảng hàng không Nà Sản (đã dừng khai thác từ 2004, đang được lập quy hoạch/chủ trương đầu tư lại)"],
+      "last_updated": "2025-10-02",
+      "source": "Cổng thông tin điện tử tỉnh Sơn La - Hạ tầng giao thông"
+    },
+    "seaport": {
+      "value": [],
+      "last_updated": "2025-07-01",
+      "source": "Sơn La là tỉnh nội địa, không giáp biển"
+    },
+    "railway_station": {
+      "value": [],
+      "last_updated": "2025-07-01",
+      "source": "Không có ga đường sắt đang khai thác trên địa bàn tỉnh theo hiện trạng công khai"
+    },
+    "other_transport": {
+      "value": [
+        "10 tuyến quốc lộ với tổng chiều dài 900,8 km",
+        "22 tuyến đường tỉnh với tổng chiều dài 1.163,64 km",
+        "Sông Đà và sông Mã",
+        "Cửa khẩu quốc gia Chiềng Khương",
+        "Cửa khẩu quốc gia Lóng Sập"
+      ],
+      "last_updated": "2025-10-02",
+      "source": "Cổng thông tin điện tử tỉnh Sơn La - Hạ tầng giao thông; Cổng thông tin điện tử tỉnh Sơn La - Vị trí địa lý"
+    }
+  },
+
+
+  "environment": {
+    "climate": {
+      "type": {
+        "value": "Nhiệt đới ẩm gió mùa, có mùa đông lạnh",
+        "last_updated": "2022-01-06",
+        "source": "Cổng thông tin điện tử tỉnh Sơn La - Khí hậu tỉnh Sơn La"
+      },
+      "average_temperature_c": {
+        "value": 21.0,
+        "last_updated": "2022-01-06",
+        "source": "Giá trị tham chiếu dùng phổ biến cho tỉnh miền núi Sơn La; cổng tỉnh mô tả kiểu khí hậu nhưng không công bố một trị số trung bình năm duy nhất trong bài giới thiệu"
+      }
+    },
+    "ecology": {
+      "forests": {
+        "value": [
+          "Rừng tự nhiên vùng núi cao",
+          "Hệ sinh thái cao nguyên Mộc Châu",
+          "Khu vực rừng và cây di sản Ngọc Chiến"
+        ],
+        "last_updated": "2025-03-19",
+        "source": "Cổng thông tin điện tử tỉnh Sơn La - Tài nguyên sinh vật; tin di sản tỉnh Sơn La"
+      },
+      "sea": {
+        "value": [],
+        "last_updated": "2025-07-01",
+        "source": "Sơn La không giáp biển"
+      },
+      "other_resources": {
+        "value": [
+          "Tài nguyên nước mặt sông Đà và sông Mã",
+          "Than đá và đá phiến cháy",
+          "Barit",
+          "Photphorit",
+          "Pyrit",
+          "Đá vôi",
+          "Cao lanh",
+          "Cát, sỏi, sét gốm, đôlômit",
+          "Talc",
+          "Asbet",
+          "Nước khoáng nóng"
+        ],
+        "last_updated": "2022-01-06",
+        "source": "Cổng thông tin điện tử tỉnh Sơn La - Thủy văn, tài nguyên nước; Khoáng sản"
+      }
+    }
+  }
+}

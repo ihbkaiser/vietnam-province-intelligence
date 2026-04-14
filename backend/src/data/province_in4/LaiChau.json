@@ -1,0 +1,337 @@
+﻿{
+  "name": {
+    "value": "Lai Châu",
+    "last_updated": "2025-07-01",
+    "source": "Nghị quyết 1670/NQ-UBTVQH15; Cổng TTĐT Chính phủ - Thông tin tỉnh Lai Châu"
+  },
+  "administrative_code": {
+    "value": "12",
+    "last_updated": "2025-07-01",
+    "source": "Quyết định 19/2025/QĐ-TTg ban hành Bảng danh mục và mã số các đơn vị hành chính Việt Nam"
+  },
+  "former_provinces": {
+    "value": [
+      "Lai Châu"
+    ],
+    "description": "Sau 01/07/2025, Lai Châu không hình thành từ việc sáp nhập tỉnh với địa phương khác; thay đổi ở mốc này chỉ là sắp xếp đơn vị hành chính cấp xã trong nội tỉnh.",
+    "last_updated": "2025-07-01",
+    "source": "Nghị quyết 1670/NQ-UBTVQH15"
+  },
+  "location": {
+    "latitude": {
+      "value": null,
+      "last_updated": "2025-03-20",
+      "source": "Cổng tỉnh chỉ công bố dải tọa độ 21°41’–22°50’B, không công bố một tọa độ điểm chuẩn duy nhất của tỉnh trong nguồn đã kiểm tra"
+    },
+    "longitude": {
+      "value": null,
+      "last_updated": "2025-03-20",
+      "source": "Cổng tỉnh chỉ công bố dải tọa độ 102°19’–103°59’Đ, không công bố một tọa độ điểm chuẩn duy nhất của tỉnh trong nguồn đã kiểm tra"
+    },
+    "adjacent_areas": {
+      "provinces": {
+        "value": [
+          "Lào Cai",
+          "Yên Bái",
+          "Điện Biên",
+          "Sơn La"
+        ],
+        "last_updated": "2021-01-08",
+        "source": "Cổng TTĐT tỉnh Lai Châu - Vị trí địa lý"
+      },
+      "countries": {
+        "value": [
+          "Trung Quốc"
+        ],
+        "last_updated": "2021-01-08",
+        "source": "Cổng TTĐT tỉnh Lai Châu - Vị trí địa lý"
+      },
+      "seas": {
+        "value": [],
+        "last_updated": "2025-03-20",
+        "source": "Lai Châu là tỉnh nội địa, không giáp biển theo Cổng TTĐT tỉnh Lai Châu"
+      }
+    }
+  },
+  "area": {
+    "total_km2": {
+      "value": 9068.78,
+      "last_updated": "2021-01-08",
+      "source": "Cổng TTĐT tỉnh Lai Châu - Vị trí địa lý"
+    }
+  },
+  "administrative_structure": {
+    "wards_communes_count": {
+      "value": 38,
+      "last_updated": "2025-07-01",
+      "source": "Nghị quyết 1670/NQ-UBTVQH15"
+    },
+    "wards_communes_list": {
+      "value": [
+        "Mường Kim",
+        "Khoen On",
+        "Than Uyên",
+        "Mường Than",
+        "Pắc Ta",
+        "Nậm Sỏ",
+        "Tân Uyên",
+        "Mường Khoa",
+        "Bản Bo",
+        "Bình Lư",
+        "Tả Lèng",
+        "Khun Há",
+        "Sin Suối Hồ",
+        "Phong Thổ",
+        "Dào San",
+        "Sì Lở Lầu",
+        "Khổng Lào",
+        "Tủa Sín Chải",
+        "Sìn Hồ",
+        "Hồng Thu",
+        "Nậm Tăm",
+        "Pu Sam Cáp",
+        "Nậm Cuổi",
+        "Nậm Mạ",
+        "Lê Lợi",
+        "Nậm Hàng",
+        "Mường Mô",
+        "Hua Bum",
+        "Pa Tần",
+        "Bum Nưa",
+        "Bum Tở",
+        "Mường Tè",
+        "Thu Lũm",
+        "Pa Ủ",
+        "Mù Cả",
+        "Tà Tổng",
+        "Tân Phong",
+        "Đoàn Kết"
+      ],
+      "last_updated": "2025-07-01",
+      "source": "Nghị quyết 1670/NQ-UBTVQH15; Danh sách 38 xã, phường của tỉnh Lai Châu"
+    }
+  },
+  "population": {
+    "total": {
+      "value": null,
+      "last_updated": "2025-03-20",
+      "source": "Chưa trích xuất được trực tiếp con số dân số toàn tỉnh sau 01/07/2025 từ nguồn nhà nước trong các trang truy cập được; không suy đoán"
+    },
+    "density_per_km2": {
+      "value": null,
+      "last_updated": "2025-03-20",
+      "source": "Không tính suy đoán khi chưa khóa được dân số toàn tỉnh từ nguồn chính thức sau 01/07/2025"
+    },
+    "ethnic_groups": {
+      "value": [
+        {
+          "name": "Thái",
+          "percentage": 32.06
+        },
+        {
+          "name": "Mông",
+          "percentage": 23.51
+        },
+        {
+          "name": "Kinh",
+          "percentage": 15.17
+        },
+        {
+          "name": "Dao",
+          "percentage": 12.53
+        },
+        {
+          "name": "Hà Nhì",
+          "percentage": 3.55
+        }
+      ],
+      "last_updated": "2018-12-31",
+      "source": "Các trang dân tộc trên Cổng TTĐT tỉnh Lai Châu, dẫn số liệu đến 31/12/2018"
+    }
+  },
+  "economy": {
+    "scale": {
+      "value": "GRDP năm 2024 tăng 10,52%; GRDP bình quân đầu người ước đạt 56,2 triệu đồng.",
+      "last_updated": "2025-01-28",
+      "source": "Cổng TTĐT tỉnh Lai Châu - Bức tranh toàn cảnh kinh tế - xã hội năm 2024"
+    },
+    "main_sectors": {
+      "value": [
+        "Nông nghiệp",
+        "Công nghiệp - xây dựng",
+        "Thương mại - dịch vụ",
+        "Du lịch"
+      ],
+      "last_updated": "2025-01-28",
+      "source": "Cổng TTĐT tỉnh Lai Châu - Bức tranh toàn cảnh kinh tế - xã hội năm 2024; Cổng TTĐT tỉnh Lai Châu - Vị trí địa lý"
+    },
+    "gdp": {
+      "value": {
+        "amount_usd": null,
+        "year": 2024
+      },
+      "last_updated": "2025-03-20",
+      "source": "Nguồn đã kiểm tra công bố tốc độ tăng GRDP và GRDP bình quân đầu người, nhưng chưa khóa trực tiếp tổng GRDP quy đổi USD từ nguồn nhà nước truy cập được"
+    }
+  },
+  "tourism": {
+    "attractions": {
+      "value": [
+        {
+          "name": "Đèo Ô Quy Hồ",
+          "type": "Cảnh quan / đèo",
+          "description": "Một trong những điểm đến nổi bật của du lịch Lai Châu.",
+          "rating": null
+        },
+        {
+          "name": "Động Pu Sam Cáp",
+          "type": "Hang động / danh lam thắng cảnh",
+          "description": "Quần thể hang động nổi tiếng của tỉnh.",
+          "rating": null
+        },
+        {
+          "name": "Đỉnh Putaleng",
+          "type": "Núi / trekking",
+          "description": "Điểm trekking nổi bật ở Lai Châu.",
+          "rating": null
+        },
+        {
+          "name": "Sin Suối Hồ",
+          "type": "Du lịch cộng đồng",
+          "description": "Điểm du lịch cộng đồng tiêu biểu của Lai Châu.",
+          "rating": null
+        },
+        {
+          "name": "Khu du lịch sinh thái Cầu kính Rồng Mây",
+          "type": "Du lịch sinh thái / trải nghiệm",
+          "description": "Điểm du lịch nổi bật khu vực Bình Lư.",
+          "rating": null
+        }
+      ],
+      "last_updated": "2026-03-20",
+      "source": "Cổng thông tin du lịch Lai Châu; Cổng TTĐT tỉnh Lai Châu - Danh lam thắng cảnh"
+    },
+    "local_specialties": {
+      "value": [
+        {
+          "name": "Dưa mèo",
+          "type": "Ẩm thực"
+        },
+        {
+          "name": "Lam nhọ",
+          "type": "Ẩm thực"
+        },
+        {
+          "name": "Thịt gác bếp",
+          "type": "Ẩm thực"
+        },
+        {
+          "name": "Xôi tím",
+          "type": "Ẩm thực"
+        },
+        {
+          "name": "Nộm rau dớn",
+          "type": "Ẩm thực"
+        }
+      ],
+      "last_updated": "2026-03-20",
+      "source": "Cổng thông tin du lịch Lai Châu - chuyên mục Ẩm thực"
+    },
+    "culture": {
+      "festivals": {
+        "value": [
+          "Then Kin Pang",
+          "Nàng Han",
+          "Gầu Tào",
+          "Lễ Cấp sắc",
+          "Tết Hồ Sự Chà",
+          "Bun Vốc Nặm (Lễ hội té nước)"
+        ],
+        "last_updated": "2026-03-20",
+        "source": "Cổng TTĐT tỉnh Lai Châu - Truyền thống văn hóa; Cổng thông tin du lịch Lai Châu"
+      },
+      "events": {
+        "value": [
+          "Tuần Du lịch - Văn hóa Lai Châu",
+          "Giải Marathon Lai Châu",
+          "Lễ hội Đền thờ Vua Lê Thái Tổ"
+        ],
+        "last_updated": "2026-03-20",
+        "source": "Cổng thông tin du lịch Lai Châu; Cổng TTĐT tỉnh Lai Châu"
+      }
+    }
+  },
+  "infrastructure": {
+    "airport": {
+      "value": [],
+      "last_updated": "2025-03-20",
+      "source": "Không thấy nguồn chính thức trong các trang đã kiểm tra xác nhận có sân bay đang khai thác dân dụng tại Lai Châu"
+    },
+    "seaport": {
+      "value": [],
+      "last_updated": "2025-03-20",
+      "source": "Lai Châu là tỉnh nội địa, không giáp biển"
+    },
+    "railway_station": {
+      "value": [],
+      "last_updated": "2025-03-20",
+      "source": "Không thấy nguồn chính thức trong các trang đã kiểm tra xác nhận có ga đường sắt tại Lai Châu"
+    },
+    "other_transport": {
+      "value": [
+        "Cửa khẩu quốc tế Ma Lù Thàng",
+        "Quốc lộ 4D",
+        "Quốc lộ 32",
+        "Quốc lộ 70",
+        "Đường thủy sông Đà"
+      ],
+      "last_updated": "2025-01-01",
+      "source": "Cổng TTĐT tỉnh Lai Châu - Vị trí địa lý; thông tin về Cửa khẩu quốc tế Ma Lù Thàng"
+    }
+  },
+  "environment": {
+    "climate": {
+      "type": {
+        "value": "Khí hậu gió mùa chí tuyến, điển hình của vùng nhiệt đới núi cao Tây Bắc",
+        "last_updated": "2021-03-12",
+        "source": "Cổng TTĐT tỉnh Lai Châu - Khí hậu"
+      },
+      "average_temperature_c": {
+        "value": 22.5,
+        "last_updated": "2021-03-12",
+        "source": "Cổng TTĐT tỉnh Lai Châu - Khí hậu"
+      }
+    },
+    "ecology": {
+      "forests": {
+        "value": [
+          "Rừng Pu Ta Leng",
+          "Rừng đầu nguồn lưu vực sông Đà"
+        ],
+        "last_updated": "2021-03-23",
+        "source": "Cổng TTĐT tỉnh Lai Châu - Tài nguyên sinh vật; Vị trí địa lý; Thủy văn - Tài nguyên nước"
+      },
+      "sea": {
+        "value": [],
+        "last_updated": "2025-03-20",
+        "source": "Lai Châu là tỉnh nội địa"
+      },
+      "other_resources": {
+        "value": [
+          "Sông Đà",
+          "Sông Nậm Na",
+          "Sông Nậm Mu",
+          "Sông Nậm Mạ",
+          "Vàng",
+          "Đất hiếm",
+          "Đồng",
+          "Chì-kẽm",
+          "Than đá",
+          "Nước nóng - nước khoáng"
+        ],
+        "last_updated": "2021-03-12",
+        "source": "Cổng TTĐT tỉnh Lai Châu - Thủy văn - Tài nguyên nước; Khoáng sản"
+      }
+    }
+  }
+}

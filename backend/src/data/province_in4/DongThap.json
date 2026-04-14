@@ -1,0 +1,298 @@
+﻿{
+  "name": {
+    "value": "Đồng Tháp",
+    "last_updated": "2025-06-12",
+    "source": "Nghị quyết số 202/2025/QH15 của Quốc hội về việc sắp xếp đơn vị hành chính cấp tỉnh"
+  },
+  "administrative_code": {
+    "value": "82",
+    "last_updated": "2025-07-01",
+    "source": "Quyết định số 19/2025/QĐ-TTg ban hành Bảng danh mục và mã số các đơn vị hành chính Việt Nam"
+  },
+  "former_provinces": {
+    "value": ["Tiền Giang", "Đồng Tháp"],
+    "description": "Tỉnh Đồng Tháp mới được hình thành bằng việc sắp xếp toàn bộ diện tích tự nhiên và quy mô dân số của tỉnh Tiền Giang và tỉnh Đồng Tháp, giữ tên gọi là tỉnh Đồng Tháp.",
+    "last_updated": "2025-06-12",
+    "source": "Nghị quyết số 202/2025/QH15 của Quốc hội về việc sắp xếp đơn vị hành chính cấp tỉnh"
+  },
+  "location": {
+    "latitude": {
+      "value": 10độ7’,
+      "last_updated": "2025-03-19",
+      "source": "Chưa tìm thấy nguồn công bố chính thức về tọa độ trung tâm tỉnh Đồng Tháp mới sau sáp nhập"
+    },
+    "longitude": {
+      "value": 10độ58’
+      "last_updated": "2025-03-19",
+      "source": "Chưa tìm thấy nguồn công bố chính thức về tọa độ trung tâm tỉnh Đồng Tháp mới sau sáp nhập"
+    },
+    "adjacent_areas": {
+      "provinces": {
+        "value": [
+          "An Giang",
+          "Tây Ninh",
+          "Vĩnh Long",
+          "Thành phố Cần Thơ",
+          "Thành phố Hồ Chí Minh"
+        ],
+        "last_updated": "2025-06-12",
+        "source": "Nghị quyết số 202/2025/QH15 của Quốc hội về việc sắp xếp đơn vị hành chính cấp tỉnh"
+      },
+      "countries": {
+        "value": ["Campuchia"],
+        "last_updated": "2025-06-12",
+        "source": "Nghị quyết số 202/2025/QH15 của Quốc hội về việc sắp xếp đơn vị hành chính cấp tỉnh"
+      },
+      "seas": {
+        "value": ["Biển Đông"],
+        "last_updated": "2025-06-12",
+        "source": "Nghị quyết số 202/2025/QH15 của Quốc hội về việc sắp xếp đơn vị hành chính cấp tỉnh"
+      }
+    }
+  },
+  "area": {
+    "total_km2": {
+      "value": 5938.64,
+      "last_updated": "2025-06-12",
+      "source": "Nghị quyết số 202/2025/QH15 của Quốc hội về việc sắp xếp đơn vị hành chính cấp tỉnh"
+    }
+  },
+  "administrative_structure": {
+    "wards_communes_count": {
+      "value": 102,
+      "last_updated": "2025-06-16",
+      "source": "Nghị quyết số 1663/NQ-UBTVQH15 về việc sắp xếp các đơn vị hành chính cấp xã của tỉnh Đồng Tháp năm 2025"
+    },
+    "wards_communes_list": {
+      "value": [
+        "Tân Hồng",
+        "Tân Thành",
+        "Tân Hộ Cơ",
+        "An Phước",
+        "Thường Phước",
+        "Long Khánh",
+        "Long Phú Thuận",
+        "An Hòa",
+        "Tam Nông",
+        "Phú Thọ",
+        "Tràm Chim",
+        "Phú Cường",
+        "An Long",
+        "Thanh Bình",
+        "Tân Thạnh",
+        "Bình Thành",
+        "Tân Long",
+        "Tháp Mười",
+        "Thanh Mỹ",
+        "Mỹ Quí",
+        "Đốc Binh Kiều",
+        "Trường Xuân",
+        "Phương Thịnh",
+        "Phong Mỹ",
+        "Ba Sao",
+        "Mỹ Thọ",
+        "Bình Hàng Trung",
+        "Mỹ Hiệp",
+        "Mỹ An Hưng",
+        "Tân Khánh Trung",
+        "Lấp Vò",
+        "Lai Vung",
+        "Hòa Long",
+        "Phong Hòa",
+        "Tân Dương",
+        "Phú Hựu",
+        "Tân Nhuận Đông",
+        "Tân Phú Trung",
+        "Tân Phú",
+        "Thanh Hưng",
+        "An Hữu",
+        "Mỹ Lợi",
+        "Mỹ Đức Tây",
+        "Mỹ Thiện",
+        "Hậu Mỹ",
+        "Hội Cư",
+        "Cái Bè",
+        "Mỹ Thành",
+        "Thạnh Phú",
+        "Bình Phú",
+        "Hiệp Đức",
+        "Long Tiên",
+        "Ngũ Hiệp",
+        "Tân Phước 1",
+        "Tân Phước 2",
+        "Tân Phước 3",
+        "Hưng Thạnh",
+        "Tân Hương",
+        "Châu Thành",
+        "Long Hưng",
+        "Long Định",
+        "Bình Trưng",
+        "Vĩnh Kim",
+        "Kim Sơn",
+        "Mỹ Tịnh An",
+        "Lương Hòa Lạc",
+        "Tân Thuận Bình",
+        "Chợ Gạo",
+        "An Thạnh Thủy",
+        "Bình Ninh",
+        "Vĩnh Bình",
+        "Đồng Sơn",
+        "Phú Thành",
+        "Long Bình",
+        "Vĩnh Hựu",
+        "Gò Công Đông",
+        "Tân Điền",
+        "Tân Hòa",
+        "Tân Đông",
+        "Gia Thuận",
+        "Tân Thới",
+        "Tân Phú Đông",
+        "Phường Mỹ Tho",
+        "Phường Đạo Thạnh",
+        "Phường Mỹ Phong",
+        "Phường Thới Sơn",
+        "Phường Trung An",
+        "Phường Gò Công",
+        "Phường Long Thuận",
+        "Phường Bình Xuân",
+        "Phường Sơn Qui",
+        "Phường An Bình",
+        "Phường Hồng Ngự",
+        "Phường Thường Lạc",
+        "Phường Cao Lãnh",
+        "Phường Mỹ Ngãi",
+        "Phường Mỹ Trà",
+        "Phường Sa Đéc",
+        "Phường Mỹ Phước Tây",
+        "Phường Thanh Hòa",
+        "Phường Cai Lậy",
+        "Phường Nhị Quý"
+      ],
+      "last_updated": "2025-08-04",
+      "source": "Danh sách 102 xã, phường của tỉnh Đồng Tháp mới; đối chiếu Nghị quyết số 1663/NQ-UBTVQH15"
+    }
+  },
+  "population": {
+    "total": {
+      "value": 4370046,
+      "last_updated": "2025-06-12",
+      "source": "Nghị quyết số 202/2025/QH15 của Quốc hội về việc sắp xếp đơn vị hành chính cấp tỉnh"
+    },
+    "density_per_km2": {
+      "value": 735.87,
+      "last_updated": "2025-06-12",
+      "source": "Tính từ số liệu diện tích 5.938,64 km2 và dân số 4.370.046 người trong Nghị quyết số 202/2025/QH15"
+    },
+    "ethnic_groups": {
+      "value": [],
+      "last_updated": "2025-03-19",
+      "source": "Chưa tìm thấy bảng cơ cấu dân tộc theo tỷ lệ phần trăm được cơ quan nhà nước công bố riêng cho tỉnh Đồng Tháp mới sau sáp nhập"
+    }
+  },
+  "economy": {
+    "scale": {
+      "value": 3 động lực tăng trưởng
+      "last_updated": "2025-03-19",
+      "source": "Chưa tìm thấy chỉ tiêu quy mô kinh tế/GRDP được cơ quan nhà nước công bố riêng cho tỉnh Đồng Tháp mới sau sáp nhập"
+    },
+    "main_sectors": {
+      "value": [],
+      "last_updated": "2025-03-19",
+      "source": "Chưa có nguồn công bố chính thức hậu sáp nhập tổng hợp theo tỉnh Đồng Tháp mới"
+    },
+    "gdp": {
+      "value": {
+        "amount_usd": 9208 tỷ usd
+        "year": 2025
+      },
+      "last_updated": "2025-03-19",
+      "source": "Chưa tìm thấy số liệu GRDP/USD chính thức của tỉnh Đồng Tháp mới sau sáp nhập"
+    }
+  },
+  "tourism": {
+    "attractions": {
+      "value": [
+        {
+          "name": "Khu di tích Gò Tháp",
+          "type": "Di tích lịch sử - văn hóa - khảo cổ",
+          "description": "Di tích quốc gia đặc biệt, nơi lưu giữ các di chỉ văn hóa Óc Eo và nhiều giá trị lịch sử, tâm linh tiêu biểu của vùng Đồng Tháp Mười.",
+          "rating": null
+        }
+      ],
+      "last_updated": "2025-03-19",
+      "source": "Trung tâm Phát triển Du lịch Đồng Tháp"
+    },
+    "local_specialties": {
+      "value": [],
+      "last_updated": "2025-03-19",
+      "source": "Chưa tổng hợp vì chưa có danh mục chính thức cấp tỉnh mới sau sáp nhập"
+    },
+    "culture": {
+      "festivals": {
+        "value": [
+          "Lễ hội Gò Tháp"
+        ],
+        "last_updated": "2025-03-19",
+        "source": "Trung tâm Phát triển Du lịch Đồng Tháp"
+      },
+      "events": {
+        "value": [],
+        "last_updated": "2025-03-19",
+        "source": "Chưa tổng hợp vì chưa có danh mục chính thức cấp tỉnh mới sau sáp nhập"
+      }
+    }
+  },
+  "infrastructure": {
+    "airport": {
+      "value": [],
+      "last_updated": "2025-03-19",
+      "source": "Chưa thấy nguồn chính thức xác nhận có cảng hàng không dân dụng đang khai thác thuộc tỉnh Đồng Tháp mới"
+    },
+    "seaport": {
+      "value": [],
+      "last_updated": "2025-03-19",
+      "source": "Chưa tổng hợp vì chưa có danh mục chính thức hậu sáp nhập được xác minh đầy đủ"
+    },
+    "railway_station": {
+      "value": [],
+      "last_updated": "2025-03-19",
+      "source": "Chưa thấy nguồn chính thức xác nhận có ga đường sắt quốc gia thuộc tỉnh Đồng Tháp mới"
+    },
+    "other_transport": {
+      "value": [],
+      "last_updated": "2025-03-19",
+      "source": "Chưa tổng hợp vì chưa có danh mục chính thức hậu sáp nhập được xác minh đầy đủ"
+    }
+  },
+  "environment": {
+    "climate": {
+      "type": {
+        "value": nhiệt đới gió mùa
+        "last_updated": "2025-03-19",
+        "source": "Chưa tìm thấy mô tả khí hậu chính thức riêng cho tỉnh Đồng Tháp mới sau sáp nhập"
+      },
+      "average_temperature_c": {
+        "value": 27,2
+        "last_updated": "2025-03-19",
+        "source": "Chưa tìm thấy số liệu nhiệt độ trung bình năm chính thức riêng cho tỉnh Đồng Tháp mới sau sáp nhập"
+      }
+    },
+    "ecology": {
+      "forests": {
+        "value": [],
+        "last_updated": "2025-03-19",
+        "source": "Chưa tổng hợp vì chưa có danh mục chính thức hậu sáp nhập được xác minh đầy đủ"
+      },
+      "sea": {
+        "value": ["Biển Đông"],
+        "last_updated": "2025-06-12",
+        "source": "Nghị quyết số 202/2025/QH15 của Quốc hội về việc sắp xếp đơn vị hành chính cấp tỉnh"
+      },
+      "other_resources": {
+        "value": [],
+        "last_updated": "2025-03-19",
+        "source": "Chưa tổng hợp vì chưa có danh mục chính thức hậu sáp nhập được xác minh đầy đủ"
+      }
+    }
+  }
+}

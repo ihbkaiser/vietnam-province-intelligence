@@ -1,0 +1,379 @@
+﻿{
+  "name": {
+    "value": "Tỉnh Phú Thọ",
+    "last_updated": "2025-06-12",
+    "source": "Nghị quyết 202/2025/QH15; Chinhphu.vn - Chi tiết 34 đơn vị hành chính cấp tỉnh"
+  },
+  "administrative_code": {
+    "value": "25",
+    "last_updated": "2025-07-01",
+    "source": "Quyết định 19/2025/QĐ-TTg; Chinhphu.vn - Bảng danh mục và mã số các đơn vị hành chính Việt Nam"
+  },
+  "former_provinces": {
+    "value": ["Phú Thọ", "Vĩnh Phúc", "Hòa Bình"],
+    "description": "Tỉnh Phú Thọ mới được hình thành do sắp xếp toàn bộ diện tích tự nhiên và quy mô dân số của 3 tỉnh: Phú Thọ, Vĩnh Phúc và Hòa Bình.",
+    "last_updated": "2025-06-12",
+    "source": "Nghị quyết 202/2025/QH15; Chinhphu.vn - Chi tiết 34 đơn vị hành chính cấp tỉnh"
+  },
+  "location": {
+    "latitude": {
+      "value": 21.3236,
+      "source": "Tọa độ trung tâm hành chính của tỉnh Phú Thọ mới"
+     },
+    "longitude": {
+      "value": 105.4025,
+      "last_updated": "2026-03-22",
+      "source": "Tọa độ trung tâm hành chính của tỉnh Phú Thọ mới"
+    },
+    "adjacent_areas": {
+      "provinces": {
+        "value": ["Tuyên Quang", "Lào Cai", "Sơn La", "Thanh Hóa", "Ninh Bình", "Hà Nội", "Thái Nguyên"],
+        "last_updated": "2026-06-12",
+        "source": "NQ 202/2025/QH15"
+      },
+      "countries": {
+        "value": [],
+        "last_updated": "2026-03-22",
+        "source": "Không có biên giới quốc tế"
+      },
+      "seas": {
+        "value": [],
+        "last_updated": "2026-03-19",
+        "source": "Không giáp biển"
+      }
+    }
+  },
+  "area": {
+    "total_km2": {
+      "value": 9361.38,
+      "last_updated": "2025-06-12",
+      "source": "Nghị quyết 202/2025/QH15; Chinhphu.vn - Chi tiết 34 đơn vị hành chính cấp tỉnh"
+    }
+  },
+  "administrative_structure": {
+    "wards_communes_count": {
+      "value": 148,
+      "last_updated": "2025-08-04",
+      "source": "Nghị quyết 1676/NQ-UBTVQH15; Chinhphu.vn - Danh sách 148 xã, phường của tỉnh Phú Thọ mới"
+    },
+    "wards_communes_list": {
+      "value": [
+        "Xã Hy Cương",
+        "Xã Lâm Thao",
+        "Xã Xuân Lũng",
+        "Xã Phùng Nguyên",
+        "Xã Bản Nguyên",
+        "Xã Phù Ninh",
+        "Xã Dân Chủ",
+        "Xã Phú Mỹ",
+        "Xã Trạm Thản",
+        "Xã Bình Phú",
+        "Xã Thanh Ba",
+        "Xã Quảng Yên",
+        "Xã Hoàng Cương",
+        "Xã Đông Thành",
+        "Xã Chí Tiên",
+        "Xã Liên Minh",
+        "Xã Đoan Hùng",
+        "Xã Tây Cốc",
+        "Xã Chân Mộng",
+        "Xã Chí Đám",
+        "Xã Bằng Luân",
+        "Xã Hạ Hòa",
+        "Xã Đan Thượng",
+        "Xã Yên Kỳ",
+        "Xã Vĩnh Chân",
+        "Xã Văn Lang",
+        "Xã Hiền Lương",
+        "Xã Cẩm Khê",
+        "Xã Phú Khê",
+        "Xã Hùng Việt",
+        "Xã Đồng Lương",
+        "Xã Tiên Lương",
+        "Xã Vân Bán",
+        "Xã Tam Nông",
+        "Xã Thọ Văn",
+        "Xã Vạn Xuân",
+        "Xã Hiền Quan",
+        "Xã Thanh Thủy",
+        "Xã Đào Xá",
+        "Xã Tu Vũ",
+        "Xã Thanh Sơn",
+        "Xã Võ Miếu",
+        "Xã Văn Miếu",
+        "Xã Cự Đồng",
+        "Xã Hương Cần",
+        "Xã Yên Sơn",
+        "Xã Khả Cửu",
+        "Xã Tân Sơn",
+        "Xã Minh Đài",
+        "Xã Lai Đồng",
+        "Xã Xuân Đài",
+        "Xã Long Cốc",
+        "Xã Yên Lập",
+        "Xã Thượng Long",
+        "Xã Sơn Lương",
+        "Xã Xuân Viên",
+        "Xã Minh Hòa",
+        "Xã Tam Sơn",
+        "Xã Sông Lô",
+        "Xã Hải Lựu",
+        "Xã Yên Lãng",
+        "Xã Lập Thạch",
+        "Xã Tiên Lữ",
+        "Xã Thái Hòa",
+        "Xã Liên Hòa",
+        "Xã Hợp Lý",
+        "Xã Sơn Đông",
+        "Xã Tam Đảo",
+        "Xã Đại Đình",
+        "Xã Đạo Trù",
+        "Xã Tam Dương",
+        "Xã Hội Thịnh",
+        "Xã Hoàng An",
+        "Xã Tam Dương Bắc",
+        "Xã Vĩnh Tường",
+        "Xã Thổ Tang",
+        "Xã Vĩnh Hưng",
+        "Xã Vĩnh An",
+        "Xã Vĩnh Phú",
+        "Xã Vĩnh Thành",
+        "Xã Yên Lạc",
+        "Xã Tề Lỗ",
+        "Xã Liên Châu",
+        "Xã Tam Hồng",
+        "Xã Nguyệt Đức",
+        "Xã Bình Nguyên",
+        "Xã Xuân Lãng",
+        "Xã Bình Xuyên",
+        "Xã Bình Tuyền",
+        "Xã Thịnh Minh",
+        "Xã Cao Phong",
+        "Xã Mường Thàng",
+        "Xã Thung Nai",
+        "Xã Đà Bắc",
+        "Xã Cao Sơn",
+        "Xã Đức Nhàn",
+        "Xã Quy Đức",
+        "Xã Tân Pheo",
+        "Xã Tiền Phong",
+        "Xã Kim Bôi",
+        "Xã Mường Động",
+        "Xã Dũng Tiến",
+        "Xã Hợp Kim",
+        "Xã Nật Sơn",
+        "Xã Lạc Sơn",
+        "Xã Mường Vang",
+        "Xã Đại Đồng",
+        "Xã Ngọc Sơn",
+        "Xã Nhân Nghĩa",
+        "Xã Quyết Thắng",
+        "Xã Thượng Cốc",
+        "Xã Yên Phú",
+        "Xã Lạc Thủy",
+        "Xã An Bình",
+        "Xã An Nghĩa",
+        "Xã Lương Sơn",
+        "Xã Cao Dương",
+        "Xã Liên Sơn",
+        "Xã Mai Châu",
+        "Xã Bao La",
+        "Xã Mai Hạ",
+        "Xã Pà Cò",
+        "Xã Tân Mai",
+        "Xã Tân Lạc",
+        "Xã Mường Bi",
+        "Xã Mường Hoa",
+        "Xã Toàn Thắng",
+        "Xã Vân Sơn",
+        "Xã Yên Thủy",
+        "Xã Lạc Lương",
+        "Xã Yên Trị",
+        "Phường Việt Trì",
+        "Phường Nông Trang",
+        "Phường Thanh Miếu",
+        "Phường Vân Phú",
+        "Phường Phú Thọ",
+        "Phường Phong Châu",
+        "Phường Âu Cơ",
+        "Phường Vĩnh Phúc",
+        "Phường Vĩnh Yên",
+        "Phường Phúc Yên",
+        "Phường Xuân Hòa",
+        "Phường Hòa Bình",
+        "Phường Kỳ Sơn",
+        "Phường Tân Hòa",
+        "Phường Thống Nhất",
+        "Xã Thu Cúc",
+        "Xã Trung Sơn"
+      ],
+      "last_updated": "2025-08-04",
+      "source": "Nghị quyết 1676/NQ-UBTVQH15; Chinhphu.vn - Danh sách 148 xã, phường của tỉnh Phú Thọ mới"
+    }
+  },
+  "population": {
+    "total": {
+      "value": 4022638,
+      "last_updated": "2025-06-12",
+      "source": "Nghị quyết 202/2025/QH15; Chinhphu.vn - Chi tiết 34 đơn vị hành chính cấp tỉnh"
+    },
+    "density_per_km2": {
+      "value": 429.71,
+      "last_updated": "2026-03-19",
+      "source": "Tính từ dân số 4.022.638 người và diện tích 9.361,38 km2 theo Nghị quyết 202/2025/QH15"
+    },
+    "ethnic_groups": {
+      "value": [],
+      "last_updated": "2026-03-19",
+      "source": "Chưa thấy nguồn chính thức công bố cơ cấu % các dân tộc cho tỉnh Phú Thọ mới sau sáp nhập"
+    }
+  },
+  "economy": {
+    "scale": {
+      "value": null,
+      "last_updated": "2026-03-19",
+      "source": "Chưa thấy nguồn chính thức công bố quy mô kinh tế/GRDP của tỉnh Phú Thọ mới sau sáp nhập"
+    },
+    "main_sectors": {
+      "value": [],
+      "last_updated": "2026-03-19",
+      "source": "Chưa thấy nguồn chính thức công bố cơ cấu ngành kinh tế tổng hợp cho tỉnh Phú Thọ mới sau sáp nhập"
+    },
+    "gdp": {
+      "value": null,
+      "last_updated": "2026-03-19",
+      "source": "Chưa thấy nguồn chính thức công bố GRDP/GDP (USD) của tỉnh Phú Thọ mới sau sáp nhập"
+    }
+  },
+  "tourism": {
+    "attractions": {
+      "value": [
+        {
+          "name": "Khu Di tích lịch sử Đền Hùng",
+          "type": "Di tích lịch sử - tâm linh",
+          "description": "Di tích quốc gia đặc biệt, không gian thực hành Tín ngưỡng thờ cúng Hùng Vương.",
+          "rating": null
+        },
+        {
+          "name": "Vườn quốc gia Xuân Sơn",
+          "type": "Du lịch sinh thái - rừng quốc gia",
+          "description": "Vườn quốc gia có đa dạng sinh thái, đa dạng sinh học cao và cảnh quan tự nhiên nổi bật.",
+          "rating": null
+        },
+        {
+          "name": "Tam Đảo",
+          "type": "Du lịch nghỉ dưỡng núi",
+          "description": "Khu du lịch núi nổi tiếng, khí hậu mát mẻ, gắn với Vườn quốc gia Tam Đảo.",
+          "rating": null
+        },
+        {
+          "name": "Khu di tích danh thắng Tây Thiên",
+          "type": "Di tích lịch sử - danh thắng",
+          "description": "Quần thể di tích văn hóa, danh lam thắng cảnh thuộc hệ thống núi Tam Đảo.",
+          "rating": null
+        },
+        {
+          "name": "Hồ Hòa Bình",
+          "type": "Du lịch hồ - sinh thái",
+          "description": "Hồ chứa nước nhân tạo lớn, có tiềm năng du lịch sinh thái và cảnh quan mặt nước rộng.",
+          "rating": null
+        }
+      ],
+      "last_updated": "2026-03-19",
+      "source": "Sở VHTTDL Phú Thọ; Cổng TTĐT Vĩnh Phúc; Cổng TTĐT Hòa Bình"
+    },
+    "local_specialties": {
+      "value": [
+        {
+          "name": "Thịt chua Thanh Sơn",
+          "type": "Đặc sản ẩm thực"
+        },
+        {
+          "name": "Cơm lam Hòa Bình",
+          "type": "Đặc sản ẩm thực"
+        },
+        {
+          "name": "Cá thính Lập Thạch",
+          "type": "Đặc sản ẩm thực"
+        }
+      ],
+      "last_updated": "2026-03-19",
+      "source": "Sở VHTTDL Phú Thọ; Cổng TTĐT Vĩnh Phúc; IPA Hòa Bình"
+    },
+    "culture": {
+      "festivals": {
+        "value": [
+          "Giỗ Tổ Hùng Vương - Lễ hội Đền Hùng"
+        ],
+        "last_updated": "2026-03-19",
+        "source": "Cổng thông tin điện tử tỉnh Phú Thọ; Sở VHTTDL Phú Thọ"
+      },
+      "events": {
+        "value": [
+          "Tuần Văn hóa - Du lịch Đất Tổ"
+        ],
+        "last_updated": "2026-03-19",
+        "source": "Cổng thông tin điện tử tỉnh Phú Thọ"
+      }
+    }
+  },
+  "infrastructure": {
+    "airport": {
+      "value": [],
+      "last_updated": "2026-03-19",
+      "source": "Đối chiếu danh sách cảng hàng không, sân bay toàn quốc của Cục Hàng không Việt Nam; không thấy cảng hàng không/sân bay dân dụng nằm trong tỉnh Phú Thọ mới"
+    },
+    "seaport": {
+      "value": [],
+      "last_updated": "2026-03-19",
+      "source": "Tỉnh không giáp biển"
+    },
+    "railway_station": {
+      "value": ["Ga Việt Trì", "Ga Vĩnh Yên", "Ga Phúc Yên"],
+      "last_updated": "2026-03-19",
+      "source": "Đường sắt Việt Nam - hệ thống tuyến và ga đường sắt"
+    },
+    "other_transport": {
+      "value": [],
+      "last_updated": "2026-03-19",
+      "source": "Chưa chuẩn hóa thêm trong bản này để tránh đưa thông tin hạ tầng chưa đối chiếu đủ nguồn chính thức"
+    }
+  },
+  "environment": {
+    "climate": {
+      "type": {
+        "value": null,
+        "last_updated": "2026-03-19",
+        "source": "Chưa thấy nguồn chính thức công bố một mô tả khí hậu chuẩn hóa riêng cho toàn tỉnh Phú Thọ mới sau sáp nhập"
+      },
+      "average_temperature_c": {
+        "value": null,
+        "last_updated": "2026-03-19",
+        "source": "Chưa thấy nguồn chính thức công bố nhiệt độ trung bình năm cho toàn tỉnh Phú Thọ mới sau sáp nhập"
+      }
+    },
+    "ecology": {
+      "forests": {
+        "value": [
+          "Vườn quốc gia Xuân Sơn",
+          "Vườn quốc gia Tam Đảo",
+          "Khu bảo tồn thiên nhiên Ngọc Sơn - Ngổ Luông"
+        ],
+        "last_updated": "2026-03-19",
+        "source": "Sở VHTTDL Phú Thọ; Cổng TTĐT Vĩnh Phúc; Cổng TTĐT Hòa Bình"
+      },
+      "sea": {
+        "value": [],
+        "last_updated": "2026-03-19",
+        "source": "Tỉnh không giáp biển"
+      },
+      "other_resources": {
+        "value": [
+          "Hồ Hòa Bình"
+        ],
+        "last_updated": "2026-03-19",
+        "source": "Cổng thông tin điện tử tỉnh Hòa Bình"
+      }
+    }
+  }
+}

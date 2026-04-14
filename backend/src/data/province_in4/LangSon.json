@@ -1,0 +1,319 @@
+﻿{
+  "name": {
+    "value": "Lạng Sơn",
+    "last_updated": "2025-07-01",
+    "source": "Nghị quyết của Quốc hội về 34 đơn vị hành chính cấp tỉnh; Cổng Thông tin điện tử Chính phủ"
+  },
+  "administrative_code": {
+    "value": "20",
+    "last_updated": "2025-07-04",
+    "source": "Bảng danh mục và mã số của 34 tỉnh thành mới, các đơn vị hành chính cấp xã mới"
+  },
+  "former_provinces": {
+    "value": ["Lạng Sơn"],
+    "description": "Lạng Sơn không phải tỉnh hình thành do sáp nhập cấp tỉnh năm 2025; tỉnh giữ nguyên tư cách đơn vị hành chính cấp tỉnh sau đợt sắp xếp.",
+    "last_updated": "2025-06-12",
+    "source": "Chi tiết 34 đơn vị hành chính cấp tỉnh từ 12/6/2025"
+  },
+
+
+  "location": {
+    "latitude": {
+      "value": null,
+      "last_updated": "2026-03-20",
+      "source": "Chưa tìm được tọa độ trung tâm hành chính cấp tỉnh sau 1/7/2025 từ nguồn chính thức đủ rõ ràng để điền tuyệt đối chính xác"
+    },
+    "longitude": {
+      "value": null,
+      "last_updated": "2026-03-20",
+      "source": "Chưa tìm được tọa độ trung tâm hành chính cấp tỉnh sau 1/7/2025 từ nguồn chính thức đủ rõ ràng để điền tuyệt đối chính xác"
+    },
+    "adjacent_areas": {
+      "provinces": {
+        "value": ["Cao Bằng", "Quảng Ninh", "Thái Nguyên", "Bắc Ninh"],
+        "last_updated": "2025-06-12",
+        "source": "Suy luận hành chính sau sắp xếp cấp tỉnh 2025 từ danh sách 34 tỉnh/thành mới, đối chiếu vị trí địa lý lịch sử của Lạng Sơn"
+      },
+      "countries": {
+        "value": ["Trung Quốc"],
+        "last_updated": "2024-03-26",
+        "source": "Quy hoạch tỉnh Lạng Sơn thời kỳ 2021-2030, tầm nhìn đến 2050; thông tin chính thức về tỉnh biên giới"
+      },
+      "seas": {
+        "value": [],
+        "last_updated": "2024-03-26",
+        "source": "Quy hoạch tỉnh Lạng Sơn thời kỳ 2021-2030, tầm nhìn đến 2050"
+      }
+    }
+  },
+
+
+  "area": {
+    "total_km2": {
+      "value": 8310.18,
+      "last_updated": "2024-03-19",
+      "source": "Quy hoạch tỉnh Lạng Sơn thời kỳ 2021-2030, tầm nhìn đến 2050"
+    }
+  },
+
+
+  "administrative_structure": {
+    "wards_communes_count": {
+      "value": 65,
+      "last_updated": "2025-07-01",
+      "source": "Nghị quyết số 1672/NQ-UBTVQH15; Cổng TTĐT tỉnh Lạng Sơn; Báo Điện tử Chính phủ"
+    },
+    "wards_communes_list": {
+      "value": [
+        "Thất Khê",
+        "Đoàn Kết",
+        "Tân Tiến",
+        "Tràng Định",
+        "Quốc Khánh",
+        "Kháng Chiến",
+        "Quốc Việt",
+        "Bình Gia",
+        "Tân Văn",
+        "Hồng Phong",
+        "Hoa Thám",
+        "Quý Hòa",
+        "Thiện Hòa",
+        "Thiện Thuật",
+        "Thiện Long",
+        "Bắc Sơn",
+        "Hưng Vũ",
+        "Vũ Lăng",
+        "Nhất Hòa",
+        "Vũ Lễ",
+        "Tân Tri",
+        "Văn Quan",
+        "Điềm He",
+        "Yên Phúc",
+        "Tri Lễ",
+        "Tân Đoàn",
+        "Khánh Khê",
+        "Na Sầm",
+        "Hoàng Văn Thụ",
+        "Thụy Hùng",
+        "Văn Lãng",
+        "Hội Hoan",
+        "Lộc Bình",
+        "Mẫu Sơn",
+        "Na Dương",
+        "Lợi Bác",
+        "Thống Nhất",
+        "Xuân Dương",
+        "Khuất Xá",
+        "Đình Lập",
+        "Thái Bình",
+        "Châu Sơn",
+        "Kiên Mộc",
+        "Hữu Lũng",
+        "Tuấn Sơn",
+        "Tân Thành",
+        "Vân Nham",
+        "Thiện Tân",
+        "Yên Bình",
+        "Hữu Liên",
+        "Cai Kinh",
+        "Chi Lăng",
+        "Quan Sơn",
+        "Chiến Thắng",
+        "Nhân Lý",
+        "Bằng Mạc",
+        "Vạn Linh",
+        "Đồng Đăng",
+        "Cao Lộc",
+        "Công Sơn",
+        "Ba Sơn",
+        "Tam Thanh",
+        "Lương Văn Tri",
+        "Kỳ Lừa",
+        "Đông Kinh"
+      ],
+      "last_updated": "2025-07-01",
+      "source": "Danh sách 65 xã, phường mới của tỉnh Lạng Sơn"
+    }
+  },
+
+
+  "population": {
+    "total": {
+      "value": null,
+      "last_updated": "2026-03-20",
+      "source": "Chưa xác nhận được tổng dân số cấp tỉnh sau 1/7/2025 từ nguồn chính thức công khai đủ rõ ràng để điền tuyệt đối chính xác"
+    },
+    "density_per_km2": {
+      "value": null,
+      "last_updated": "2026-03-20",
+      "source": "Chưa xác nhận được mật độ dân số cấp tỉnh sau 1/7/2025 từ nguồn chính thức công khai đủ rõ ràng để điền tuyệt đối chính xác"
+    },
+    "ethnic_groups": {
+      "value": [
+        {
+          "name": "Nùng",
+          "percentage": null
+        },
+        {
+          "name": "Tày",
+          "percentage": null
+        },
+        {
+          "name": "Kinh",
+          "percentage": null
+        },
+        {
+          "name": "Dao",
+          "percentage": null
+        }
+      ],
+      "last_updated": "2026-03-20",
+      "source": "Nguồn chính thức rà soát cho thấy Lạng Sơn là tỉnh có đông đồng bào dân tộc thiểu số, nhưng chưa tìm được bảng tỷ lệ phần trăm cấp tỉnh sau 1/7/2025 từ nguồn chính thức công khai đủ rõ ràng để điền tuyệt đối chính xác"
+    }
+  },
+
+
+  "economy": {
+    "scale": {
+      "value": "Tỉnh biên giới, một trong các cực tăng trưởng và trung tâm kinh tế của vùng trung du và miền núi phía Bắc; kinh tế cửa khẩu là động lực nổi bật.",
+      "last_updated": "2024-03-19",
+      "source": "Quy hoạch tỉnh Lạng Sơn thời kỳ 2021-2030, tầm nhìn đến 2050"
+    },
+    "main_sectors": {
+      "value": ["Nông, lâm nghiệp", "Công nghiệp - xây dựng", "Dịch vụ", "Kinh tế cửa khẩu và logistics"],
+      "last_updated": "2026-01-05",
+      "source": "Sở Tài chính tỉnh Lạng Sơn - kết quả kinh tế năm 2025"
+    },
+    "gdp": {
+      "value": {
+        "amount_usd": null,
+        "year": 2025
+      },
+      "last_updated": "2026-03-20",
+      "source": "Chưa tìm được số GRDP tổng theo USD từ nguồn chính thức công khai; nguồn chính thức hiện công bố tốc độ tăng trưởng, cơ cấu và GRDP bình quân đầu người"
+    }
+  },
+
+
+  "tourism": {
+    "attractions": {
+      "value": [
+        {
+          "name": "Khu di tích danh thắng Nhị - Tam Thanh, núi Tô Thị, thành Nhà Mạc",
+          "type": "Di tích quốc gia và danh thắng",
+          "description": "Quần thể danh thắng nổi tiếng của xứ Lạng, được xếp hạng di tích quốc gia từ năm 1962.",
+          "rating": null
+        },
+        {
+          "name": "Công viên địa chất toàn cầu UNESCO Lạng Sơn",
+          "type": "Công viên địa chất toàn cầu UNESCO",
+          "description": "Được UNESCO công nhận, là tài nguyên du lịch địa chất - văn hóa nổi bật của tỉnh.",
+          "rating": null
+        },
+        {
+          "name": "Mẫu Sơn",
+          "type": "Khu du lịch núi",
+          "description": "Vùng núi cao, khí hậu mát lạnh, gắn với du lịch nghỉ dưỡng và trải nghiệm văn hóa bản địa.",
+          "rating": null
+        }
+      ],
+      "last_updated": "2025-06-03",
+      "source": "Cổng TTĐT các xã/phường của Lạng Sơn; UNESCO; Báo Điện tử Chính phủ"
+    },
+    "local_specialties": {
+      "value": [
+        {
+          "name": "Mác mật Lạng Sơn",
+          "type": "Gia vị/đặc sản bản địa"
+        },
+        {
+          "name": "Vịt quay mắc mật",
+          "type": "Ẩm thực"
+        },
+        {
+          "name": "Khâu nhục",
+          "type": "Ẩm thực"
+        },
+        {
+          "name": "Na Chi Lăng",
+          "type": "Nông sản"
+        },
+        {
+          "name": "Hoa hồi",
+          "type": "Nông sản - gia vị"
+        }
+      ],
+      "last_updated": "2024-06-28",
+      "source": "Sở Khoa học và Công nghệ tỉnh Lạng Sơn; UNESCO"
+    },
+    "culture": {
+      "festivals": {
+        "value": ["Lễ hội đền Tả Phủ - Kỳ Lừa", "Lễ hội đền Kỳ Cùng", "Hội đầu pháo Kỳ Lừa"],
+        "last_updated": "2026-03-10",
+        "source": "Cổng TTĐT tỉnh Lạng Sơn"
+      },
+      "events": {
+        "value": ["Lễ đón nhận danh hiệu Công viên địa chất toàn cầu UNESCO Lạng Sơn"],
+        "last_updated": "2025-06-03",
+        "source": "Báo Điện tử Chính phủ; Cổng TTĐT tỉnh Lạng Sơn"
+      }
+    }
+  },
+
+
+  "infrastructure": {
+    "airport": {
+      "value": [],
+      "last_updated": "2026-03-20",
+      "source": "Không ghi nhận sân bay dân dụng đang khai thác trên địa bàn trong các nguồn chính thức đã rà soát"
+    },
+    "seaport": {
+      "value": [],
+      "last_updated": "2026-03-20",
+      "source": "Tỉnh không giáp biển; không có cảng biển"
+    },
+    "railway_station": {
+      "value": ["Ga Đồng Đăng", "Ga Lạng Sơn"],
+      "last_updated": "2025-05-25",
+      "source": "Thông tin chính thức về cửa khẩu ga đường sắt liên vận quốc tế Đồng Đăng; hệ thống đường sắt trên địa bàn tỉnh"
+    },
+    "other_transport": {
+      "value": ["Cửa khẩu quốc tế Hữu Nghị", "Cửa khẩu Chi Ma", "Quốc lộ 1A", "Quốc lộ 1B", "Quốc lộ 4A", "Quốc lộ 4B"],
+      "last_updated": "2025-07-31",
+      "source": "Sở Công Thương tỉnh Lạng Sơn; Ban Quản lý Khu kinh tế cửa khẩu Đồng Đăng - Lạng Sơn"
+    }
+  },
+
+
+  "environment": {
+    "climate": {
+      "type": {
+        "value": "Nhiệt đới gió mùa, mang sắc thái cận nhiệt vùng núi",
+        "last_updated": "2024-03-19",
+        "source": "Quy hoạch tỉnh Lạng Sơn thời kỳ 2021-2030, tầm nhìn đến 2050; thông tin du lịch Mẫu Sơn"
+      },
+      "average_temperature_c": {
+        "value": null,
+        "last_updated": "2026-03-20",
+        "source": "Chưa tìm được trị số nhiệt độ trung bình năm cấp tỉnh từ nguồn chính thức công khai đủ rõ ràng để điền tuyệt đối chính xác"
+      }
+    },
+    "ecology": {
+      "forests": {
+        "value": ["Mẫu Sơn", "Công viên địa chất Lạng Sơn"],
+        "last_updated": "2025-06-03",
+        "source": "UNESCO; thông tin địa phương"
+      },
+      "sea": {
+        "value": [],
+        "last_updated": "2024-03-19",
+        "source": "Quy hoạch tỉnh Lạng Sơn thời kỳ 2021-2030, tầm nhìn đến 2050"
+      },
+      "other_resources": {
+        "value": ["Hoa hồi", "Mác mật", "Tài nguyên địa chất trong Công viên địa chất UNESCO Lạng Sơn"],
+        "last_updated": "2025-06-03",
+        "source": "UNESCO; Sở Khoa học và Công nghệ tỉnh Lạng Sơn"
+      }
+    }
+  }
+}

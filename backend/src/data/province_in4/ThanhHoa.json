@@ -1,0 +1,459 @@
+﻿{
+  "name": {
+    "value": "Thanh Hóa",
+    "last_updated": "2025-07-01",
+    "source": "Nghị quyết 202/2025/QH15; Quyết định 19/2025/QĐ-TTg"
+  },
+  "administrative_code": {
+    "value": "38",
+    "last_updated": "2025-07-01",
+    "source": "Quyết định 19/2025/QĐ-TTg của Thủ tướng Chính phủ"
+  },
+  "former_provinces": {
+    "value": ["Thanh Hóa"],
+    "description": "Thanh Hóa là tỉnh giữ nguyên ở cấp tỉnh trong đợt sắp xếp đơn vị hành chính năm 2025; không phải tỉnh mới hình thành do sáp nhập cấp tỉnh.",
+    "last_updated": "2025-07-01",
+    "source": "Nghị quyết 202/2025/QH15"
+  },
+
+
+  "location": {
+    "latitude": {
+      "value": null,
+      "last_updated": "2026-03-20",
+      "source": "Chưa tìm thấy tọa độ tâm tỉnh được công bố rõ ràng trong nguồn nhà nước đã rà soát; chỉ có thông tin điểm cực địa lý trên Cổng thông tin tỉnh"
+    },
+    "longitude": {
+      "value": null,
+      "last_updated": "2026-03-20",
+      "source": "Chưa tìm thấy tọa độ tâm tỉnh được công bố rõ ràng trong nguồn nhà nước đã rà soát; chỉ có thông tin điểm cực địa lý trên Cổng thông tin tỉnh"
+    },
+    "adjacent_areas": {
+      "provinces": {
+        "value": ["Ninh Bình", "Phú Thọ", "Sơn La", "Nghệ An"],
+        "last_updated": "2025-07-01",
+        "source": "Invest in Thanh Hoa / Giới thiệu chung về tỉnh Thanh Hóa"
+      },
+      "countries": {
+        "value": ["Lào"],
+        "last_updated": "2025-07-01",
+        "source": "Invest in Thanh Hoa / Giới thiệu chung về tỉnh Thanh Hóa"
+      },
+      "seas": {
+        "value": ["Vịnh Bắc Bộ"],
+        "last_updated": "2025-07-01",
+        "source": "Invest in Thanh Hoa / Giới thiệu chung về tỉnh Thanh Hóa"
+      }
+    }
+  },
+
+
+  "area": {
+    "total_km2": {
+      "value": 11111.4,
+      "last_updated": "2025-07-01",
+      "source": "Invest in Thanh Hoa / Giới thiệu chung về tỉnh Thanh Hóa"
+    }
+  },
+
+
+  "administrative_structure": {
+    "wards_communes_count": {
+      "value": 166,
+      "last_updated": "2025-07-01",
+      "source": "Nghị quyết 1686/NQ-UBTVQH15"
+    },
+    "wards_communes_list": {
+      "value": [
+        "Các Sơn",
+        "Trường Lâm",
+        "Hà Trung",
+        "Tống Sơn",
+        "Hà Long",
+        "Hoạt Giang",
+        "Lĩnh Toại",
+        "Triệu Lộc",
+        "Đông Thành",
+        "Hậu Lộc",
+        "Hoa Lộc",
+        "Vạn Lộc",
+        "Nga Sơn",
+        "Nga Thắng",
+        "Hồ Vương",
+        "Tân Tiến",
+        "Nga An",
+        "Ba Đình",
+        "Hoằng Hóa",
+        "Hoằng Tiến",
+        "Hoằng Thanh",
+        "Hoằng Lộc",
+        "Hoằng Châu",
+        "Hoằng Sơn",
+        "Hoằng Phú",
+        "Hoằng Giang",
+        "Lưu Vệ",
+        "Quảng Yên",
+        "Quảng Ngọc",
+        "Quảng Ninh",
+        "Quảng Bình",
+        "Tiên Trang",
+        "Quảng Chính",
+        "Nông Cống",
+        "Thắng Lợi",
+        "Trung Chính",
+        "Trường Văn",
+        "Thăng Bình",
+        "Tượng Lĩnh",
+        "Công Chính",
+        "Thiệu Hóa",
+        "Thiệu Quang",
+        "Thiệu Tiến",
+        "Thiệu Toán",
+        "Thiệu Trung",
+        "Yên Định",
+        "Yên Trường",
+        "Yên Phú",
+        "Quý Lộc",
+        "Yên Ninh",
+        "Định Tân",
+        "Định Hòa",
+        "Thọ Xuân",
+        "Thọ Long",
+        "Xuân Hòa",
+        "Sao Vàng",
+        "Lam Sơn",
+        "Thọ Lập",
+        "Xuân Tín",
+        "Xuân Lập",
+        "Vĩnh Lộc",
+        "Tây Đô",
+        "Biện Thượng",
+        "Triệu Sơn",
+        "Thọ Bình",
+        "Thọ Ngọc",
+        "Thọ Phú",
+        "Hợp Tiến",
+        "An Nông",
+        "Tân Ninh",
+        "Đồng Tiến",
+        "Hồi Xuân",
+        "Nam Xuân",
+        "Thiên Phủ",
+        "Hiền Kiệt",
+        "Phú Lệ",
+        "Trung Thành",
+        "Tam Lư",
+        "Quan Sơn",
+        "Trung Hạ",
+        "Linh Sơn",
+        "Đồng Lương",
+        "Văn Phú",
+        "Giao An",
+        "Bá Thước",
+        "Thiết Ống",
+        "Văn Nho",
+        "Điền Quang",
+        "Điền Lư",
+        "Quý Lương",
+        "Cổ Lũng",
+        "Pù Luông",
+        "Ngọc Lặc",
+        "Thạch Lập",
+        "Ngọc Liên",
+        "Minh Sơn",
+        "Nguyệt Ấn",
+        "Kiên Thọ",
+        "Cẩm Thạch",
+        "Cẩm Thủy",
+        "Cẩm Tú",
+        "Cẩm Vân",
+        "Cẩm Tân",
+        "Kim Tân",
+        "Vân Du",
+        "Ngọc Trạo",
+        "Thạch Bình",
+        "Thành Vinh",
+        "Thạch Quảng",
+        "Như Xuân",
+        "Thượng Ninh",
+        "Xuân Bình",
+        "Hóa Quỳ",
+        "Thanh Phong",
+        "Thanh Quân",
+        "Xuân Du",
+        "Mậu Lâm",
+        "Như Thanh",
+        "Yên Thọ",
+        "Thanh Kỳ",
+        "Thường Xuân",
+        "Luận Thành",
+        "Tân Thành",
+        "Thắng Lộc",
+        "Xuân Chinh",
+        "Mường Lát",
+        "Hạc Thành",
+        "Quảng Phú",
+        "Đông Quang",
+        "Đông Sơn",
+        "Đông Tiến",
+        "Hàm Rồng",
+        "Nguyệt Viên",
+        "Sầm Sơn",
+        "Nam Sầm Sơn",
+        "Bỉm Sơn",
+        "Quang Trung",
+        "Ngọc Sơn",
+        "Tân Dân",
+        "Hải Lĩnh",
+        "Tĩnh Gia",
+        "Đào Duy Từ",
+        "Hải Bình",
+        "Trúc Lâm",
+        "Nghi Sơn",
+        "Phú Xuân",
+        "Mường Chanh",
+        "Quang Chiểu",
+        "Tam Chung",
+        "Pù Nhi",
+        "Nhi Sơn",
+        "Mường Lý",
+        "Trung Lý",
+        "Trung Sơn",
+        "Na Mèo",
+        "Sơn Thủy",
+        "Sơn Điện",
+        "Mường Mìn",
+        "Tam Thanh",
+        "Yên Khương",
+        "Yên Thắng",
+        "Xuân Thái",
+        "Bát Mọt",
+        "Yên Nhân",
+        "Lương Sơn",
+        "Vạn Xuân"
+      ],
+      "last_updated": "2025-07-01",
+      "source": "Nghị quyết 1686/NQ-UBTVQH15"
+    }
+  },
+
+
+  "population": {
+    "total": {
+      "value": null,
+      "last_updated": "2026-03-20",
+      "source": "Nguồn công khai chính thống rà soát được chỉ nêu 'hơn 4,3 triệu người', chưa thấy số tuyệt đối hậu 1/7/2025 đủ mạnh để điền chính xác"
+    },
+    "density_per_km2": {
+      "value": null,
+      "last_updated": "2026-03-20",
+      "source": "Không tính suy diễn vì chưa có số dân tuyệt đối hậu 1/7/2025 được công bố nhất quán trong nguồn công khai đã rà soát"
+    },
+    "ethnic_groups": {
+      "value": [
+        { "name": "Kinh", "percentage": null },
+        { "name": "Mường", "percentage": null },
+        { "name": "Thái", "percentage": null },
+        { "name": "Thổ", "percentage": null },
+        { "name": "Mông", "percentage": null },
+        { "name": "Dao", "percentage": null },
+        { "name": "Khơ Mú", "percentage": null }
+      ],
+      "last_updated": "2026-03-20",
+      "source": "Sở Dân tộc và Tôn giáo Thanh Hóa; chưa tìm thấy bảng tỷ trọng phần trăm hậu 1/7/2025 công bố công khai rõ ràng để điền chính xác"
+    }
+  },
+
+
+  "economy": {
+    "scale": {
+      "value": "GRDP theo giá hiện hành ước năm 2025 đạt 333.617 tỷ đồng",
+      "last_updated": "2025-12-31",
+      "source": "UBND tỉnh Thanh Hóa / Họp báo thông tin tình hình kinh tế - xã hội năm 2025"
+    },
+    "main_sectors": {
+      "value": [
+        "Nông, lâm nghiệp và thủy sản",
+        "Công nghiệp và xây dựng",
+        "Dịch vụ"
+      ],
+      "last_updated": "2025-12-31",
+      "source": "UBND tỉnh Thanh Hóa / Họp báo thông tin tình hình kinh tế - xã hội năm 2025"
+    },
+    "gdp": {
+      "value": {
+        "amount_usd": null,
+        "year": 2025
+      },
+      "last_updated": "2026-03-20",
+      "source": "Chưa dùng quy đổi suy diễn sang USD để tránh sai số; nguồn công khai chính thống rà soát được công bố GRDP bằng VND"
+    }
+  },
+
+
+  "tourism": {
+    "attractions": {
+      "value": [
+        {
+          "name": "Thành Nhà Hồ",
+          "type": "Di sản văn hóa thế giới",
+          "description": "Di sản thế giới UNESCO, điểm đến văn hóa - lịch sử tiêu biểu của Thanh Hóa.",
+          "rating": null
+        },
+        {
+          "name": "Khu di tích quốc gia đặc biệt Lam Kinh",
+          "type": "Di tích lịch sử",
+          "description": "Quần thể di tích gắn với triều Hậu Lê, một trong các điểm di sản nổi bật của tỉnh.",
+          "rating": null
+        },
+        {
+          "name": "Khu bảo tồn thiên nhiên Pù Luông",
+          "type": "Du lịch sinh thái / cộng đồng",
+          "description": "Khu bảo tồn nổi tiếng về cảnh quan núi rừng, ruộng bậc thang và du lịch cộng đồng.",
+          "rating": null
+        },
+        {
+          "name": "Vườn quốc gia Bến En",
+          "type": "Du lịch sinh thái",
+          "description": "Vườn quốc gia tiêu biểu của tỉnh, nổi bật với hệ sinh thái rừng và hồ.",
+          "rating": null
+        },
+        {
+          "name": "Biển Sầm Sơn",
+          "type": "Du lịch biển",
+          "description": "Một trong những trung tâm du lịch biển lớn của Thanh Hóa.",
+          "rating": null
+        },
+        {
+          "name": "Suối cá thần Cẩm Lương",
+          "type": "Sinh thái / tâm linh",
+          "description": "Điểm tham quan nổi tiếng gắn với yếu tố tự nhiên và tín ngưỡng dân gian.",
+          "rating": null
+        }
+      ],
+      "last_updated": "2026-03-20",
+      "source": "Invest in Thanh Hoa; hồ sơ di sản và cổng thông tin du lịch/chính quyền liên quan"
+    },
+    "local_specialties": {
+      "value": [
+        {
+          "name": "Nem chua Thanh Hóa",
+          "type": "Đặc sản ẩm thực"
+        },
+        {
+          "name": "Chả tôm Thanh Hóa",
+          "type": "Món ăn"
+        },
+        {
+          "name": "Bánh răng bừa",
+          "type": "Bánh truyền thống"
+        }
+      ],
+      "last_updated": "2026-03-20",
+      "source": "Tổng hợp từ cổng thông tin/ấn phẩm quảng bá du lịch địa phương; chưa tìm thấy một danh mục chuẩn hóa hậu 1/7/2025 ở dạng dữ liệu mở"
+    },
+    "culture": {
+      "festivals": {
+        "value": [
+          "Lễ hội Lam Kinh",
+          "Lễ hội Bà Triệu",
+          "Lễ hội đền Sòng"
+        ],
+        "last_updated": "2026-03-20",
+        "source": "Cổng thông tin văn hóa - du lịch và thông tin di tích/lễ hội của tỉnh"
+      },
+      "events": {
+        "value": [
+          "Lễ hội du lịch biển Sầm Sơn"
+        ],
+        "last_updated": "2026-03-20",
+        "source": "Thông tin quảng bá du lịch địa phương"
+      }
+    }
+  },
+
+
+  "infrastructure": {
+    "airport": {
+      "value": ["Cảng hàng không Thọ Xuân"],
+      "last_updated": "2025-07-01",
+      "source": "Invest in Thanh Hoa / Giới thiệu chung về tỉnh Thanh Hóa"
+    },
+    "seaport": {
+      "value": ["Cảng biển Nghi Sơn"],
+      "last_updated": "2025-07-01",
+      "source": "Invest in Thanh Hoa / Giới thiệu chung về tỉnh Thanh Hóa"
+    },
+    "railway_station": {
+      "value": ["Ga Thanh Hóa", "Ga Bỉm Sơn"],
+      "last_updated": "2025-07-01",
+      "source": "Invest in Thanh Hoa / Giới thiệu chung về tỉnh Thanh Hóa"
+    },
+    "other_transport": {
+      "value": [
+        "Cao tốc Bắc - Nam phía Đông",
+        "Đường ven biển",
+        "Quốc lộ 1A",
+        "Đường Hồ Chí Minh",
+        "Quốc lộ 47",
+        "Quốc lộ 217",
+        "Quốc lộ 15C",
+        "Quốc lộ 10",
+        "Quốc lộ 15",
+        "Quốc lộ 45",
+        "Đường thủy nội địa"
+      ],
+      "last_updated": "2025-07-01",
+      "source": "Invest in Thanh Hoa / Giới thiệu chung về tỉnh Thanh Hóa"
+    }
+  },
+
+
+  "environment": {
+    "climate": {
+      "type": {
+        "value": "Nhiệt đới gió mùa ẩm",
+        "last_updated": "2025-03-27",
+        "source": "Cổng thông tin điện tử tỉnh Thanh Hóa / Điều kiện tự nhiên"
+      },
+      "average_temperature_c": {
+        "value": null,
+        "last_updated": "2026-03-20",
+        "source": "Nguồn chính thức rà soát được nêu khoảng 22–23°C/năm; không điền một số đơn lẻ để tránh suy diễn"
+      }
+    },
+    "ecology": {
+      "forests": {
+        "value": [
+          "Vườn quốc gia Bến En",
+          "Khu bảo tồn thiên nhiên Pù Luông",
+          "Khu bảo tồn thiên nhiên Pù Hu",
+          "Khu bảo tồn thiên nhiên Xuân Liên"
+        ],
+        "last_updated": "2026-03-20",
+        "source": "Cổng thông tin điện tử tỉnh Thanh Hóa / Điều kiện tự nhiên"
+      },
+      "sea": {
+        "value": [
+          "Vịnh Bắc Bộ",
+          "Bờ biển Thanh Hóa dài khoảng 102 km"
+        ],
+        "last_updated": "2025-07-01",
+        "source": "Invest in Thanh Hoa / Giới thiệu chung về tỉnh Thanh Hóa"
+      },
+      "other_resources": {
+        "value": [
+          "Đất",
+          "Rừng",
+          "Biển",
+          "Quặng sắt",
+          "Cromit Cổ Định",
+          "Photphorit",
+          "Đôlômit"
+        ],
+        "last_updated": "2026-03-20",
+        "source": "Cổng thông tin điện tử tỉnh Thanh Hóa / Điều kiện tự nhiên"
+      }
+    }
+  }
+}

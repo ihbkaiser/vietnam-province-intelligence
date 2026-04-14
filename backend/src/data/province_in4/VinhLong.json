@@ -1,0 +1,368 @@
+﻿{
+  "name": {
+    "value": "Vĩnh Long",
+    "last_updated": "2025-06-12",
+    "source": "Nghị quyết số 202/2025/QH15 của Quốc hội về sắp xếp đơn vị hành chính cấp tỉnh"
+  },
+  "administrative_code": {
+    "value": "86",
+    "last_updated": "2025-06-16",
+    "source": "Phụ lục I kèm Quyết định 19/2025/QĐ-TTg, được Thư Viện Pháp Luật dẫn chiếu khi tra cứu mã tỉnh Vĩnh Long sau sáp nhập"
+  },
+  "former_provinces": {
+    "value": ["Bến Tre", "Trà Vinh", "Vĩnh Long"],
+    "description": "Tỉnh Vĩnh Long mới được hình thành trên cơ sở sắp xếp toàn bộ diện tích tự nhiên và quy mô dân số của ba tỉnh Bến Tre, Trà Vinh và Vĩnh Long.",
+    "last_updated": "2025-06-12",
+    "source": "Nghị quyết số 202/2025/QH15 của Quốc hội"
+  },
+
+
+  "location": {
+    "latitude": {
+      "value": 9độ52’ đến 10độ19’
+      "last_updated": "2026-03-19",
+      "source": "Chưa xác minh được một bộ tọa độ chuẩn cấp tỉnh hậu sáp nhập từ nguồn công khai chính thức; không suy diễn từ tọa độ trung tâm hành chính hay bản đồ thương mại"
+    },
+    "longitude": {
+      "value 105độ41’ đến 106độ17’
+      "last_updated": "2026-03-19",
+      "source": "Chưa xác minh được một bộ tọa độ chuẩn cấp tỉnh hậu sáp nhập từ nguồn công khai chính thức; không suy diễn từ tọa độ trung tâm hành chính hay bản đồ thương mại"
+    },
+    "adjacent_areas": {
+      "provinces": {
+        "value": ["Cần Thơ", "Đồng Tháp", "Tiền Giang", "Sóc Trăng"],
+        "last_updated": "2025-07-10",
+        "source": "Đối chiếu theo bản đồ hành chính tỉnh Vĩnh Long mới được các nguồn nhà nước/báo chí nhà nước trích dẫn từ Trung tâm Hạ tầng dữ liệu không gian địa lý"
+      },
+      "countries": {
+        "value": [],
+        "last_updated": "2025-07-10",
+        "source": "Bản đồ hành chính tỉnh Vĩnh Long mới; tỉnh không có biên giới quốc gia trên bộ"
+      },
+      "seas": {
+        "value": ["Biển Đông"],
+        "last_updated": "2025-07-10",
+        "source": "Bản đồ hành chính tỉnh Vĩnh Long mới và thực tế tỉnh có dải ven biển từ khu vực Trà Vinh - Bến Tre cũ"
+      }
+    }
+  },
+
+
+  "area": {
+    "total_km2": {
+      "value": 6296.2,
+      "last_updated": "2025-06-12",
+      "source": "Nghị quyết số 202/2025/QH15 của Quốc hội"
+    }
+  },
+
+
+  "administrative_structure": {
+    "wards_communes_count": {
+      "value": 124,
+      "last_updated": "2025-06-16",
+      "source": "Nghị quyết số 1687/NQ-UBTVQH15 của Ủy ban Thường vụ Quốc hội"
+    },
+    "wards_communes_list": {
+      "value": [
+        "Xã Cái Nhum",
+        "Xã Tân Long Hội",
+        "Xã Nhơn Phú",
+        "Xã Bình Phước",
+        "Xã An Bình",
+        "Xã Long Hồ",
+        "Xã Phú Quới",
+        "Xã Quới Thiện",
+        "Xã Trung Thành",
+        "Xã Trung Ngãi",
+        "Xã Quới An",
+        "Xã Trung Hiệp",
+        "Xã Hiếu Phụng",
+        "Xã Hiếu Thành",
+        "Xã Lục Sĩ Thành",
+        "Xã Trà Ôn",
+        "Xã Trà Côn",
+        "Xã Vĩnh Xuân",
+        "Xã Hòa Bình",
+        "Xã Hòa Hiệp",
+        "Xã Tam Bình",
+        "Xã Ngãi Tứ",
+        "Xã Song Phú",
+        "Xã Cái Ngang",
+        "Xã Tân Quới",
+        "Xã Tân Lược",
+        "Xã Mỹ Thuận",
+        "Xã Long Hữu",
+        "Xã Càng Long",
+        "Xã An Trường",
+        "Xã Tân An",
+        "Xã Nhị Long",
+        "Xã Bình Phú",
+        "Xã Châu Thành",
+        "Xã Song Lộc",
+        "Xã Hưng Mỹ",
+        "Xã Cầu Kè",
+        "Xã Phong Thạnh",
+        "Xã An Phú Tân",
+        "Xã Tam Ngãi",
+        "Xã Tiểu Cần",
+        "Xã Tân Hòa",
+        "Xã Hùng Hòa",
+        "Xã Tập Ngãi",
+        "Xã Cầu Ngang",
+        "Xã Mỹ Long",
+        "Xã Vinh Kim",
+        "Xã Nhị Trường",
+        "Xã Hiệp Mỹ",
+        "Xã Trà Cú",
+        "Xã Đại An",
+        "Xã Lưu Nghiệp Anh",
+        "Xã Hàm Giang",
+        "Xã Long Hiệp",
+        "Xã Tập Sơn",
+        "Xã Long Thành",
+        "Xã Đôn Châu",
+        "Xã Ngũ Lạc",
+        "Xã Phú Túc",
+        "Xã Giao Long",
+        "Xã Tiên Thủy",
+        "Xã Tân Phú",
+        "Xã Phú Phụng",
+        "Xã Chợ Lách",
+        "Xã Vĩnh Thành",
+        "Xã Hưng Khánh Trung",
+        "Xã Phước Mỹ Trung",
+        "Xã Tân Thành Bình",
+        "Xã Nhuận Phú Tân",
+        "Xã Đồng Khởi",
+        "Xã Mỏ Cày",
+        "Xã Thành Thới",
+        "Xã An Định",
+        "Xã Hương Mỹ",
+        "Xã Đại Điền",
+        "Xã Quới Điền",
+        "Xã Thạnh Phú",
+        "Xã An Qui",
+        "Xã Thạnh Hải",
+        "Xã Thạnh Phong",
+        "Xã Tân Thủy",
+        "Xã Bảo Thạnh",
+        "Xã Ba Tri",
+        "Xã Tân Xuân",
+        "Xã Mỹ Chánh Hòa",
+        "Xã An Ngãi Trung",
+        "Xã An Hiệp",
+        "Xã Hưng Nhượng",
+        "Xã Giồng Trôm",
+        "Xã Tân Hào",
+        "Xã Phước Long",
+        "Xã Lương Phú",
+        "Xã Châu Hòa",
+        "Xã Lương Hòa",
+        "Xã Thới Thuận",
+        "Xã Thạnh Phước",
+        "Xã Bình Đại",
+        "Xã Thạnh Trị",
+        "Xã Lộc Thuận",
+        "Xã Châu Hưng",
+        "Xã Phú Thuận",
+        "Phường Thanh Đức",
+        "Phường Long Châu",
+        "Phường Phước Hậu",
+        "Phường Tân Hạnh",
+        "Phường Tân Ngãi",
+        "Phường Bình Minh",
+        "Phường Cái Vồn",
+        "Phường Đông Thành",
+        "Phường Trà Vinh",
+        "Phường Long Đức",
+        "Phường Nguyệt Hóa",
+        "Phường Hòa Thuận",
+        "Phường Duyên Hải",
+        "Phường Trường Long Hòa",
+        "Phường An Hội",
+        "Phường Phú Khương",
+        "Phường Bến Tre",
+        "Phường Sơn Đông",
+        "Phường Phú Tân",
+        "Xã Long Hòa",
+        "Xã Đông Hải",
+        "Xã Long Vĩnh",
+        "Xã Hòa Minh"
+      ],
+      "last_updated": "2025-06-16",
+      "source": "Nghị quyết số 1687/NQ-UBTVQH15 và bài tổng hợp danh sách 3321 đơn vị hành chính cấp xã của Chinhphu.vn"
+    }
+  },
+
+
+  "population": {
+    "total": {
+      "value": 4257581,
+      "last_updated": "2025-06-12",
+      "source": "Nghị quyết số 202/2025/QH15 của Quốc hội"
+    },
+    "density_per_km2": {
+      "value": 676.21,
+      "last_updated": "2025-06-12",
+      "source": "Tính từ dân số 4.257.581 người và diện tích 6.296,20 km2 theo Nghị quyết số 202/2025/QH15"
+    },
+    "ethnic_groups": {
+      "value":20
+      "last_updated": "2026-03-19",
+      "source": "Chưa xác minh được cơ cấu tỷ lệ dân tộc hậu sáp nhập được công bố chính thức ở cấp tỉnh mới"
+    }
+  },
+
+
+  "economy": {
+    "scale": {
+      "value": lớn thứ 3 khu vực
+      "last_updated": "2026-03-19",
+      "source": "Chưa có chỉ tiêu quy mô kinh tế/GRDP hợp nhất của tỉnh mới được xác minh từ nguồn chính thức công khai"
+    },
+    "main_sectors": {
+      "value": nông nghiệp hiện đại
+      "last_updated": "2026-03-19",
+      "source": "Chưa có danh mục ngành kinh tế chủ lực cấp tỉnh mới được công bố chính thức hậu sáp nhập"
+    },
+    "gdp": {
+      "value": công trình giao thông trọng điểm
+      "last_updated": "2026-03-19",
+      "source": "Chưa có số liệu GRDP/GDP hợp nhất chính thức của tỉnh mới được xác minh"
+    }
+  },
+
+
+  "tourism": {
+    "attractions": {
+      "value": [
+        {
+          "name": "Cù lao An Bình",
+          "type": "Du lịch sinh thái miệt vườn",
+          "description": "Điểm du lịch sinh thái nổi bật của khu vực Vĩnh Long cũ, nổi tiếng với vườn cây ăn trái và trải nghiệm sông nước.",
+          "rating": null
+        },
+        {
+          "name": "Trang trại du lịch Vinh Sang",
+          "type": "Du lịch sinh thái - trải nghiệm",
+          "description": "Điểm du lịch tại khu vực An Bình, Long Hồ; nổi bật với các hoạt động trải nghiệm nông trại.",
+          "rating": null
+        },
+        {
+          "name": "Bãi biển Cồn Bửng",
+          "type": "Du lịch biển",
+          "description": "Điểm du lịch biển nổi bật của khu vực Bến Tre cũ, thu hút khách tham quan và tắm biển.",
+          "rating": null
+        },
+        {
+          "name": "Ao Bà Om",
+          "type": "Danh thắng quốc gia",
+          "description": "Danh thắng quốc gia tiêu biểu của khu vực Trà Vinh cũ.",
+          "rating": null
+        }
+      ],
+      "last_updated": "2026-03-19",
+      "source": "Cổng thông tin du lịch/tỉnh Vĩnh Long, cổng thông tin Bến Tre và Trà Vinh"
+    },
+    "local_specialties": {
+      "value": [
+        {
+          "name": "Dừa Bến Tre",
+          "type": "Nông sản - đặc sản"
+        },
+        {
+          "name": "Khoai lang Bình Tân",
+          "type": "Nông sản - đặc sản"
+        },
+        {
+          "name": "Bún nước lèo Trà Vinh",
+          "type": "Ẩm thực"
+        }
+      ],
+      "last_updated": "2026-03-19",
+      "source": "Tổng hợp từ đặc sản nổi bật của ba địa bàn cũ; chưa thấy danh mục đặc sản cấp tỉnh mới được công bố thống nhất"
+    },
+    "culture": {
+      "festivals": {
+        "value": [
+          "Lễ hội Ok Om Bok",
+          "Lễ hội Nguyên Tiêu ở Trà Cú"
+        ],
+        "last_updated": "2026-03-19",
+        "source": "Cổng thông tin điện tử tỉnh Trà Vinh và Cổng thông tin Sở Văn hóa, Thể thao và Du lịch tỉnh Vĩnh Long"
+      },
+      "events": {
+        "value": [
+          "Tuần lễ Văn hóa, Du lịch - Liên hoan ẩm thực Nam Bộ gắn với Lễ hội Ok Om Bok"
+        ],
+        "last_updated": "2026-03-19",
+        "source": "Cổng thông tin điện tử tỉnh Trà Vinh"
+      }
+    }
+  },
+
+
+  "infrastructure": {
+    "airport": {
+      "value": [],
+      "last_updated": "2026-03-19",
+      "source": "Chưa xác minh được cảng hàng không nằm trong địa giới tỉnh Vĩnh Long mới từ nguồn chính thức công khai"
+    },
+    "seaport": {
+      "value": [],
+      "last_updated": "2026-03-19",
+      "source": "Chưa xác minh được danh mục cảng biển/cảng thủy hậu sáp nhập ở cấp tỉnh mới từ nguồn chính thức công khai đủ rõ để điền chính xác toàn tỉnh"
+    },
+    "railway_station": {
+      "value": [],
+      "last_updated": "2026-03-19",
+      "source": "Chưa xác minh được ga đường sắt trong địa giới tỉnh Vĩnh Long mới từ nguồn chính thức công khai"
+    },
+    "other_transport": {
+      "value": [
+        "Bến cảng hành khách Vĩnh Long",
+        "Mạng lưới giao thông thủy trên các sông Tiền, Hậu, Cổ Chiên, Hàm Luông"
+      ],
+      "last_updated": "2026-03-19",
+      "source": "Cổng thông tin du lịch Vĩnh Long và các bài phân tích hành lang logistics sông - biển khu vực"
+    }
+  },
+
+
+  "environment": {
+    "climate": {
+      "type": {
+        "value": "Khí hậu nhiệt đới gió mùa",
+        "last_updated": "2026-03-19",
+        "source": "Đặc điểm khí hậu chung vùng Đồng bằng sông Cửu Long; chưa thấy mô tả khí hậu cấp tỉnh mới được công bố riêng"
+      },
+      "average_temperature_c": {
+        "value": 27,3,
+        "last_updated": "2026-03-19",
+        "source": "Chưa xác minh được nhiệt độ trung bình năm cấp tỉnh mới từ nguồn chính thức công khai"
+      }
+    },
+    "ecology": {
+      "forests": {
+        "value": rừng thực thụ
+        "last_updated": "2026-03-19",
+        "source": "Chưa xác minh được danh mục hệ sinh thái rừng cấp tỉnh mới được công bố thống nhất hậu sáp nhập"
+      },
+      "sea": {
+        "value": ["Biển Đông"],
+        "last_updated": "2025-07-10",
+        "source": "Bản đồ hành chính tỉnh Vĩnh Long mới"
+      },
+      "other_resources": {
+        "value": [
+          "Tài nguyên nước mặt hệ thống sông Tiền - sông Hậu - Cổ Chiên - Hàm Luông",
+          "Tài nguyên biển và ven biển",
+          "Nông nghiệp cây ăn trái, dừa, thủy sản"
+        ],
+        "last_updated": "2026-03-19",
+        "source": "Tổng hợp từ đặc điểm tự nhiên - kinh tế nổi bật của ba tỉnh trước sáp nhập; chưa có bản mô tả tài nguyên thống nhất cấp tỉnh mới được công bố đầy đủ"
+      }
+    }
+  }
+}

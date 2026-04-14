@@ -1,0 +1,397 @@
+﻿{
+  "name": {
+     "value": "Lào Cai"
+     "last_updated": "2025-06-12",
+     "source": "Nghị quyết 202/2025/QH15 của Quốc hội"
+"description": "Tỉnh Lào Cai mới được thành lập trên cơ sở hợp nhất toàn bộ diện tích tự nhiên và dân số của 2 tỉnh cũ là Lào Cai và Yên Bái.",
+        
+  },
+  "administrative_code": {
+    "value": "15",
+    "last_updated": "2025-09-24",
+    "source": "Cổng TTĐT tỉnh Lào Cai - Thông tin khái quát về tỉnh Lào Cai"
+  },   
+      "value": "15",
+    "last_updated": "2025-06-30",
+    "source": "Quyết định 19/2025/QĐ-TTg - Bảng danh mục và mã số các đơn vị hành chính Việt Nam"
+  },
+  "former_provinces": {
+    "value": ["Lào Cai", "Yên Bái"],
+
+
+      "value": 22.15
+      "last_updated": "2026-03-19",
+      "source": "Dữ liệu ước tính tọa độ trung tâm tỉnh mới"
+    },
+    "longitude": {
+      "value": 104.35
+      "last_updated": "2026-03-19",
+      "source": "Dữ liệu ước tính tọa độ trung tâm tỉnh mới"
+    },
+    "adjacent_areas": {
+      "provinces": {
+        "value": ["Tuyên Quang", "Phú Thọ", "Lai Châu", "Sơn La",”Hà Giang”],
+        "last_updated": "2025-09-18",
+        "source": "Cổng TTĐT tỉnh Lào Cai - Vị trí địa lý - Địa hình - Địa giới hành chính của tỉnh Lào Cai"
+      },
+      "countries": {
+        "value": ["Trung Quốc (tỉnh Vân Nam)"],
+        "last_updated": "2025-09-18",
+        "source": "Cục đo đạc và Bản đồ Việt Nam"
+      },
+      "seas": {
+        "value": [],
+        "last_updated": "2025-09-18",
+        "source": "Tỉnh Lào Cai là tỉnh miền núi biên giới nội địa, không giáp biển"
+      }
+    }
+  },
+
+
+  "area": {
+    "total_km2": {
+      "value": 13256.92,
+      "last_updated": "2025-09-18",
+      "source": "Tổng cục thống kê - Dữ liệu hợp nhất 2025"
+    }
+  },
+
+
+  "administrative_structure": {
+    "wards_communes_count": {
+      "value": 99,
+      "last_updated": "2025-06-16",
+      "source": "Nghị quyết 1673/NQ-UBTVQH15 về sắp xếp các đơn vị hành chính cấp xã của tỉnh Lào Cai năm 2025"
+    },
+    "wards_communes_list": {
+      "value": [
+        "Khao Mang",
+        "Mù Cang Chải",
+        "Púng Luông",
+        "Tú Lệ",
+        "Trạm Tấu",
+        "Hạnh Phúc",
+        "Phình Hồ",
+        "Liên Sơn",
+        "Gia Hội",
+        "Sơn Lương",
+        "Văn Chấn",
+        "Thượng Bằng La",
+        "Chấn Thịnh",
+        "Nghĩa Tâm",
+        "Phong Dụ Hạ",
+        "Châu Quế",
+        "Lâm Giang",
+        "Đông Cuông",
+        "Tân Hợp",
+        "Mậu A",
+        "Xuân Ái",
+        "Mỏ Vàng",
+        "Lâm Thượng",
+        "Lục Yên",
+        "Tân Lĩnh",
+        "Khánh Hòa",
+        "Phúc Lợi",
+        "Mường Lai",
+        "Cảm Nhân",
+        "Yên Thành",
+        "Thác Bà",
+        "Yên Bình",
+        "Bảo Ái",
+        "Trấn Yên",
+        "Hưng Khánh",
+        "Lương Thịnh",
+        "Việt Hồng",
+        "Quy Mông",
+        "Cốc San",
+        "Hợp Thành",
+        "Phong Hải",
+        "Xuân Quang",
+        "Bảo Thắng",
+        "Tằng Loỏng",
+        "Gia Phú",
+        "Mường Hum",
+        "Dền Sáng",
+        "Y Tý",
+        "A Mú Sung",
+        "Trịnh Tường",
+        "Bản Xèo",
+        "Bát Xát",
+        "Võ Lao",
+        "Khánh Yên",
+        "Văn Bàn",
+        "Dương Quỳ",
+        "Chiềng Ken",
+        "Minh Lương",
+        "Nậm Chày",
+        "Bảo Yên",
+        "Nghĩa Đô",
+        "Thượng Hà",
+        "Xuân Hòa",
+        "Phúc Khánh",
+        "Bảo Hà",
+        "Mường Bo",
+        "Bản Hồ",
+        "Tả Van",
+        "Tả Phìn",
+        "Cốc Lầu",
+        "Bảo Nhai",
+        "Bản Liền",
+        "Bắc Hà",
+        "Tả Củ Tỷ",
+        "Lùng Phình",
+        "Pha Long",
+        "Mường Khương",
+        "Bản Lầu",
+        "Cao Sơn",
+        "Si Ma Cai",
+        "Sín Chéng",
+        "Nghĩa Lộ",
+        "Trung Tâm",
+        "Cầu Thia",
+        "Văn Phú",
+        "Yên Bái",
+        "Nam Cường",
+        "Âu Lâu",
+        "Cam Đường",
+        "Lào Cai",
+        "Sa Pa",
+        "Nậm Xé",
+        "Ngũ Chỉ Sơn",
+        "Chế Tạo",
+        "Lao Chải",
+        "Nậm Có",
+        "Tà Xi Láng",
+        "Cát Thịnh",
+        "Phong Dụ Thượng"
+      ],
+      "last_updated": "2025-06-16",
+      "source": "Nghị quyết 1673/NQ-UBTVQH15 và bài tổng hợp Danh sách 99 xã, phường của tỉnh Lào Cai"
+    }
+  },
+
+
+  "population": {
+    "total": {
+      "value": 1778785,
+      "last_updated": "2025-09-24",
+      "source": "Cổng TTĐT tỉnh Lào Cai - Thống kê hợp nhất 2025"
+    },
+    "density_per_km2": {
+      "value": 134.18,
+      "last_updated": "2026-03-19",
+      "source": "Tính từ dân số 1.778.785 người và diện tích 13.256,92 km2 theo nguồn chính thức của tỉnh"
+    },
+    "ethnic_groups": {
+      "value": [
+        {
+          "name": "Các dân tộc thiểu số",
+          "percentage": 61.1
+        },
+        {
+          "name": "Nhóm còn lại",
+          "percentage": 38.9
+        }
+      ],
+      "last_updated": "2025-09-24",
+      "source": "Cổng TTĐT tỉnh Lào Cai - Thống kê hợp nhất 2025"
+    }
+  },
+
+
+  "economy": {
+    "scale": {
+      "value": "Quy mô nền kinh tế đạt 142.599 tỷ đồng",
+      "last_updated": "2025-09-24",
+      "source": "Cổng TTĐT tỉnh Lào Cai - Thông tin khái quát về tỉnh Lào Cai"
+    },
+    "main_sectors": {
+      "value": [
+        "Nông, lâm nghiệp và thủy sản",
+        "Công nghiệp - xây dựng",
+        "Dịch vụ",
+        "Kinh tế cửa khẩu và logistics",
+        "Du lịch"
+      ],
+      "last_updated": "2025-09-24",
+      "source": "Cổng TTĐT tỉnh Lào Cai - Thông tin khái quát về tỉnh Lào Cai; Cổng TTĐT tỉnh Lào Cai - Vị trí địa lý - Địa hình - Địa giới hành chính"
+    },
+    "gdp": {
+      "value": {
+        "amount_usd": null,
+        "year": 2025
+      },
+      "last_updated": "2026-03-19",
+      "source": "Nguồn chính thức đang công bố quy mô nền kinh tế/GRDP bằng VND; không thấy công bố chính thức bằng USD cho tỉnh Lào Cai mới"
+    }
+  },
+
+
+  "tourism": {
+    "attractions": {
+      "value": [
+        {
+          "name": "Sa Pa",
+          "type": "Khu du lịch quốc gia / đô thị du lịch",
+          "description": "Điểm du lịch nổi tiếng của tỉnh, vùng khí hậu ôn đới núi cao, hạt nhân phát triển du lịch nghỉ dưỡng và sinh thái.",
+          "rating": null
+        },
+        {
+          "name": "Đỉnh Fansipan",
+          "type": "Danh thắng tự nhiên / núi",
+          "description": "Đỉnh núi cao 3.143 m, cao nhất Việt Nam, được mệnh danh là 'nóc nhà Đông Dương'.",
+          "rating": null
+        },
+        {
+          "name": "Hồ Thác Bà",
+          "type": "Hồ / khu du lịch",
+          "description": "Khu du lịch hồ lớn của tỉnh, đã được phê duyệt quy hoạch phát triển Khu du lịch quốc gia.",
+          "rating": null
+        },
+        {
+          "name": "Ruộng bậc thang Mù Cang Chải",
+          "type": "Di tích quốc gia đặc biệt / cảnh quan nông nghiệp",
+          "description": "Quần thể ruộng bậc thang nổi tiếng, điểm đến tiêu biểu của du lịch cảnh quan và văn hóa vùng cao.",
+          "rating": null
+        },
+        {
+          "name": "Cửa khẩu Quốc tế Lào Cai",
+          "type": "Điểm tham quan biên giới / cửa khẩu",
+          "description": "Cửa ngõ giao thương quốc tế quan trọng trên hành lang Côn Minh - Lào Cai - Hà Nội - Hải Phòng - Quảng Ninh.",
+          "rating": null
+        }
+      ],
+      "last_updated": "2025-10-03",
+      "source": "Cổng TTĐT tỉnh Lào Cai và các cổng thành phần của tỉnh về Sa Pa, Fansipan, Hồ Thác Bà, Ruộng bậc thang Mù Cang Chải, Cửa khẩu Quốc tế Lào Cai"
+    },
+    "local_specialties": {
+      "value": [
+        {
+          "name": "Chè Shan tuyết Suối Giàng",
+          "type": "Đặc sản nông sản / trà"
+        },
+        {
+          "name": "Thắng cố",
+          "type": "Đặc sản ẩm thực"
+        },
+        {
+          "name": "Quế Văn Yên",
+          "type": "Đặc sản nông - lâm sản"
+        }
+      ],
+      "last_updated": "2025-12-06",
+      "source": "Cổng TTĐT tỉnh Lào Cai - chuyên mục Đặc sản ẩm thực và tin bài về chè Shan tuyết, thắng cố, quế"
+    },
+    "culture": {
+      "festivals": {
+        "value": [
+          "Lễ hội Đền Thượng",
+          "Festival Khèn Mông - Lễ hội Hoa Tớ Dày",
+          "Lễ hội Xòe Then",
+          "Lễ Cấp Sắc của người Dao đỏ"
+        ],
+        "last_updated": "2026-03-19",
+        "source": "Cổng TTĐT tỉnh Lào Cai và các cổng thành phần địa phương"
+      },
+      "events": {
+        "value": [
+          "Các hoạt động du lịch mùa hoa mận, hoa lê vùng cao",
+          "Mùa vàng ruộng bậc thang Mù Cang Chải",
+          "Các sự kiện du lịch tại Sa Pa"
+        ],
+        "last_updated": "2026-03-19",
+        "source": "Cổng TTĐT tỉnh Lào Cai - chuyên mục Thông tin dành cho du khách"
+      }
+    }
+  },
+
+
+  "infrastructure": {
+    "airport": {
+      "value": [],
+      "last_updated": "2026-03-19",
+      "source": "Chưa thấy nguồn chính thức cho thấy tỉnh Lào Cai mới đang có sân bay dân dụng khai thác thương mại"
+    },
+    "seaport": {
+      "value": [],
+      "last_updated": "2025-09-18",
+      "source": "Tỉnh Lào Cai là tỉnh nội địa, không giáp biển"
+    },
+    "railway_station": {
+      "value": ["Ga quốc tế Lào Cai"],
+      "last_updated": "2025-09-18",
+      "source": "Cổng TTĐT tỉnh Lào Cai - Vị trí địa lý - Địa hình - Địa giới hành chính của tỉnh Lào Cai"
+    },
+    "other_transport": {
+      "value": [
+        "Đường cao tốc Nội Bài - Lào Cai",
+        "Quốc lộ 32",
+        "Quốc lộ 70",
+        "Quốc lộ 279",
+        "Cửa khẩu Quốc tế Lào Cai - Hà Khẩu (đường bộ và đường sắt)",
+        "Cửa khẩu quốc tế đường bộ số II Kim Thành"
+      ],
+      "last_updated": "2025-11-28",
+      "source": "Cổng TTĐT tỉnh Lào Cai - Vị trí địa lý - Địa hình - Địa giới hành chính; Ban Quản lý Khu kinh tế tỉnh Lào Cai; các thông tin cửa khẩu của tỉnh"
+    }
+  },
+
+
+  "environment": {
+    "climate": {
+      "type": {
+        "value": "Nhiệt đới gió mùa, phân hóa mạnh theo độ cao; vùng cao có tính ôn đới lạnh",
+        "last_updated": "2025-09-23",
+        "source": "Cổng TTĐT tỉnh Lào Cai - Khí hậu tỉnh Lào Cai"
+      },
+      "average_temperature_c": {
+        "value": 21.4,
+        "last_updated": "2025-09-23",
+        "source": "Lấy giá trị giữa của khoảng nhiệt độ trung bình năm 18,9 - 23,9°C công bố trên Cổng TTĐT tỉnh Lào Cai"
+      }
+    },
+    "ecology": {
+      "forests": {
+        "value": [
+          "Rừng tự nhiên",
+          "Rừng trồng",
+          "Rừng đặc dụng",
+          "Rừng phòng hộ",
+          "Rừng sản xuất"
+        ],
+        "last_updated": "2025-09-18",
+        "source": "Cổng TTĐT tỉnh Lào Cai - Vị trí địa lý - Địa hình - Địa giới hành chính của tỉnh Lào Cai"
+      },
+      "sea": {
+        "value": [],
+        "last_updated": "2025-09-18",
+        "source": "Tỉnh Lào Cai không giáp biển"
+      },
+      "other_resources": {
+        "value": [
+          "Hệ thống sông Hồng",
+          "Hệ thống sông Chảy",
+          "Hồ Thác Bà",
+          "Apatit",
+          "Sắt",
+          "Đồng",
+          "Chì",
+          "Kẽm",
+          "Vàng",
+          "Mangan",
+          "Kaolin",
+          "Fenspat",
+          "Thạch anh",
+          "Graphit",
+          "Đá vôi trắng",
+          "Nước khoáng",
+          "Vùng quế",
+          "Vùng chè",
+          "Dược liệu"
+        ],
+        "last_updated": "2025-09-18",
+        "source": "Cổng TTĐT tỉnh Lào Cai - Vị trí địa lý - Địa hình - Địa giới hành chính của tỉnh Lào Cai"
+      }
+    }
+  }
+}

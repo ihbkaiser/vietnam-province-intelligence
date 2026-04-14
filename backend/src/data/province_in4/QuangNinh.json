@@ -1,0 +1,351 @@
+﻿{
+  "name": {
+    "value": "Tỉnh Quảng Ninh",
+    "last_updated": "2025-06-12",
+    "source": "Nghị quyết 202/2025/QH15; bài tổng hợp 34 đơn vị hành chính cấp tỉnh"
+  },
+  "administrative_code": {
+    "value": "22",
+    "last_updated": "2025-07-01",
+    "source": "Quyết định 19/2025/QĐ-TTg về Bảng danh mục và mã số các đơn vị hành chính Việt Nam"
+  },
+  "former_provinces": {
+    "value": ["Quảng Ninh"],
+    "description": "Sau sắp xếp đơn vị hành chính cấp tỉnh năm 2025, Quảng Ninh là một trong 11 tỉnh/thành phố không thực hiện sắp xếp; vì vậy tỉnh sau 01/07/2025 không được tạo bởi việc sáp nhập với tỉnh khác.",
+    "last_updated": "2025-06-12",
+    "source": "Nghị quyết 202/2025/QH15; bài tổng hợp 34 đơn vị hành chính cấp tỉnh"
+  },
+
+
+  "location": {
+    "latitude": {
+      "value": 21.166667,
+      "last_updated": "2026-03-20",
+      "source": "Tính theo trung điểm dải vĩ độ chính thức 20°40′–21°40′ Bắc do Cổng thông tin tỉnh Quảng Ninh công bố"
+    },
+    "longitude": {
+      "value": 107.475000,
+      "last_updated": "2026-03-20",
+      "source": "Tính theo trung điểm dải kinh độ chính thức 106°26′–108°31′ Đông do Cổng thông tin tỉnh Quảng Ninh công bố"
+    },
+    "adjacent_areas": {
+      "provinces": {
+        "value": ["Lạng Sơn", "Bắc Ninh", "Hải Phòng"],
+        "last_updated": "2025-07-01",
+        "source": "Cổng thông tin tỉnh Quảng Ninh công bố ranh giới cũ giáp Lạng Sơn, Bắc Giang, Hải Dương, Hải Phòng; quy đổi theo danh mục 34 tỉnh/thành sau sắp xếp 2025"
+      },
+      "countries": {
+        "value": ["Trung Quốc"],
+        "last_updated": "2025-07-09",
+        "source": "Cổng thông tin tỉnh Quảng Ninh - Vị trí địa lý"
+      },
+      "seas": {
+        "value": ["Vịnh Bắc Bộ"],
+        "last_updated": "2025-07-09",
+        "source": "Cổng thông tin tỉnh Quảng Ninh - Vị trí địa lý"
+      }
+    }
+  },
+
+
+  "area": {
+    "total_km2": {
+      "value": 6110.813,
+      "last_updated": "2025-07-09",
+      "source": "Cổng thông tin tỉnh Quảng Ninh - Vị trí địa lý (611.081,3 ha)"
+    }
+  },
+
+
+  "administrative_structure": {
+    "wards_communes_count": {
+      "value": 54,
+      "last_updated": "2025-06-16",
+      "source": "Nghị quyết 1679/NQ-UBTVQH15 về sắp xếp đơn vị hành chính cấp xã tỉnh Quảng Ninh năm 2025"
+    },
+    "wards_communes_list": {
+      "value": [
+        "Quảng La",
+        "Thống Nhất",
+        "Hải Hòa",
+        "Tiên Yên",
+        "Điền Xá",
+        "Đông Ngũ",
+        "Hải Lạng",
+        "Lương Minh",
+        "Kỳ Thượng",
+        "Ba Chẽ",
+        "Quảng Tân",
+        "Đầm Hà",
+        "Quảng Hà",
+        "Đường Hoa",
+        "Quảng Đức",
+        "Hoành Mô",
+        "Lục Hồn",
+        "Bình Liêu",
+        "Hải Sơn",
+        "Hải Ninh",
+        "Vĩnh Thực",
+        "Cái Chiên",
+        "An Sinh",
+        "Đông Triều",
+        "Bình Khê",
+        "Mạo Khê",
+        "Hoàng Quế",
+        "Yên Tử",
+        "Vàng Danh",
+        "Uông Bí",
+        "Đông Mai",
+        "Hiệp Hòa",
+        "Quảng Yên",
+        "Hà An",
+        "Phong Cốc",
+        "Liên Hòa",
+        "Tuần Châu",
+        "Việt Hưng",
+        "Bãi Cháy",
+        "Hà Tu",
+        "Hà Lầm",
+        "Cao Xanh",
+        "Hồng Gai",
+        "Hạ Long",
+        "Hoành Bồ",
+        "Mông Dương",
+        "Quang Hanh",
+        "Cẩm Phả",
+        "Cửa Ông",
+        "Móng Cái 1",
+        "Móng Cái 2",
+        "Móng Cái 3",
+        "Đặc khu Vân Đồn",
+        "Đặc khu Cô Tô"
+      ],
+      "last_updated": "2025-06-16",
+      "source": "Nghị quyết 1679/NQ-UBTVQH15; bài tổng hợp danh sách 54 xã, phường, đặc khu của tỉnh Quảng Ninh"
+    }
+  },
+
+
+  "population": {
+    "total": {
+      "value": 1429000,
+      "last_updated": "2025-07-15",
+      "source": "Cổng thông tin tỉnh Quảng Ninh - Dân số (công bố dân số năm 2024 là 1,429 triệu người)"
+    },
+    "density_per_km2": {
+      "value": 233.84,
+      "last_updated": "2026-03-20",
+      "source": "Tự tính từ dân số 1.429.000 người và diện tích 6.110,813 km2 theo các nguồn công bố của tỉnh"
+    },
+    "ethnic_groups": {
+      "value": [
+        {
+          "name": "Kinh",
+          "percentage": 87.69
+        },
+        {
+          "name": "Dao",
+          "percentage": 5.57
+        },
+        {
+          "name": "Tày",
+          "percentage": 3.08
+        },
+        {
+          "name": "Sán Dìu",
+          "percentage": 1.58
+        },
+        {
+          "name": "Sán Chay",
+          "percentage": 1.24
+        }
+      ],
+      "last_updated": "2025-07-17",
+      "source": "Cổng thông tin tỉnh Quảng Ninh - Dân tộc; tỷ lệ Sán Dìu và Sán Chay quy đổi theo dân số toàn tỉnh 1,429 triệu người từ số dân công bố"
+    }
+  },
+
+
+  "economy": {
+    "scale": {
+      "value": "GRDP theo giá hiện hành năm 2024 ước đạt 347,5 nghìn tỷ đồng",
+      "last_updated": "2025-01-06",
+      "source": "Cục Thống kê Quảng Ninh/Báo Quảng Ninh - Họp báo công bố số liệu thống kê kinh tế - xã hội tỉnh năm 2024"
+    },
+    "main_sectors": {
+      "value": [
+        "Nông, lâm nghiệp và thủy sản",
+        "Công nghiệp và xây dựng",
+        "Dịch vụ"
+      ],
+      "last_updated": "2025-01-06",
+      "source": "Cục Thống kê Quảng Ninh/Báo Quảng Ninh - cơ cấu GRDP năm 2024"
+    },
+    "gdp": {
+      "value": {
+        "amount_usd": null,
+        "year": 2024
+      },
+      "last_updated": "2025-01-06",
+      "source": "Nguồn sơ cấp công bố trực tiếp quy mô GRDP bằng VND; chưa dùng quy đổi USD để tránh đưa số ước tính không phải số công bố chính thức"
+    }
+  },
+
+
+  "tourism": {
+    "attractions": {
+      "value": [
+        {
+          "name": "Vịnh Hạ Long",
+          "type": "Di sản thiên nhiên thế giới",
+          "description": "Một phần của Di sản thế giới 'Ha Long Bay - Cat Ba Archipelago' do UNESCO ghi danh; nổi bật với cảnh quan karst biển và hàng nghìn đảo đá vôi.",
+          "rating": null
+        },
+        {
+          "name": "Yên Tử",
+          "type": "Di tích lịch sử - danh thắng đặc biệt",
+          "description": "Trung tâm Phật giáo Trúc Lâm, được tỉnh giới thiệu là điểm du lịch nổi tiếng và được xếp hạng di tích quốc gia đặc biệt.",
+          "rating": null
+        },
+        {
+          "name": "Đền Cửa Ông",
+          "type": "Di tích lịch sử quốc gia đặc biệt",
+          "description": "Điểm đến tâm linh tiêu biểu của Quảng Ninh, được xếp hạng di tích lịch sử quốc gia đặc biệt năm 2017.",
+          "rating": null
+        },
+        {
+          "name": "Cụm di tích chiến thắng Bạch Đằng",
+          "type": "Di tích lịch sử quốc gia đặc biệt",
+          "description": "Quần thể di tích gắn với chiến thắng Bạch Đằng năm 1288 do Trần Hưng Đạo chỉ huy.",
+          "rating": null
+        }
+      ],
+      "last_updated": "2026-03-20",
+      "source": "UNESCO; Cổng thông tin tỉnh Quảng Ninh; Sở Văn hóa, Thể thao và Du lịch Quảng Ninh"
+    },
+    "local_specialties": {
+      "value": [
+        {
+          "name": "Chả mực Hạ Long",
+          "type": "Món ăn"
+        },
+        {
+          "name": "Sá sùng",
+          "type": "Hải sản"
+        },
+        {
+          "name": "Gà Tiên Yên",
+          "type": "Món ăn"
+        },
+        {
+          "name": "Rượu ba kích",
+          "type": "Đồ uống đặc sản"
+        },
+        {
+          "name": "Bánh gật gù",
+          "type": "Món ăn"
+        }
+      ],
+      "last_updated": "2026-03-20",
+      "source": "Cổng thông tin du lịch Hạ Long/Quảng Ninh - mục Đặc sản ẩm thực"
+    },
+    "culture": {
+      "festivals": {
+        "value": [
+          "Lễ hội Yên Tử",
+          "Lễ hội đền Cửa Ông",
+          "Lễ hội Cầu mùa của người Sán Chỉ"
+        ],
+        "last_updated": "2026-03-20",
+        "source": "Cổng thông tin du lịch Hạ Long/Quảng Ninh"
+      },
+      "events": {
+        "value": [
+          "Liên hoan Ẩm thực Quảng Ninh",
+          "Chương trình nghệ thuật 'Non thiêng Yên Tử – Khí phách ngàn năm'"
+        ],
+        "last_updated": "2026-03-20",
+        "source": "Cổng thông tin du lịch Hạ Long/Quảng Ninh"
+      }
+    }
+  },
+
+
+  "infrastructure": {
+    "airport": {
+      "value": ["Cảng hàng không quốc tế Vân Đồn"],
+      "last_updated": "2025-07-10",
+      "source": "Cổng thông tin tỉnh Quảng Ninh - Hệ thống giao thông"
+    },
+    "seaport": {
+      "value": [
+        "Cái Lân",
+        "Yên Hưng",
+        "Cẩm Phả",
+        "Vạn Gia",
+        "Mũi Chùa"
+      ],
+      "last_updated": "2026-02-01",
+      "source": "Cổng thông tin tỉnh Quảng Ninh - bài về chiến lược cảng biển và kết nối cảng"
+    },
+    "railway_station": {
+      "value": [],
+      "last_updated": "2025-07-10",
+      "source": "Nguồn công khai đã kiểm tra xác nhận tuyến đường sắt cấp quốc gia qua tỉnh nhưng không liệt kê danh mục ga trong trang nguồn sơ cấp dùng để dựng schema"
+    },
+    "other_transport": {
+      "value": [
+        "Cao tốc Hải Phòng - Hạ Long - Vân Đồn",
+        "7 tuyến quốc lộ",
+        "37 tuyến luồng đường thủy nội địa"
+      ],
+      "last_updated": "2025-07-10",
+      "source": "Cổng thông tin tỉnh Quảng Ninh - Hệ thống giao thông"
+    }
+  },
+
+
+  "environment": {
+    "climate": {
+      "type": {
+        "value": "Khí hậu nhiệt đới gió mùa; mùa hạ nóng ẩm mưa nhiều, mùa đông lạnh ít mưa",
+        "last_updated": "2025-08-12",
+        "source": "Cổng thông tin tỉnh Quảng Ninh - Khí hậu"
+      },
+      "average_temperature_c": {
+        "value": null,
+        "last_updated": "2025-08-12",
+        "source": "Trang khí hậu của tỉnh mô tả chế độ nhiệt theo mùa nhưng không công bố một trị số nhiệt độ trung bình năm duy nhất"
+      }
+    },
+    "ecology": {
+      "forests": {
+        "value": [
+          "Rừng ngập mặn ven biển",
+          "Rừng Yên Tử",
+          "Vườn quốc gia Bái Tử Long"
+        ],
+        "last_updated": "2026-03-20",
+        "source": "Cổng thông tin tỉnh Quảng Ninh - bài về hệ sinh thái rừng ngập mặn; bài về Ban Quản lý Di sản thế giới Vịnh Hạ Long - Yên Tử"
+      },
+      "sea": {
+        "value": [
+          "Vịnh Hạ Long",
+          "Vịnh Bái Tử Long",
+          "Vịnh Bắc Bộ"
+        ],
+        "last_updated": "2026-03-20",
+        "source": "UNESCO; Cổng thông tin tỉnh Quảng Ninh"
+      },
+      "other_resources": {
+        "value": [
+          "Than antraxit",
+          "Đá vôi",
+          "Cát trắng Vân Hải"
+        ],
+        "last_updated": "2025-07-08",
+        "source": "Cổng thông tin tỉnh Quảng Ninh - Tài nguyên khoáng sản; Địa hình"
+      }
+    }
+  }
+}
