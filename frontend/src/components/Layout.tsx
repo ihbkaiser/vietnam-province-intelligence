@@ -24,10 +24,10 @@ export function Layout() {
             </div>
             <nav className="flex flex-wrap gap-3">
               <NavLink to="/" end className={navClassName}>
-                Bản đồ
+                Bản đồ thông minh
               </NavLink>
               <NavLink to="/resolver" className={navClassName}>
-                Nhập tọa độ
+                Chuyển đổi địa chỉ
               </NavLink>
             </nav>
           </div>

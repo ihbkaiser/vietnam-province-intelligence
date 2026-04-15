@@ -82,19 +82,6 @@ export function HomePage() {
 
   return (
     <div className="space-y-8">
-      <header className="relative overflow-hidden rounded-[2.5rem] border border-white/70 bg-[radial-gradient(circle_at_top,_rgba(255,255,255,0.95),_rgba(247,243,236,0.85))] p-8 shadow-panel">
-        <div className="absolute -right-24 -top-24 h-56 w-56 rounded-full bg-sand/60 blur-3xl" />
-        <div className="absolute -left-20 -bottom-24 h-56 w-56 rounded-full bg-mist/70 blur-3xl" />
-        <div className="relative z-10 max-w-3xl space-y-4">
-          <p className="text-xs uppercase tracking-[0.3em] text-tide">Vietnam Province Intelligence</p>
-          <h1 className="font-display text-3xl font-semibold text-ink md:text-4xl">
-            Bản đồ tỉnh/thành và hồ sơ hành chính hiện tại
-          </h1>
-          <p className="text-sm text-ink/65 md:text-base">
-            Chọn một tỉnh trên bản đồ để xem dân số, diện tích và trung tâm chính trị - hành chính.
-          </p>
-        </div>
-      </header>
       <div className="grid gap-6 xl:grid-cols-[minmax(0,1.7fr)_420px]">
         <div className="space-y-6">
           <VietnamMap
