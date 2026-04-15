@@ -5,7 +5,9 @@ import type { ProvinceSummary } from '../types/admin.js';
 import { normalizeVietnameseAdminName } from '../services/normalize/normalizeVietnameseAdminName.js';
 
 const currentDir = path.dirname(fileURLToPath(import.meta.url));
-const DATA_DIR = path.resolve(currentDir, '../../../provinces_data/Province_in4');
+// Trong Docker: currentDir = /app/dist/data/, ../../src/data/province_in4 = /app/src/data/province_in4
+// Trong dev: currentDir = dist/data/, ../../src/data/province_in4 = src/data/province_in4
+const DATA_DIR = path.resolve(currentDir, '../../src/data/province_in4');
 
 function normalizeFileBasename(fileBasename: string): string {
   return normalizeVietnameseAdminName(fileBasename.replace(/([a-z])([A-Z])/g, '$1 $2'));
