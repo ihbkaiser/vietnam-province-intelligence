@@ -19,6 +19,11 @@ RUN npm install --legacy-peer-deps
 COPY backend/ ./
 RUN npm run build
 
+# Copy JSON data files (tsc không copy file JSON sang dist)
+RUN cp -r src/data/realProvinceFeatures.json dist/data/ && \
+    cp -r src/data/province_in4 dist/data/ && \
+    cp -r src/data/tinhThanhVnProvinceReference.json dist/data/
+
 # Copy frontend build vào backend để serve static
 COPY --from=frontend-build /app/frontend/dist ./public
 
