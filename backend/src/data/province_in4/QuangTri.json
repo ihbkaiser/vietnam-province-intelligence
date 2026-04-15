@@ -1,0 +1,367 @@
+﻿{
+  "name": {
+    "value": "Quảng Trị",
+    "last_updated": "2025-07-01",
+    "source": "Nghị quyết 202/2025/QH15; tỉnh mới hình thành từ sắp xếp toàn bộ diện tích tự nhiên, quy mô dân số của tỉnh Quảng Bình và tỉnh Quảng Trị"
+  },
+  "administrative_code": {
+    "value": "44",
+    "last_updated": "2025-07-01",
+    "source": "Quyết định 19/2025/QĐ-TTg - Phụ lục I Danh mục và mã số các đơn vị hành chính cấp tỉnh"
+  },
+  "former_provinces": {
+    "value": ["Quảng Bình", "Quảng Trị"],
+    "description": "Tỉnh Quảng Trị mới được tạo thành từ việc sắp xếp toàn bộ diện tích tự nhiên, quy mô dân số của tỉnh Quảng Bình và tỉnh Quảng Trị.",
+    "last_updated": "2025-06-12",
+    "source": "Nghị quyết 202/2025/QH15"
+  },
+
+
+  "location": {
+    "latitude": {
+      "value": null,
+      "last_updated": "2026-03-19",
+      "source": "Chưa thấy nguồn chính thức cấp trung ương hoặc cổng tỉnh công bố một tọa độ chuẩn duy nhất cho toàn tỉnh Quảng Trị mới sau sáp nhập"
+    },
+    "longitude": {
+      "value": null,
+      "last_updated": "2026-03-19",
+      "source": "Chưa thấy nguồn chính thức cấp trung ương hoặc cổng tỉnh công bố một tọa độ chuẩn duy nhất cho toàn tỉnh Quảng Trị mới sau sáp nhập"
+    },
+    "adjacent_areas": {
+      "provinces": {
+        "value": ["Hà Tĩnh", "Thành phố Huế"],
+        "last_updated": "2025-06-12",
+        "source": "Nghị quyết 202/2025/QH15"
+      },
+      "countries": {
+        "value": ["Lào"],
+        "last_updated": "2025-06-12",
+        "source": "Nghị quyết 202/2025/QH15"
+      },
+      "seas": {
+        "value": ["Biển Đông"],
+        "last_updated": "2025-06-12",
+        "source": "Nghị quyết 202/2025/QH15"
+      }
+    }
+  },
+
+
+  "area": {
+    "total_km2": {
+      "value": 12700,
+      "last_updated": "2025-06-12",
+      "source": "Nghị quyết 202/2025/QH15"
+    }
+  },
+
+
+  "administrative_structure": {
+    "wards_communes_count": {
+      "value": 78,
+      "last_updated": "2025-07-01",
+      "source": "Nghị quyết 1680/NQ-UBTVQH15 (69 xã, 8 phường, 1 đặc khu)"
+    },
+    "wards_communes_list": {
+      "value": [
+        "Nam Gianh",
+        "Nam Ba Đồn",
+        "Dân Hóa",
+        "Kim Điền",
+        "Kim Phú",
+        "Minh Hóa",
+        "Tuyên Lâm",
+        "Tuyên Sơn",
+        "Đồng Lê",
+        "Tuyên Phú",
+        "Tuyên Bình",
+        "Tuyên Hóa",
+        "Tân Gianh",
+        "Trung Thuần",
+        "Quảng Trạch",
+        "Hòa Trạch",
+        "Phú Trạch",
+        "Thượng Trạch",
+        "Phong Nha",
+        "Bắc Trạch",
+        "Đông Trạch",
+        "Hoàn Lão",
+        "Bố Trạch",
+        "Nam Trạch",
+        "Quảng Ninh",
+        "Ninh Châu",
+        "Trường Ninh",
+        "Trường Sơn",
+        "Lệ Thủy",
+        "Cam Hồng",
+        "Sen Ngư",
+        "Tân Mỹ",
+        "Trường Phú",
+        "Lệ Ninh",
+        "Kim Ngân",
+        "Vĩnh Linh",
+        "Cửa Tùng",
+        "Vĩnh Hoàng",
+        "Vĩnh Thủy",
+        "Bến Quan",
+        "Cồn Tiên",
+        "Cửa Việt",
+        "Gio Linh",
+        "Bến Hải",
+        "Cam Lộ",
+        "Hiếu Giang",
+        "La Lay",
+        "Tà Rụt",
+        "Đakrông",
+        "Ba Lòng",
+        "Hướng Hiệp",
+        "Hướng Lập",
+        "Hướng Phùng",
+        "Khe Sanh",
+        "Tân Lập",
+        "Lao Bảo",
+        "Lìa",
+        "A Dơi",
+        "Triệu Phong",
+        "Ái Tử",
+        "Triệu Bình",
+        "Triệu Cơ",
+        "Nam Cửa Việt",
+        "Diên Sanh",
+        "Mỹ Thủy",
+        "Hải Lăng",
+        "Nam Hải Lăng",
+        "Vĩnh Định",
+        "Tân Thành",
+        "Đồng Hới",
+        "Đồng Thuận",
+        "Đồng Sơn",
+        "Ba Đồn",
+        "Bắc Gianh",
+        "Đông Hà",
+        "Nam Đông Hà",
+        "Quảng Trị",
+        "Cồn Cỏ"
+      ],
+      "last_updated": "2025-07-01",
+      "source": "Nghị quyết 1680/NQ-UBTVQH15; danh sách tổng hợp 78 ĐVHC cấp xã của tỉnh Quảng Trị sau sắp xếp"
+    }
+  },
+
+
+  "population": {
+    "total": {
+      "value": 1870845,
+      "last_updated": "2025-06-12",
+      "source": "Nghị quyết 202/2025/QH15"
+    },
+    "density_per_km2": {
+      "value": 147.31,
+      "last_updated": "2025-06-12",
+      "source": "Tính từ số liệu Nghị quyết 202/2025/QH15: 1.870.845 người / 12.700 km2"
+    },
+    "ethnic_groups": {
+      "value": null,
+      "last_updated": "2026-03-19",
+      "source": "Chưa thấy nguồn chính thức công bố cơ cấu dân tộc theo tỷ lệ phần trăm cho tỉnh Quảng Trị mới sau sáp nhập"
+    }
+  },
+
+
+  "economy": {
+    "scale": {
+      "value": "Tỉnh quy mô lớn ở Bắc Trung Bộ sau sáp nhập; đang định hướng trở thành cực tăng trưởng mới, trung tâm năng lượng, logistics và du lịch đặc sắc của cả nước",
+      "last_updated": "2026-03-19",
+      "source": "Cổng thông tin tỉnh Quảng Trị - bài điều chỉnh quy hoạch tỉnh, hình thành 3 hành lang kinh tế, 7 cực tăng trưởng"
+    },
+    "main_sectors": {
+      "value": [
+        "công nghiệp",
+        "dịch vụ",
+        "năng lượng",
+        "logistics",
+        "du lịch",
+        "nông nghiệp"
+      ],
+      "last_updated": "2026-03-19",
+      "source": "Cổng thông tin tỉnh Quảng Trị - định hướng phát triển kinh tế tỉnh mới"
+    },
+    "gdp": {
+      "value": {
+        "amount_usd": null,
+        "year": 2024
+      },
+      "last_updated": "2026-03-19",
+      "source": "Chưa thấy nguồn chính thức công bố GRDP/GDP quy đổi USD riêng cho tỉnh Quảng Trị mới sau sáp nhập"
+    }
+  },
+
+
+  "tourism": {
+    "attractions": {
+      "value": [
+        {
+          "name": "Vườn quốc gia Phong Nha - Kẻ Bàng",
+          "type": "Di sản thiên nhiên / vườn quốc gia",
+          "description": "Hạt nhân du lịch hang động của tỉnh mới; nổi bật với hệ thống hang động quy mô lớn, trong đó Phong Nha là điểm du lịch tiêu biểu.",
+          "rating": null
+        },
+        {
+          "name": "Động Phong Nha",
+          "type": "Hang động",
+          "description": "Điểm du lịch nổi tiếng nằm trong Vườn quốc gia Phong Nha - Kẻ Bàng.",
+          "rating": null
+        },
+        {
+          "name": "Địa đạo Vịnh Mốc",
+          "type": "Di tích lịch sử quốc gia đặc biệt",
+          "description": "Công trình lịch sử đặc biệt, minh chứng cho đời sống và chiến đấu của người dân Vĩnh Linh thời chiến.",
+          "rating": null
+        },
+        {
+          "name": "Thành cổ Quảng Trị",
+          "type": "Di tích lịch sử quốc gia đặc biệt",
+          "description": "Di tích lịch sử đặc biệt quan trọng gắn với các sự kiện bi tráng của năm 1972.",
+          "rating": null
+        },
+        {
+          "name": "Đôi bờ Hiền Lương - Bến Hải",
+          "type": "Di tích lịch sử quốc gia đặc biệt",
+          "description": "Biểu tượng của thời kỳ đất nước bị chia cắt và thống nhất non sông.",
+          "rating": null
+        },
+        {
+          "name": "Biển Cửa Việt",
+          "type": "Biển",
+          "description": "Bãi biển nổi tiếng, điểm nghỉ dưỡng và thư giãn phổ biến của khu vực phía nam tỉnh mới.",
+          "rating": null
+        }
+      ],
+      "last_updated": "2026-03-19",
+      "source": "Cổng du lịch Quảng Bình và Cổng du lịch Quảng Trị"
+    },
+    "local_specialties": {
+      "value": [
+        {
+          "name": "Cháo canh",
+          "type": "Món ăn"
+        },
+        {
+          "name": "Bánh bột lọc",
+          "type": "Món ăn"
+        },
+        {
+          "name": "Canh cá đuối xương rồng",
+          "type": "Món ăn"
+        }
+      ],
+      "last_updated": "2026-03-19",
+      "source": "Cổng du lịch Quảng Bình; Cổng du lịch Quảng Trị"
+    },
+    "culture": {
+      "festivals": {
+        "value": [
+          "Lễ hội cầu ngư",
+          "Lễ hội đua thuyền truyền thống trên sông Kiến Giang",
+          "Lễ hội thống nhất non sông"
+        ],
+        "last_updated": "2026-03-19",
+        "source": "Cổng du lịch Quảng Bình; Cổng du lịch Quảng Trị"
+      },
+      "events": {
+        "value": [
+          "Lễ thượng cờ thống nhất non sông tại Đôi bờ Hiền Lương - Bến Hải",
+          "Lễ hội Hang động Quảng Bình"
+        ],
+        "last_updated": "2026-03-19",
+        "source": "Cổng du lịch Quảng Trị; Cổng du lịch Quảng Bình"
+      }
+    }
+  },
+
+
+  "infrastructure": {
+    "airport": {
+      "value": ["Cảng hàng không Đồng Hới"],
+      "last_updated": "2026-03-19",
+      "source": "Tổng công ty Cảng hàng không Việt Nam (ACV) - Cảng hàng không Đồng Hới"
+    },
+    "seaport": {
+      "value": [
+        "Cảng Gianh",
+        "Cảng Hòn La",
+        "Cảng Cửa Việt"
+      ],
+      "last_updated": "2025-12-02",
+      "source": "Bài viết chính thức của Quảng Trị về 03 cửa khẩu cảng biển được bổ sung vào danh sách cửa khẩu quốc tế áp dụng e-visa"
+    },
+    "railway_station": {
+      "value": [
+        "Ga Đồng Hới",
+        "Ga Đông Hà"
+      ],
+      "last_updated": "2026-03-19",
+      "source": "Hệ thống thông tin giờ tàu, giá vé của Đường sắt Việt Nam"
+    },
+    "other_transport": {
+      "value": [
+        "Quốc lộ 1",
+        "Đường sắt Bắc - Nam",
+        "Đường Hồ Chí Minh",
+        "Hành lang kinh tế Đông - Tây",
+        "Cửa khẩu quốc tế Cha Lo",
+        "Cửa khẩu quốc tế Lao Bảo",
+        "Khu kinh tế Hòn La"
+      ],
+      "last_updated": "2026-03-19",
+      "source": "Cổng thông tin tỉnh Quảng Trị và cổng thông tin khu kinh tế/công nghiệp"
+    }
+  },
+
+
+  "environment": {
+    "climate": {
+      "type": {
+        "value": "Nhiệt đới gió mùa",
+        "last_updated": "2026-03-19",
+        "source": "Nguồn giới thiệu khí hậu Quảng Bình trên cổng du lịch chính thức; đặc điểm khí hậu vùng Bắc Trung Bộ"
+      },
+      "average_temperature_c": {
+        "value": null,
+        "last_updated": "2026-03-19",
+        "source": "Chưa thấy nguồn chính thức công bố một nhiệt độ trung bình năm duy nhất cho toàn tỉnh Quảng Trị mới sau sáp nhập"
+      }
+    },
+    "ecology": {
+      "forests": {
+        "value": [
+          "Vườn quốc gia Phong Nha - Kẻ Bàng",
+          "khu vực rừng Trường Sơn"
+        ],
+        "last_updated": "2026-03-19",
+        "source": "Cổng du lịch Quảng Bình; Cổng du lịch Quảng Trị"
+      },
+      "sea": {
+        "value": [
+          "Biển Đông",
+          "vùng biển Cửa Việt",
+          "vùng biển Cửa Tùng",
+          "vùng biển Cồn Cỏ"
+        ],
+        "last_updated": "2026-03-19",
+        "source": "Nghị quyết 202/2025/QH15; cổng du lịch Quảng Trị"
+      },
+      "other_resources": {
+        "value": [
+          "hệ thống hang động",
+          "tài nguyên biển",
+          "tài nguyên cửa khẩu - logistics",
+          "tiềm năng năng lượng"
+        ],
+        "last_updated": "2026-03-19",
+        "source": "Cổng thông tin tỉnh Quảng Trị; cổng du lịch Quảng Bình"
+      }
+    }
+  }
+}

@@ -4,21 +4,25 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "dev": "tsx watch --env-file ../.env src/server.ts",
+    "dev": "tsx watch --env-file .env src/server.ts",
     "build": "tsc -p tsconfig.json",
-    "start": "node --env-file ../.env dist/server.js",
+    "start": "node --env-file .env dist/server.js",
     "lint": "tsc --noEmit -p tsconfig.json"
   },
   "dependencies": {
+    "@google/generative-ai": "^0.24.1",
     "@turf/turf": "^7.2.0",
     "cors": "^2.8.5",
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "openai": "^6.34.0",
+    "pdf-parse": "^2.4.5"
   },
   "devDependencies": {
     "@types/cors": "^2.8.17",
     "@types/express": "^4.17.21",
     "@types/geojson": "^7946.0.16",
     "@types/node": "^22.13.10",
+    "@types/pdf-parse": "^1.1.5",
     "tsx": "^4.19.3",
     "typescript": "^5.8.2"
   }

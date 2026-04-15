@@ -1,0 +1,24 @@
+version: '3.8' # Phiên bản cấu hình Docker Compose
+
+services:
+  # --- Dịch vụ số 1: Máy chủ Backend ---
+  backend:
+    build: ./backend        # Tìm file Dockerfile trong thư mục backend để build
+    ports:
+      - "8787:8787"         # Kết nối cổng 8787 của máy thật với 8787 của Docker
+    volumes:
+      - ./backend:/app      # Đồng bộ code: Bạn sửa code ở máy thật, Docker cập nhật luôn
+      - /app/node_modules    # Giữ lại thư viện riêng trong Docker, không bị ghi đè
+    environment:
+      - NODE_ENV=development
+
+  # --- Dịch vụ số 2: Giao diện Frontend ---
+  frontend:
+    build: ./frontend       # Tìm file Dockerfile trong thư mục frontend để build
+    ports:
+      - "5173:5173"         # Kết nối cổng 5173 (Vite) ra ngoài trình duyệt
+    volumes:
+      - ./frontend:/app     # Đồng bộ code giao diện thời gian thực
+      - /app/node_modules
+    depends_on:
+      - backend             # Chỉ chạy Frontend sau khi Backend đã sẵn sàng

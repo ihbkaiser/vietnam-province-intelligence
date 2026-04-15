@@ -1,0 +1,382 @@
+﻿{
+  "name": {
+    "value": "Thành phố Cần Thơ",
+    "last_updated": "2025-06-12",
+    "source": "Nghị quyết 202/2025/QH15"
+  },
+  "administrative_code": {
+    "value": "92",
+    "last_updated": "2025-06-30",
+    "source": "Quyết định 19/2025/QĐ-TTg"
+  },
+  "former_provinces": {
+    "value": [
+      "Thành phố Cần Thơ",
+      "Tỉnh Hậu Giang",
+      "Tỉnh Sóc Trăng"
+    ],
+    "description": "Thành phố Cần Thơ mới được hình thành trên cơ sở sắp xếp toàn bộ diện tích tự nhiên và quy mô dân số của thành phố Cần Thơ, tỉnh Hậu Giang và tỉnh Sóc Trăng.",
+    "last_updated": "2025-06-12",
+    "source": "Nghị quyết 202/2025/QH15; Cổng TTĐT TP Cần Thơ"
+  },
+  "location": {
+    "latitude": 9độ14’15” đến 10độ19’38” vĩ độ Bắc,
+      "value": null,
+      "last_updated": "2026-03-19",
+      "source": "Chưa thấy nguồn chính thức công bố một tọa độ chuẩn duy nhất cho toàn thành phố Cần Thơ mới sau sáp nhập"
+    },
+    "longitude": 
+      "value": 105độ13’38” đến 106độ 17’15” kinh độ Đông,
+      "last_updated": "2026-03-19",
+      "source": "Chưa thấy nguồn chính thức công bố một tọa độ chuẩn duy nhất cho toàn thành phố Cần Thơ mới sau sáp nhập"
+    },
+    "adjacent_areas": {
+      "provinces": {
+        "value": [
+          "Vĩnh Long",
+          "Cà Mau",
+          "An Giang",
+          "Đồng Tháp"
+        ],
+        "last_updated": "2025-04-15",
+        "source": "Báo Điện tử Chính phủ: Cần Thơ, Hậu Giang và Sóc Trăng sau hợp nhất"
+      },
+      "countries": {
+        "value": [],
+        "last_updated": "2025-07-01",
+        "source": "Không có biên giới quốc tế trực tiếp theo phương án sắp xếp được công bố"
+      },
+      "seas": {
+        "value": [
+          "Biển Đông"
+        ],
+        "last_updated": "2025-07-01",
+        "source": "Suy ra từ việc địa bàn mới bao gồm khu vực ven biển Sóc Trăng"
+      }
+    }
+  },
+  "area": {
+    "total_km2": {
+      "value": 6360.83,
+      "last_updated": "2025-04-15",
+      "source": "Báo Điện tử Chính phủ: Cần Thơ, Hậu Giang và Sóc Trăng sau hợp nhất"
+    }
+  },
+  "administrative_structure": {
+    "wards_communes_count": {
+      "value": 103,
+      "last_updated": "2025-06-16",
+      "source": "Nghị quyết 1668/NQ-UBTVQH15"
+    },
+    "wards_communes_list": {
+      "value": [31 phường và 72 xã]
+        "Phường Ninh Kiều",
+        "Phường Cái Khế",
+        "Phường Tân An",
+        "Phường An Bình",
+        "Phường Thới An Đông",
+        "Phường Bình Thủy",
+        "Phường Long Tuyền",
+        "Phường Cái Răng",
+        "Phường Hưng Phú",
+        "Phường Ô Môn",
+        "Phường Phước Thới",
+        "Phường Thới Long",
+        "Phường Trung Nhứt",
+        "Phường Thuận Hưng",
+        "Phường Thốt Nốt",
+        "Phường Vị Thanh",
+        "Phường Vị Tân",
+        "Phường Long Bình",
+        "Phường Long Mỹ",
+        "Phường Long Phú 1",
+        "Phường Đại Thành",
+        "Phường Ngã Bảy",
+        "Phường Phú Lợi",
+        "Phường Sóc Trăng",
+        "Phường Mỹ Xuyên",
+        "Phường Vĩnh Phước",
+        "Phường Vĩnh Châu",
+        "Phường Khánh Hòa",
+        "Phường Ngã Năm",
+        "Phường Mỹ Quới",
+        "Phường Tân Lộc",
+        "Xã Phong Điền",
+        "Xã Nhơn Ái",
+        "Xã Thới Lai",
+        "Xã Đông Thuận",
+        "Xã Trường Xuân",
+        "Xã Trường Thành",
+        "Xã Cờ Đỏ",
+        "Xã Đông Hiệp",
+        "Xã Trung Hưng",
+        "Xã Vĩnh Thạnh",
+        "Xã Vĩnh Trinh",
+        "Xã Thạnh An",
+        "Xã Thạnh Quới",
+        "Xã Hỏa Lựu",
+        "Xã Vị Thủy",
+        "Xã Vĩnh Thuận Đông",
+        "Xã Vị Thanh 1",
+        "Xã Vĩnh Tường",
+        "Xã Vĩnh Viễn",
+        "Xã Xà Phiên",
+        "Xã Lương Tâm",
+        "Xã Thạnh Xuân",
+        "Xã Tân Hòa",
+        "Xã Trường Long Tây",
+        "Xã Châu Thành",
+        "Xã Đông Phước",
+        "Xã Phú Hữu",
+        "Xã Tân Bình",
+        "Xã Hòa An",
+        "Xã Phương Bình",
+        "Xã Tân Phước Hưng",
+        "Xã Hiệp Hưng",
+        "Xã Phụng Hiệp",
+        "Xã Thạnh Hòa",
+        "Xã Hòa Tú",
+        "Xã Gia Hòa",
+        "Xã Nhu Gia",
+        "Xã Ngọc Tố",
+        "Xã Trường Khánh",
+        "Xã Đại Ngãi",
+        "Xã Tân Thạnh",
+        "Xã Long Phú",
+        "Xã Nhơn Mỹ",
+        "Xã An Lạc Thôn",
+        "Xã Kế Sách",
+        "Xã Thới An Hội",
+        "Xã Đại Hải",
+        "Xã Phú Tâm",
+        "Xã An Ninh",
+        "Xã Thuận Hòa",
+        "Xã Hồ Đắc Kiện",
+        "Xã Mỹ Tú",
+        "Xã Long Hưng",
+        "Xã Mỹ Hương",
+        "Xã Tân Long",
+        "Xã Phú Lộc",
+        "Xã Vĩnh Lợi",
+        "Xã Lâm Tân",
+        "Xã Thạnh Thới An",
+        "Xã Tài Văn",
+        "Xã Liêu Tú",
+        "Xã Lịch Hội Thượng",
+        "Xã Trần Đề",
+        "Xã An Thạnh",
+        "Xã Cù Lao Dung",
+        "Xã Trường Long",
+        "Xã Thạnh Phú",
+        "Xã Thới Hưng",
+        "Xã Phong Nẫm",
+        "Xã Mỹ Phước",
+        "Xã Lai Hòa",
+        "Xã Vĩnh Hải"
+      ],
+      "last_updated": "2026-02-24",
+      "source": "Cổng TTĐT TP Cần Thơ: Tổ chức hành chính thành phố Cần Thơ"
+    }
+  },
+  "population": {
+    "total": {
+      "value": 4199806,
+      "last_updated": "2025-04-24",
+      "source": "Báo Điện tử Chính phủ / Xây dựng chính sách, pháp luật"
+    },
+    "density_per_km2": {
+      "value": 660.26,
+      "last_updated": "2025-04-24",
+      "source": "Tính từ dân số 4.199.806 người và diện tích 6.360,83 km2 trong nguồn chính thức"
+    },
+    "ethnic_groups": {
+      "value": null,
+      "last_updated": "2026-03-19",
+      "source": "Chưa thấy bảng tỷ trọng dân tộc chính thức công bố riêng cho thành phố Cần Thơ mới sau sáp nhập"
+    }
+  },
+  "economy": {
+    "scale": {
+      "value": "GRDP 281.675 tỷ đồng; tổng thu ngân sách nhà nước trên địa bàn 24.043 tỷ đồng; thu nhập bình quân đầu người 88,02 triệu đồng",
+      "last_updated": "2025-04-24",
+      "source": "Báo Điện tử Chính phủ / Xây dựng chính sách, pháp luật"
+    },
+    "main_sectors": {
+      "value": [
+        "Công nghiệp chế biến, chế tạo",
+        "Thương mại - dịch vụ",
+        "Nông nghiệp",
+        "Thủy sản",
+        "Logistics và cảng biển"
+      ],
+      "last_updated": "2025-07-01",
+      "source": "Tổng hợp thận trọng từ chức năng trung tâm vùng ĐBSCL và cơ cấu lợi thế của 3 địa phương hợp nhất"
+    },
+    "gdp": {
+      "value": {
+        "amount_usd": ,10% đến 10,5%
+        "year": 2025
+      },
+      "last_updated": "2026-03-19",
+      "source": "Nguồn chính thức rà soát được công bố GRDP bằng VND, chưa thấy công bố USD chính thức cho thành phố Cần Thơ mới"
+    }
+  },
+  "tourism": {
+    "attractions": {
+      "value": [
+        {
+          "name": "Chợ nổi Cái Răng",
+          "type": "Chợ nổi / di sản văn hóa",
+          "description": "Điểm đến tiêu biểu của Cần Thơ và vùng Đồng bằng sông Cửu Long; văn hóa chợ nổi đã được đưa vào danh mục di sản văn hóa phi vật thể quốc gia.",
+          "rating": null
+        },
+        {
+          "name": "Bến Ninh Kiều",
+          "type": "Cảnh quan đô thị - bến sông",
+          "description": "Biểu tượng du lịch trung tâm của Cần Thơ bên bờ sông Hậu.",
+          "rating": null
+        },
+        {
+          "name": "Lung Ngọc Hoàng",
+          "type": "Khu bảo tồn thiên nhiên / du lịch sinh thái",
+          "description": "Vùng đất ngập nước tiêu biểu của khu vực Hậu Giang cũ, có giá trị sinh thái cao.",
+          "rating": null
+        },
+        {
+          "name": "Chùa Mahatúp (Chùa Dơi)",
+          "type": "Di tích tôn giáo - văn hóa Khmer",
+          "description": "Một trong những ngôi chùa nổi tiếng nhất của Sóc Trăng, gắn với bản sắc văn hóa Khmer.",
+          "rating": null
+        },
+        {
+          "name": "Chợ nổi Ngã Năm",
+          "type": "Chợ nổi / du lịch cộng đồng",
+          "description": "Điểm du lịch cộng đồng đặc trưng của khu vực Sóc Trăng cũ.",
+          "rating": null
+        }
+      ],
+      "last_updated": "2026-03-19",
+      "source": "Cantho Tourism; cổng du lịch cộng đồng Sóc Trăng; nguồn công bố địa phương"
+    },
+    "local_specialties": {
+      "value": [
+        {
+          "name": "Bánh pía",
+          "type": "Bánh"
+        },
+        {
+          "name": "Bún nước lèo",
+          "type": "Món ăn"
+        },
+        {
+          "name": "Lẩu mắm",
+          "type": "Món ăn"
+        },
+        {
+          "name": "Bánh cống",
+          "type": "Món ăn"
+        },
+        {
+          "name": "Cá thát lát",
+          "type": "Đặc sản thủy sản"
+        }
+      ],
+      "last_updated": "2026-03-19",
+      "source": "Nguồn du lịch địa phương của Cần Thơ, Hậu Giang cũ và Sóc Trăng cũ"
+    },
+    "culture": {
+      "festivals": {
+        "value": [
+          "Lễ hội Bánh dân gian Nam Bộ",
+          "Lễ hội Oóc Om Bóc - Đua ghe Ngo",
+          "Lễ hội Kỳ Yên"
+        ],
+        "last_updated": "2026-03-19",
+        "source": "Cantho Tourism; cổng thông tin lễ hội/du lịch Sóc Trăng"
+      },
+      "events": {
+        "value": [
+          "Tuần lễ du lịch - văn hóa địa phương",
+          "Các hoạt động quảng bá du lịch sông nước Cần Thơ",
+          "Các hoạt động văn hóa Khmer Nam Bộ"
+        ],
+        "last_updated": "2026-03-19",
+        "source": "Nguồn sự kiện du lịch địa phương"
+      }
+    }
+  },
+  "infrastructure": {
+    "airport": {
+      "value": [
+        "Cảng hàng không quốc tế Cần Thơ"
+      ],
+      "last_updated": "2025-06-07",
+      "source": "Quy hoạch hệ thống cảng hàng không, sân bay toàn quốc"
+    },
+    "seaport": {
+      "value": [
+        "Cảng Cần Thơ",
+        "Cảng Cái Cui",
+        "Khu bến Trần Đề"
+      ],
+      "last_updated": "2025-01-16",
+      "source": "Quy hoạch chi tiết nhóm cảng biển thời kỳ 2021-2030"
+    },
+    "railway_station": {
+      "value": [],
+      "last_updated": "2026-03-19",
+      "source": "Chưa có ga đường sắt quốc gia đang khai thác trên địa bàn"
+    },
+    "other_transport": {
+      "value": [
+        "Quốc lộ 1",
+        "Quốc lộ Nam Sông Hậu",
+        "Luồng hàng hải sông Hậu",
+        "Mạng đường thủy nội địa vùng Đồng bằng sông Cửu Long"
+      ],
+      "last_updated": "2026-03-19",
+      "source": "Nguồn quy hoạch, hạ tầng và thông tin địa phương"
+    }
+  },
+  "environment": {
+    "climate": {
+      "type": {
+        "value": "Nhiệt đới gió mùa cận xích đạo",
+        "last_updated": "2026-03-19",
+        "source": "Đặc điểm khí hậu phổ biến của vùng Đồng bằng sông Cửu Long; chưa thấy bản mô tả khí hậu hợp nhất riêng cho thành phố Cần Thơ mới"
+      },
+      "average_temperature_c": {
+        "value": 27độ
+        "last_updated": "2026-03-19",
+        "source": "Chưa thấy số liệu nhiệt độ trung bình năm công bố riêng cho thành phố Cần Thơ mới sau sáp nhập"
+      }
+    },
+    "ecology": {
+      "forests": {
+        "value": [
+          "Khu bảo tồn thiên nhiên Lung Ngọc Hoàng",
+          "Rừng ngập mặn ven biển Cù Lao Dung - Trần Đề"
+        ],
+        "last_updated": "2026-03-19",
+        "source": "Nguồn địa phương về tài nguyên sinh thái và du lịch sinh thái"
+      },
+      "sea": {
+        "value": [
+          "Biển Đông"
+        ],
+        "last_updated": "2025-07-01",
+        "source": "Địa bàn mới có vùng ven biển thuộc khu vực Sóc Trăng cũ"
+      },
+      "other_resources": {
+        "value": [
+          "Sông Hậu",
+          "Đất phù sa nông nghiệp",
+          "Nguồn lợi thủy sản nước ngọt và ven biển",
+          "Hệ sinh thái đất ngập nước"
+        ],
+        "last_updated": "2026-03-19",
+        "source": "Nguồn giới thiệu điều kiện tự nhiên và tài nguyên vùng ĐBSCL"
+      }
+    }
+  }
+}

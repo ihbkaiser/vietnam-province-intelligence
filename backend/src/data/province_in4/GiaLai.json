@@ -1,0 +1,403 @@
+﻿{
+  "name": {
+    "value": "Gia Lai",
+    "last_updated": "2025-06-12",
+    "source": "Nghị quyết 202/2025/QH15 của Quốc hội về sắp xếp đơn vị hành chính cấp tỉnh"
+  },
+  "administrative_code": {
+    "value": null,
+    "last_updated": "2026-03-19",
+    "source": "Chưa tìm được nguồn chính thức hậu sáp nhập công bố mã hành chính cấp tỉnh mới đủ chắc chắn để trích dẫn"
+  },
+  "former_provinces": {
+    "value": ["Bình Định", "Gia Lai"],
+    "description": "Tỉnh Gia Lai mới được hình thành trên cơ sở sắp xếp toàn bộ diện tích tự nhiên và quy mô dân số của tỉnh Bình Định và tỉnh Gia Lai; trung tâm chính trị - hành chính đặt tại TP. Quy Nhơn.",
+    "last_updated": "2025-07-26",
+    "source": "Nghị quyết 202/2025/QH15; Cổng thông tin tỉnh Gia Lai"
+  },
+
+
+  "location": {
+    "latitude": {
+      "value": null,
+      "last_updated": "2026-03-19",
+      "source": "Chưa tìm được nguồn chính thức hậu sáp nhập công bố tọa độ chuẩn của toàn tỉnh"
+    },
+    "longitude": {
+      "value": null,
+      "last_updated": "2026-03-19",
+      "source": "Chưa tìm được nguồn chính thức hậu sáp nhập công bố tọa độ chuẩn của toàn tỉnh"
+    },
+    "adjacent_areas": {
+      "provinces": {
+        "value": ["Quảng Ngãi", "Đắk Lắk"],
+        "last_updated": "2026-03-19",
+        "source": "Suy luận từ ranh giới các tỉnh sau sắp xếp theo Nghị quyết 202/2025/QH15 và bản đồ hành chính 34 tỉnh"
+      },
+      "countries": {
+        "value": ["Campuchia"],
+        "last_updated": "2026-03-19",
+        "source": "Suy luận từ ranh giới các tỉnh sau sắp xếp theo Nghị quyết 202/2025/QH15 và địa giới tỉnh Gia Lai cũ"
+      },
+      "seas": {
+        "value": ["Biển Đông"],
+        "last_updated": "2026-03-19",
+        "source": "Suy luận từ ranh giới các tỉnh sau sắp xếp theo Nghị quyết 202/2025/QH15 và địa giới tỉnh Bình Định cũ"
+      }
+    }
+  },
+
+
+  "area": {
+    "total_km2": {
+      "value": 21576.53,
+      "last_updated": "2025-06-12",
+      "source": "Báo Điện tử Chính phủ - Chi tiết 34 đơn vị hành chính cấp tỉnh"
+    }
+  },
+
+
+  "administrative_structure": {
+    "wards_communes_count": {
+      "value": 135,
+      "last_updated": "2025-06-16",
+      "source": "Nghị quyết 1664/NQ-UBTVQH15 về sắp xếp các đơn vị hành chính cấp xã của tỉnh Gia Lai năm 2025"
+    },
+    "wards_communes_list": {
+      "value": [
+        "An Nhơn Tây",
+        "Phù Cát",
+        "Xuân An",
+        "Ngô Mây",
+        "Cát Tiến",
+        "Đề Gi",
+        "Hòa Hội",
+        "Hội Sơn",
+        "Phù Mỹ",
+        "An Lương",
+        "Bình Dương",
+        "Phù Mỹ Đông",
+        "Phù Mỹ Tây",
+        "Phù Mỹ Nam",
+        "Phù Mỹ Bắc",
+        "Tuy Phước",
+        "Tuy Phước Đông",
+        "Tuy Phước Tây",
+        "Tuy Phước Bắc",
+        "Tây Sơn",
+        "Bình Khê",
+        "Bình Phú",
+        "Bình Hiệp",
+        "Bình An",
+        "Hoài Ân",
+        "Ân Tường",
+        "Kim Sơn",
+        "Vạn Đức",
+        "Ân Hảo",
+        "Vân Canh",
+        "Canh Vinh",
+        "Canh Liên",
+        "Vĩnh Thạnh",
+        "Vĩnh Thịnh",
+        "Vĩnh Quang",
+        "Vĩnh Sơn",
+        "An Hòa",
+        "An Lão",
+        "An Vinh",
+        "An Toàn",
+        "Biển Hồ",
+        "Gào",
+        "Ia Ly",
+        "Chư Păh",
+        "Ia Khươl",
+        "Ia Phí",
+        "Chư Prông",
+        "Bàu Cạn",
+        "Ia Boòng",
+        "Ia Lâu",
+        "Ia Pia",
+        "Ia Tôr",
+        "Chư Sê",
+        "Bờ Ngoong",
+        "Ia Ko",
+        "Al Bá",
+        "Chư Pưh",
+        "Ia Le",
+        "Ia Hrú",
+        "Cửu An",
+        "Đak Pơ",
+        "Ya Hội",
+        "Kbang",
+        "Kông Bơ La",
+        "Tơ Tung",
+        "Sơn Lang",
+        "Đak Rong",
+        "Kông Chro",
+        "Ya Ma",
+        "Chư Krey",
+        "SRó",
+        "Đăk Song",
+        "Chơ Long",
+        "Ia Rbol",
+        "Ia Sao",
+        "Phú Thiện",
+        "Chư A Thai",
+        "Ia Hiao",
+        "Pờ Tó",
+        "Ia Pa",
+        "Ia Tul",
+        "Phú Túc",
+        "Ia Dreh",
+        "Ia Rsai",
+        "Uar",
+        "Đak Đoa",
+        "Kon Gang",
+        "Ia Băng",
+        "KDang",
+        "Đak Sơmei",
+        "Mang Yang",
+        "Lơ Pang",
+        "Kon Chiêng",
+        "Hra",
+        "Ayun",
+        "Ia Grai",
+        "Ia Krái",
+        "Ia Hrung",
+        "Đức Cơ",
+        "Ia Dơk",
+        "Ia Krêl",
+        "phường Quy Nhơn",
+        "phường Quy Nhơn Đông",
+        "phường Quy Nhơn Tây",
+        "phường Quy Nhơn Nam",
+        "phường Quy Nhơn Bắc",
+        "phường Bình Định",
+        "phường An Nhơn",
+        "phường An Nhơn Đông",
+        "phường An Nhơn Nam",
+        "phường An Nhơn Bắc",
+        "phường Bồng Sơn",
+        "phường Hoài Nhơn",
+        "phường Tam Quan",
+        "phường Hoài Nhơn Đông",
+        "phường Hoài Nhơn Tây",
+        "phường Hoài Nhơn Nam",
+        "phường Hoài Nhơn Bắc",
+        "phường Pleiku",
+        "phường Hội Phú",
+        "phường Thống Nhất",
+        "phường Diên Hồng",
+        "phường An Phú",
+        "phường An Khê",
+        "phường An Bình",
+        "phường Ayun Pa",
+        "Ia O",
+        "Nhơn Châu",
+        "Ia Púch",
+        "Ia Mơ",
+        "Ia Pnôn",
+        "Ia Nan",
+        "Ia Dom",
+        "Ia Chia",
+        "Krong"
+      ],
+      "last_updated": "2025-06-16",
+      "source": "Nghị quyết 1664/NQ-UBTVQH15 về sắp xếp các đơn vị hành chính cấp xã của tỉnh Gia Lai năm 2025"
+    }
+  },
+
+
+  "population": {
+    "total": {
+      "value": 3583693,
+      "last_updated": "2025-06-12",
+      "source": "Báo Điện tử Chính phủ - Chi tiết 34 đơn vị hành chính cấp tỉnh"
+    },
+    "density_per_km2": {
+      "value": 166.09,
+      "last_updated": "2026-03-19",
+      "source": "Tự tính từ diện tích 21.576,53 km2 và dân số 3.583.693 người theo nguồn Chính phủ"
+    },
+    "ethnic_groups": {
+      "value": [],
+      "last_updated": "2026-03-19",
+      "source": "Chưa tìm được bảng tỷ trọng dân tộc hậu sáp nhập được công bố chính thức; các nhóm dân tộc hiện diện được nguồn tỉnh nhắc đến gồm Kinh, Bahnar, Jrai, Chăm, Hrê"
+    }
+  },
+
+
+  "economy": {
+    "scale": {
+      "value": "Cực tăng trưởng mới kết nối rừng và biển",
+      "last_updated": "2025-07-26",
+      "source": "Cổng thông tin tỉnh Gia Lai - bài 'Sáp nhập Bình Định và Gia Lai: Hình thành cực tăng trưởng mới'"
+    },
+    "main_sectors": {
+      "value": [
+        "nông nghiệp công nghệ cao",
+        "lâm nghiệp",
+        "kinh tế biển",
+        "công nghiệp chế biến, chế tạo",
+        "năng lượng tái tạo",
+        "du lịch",
+        "logistics"
+      ],
+      "last_updated": "2025-07-26",
+      "source": "Cổng thông tin tỉnh Gia Lai - bài 'Sáp nhập Bình Định và Gia Lai: Hình thành cực tăng trưởng mới'"
+    },
+    "gdp": {
+      "value": {
+        "amount_usd": null,
+        "year": null
+      },
+      "last_updated": "2026-03-19",
+      "source": "Chưa tìm được số GRDP/GDP hậu sáp nhập đã công bố chính thức theo USD cho tỉnh Gia Lai mới"
+    }
+  },
+
+
+  "tourism": {
+    "attractions": {
+      "value": [
+        {
+          "name": "Kỳ Co",
+          "type": "biển",
+          "description": "Bãi biển thuộc khu vực Nhơn Lý, nổi bật với nước biển xanh và cát trắng, là điểm du lịch biển tiêu biểu của không gian Bình Định cũ.",
+          "rating": null
+        },
+        {
+          "name": "Eo Gió",
+          "type": "thắng cảnh biển",
+          "description": "Eo biển hình vòng cung tại Nhơn Lý, Quy Nhơn, được bao bọc bởi các dãy núi đá cao.",
+          "rating": null
+        },
+        {
+          "name": "Biển Hồ (Ia Nueng)",
+          "type": "hồ cảnh quan",
+          "description": "Danh thắng nổi tiếng của không gian Gia Lai cũ, là điểm du lịch đặc trưng vùng cao nguyên.",
+          "rating": null
+        },
+        {
+          "name": "Chùa Minh Thành",
+          "type": "du lịch tâm linh",
+          "description": "Ngôi chùa ở Pleiku, nổi bật với kiến trúc chịu ảnh hưởng phong cách Nhật Bản.",
+          "rating": null
+        }
+      ],
+      "last_updated": "2026-03-19",
+      "source": "Cổng du lịch Quy Nhơn - Bình Định; Cổng du lịch Gia Lai"
+    },
+    "local_specialties": {
+      "value": [
+        {
+          "name": "phở khô Gia Lai",
+          "type": "ẩm thực"
+        },
+        {
+          "name": "bún cua Gia Lai",
+          "type": "ẩm thực"
+        },
+        {
+          "name": "bánh hỏi cháo lòng Bình Định",
+          "type": "ẩm thực"
+        },
+        {
+          "name": "tré Bình Định",
+          "type": "ẩm thực"
+        }
+      ],
+      "last_updated": "2026-03-19",
+      "source": "Nguồn du lịch địa phương; một số món đã được quảng bá như đặc sản tiêu biểu trong hoạt động xúc tiến du lịch - ẩm thực của Gia Lai và Bình Định"
+    },
+    "culture": {
+      "festivals": {
+        "value": [
+          "Không gian văn hóa cồng chiêng Tây Nguyên",
+          "Lễ hội Chùa Bà - Cảng thị Nước Mặn"
+        ],
+        "last_updated": "2026-03-19",
+        "source": "Cổng du lịch Gia Lai; Cổng thông tin Bình Định Smart City"
+      },
+      "events": {
+        "value": [
+          "Năm Du lịch quốc gia - Gia Lai 2026"
+        ],
+        "last_updated": "2026-03-03",
+        "source": "Cổng thông tin tỉnh Gia Lai"
+      }
+    }
+  },
+
+
+  "infrastructure": {
+    "airport": {
+      "value": ["Cảng hàng không Phù Cát", "Cảng hàng không Pleiku"],
+      "last_updated": "2026-03-19",
+      "source": "ACV - Cảng hàng không Phù Cát; ACV - Cảng hàng không Pleiku"
+    },
+    "seaport": {
+      "value": ["Cảng Quy Nhơn"],
+      "last_updated": "2025-07-26",
+      "source": "Cổng thông tin tỉnh Gia Lai; Hệ thống thông tin hàng hải - tuyến luồng Quy Nhơn"
+    },
+    "railway_station": {
+      "value": ["Ga Diêu Trì"],
+      "last_updated": "2025-07-26",
+      "source": "Cổng thông tin tỉnh Gia Lai - bài về lợi thế hạ tầng giao thông"
+    },
+    "other_transport": {
+      "value": [
+        "Quốc lộ 19",
+        "Quốc lộ 14",
+        "Quốc lộ 25",
+        "Đường Trường Sơn Đông",
+        "Cửa khẩu Quốc tế Lệ Thanh"
+      ],
+      "last_updated": "2025-07-26",
+      "source": "Cổng thông tin tỉnh Gia Lai - bài 'Sáp nhập Bình Định và Gia Lai: Hình thành cực tăng trưởng mới'"
+    }
+  },
+
+
+  "environment": {
+    "climate": {
+      "type": {
+        "value": "Khí hậu nhiệt đới gió mùa, có tính chuyển tiếp giữa cao nguyên và duyên hải",
+        "last_updated": "2026-03-19",
+        "source": "Khái quát từ điều kiện tự nhiên của Gia Lai cũ và Bình Định cũ; chưa có mô tả khí hậu hậu sáp nhập được công bố thành một chuẩn riêng"
+      },
+      "average_temperature_c": {
+        "value": null,
+        "last_updated": "2026-03-19",
+        "source": "Chưa tìm được số nhiệt độ trung bình năm chính thức cho toàn tỉnh Gia Lai mới sau sáp nhập"
+      }
+    },
+    "ecology": {
+      "forests": {
+        "value": [
+          "Khu dự trữ sinh quyển thế giới cao nguyên Kon Hà Nừng",
+          "Vườn quốc gia Kon Ka Kinh"
+        ],
+        "last_updated": "2025-07-26",
+        "source": "Cổng thông tin tỉnh Gia Lai; Cổng du lịch Gia Lai"
+      },
+      "sea": {
+        "value": [
+          "Vùng biển Quy Nhơn - Nhơn Lý - Kỳ Co - Eo Gió",
+          "Biển Đông"
+        ],
+        "last_updated": "2026-03-19",
+        "source": "Cổng du lịch Quy Nhơn - Bình Định; khái quát từ địa giới ven biển của không gian Bình Định cũ"
+      },
+      "other_resources": {
+        "value": [
+          "đất đỏ bazan",
+          "dược liệu",
+          "tiềm năng năng lượng tái tạo"
+        ],
+        "last_updated": "2025-07-26",
+        "source": "Cổng thông tin tỉnh Gia Lai - bài 'Sáp nhập Bình Định và Gia Lai: Hình thành cực tăng trưởng mới'"
+      }
+    }
+  }
+}

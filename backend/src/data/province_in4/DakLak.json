@@ -1,0 +1,381 @@
+﻿{
+  "name": {
+    "value": "Đắk Lắk",
+    "last_updated": "2025-07-01",
+    "source": "Nghị quyết 202/2025/QH15; Quyết định 19/2025/QĐ-TTg"
+  },
+  "administrative_code": {
+    "value": "66",
+    "last_updated": "2025-07-01",
+    "source": "Quyết định 19/2025/QĐ-TTg"
+  },
+  "former_provinces": {
+    "value": ["Phú Yên", "Đắk Lắk"],
+    "description": "Tỉnh Đắk Lắk mới được hình thành trên cơ sở sắp xếp toàn bộ diện tích tự nhiên và quy mô dân số của tỉnh Phú Yên và tỉnh Đắk Lắk cũ.",
+    "last_updated": "2025-07-01",
+    "source": "Nghị quyết 202/2025/QH15"
+  },
+  "location": {
+    "latitude": {
+      "value": null,
+      "last_updated": "2025-07-01",
+      "source": "Chưa thấy nguồn chính thức công bố một tọa độ điểm chuẩn duy nhất cho toàn tỉnh Đắk Lắk mới sau sáp nhập"
+    },
+    "longitude": {
+      "value": null,
+      "last_updated": "2025-07-01",
+      "source": "Chưa thấy nguồn chính thức công bố một tọa độ điểm chuẩn duy nhất cho toàn tỉnh Đắk Lắk mới sau sáp nhập"
+    },
+    "adjacent_areas": {
+      "provinces": {
+        "value": ["Gia Lai", "Khánh Hòa", "Lâm Đồng"],
+        "last_updated": "2025-07-01",
+        "source": "Nghị quyết 202/2025/QH15"
+      },
+      "countries": {
+        "value": ["Campuchia"],
+        "last_updated": "2025-07-01",
+        "source": "Nghị quyết 202/2025/QH15"
+      },
+      "seas": {
+        "value": ["Biển Đông"],
+        "last_updated": "2025-07-01",
+        "source": "Nghị quyết 202/2025/QH15"
+      }
+    }
+  },
+  "area": {
+    "total_km2": {
+      "value": 18096.40,
+      "last_updated": "2025-07-01",
+      "source": "Nghị quyết 202/2025/QH15"
+    }
+  },
+  "administrative_structure": {
+    "wards_communes_count": {
+      "value": 102,
+      "last_updated": "2025-07-01",
+      "source": "Nghị quyết 1660/NQ-UBTVQH15"
+    },
+    "wards_communes_list": {
+      "value": [
+        "xã Hòa Phú",
+        "xã Ea Drông",
+        "xã Ea Súp",
+        "xã Ea Rốk",
+        "xã Ea Bung",
+        "xã Ea Wer",
+        "xã Ea Nuôl",
+        "xã Ea Kiết",
+        "xã Ea M’Droh",
+        "xã Quảng Phú",
+        "xã Cuôr Đăng",
+        "xã Cư M’gar",
+        "xã Ea Tul",
+        "xã Pơng Drang",
+        "xã Krông Búk",
+        "xã Cư Pơng",
+        "xã Ea Khăl",
+        "xã Ea Drăng",
+        "xã Ea Wy",
+        "xã Ea Hiao",
+        "xã Krông Năng",
+        "xã Dliê Ya",
+        "xã Tam Giang",
+        "xã Phú Xuân",
+        "xã Krông Pắc",
+        "xã Ea Knuếc",
+        "xã Tân Tiến",
+        "xã Ea Phê",
+        "xã Ea Kly",
+        "xã Ea Kar",
+        "xã Ea Ô",
+        "xã Ea Knốp",
+        "xã Cư Yang",
+        "xã Ea Păl",
+        "xã M’Drắk",
+        "xã Ea Riêng",
+        "xã Cư M’ta",
+        "xã Krông Á",
+        "xã Cư Prao",
+        "xã Hòa Sơn",
+        "xã Dang Kang",
+        "xã Krông Bông",
+        "xã Yang Mao",
+        "xã Cư Pui",
+        "xã Liên Sơn Lắk",
+        "xã Đắk Liêng",
+        "xã Nam Ka",
+        "xã Đắk Phơi",
+        "xã Ea Ning",
+        "xã Dray Bhăng",
+        "xã Ea Ktur",
+        "xã Krông Ana",
+        "xã Dur Kmăl",
+        "xã Ea Na",
+        "xã Xuân Thọ",
+        "xã Xuân Cảnh",
+        "xã Xuân Lộc",
+        "xã Hòa Xuân",
+        "xã Tuy An Bắc",
+        "xã Tuy An Đông",
+        "xã Ô Loan",
+        "xã Tuy An Nam",
+        "xã Tuy An Tây",
+        "xã Phú Hòa 1",
+        "xã Phú Hòa 2",
+        "xã Tây Hòa",
+        "xã Hòa Thịnh",
+        "xã Hòa Mỹ",
+        "xã Sơn Thành",
+        "xã Sơn Hòa",
+        "xã Vân Hòa",
+        "xã Tây Sơn",
+        "xã Suối Trai",
+        "xã Ea Ly",
+        "xã Ea Bá",
+        "xã Đức Bình",
+        "xã Sông Hinh",
+        "xã Xuân Lãnh",
+        "xã Phú Mỡ",
+        "xã Xuân Phước",
+        "xã Đồng Xuân",
+        "phường Buôn Ma Thuột",
+        "phường Tân An",
+        "phường Tân Lập",
+        "phường Thành Nhất",
+        "phường Ea Kao",
+        "phường Buôn Hồ",
+        "phường Cư Bao",
+        "phường Phú Yên",
+        "phường Tuy Hòa",
+        "phường Bình Kiến",
+        "phường Xuân Đài",
+        "phường Sông Cầu",
+        "phường Đông Hòa",
+        "phường Hòa Hiệp",
+        "xã Buôn Đôn",
+        "xã Ea H’Leo",
+        "xã Ea Trang",
+        "xã Ia Lốp",
+        "xã Ia Rvê",
+        "xã Krông Nô",
+        "xã Vụ Bổn"
+      ],
+      "last_updated": "2025-07-01",
+      "source": "Nghị quyết 1660/NQ-UBTVQH15"
+    }
+  },
+  "population": {
+    "total": {
+      "value": 3346853,
+      "last_updated": "2025-07-01",
+      "source": "Nghị quyết 202/2025/QH15"
+    },
+    "density_per_km2": {
+      "value": 184.95,
+      "last_updated": "2025-07-01",
+      "source": "Tính từ số liệu diện tích và dân số trong Nghị quyết 202/2025/QH15"
+    },
+    "ethnic_groups": {
+      "value": [],
+      "last_updated": "2025-07-01",
+      "source": "Chưa thấy bảng cơ cấu dân tộc theo tỷ trọng phần trăm được cơ quan nhà nước công bố chính thức cho tỉnh Đắk Lắk mới sau sáp nhập"
+    }
+  },
+  "economy": {
+    "scale": {
+      "value": "Cực tăng trưởng mới của khu vực Nam Trung Bộ - Tây Nguyên; kinh tế có thế mạnh nông nghiệp, công nghiệp chế biến nông sản, năng lượng, dịch vụ và du lịch",
+      "last_updated": "2026-01-20",
+      "source": "Báo cáo tình hình kinh tế - xã hội tháng 8 và 8 tháng năm 2025 của tỉnh Đắk Lắk; thông tin chính thức của UBND tỉnh/Sở Tài chính"
+    },
+    "main_sectors": {
+      "value": [
+        "nông nghiệp",
+        "lâm nghiệp",
+        "thủy sản",
+        "công nghiệp chế biến",
+        "xây dựng",
+        "dịch vụ",
+        "du lịch"
+      ],
+      "last_updated": "2026-01-20",
+      "source": "Báo cáo tình hình kinh tế - xã hội tháng 8 và 8 tháng năm 2025; công bố số liệu thống kê kinh tế - xã hội tỉnh Đắk Lắk"
+    },
+    "gdp": {
+      "value": {
+        "amount_usd": null,
+        "year": 2025
+      },
+      "last_updated": "2026-01-06",
+      "source": "Nguồn chính thức hiện công bố GRDP năm 2025 bằng VND (giá so sánh 2010), chưa thấy công bố chính thức bằng USD cho tỉnh Đắk Lắk mới sau sáp nhập"
+    }
+  },
+  "tourism": {
+    "attractions": {
+      "value": [
+        {
+          "name": "Vườn quốc gia Yok Đôn",
+          "type": "vườn quốc gia / sinh thái",
+          "description": "Điểm du lịch sinh thái nổi bật của phần Tây Nguyên, gắn với trải nghiệm voi thân thiện và hệ sinh thái rừng khộp.",
+          "rating": null
+        },
+        {
+          "name": "Hồ Lắk",
+          "type": "hồ / cảnh quan sinh thái",
+          "description": "Một trong những thắng cảnh tiêu biểu của Đắk Lắk, gắn với văn hóa bản địa M’nông.",
+          "rating": null
+        },
+        {
+          "name": "Thác Dray Nur - Dray Sáp",
+          "type": "thác nước / thắng cảnh thiên nhiên",
+          "description": "Cụm thác nổi tiếng của khu vực Buôn Ma Thuột - Sêrêpốk.",
+          "rating": null
+        },
+        {
+          "name": "Buôn du lịch cộng đồng Akŏ Dhông",
+          "type": "du lịch cộng đồng / văn hóa",
+          "description": "Không gian buôn làng Êđê tiêu biểu gần trung tâm Buôn Ma Thuột.",
+          "rating": null
+        },
+        {
+          "name": "Gành Đá Đĩa",
+          "type": "danh lam thắng cảnh quốc gia đặc biệt",
+          "description": "Danh thắng ven biển tiêu biểu của phần Phú Yên cũ, cấu trúc đá bazan dạng cột hiếm gặp.",
+          "rating": null
+        },
+        {
+          "name": "Bãi Xép",
+          "type": "bãi biển / cảnh quan ven biển",
+          "description": "Điểm đến biển nổi bật của khu vực Tuy An - Tuy Hòa.",
+          "rating": null
+        },
+        {
+          "name": "Mũi Điện",
+          "type": "mũi đất / thắng cảnh ven biển",
+          "description": "Điểm đến nổi tiếng ở phía đông nam, gắn với hải đăng Đại Lãnh.",
+          "rating": null
+        },
+        {
+          "name": "Vũng Rô",
+          "type": "vịnh / lịch sử - du lịch biển",
+          "description": "Vịnh biển và di tích gắn với tuyến đường Hồ Chí Minh trên biển.",
+          "rating": null
+        }
+      ],
+      "last_updated": "2026-03-19",
+      "source": "Cổng thông tin du khách Đắk Lắk; Vietnam Tourism; cổng thông tin tỉnh Phú Yên"
+    },
+    "local_specialties": {
+      "value": [
+        {
+          "name": "cà phê Buôn Ma Thuột",
+          "type": "đồ uống / nông sản"
+        },
+        {
+          "name": "cà phê đặc sản Đắk Lắk",
+          "type": "nông sản"
+        },
+        {
+          "name": "ẩm thực cá ngừ đại dương Phú Yên",
+          "type": "ẩm thực biển"
+        },
+        {
+          "name": "hải sản đầm Ô Loan",
+          "type": "ẩm thực biển"
+        }
+      ],
+      "last_updated": "2026-03-19",
+      "source": "daklak.gov.vn; vietnam.travel; nguồn giới thiệu du lịch chính thức"
+    },
+    "culture": {
+      "festivals": {
+        "value": [
+          "Lễ hội Cà phê Buôn Ma Thuột",
+          "Không gian văn hóa cồng chiêng Tây Nguyên"
+        ],
+        "last_updated": "2026-03-19",
+        "source": "daklak.gov.vn; UNESCO Intangible Cultural Heritage"
+      },
+      "events": {
+        "value": [
+          "các hoạt động du lịch tỉnh Đắk Lắk",
+          "các hoạt động kỷ niệm Ngày Giải phóng Phú Yên 1/4"
+        ],
+        "last_updated": "2026-03-19",
+        "source": "vhttdl.daklak.gov.vn; phuyen.gov.vn"
+      }
+    }
+  },
+  "infrastructure": {
+    "airport": {
+      "value": ["Cảng hàng không Buôn Ma Thuột", "Cảng hàng không Tuy Hòa"],
+      "last_updated": "2026-03-19",
+      "source": "daklak.gov.vn; vietnam.travel"
+    },
+    "seaport": {
+      "value": ["Cảng Vũng Rô"],
+      "last_updated": "2026-03-19",
+      "source": "phuyen.gov.vn; thông tin chính thức địa phương khu vực Vũng Rô"
+    },
+    "railway_station": {
+      "value": ["Ga Tuy Hòa"],
+      "last_updated": "2026-03-19",
+      "source": "vietnam.travel"
+    },
+    "other_transport": {
+      "value": [
+        "Quốc lộ 1",
+        "Quốc lộ 14",
+        "Quốc lộ 26",
+        "Quốc lộ 29"
+      ],
+      "last_updated": "2026-03-19",
+      "source": "Mạng lưới giao thông liên vùng được công bố, giới thiệu trên các cổng thông tin chính thức của địa phương"
+    }
+  },
+  "environment": {
+    "climate": {
+      "type": {
+        "value": "Nhiệt đới gió mùa, phân hóa giữa cao nguyên và ven biển",
+        "last_updated": "2026-03-19",
+        "source": "Tổng quan chính thức của Đắk Lắk cũ và Phú Yên cũ; mô tả địa lý tự nhiên của các cổng thông tin địa phương"
+      },
+      "average_temperature_c": {
+        "value": null,
+        "last_updated": "2025-07-01",
+        "source": "Chưa thấy số liệu nhiệt độ trung bình chính thức được công bố cho toàn tỉnh Đắk Lắk mới sau sáp nhập"
+      }
+    },
+    "ecology": {
+      "forests": {
+        "value": [
+          "rừng Yok Đôn",
+          "rừng khộp Tây Nguyên",
+          "hệ sinh thái rừng khu vực Lắk - Buôn Đôn"
+        ],
+        "last_updated": "2026-03-19",
+        "source": "vietnam.travel; daklak.gov.vn"
+      },
+      "sea": {
+        "value": [
+          "Biển Đông",
+          "vùng biển Tuy Hòa - Tuy An - Sông Cầu - Đông Hòa",
+          "đầm Ô Loan",
+          "vịnh Vũng Rô"
+        ],
+        "last_updated": "2026-03-19",
+        "source": "vietnam.travel; phuyen.gov.vn"
+      },
+      "other_resources": {
+        "value": [
+          "đất bazan",
+          "nguồn nước hệ thống sông Sêrêpốk",
+          "tài nguyên biển và ven biển"
+        ],
+        "last_updated": "2026-03-19",
+        "source": "Tổng quan chính thức Đắk Lắk; mô tả chính thức về Phú Yên và tài nguyên du lịch"
+      }
+    }
+  }
+}

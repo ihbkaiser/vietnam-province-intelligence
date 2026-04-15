@@ -1,0 +1,289 @@
+﻿{
+  "name": {
+    "value": "Tỉnh Điện Biên",
+    "last_updated": "2025-06-12",
+    "source": "Nghị quyết 202/2025/QH15; Quyết định 19/2025/QĐ-TTg"
+  },
+  "administrative_code": {
+    "value": "11",
+    "last_updated": "2025-07-01",
+    "source": "Quyết định 19/2025/QĐ-TTg về Bảng danh mục và mã số các đơn vị hành chính Việt Nam"
+  },
+  "former_provinces": {
+    "value": [
+      "Tỉnh Điện Biên (không hợp nhất với tỉnh khác ở cấp tỉnh)"
+    ],
+    "description": "Sau 01/07/2025, Điện Biên không phải tỉnh hình thành từ sáp nhập cấp tỉnh; thay đổi chủ yếu là sắp xếp đơn vị hành chính cấp xã.",
+    "last_updated": "2025-06-12",
+    "source": "Nghị quyết 202/2025/QH15"
+  },
+  "location": {
+    "latitude": {
+      "value": null,
+      "last_updated": "2026-03-20",
+      "source": "Chưa thấy nguồn nhà nước công bố một tọa độ điểm đại diện duy nhất cho toàn tỉnh sau 01/07/2025"
+    },
+    "longitude": {
+      "value": null,
+      "last_updated": "2026-03-20",
+      "source": "Chưa thấy nguồn nhà nước công bố một tọa độ điểm đại diện duy nhất cho toàn tỉnh sau 01/07/2025"
+    },
+    "adjacent_areas": {
+      "provinces": {
+        "value": [
+          "Sơn La",
+          "Lai Châu"
+        ],
+        "last_updated": "2026-03-18",
+        "source": "Cổng thông tin điện tử tỉnh Điện Biên - mục Giới thiệu"
+      },
+      "countries": {
+        "value": [
+          "Lào",
+          "Trung Quốc"
+        ],
+        "last_updated": "2026-03-18",
+        "source": "Cổng thông tin điện tử tỉnh Điện Biên - mục Giới thiệu"
+      },
+      "seas": {
+        "value": [],
+        "last_updated": "2026-03-18",
+        "source": "Cổng thông tin điện tử tỉnh Điện Biên - mục Giới thiệu"
+      }
+    }
+  },
+  "area": {
+    "total_km2": {
+      "value": 9539.926,
+      "last_updated": "2026-03-18",
+      "source": "Cổng thông tin điện tử tỉnh Điện Biên - mục Giới thiệu (953.992,6 ha)"
+    }
+  },
+  "administrative_structure": {
+    "wards_communes_count": {
+      "value": 45,
+      "last_updated": "2025-06-16",
+      "source": "Nghị quyết 1661/NQ-UBTVQH15"
+    },
+    "wards_communes_list": {
+      "value": [
+        "Mường Nhé",
+        "Sín Thầu",
+        "Mường Toong",
+        "Nậm Kè",
+        "Quảng Lâm",
+        "Nà Hỳ",
+        "Mường Chà",
+        "Nà Bủng",
+        "Chà Tở",
+        "Si Pa Phìn",
+        "Na Sang",
+        "Mường Tùng",
+        "Pa Ham",
+        "Nậm Nèn",
+        "Mường Pồn",
+        "Tủa Chùa",
+        "Sín Chải",
+        "Sính Phình",
+        "Tủa Thàng",
+        "Sáng Nhè",
+        "Tuần Giáo",
+        "Quài Tở",
+        "Mường Mùn",
+        "Pú Nhung",
+        "Chiềng Sinh",
+        "Mường Ảng",
+        "Nà Tấu",
+        "Búng Lao",
+        "Mường Lạn",
+        "Mường Phăng",
+        "Thanh Nưa",
+        "Thanh An",
+        "Thanh Yên",
+        "Sam Mứn",
+        "Núa Ngam",
+        "Mường Nhà",
+        "Na Son",
+        "Xa Dung",
+        "Pu Nhi",
+        "Mường Luân",
+        "Tìa Dình",
+        "Phình Giàng",
+        "Phường Mường Lay",
+        "Phường Điện Biên Phủ",
+        "Phường Mường Thanh"
+      ],
+      "last_updated": "2025-06-16",
+      "source": "Nghị quyết 1661/NQ-UBTVQH15; bài tổng hợp danh sách 45 xã, phường mới của tỉnh Điện Biên"
+    }
+  },
+  "population": {
+    "total": {
+      "value": null,
+      "last_updated": "2026-03-20",
+      "source": "Chưa tìm thấy số dân toàn tỉnh hậu 01/07/2025 được công bố trong nguồn nhà nước mà mình kiểm chứng trực tiếp được trong phiên tra cứu này"
+    },
+    "density_per_km2": {
+      "value": null,
+      "last_updated": "2026-03-20",
+      "source": "Không điền vì chưa chốt được dân số chính thức hậu 01/07/2025 trong nguồn nhà nước đã kiểm chứng"
+    },
+    "ethnic_groups": {
+      "value": null,
+      "last_updated": "2026-03-20",
+      "source": "Các nguồn chính thức mình tra được xác nhận Điện Biên có 19 dân tộc, nhưng chưa kiểm chứng được bảng tỷ lệ % chính thức hậu 01/07/2025 để điền tuyệt đối chính xác"
+    }
+  },
+  "economy": {
+    "scale": {
+      "value": "GRDP giá hiện hành năm 2025 ước đạt 35.657,32 tỷ đồng",
+      "last_updated": "2026-01-03",
+      "source": "Tình hình kinh tế - xã hội tỉnh Điện Biên tháng 12 và năm 2025"
+    },
+    "main_sectors": {
+      "value": [
+        "Nông, lâm nghiệp và thủy sản",
+        "Công nghiệp và xây dựng",
+        "Dịch vụ"
+      ],
+      "last_updated": "2026-01-03",
+      "source": "Tình hình kinh tế - xã hội tỉnh Điện Biên tháng 12 và năm 2025"
+    },
+    "gdp": {
+      "value": {
+        "amount_usd": null,
+        "year": 2025
+      },
+      "last_updated": "2026-03-20",
+      "source": "Nguồn thống kê chính thức tra được công bố GRDP bằng VND; chưa thấy số GRDP quy đổi USD chính thức của tỉnh để điền tuyệt đối chính xác"
+    }
+  },
+  "tourism": {
+    "attractions": {
+      "value": [
+        {
+          "name": "Đồi A1",
+          "type": "Di tích lịch sử",
+          "description": "Cứ điểm quan trọng bậc nhất trong tập đoàn cứ điểm của thực dân Pháp, thuộc quần thể di tích Chiến trường Điện Biên Phủ.",
+          "rating": null
+        },
+        {
+          "name": "Sở chỉ huy Chiến dịch Điện Biên Phủ - Mường Phăng",
+          "type": "Di tích lịch sử",
+          "description": "Nơi Đại tướng Võ Nguyên Giáp và Bộ Chỉ huy chiến dịch làm việc, nghỉ ngơi trong Chiến dịch Điện Biên Phủ.",
+          "rating": null
+        },
+        {
+          "name": "Thành Bản Phủ và Đền thờ Hoàng Công Chất",
+          "type": "Di tích lịch sử - văn hóa",
+          "description": "Di tích gắn với nghĩa quân Hoàng Công Chất, là điểm đến lịch sử - văn hóa tiêu biểu của Điện Biên.",
+          "rating": null
+        }
+      ],
+      "last_updated": "2026-03-20",
+      "source": "Cổng du lịch Điện Biên (Information Center for Tourism Promotion)"
+    },
+    "local_specialties": {
+      "value": [
+        {
+          "name": "Bánh khẩu xén",
+          "type": "Ẩm thực truyền thống"
+        },
+        {
+          "name": "Xôi nếp nương Điện Biên",
+          "type": "Ẩm thực địa phương"
+        },
+        {
+          "name": "Thịt trâu gác bếp",
+          "type": "Đặc sản vùng cao"
+        }
+      ],
+      "last_updated": "2026-03-20",
+      "source": "Tổng hợp từ các kênh du lịch/chuyên ngành văn hóa của tỉnh; riêng bánh khẩu xén được nguồn chính thức xác nhận là di sản văn hóa phi vật thể quốc gia"
+    },
+    "culture": {
+      "festivals": {
+        "value": [
+          "Lễ hội Hoa Ban",
+          "Ngày hội Văn hóa, Thể thao và Du lịch các dân tộc tỉnh Điện Biên"
+        ],
+        "last_updated": "2026-03-02",
+        "source": "Sở Văn hóa, Thể thao và Du lịch tỉnh Điện Biên"
+      },
+      "events": {
+        "value": [
+          "Carnaval đường phố trong khuôn khổ Lễ hội Hoa Ban",
+          "Các hoạt động kỷ niệm Chiến thắng Điện Biên Phủ"
+        ],
+        "last_updated": "2026-03-09",
+        "source": "Sở Văn hóa, Thể thao và Du lịch tỉnh Điện Biên; Ban Quản lý Di tích tỉnh Điện Biên"
+      }
+    }
+  },
+  "infrastructure": {
+    "airport": {
+      "value": [
+        "Cảng hàng không Điện Biên"
+      ],
+      "last_updated": "2026-03-16",
+      "source": "Tổng Công ty Cảng hàng không Việt Nam (ACV)"
+    },
+    "seaport": {
+      "value": [],
+      "last_updated": "2026-03-20",
+      "source": "Điện Biên là tỉnh nội địa, không giáp biển"
+    },
+    "railway_station": {
+      "value": [],
+      "last_updated": "2026-03-20",
+      "source": "Không có ga đường sắt quốc gia đang khai thác trên địa bàn tỉnh"
+    },
+    "other_transport": {
+      "value": [
+        "Quốc lộ 279",
+        "Quốc lộ 12",
+        "Quốc lộ 6 (kết nối vùng)"
+      ],
+      "last_updated": "2026-03-20",
+      "source": "Tổng hợp hạ tầng giao thông đối ngoại phổ biến của tỉnh từ các cổng thông tin tỉnh và thông tin du lịch"
+    }
+  },
+  "environment": {
+    "climate": {
+      "type": {
+        "value": "Nhiệt đới gió mùa núi cao",
+        "last_updated": "2026-03-20",
+        "source": "Mô tả tổng quan phổ biến trên các cổng thông tin tỉnh/vùng; chưa thấy một văn bản khí hậu chuyên đề hậu 01/07/2025 để định nghĩa chi tiết hơn"
+      },
+      "average_temperature_c": {
+        "value": null,
+        "last_updated": "2026-03-20",
+        "source": "Chưa chốt được trị số trung bình năm cấp tỉnh từ nguồn nhà nước đã kiểm chứng trực tiếp trong phiên tra cứu này"
+      }
+    },
+    "ecology": {
+      "forests": {
+        "value": [
+          "Rừng Mường Phăng",
+          "Hệ sinh thái rừng đầu nguồn vùng núi cao Điện Biên"
+        ],
+        "last_updated": "2026-03-20",
+        "source": "Cổng du lịch Điện Biên; thông tin giới thiệu tỉnh"
+      },
+      "sea": {
+        "value": [],
+        "last_updated": "2026-03-20",
+        "source": "Điện Biên không giáp biển"
+      },
+      "other_resources": {
+        "value": [
+          "Đất đai miền núi - thung lũng phục vụ nông lâm nghiệp",
+          "Tài nguyên du lịch lịch sử",
+          "Tài nguyên cảnh quan vùng cao"
+        ],
+        "last_updated": "2026-03-20",
+        "source": "Cổng thông tin điện tử tỉnh Điện Biên; cổng du lịch Điện Biên"
+      }
+    }
+  }
+}

@@ -1,0 +1,361 @@
+﻿{
+  "name": {
+    "value": "Cao Bằng",
+    "last_updated": "2025-07-01",
+    "source": "Nghị quyết 202/2025/QH15; Cổng TTĐT Chính phủ"
+  },
+  "administrative_code": {
+    "value": "04",
+    "last_updated": "2025-07-01",
+    "source": "Quyết định 19/2025/QĐ-TTg"
+  },
+  "former_provinces": {
+    "value": [
+      "Cao Bằng"
+    ],
+    "description": "Cao Bằng không thực hiện sắp xếp đơn vị hành chính cấp tỉnh năm 2025; sau 12/6/2025 vẫn là tỉnh Cao Bằng.",
+    "last_updated": "2025-07-01",
+    "source": "Nghị quyết 202/2025/QH15; bài Chi tiết 34 đơn vị hành chính cấp tỉnh"
+  },
+  "location": {
+    "latitude": {
+      "value": null,
+      "last_updated": "2025-07-01",
+      "source": "Chưa thấy nguồn nhà nước công bố một tọa độ tâm tỉnh duy nhất sau mốc 1/7/2025"
+    },
+    "longitude": {
+      "value": null,
+      "last_updated": "2025-07-01",
+      "source": "Chưa thấy nguồn nhà nước công bố một tọa độ tâm tỉnh duy nhất sau mốc 1/7/2025"
+    },
+    "adjacent_areas": {
+      "provinces": {
+        "value": [
+          "Tuyên Quang",
+          "Thái Nguyên",
+          "Lạng Sơn"
+        ],
+        "last_updated": "2025-07-01",
+        "source": "Đối chiếu vị trí giáp ranh của Cao Bằng với Nghị quyết 202/2025/QH15 về sắp xếp cấp tỉnh"
+      },
+      "countries": {
+        "value": [
+          "Trung Quốc (Khu tự trị dân tộc Choang Quảng Tây)"
+        ],
+        "last_updated": "2025-07-01",
+        "source": "Cổng thông tin điện tử tỉnh Cao Bằng"
+      },
+      "seas": {
+        "value": [],
+        "last_updated": "2025-07-01",
+        "source": "Cổng thông tin điện tử tỉnh Cao Bằng"
+      }
+    }
+  },
+  "area": {
+    "total_km2": {
+      "value": 6700.39,
+      "last_updated": "2023-12-05",
+      "source": "Bài Đặc điểm dân số, Cổng thông tin điện tử tỉnh Cao Bằng (bảng diện tích, dân số, mật độ năm 2020)"
+    }
+  },
+  "administrative_structure": {
+    "wards_communes_count": {
+      "value": 56,
+      "last_updated": "2025-07-01",
+      "source": "Nghị quyết 1657/NQ-UBTVQH15; bài Danh sách 56 xã, phường của tỉnh Cao Bằng"
+    },
+    "wards_communes_list": {
+      "value": [
+        "Quảng Lâm",
+        "Nam Quang",
+        "Lý Bôn",
+        "Bảo Lâm",
+        "Yên Thổ",
+        "Sơn Lộ",
+        "Hưng Đạo",
+        "Bảo Lạc",
+        "Cốc Pàng",
+        "Cô Ba",
+        "Khánh Xuân",
+        "Xuân Trường",
+        "Huy Giáp",
+        "Ca Thành",
+        "Phan Thanh",
+        "Thành Công",
+        "Tam Kim",
+        "Nguyên Bình",
+        "Tĩnh Túc",
+        "Minh Tâm",
+        "Thanh Long",
+        "Cần Yên",
+        "Thông Nông",
+        "Trường Hà",
+        "Hà Quảng",
+        "Lũng Nặm",
+        "Tổng Cọt",
+        "Nam Tuấn",
+        "Hòa An",
+        "Bạch Đằng",
+        "Nguyễn Huệ",
+        "Minh Khai",
+        "Canh Tân",
+        "Kim Đồng",
+        "Thạch An",
+        "Đông Khê",
+        "Đức Long",
+        "Phục Hòa",
+        "Bế Văn Đàn",
+        "Độc Lập",
+        "Quảng Uyên",
+        "Hạnh Phúc",
+        "Quang Hán",
+        "Trà Lĩnh",
+        "Quang Trung",
+        "Đoài Dương",
+        "Trùng Khánh",
+        "Đàm Thủy",
+        "Đình Phong",
+        "Hạ Lang",
+        "Lý Quốc",
+        "Vinh Quý",
+        "Quang Long",
+        "Thục Phán",
+        "Nùng Trí Cao",
+        "Tân Giang"
+      ],
+      "last_updated": "2025-07-01",
+      "source": "Nghị quyết 1657/NQ-UBTVQH15; bài Danh sách 56 xã, phường của tỉnh Cao Bằng"
+    }
+  },
+  "population": {
+    "total": {
+      "value": 533086,
+      "last_updated": "2023-12-05",
+      "source": "Bài Đặc điểm dân số, Cổng thông tin điện tử tỉnh Cao Bằng (dân số năm 2020)"
+    },
+    "density_per_km2": {
+      "value": 79.56,
+      "last_updated": "2023-12-05",
+      "source": "Bài Đặc điểm dân số, Cổng thông tin điện tử tỉnh Cao Bằng (mật độ dân số năm 2020)"
+    },
+    "ethnic_groups": {
+      "value": [
+        {
+          "name": "Tày",
+          "percentage": 40.97
+        },
+        {
+          "name": "Nùng",
+          "percentage": 31.08
+        },
+        {
+          "name": "Mông",
+          "percentage": 10.13
+        },
+        {
+          "name": "Dao",
+          "percentage": 10.08
+        },
+        {
+          "name": "Kinh",
+          "percentage": 5.76
+        },
+        {
+          "name": "Sán Chỉ",
+          "percentage": 1.39
+        },
+        {
+          "name": "Lô Lô",
+          "percentage": 0.47
+        },
+        {
+          "name": "Khác",
+          "percentage": 0.09
+        }
+      ],
+      "last_updated": "2022-06-10",
+      "source": "Bài Điều kiện tự nhiên tỉnh Cao Bằng, Cổng thông tin điện tử tỉnh Cao Bằng (dẫn Niên giám Thống kê 2021)"
+    }
+  },
+  "economy": {
+    "scale": {
+      "value": "GRDP năm 2025 ước tăng 7,22% so với năm 2024; quy mô nền kinh tế tiếp tục được mở rộng.",
+      "last_updated": "2026-01-02",
+      "source": "Báo cáo tình hình kinh tế - xã hội tháng 12 và cả năm 2025 tỉnh Cao Bằng"
+    },
+    "main_sectors": {
+      "value": [
+        "Nông, lâm nghiệp và thủy sản",
+        "Công nghiệp và xây dựng",
+        "Dịch vụ",
+        "Thương mại biên giới",
+        "Du lịch"
+      ],
+      "last_updated": "2026-01-02",
+      "source": "Báo cáo tình hình kinh tế - xã hội năm 2025; Cổng thông tin điện tử tỉnh Cao Bằng"
+    },
+    "gdp": {
+      "value": {
+        "amount_usd": null,
+        "year": 2025
+      },
+      "last_updated": "2026-01-02",
+      "source": "Chưa thấy cơ quan nhà nước công bố GDP/GRDP của tỉnh Cao Bằng trực tiếp theo USD; nguồn chính thức hiện dùng GRDP theo giá hiện hành bằng VND"
+    }
+  },
+  "tourism": {
+    "attractions": {
+      "value": [
+        {
+          "name": "Thác Bản Giốc",
+          "type": "Danh lam thắng cảnh",
+          "description": "Điểm du lịch biểu tượng của Cao Bằng, gắn với khai thác tài nguyên du lịch biên giới Việt Nam - Trung Quốc.",
+          "rating": null
+        },
+        {
+          "name": "Động Ngườm Ngao",
+          "type": "Hang động",
+          "description": "Động dài khoảng 2.144 m theo tài liệu khảo sát được cổng du lịch tỉnh dẫn lại.",
+          "rating": null
+        },
+        {
+          "name": "Hồ Thang Hen",
+          "type": "Danh lam thắng cảnh quốc gia",
+          "description": "Điểm du lịch sinh thái nổi bật, đã được xếp hạng danh lam thắng cảnh cấp quốc gia năm 2001.",
+          "rating": null
+        },
+        {
+          "name": "Khu di tích Quốc gia đặc biệt Pác Bó",
+          "type": "Di tích lịch sử",
+          "description": "Điểm đến lịch sử - cách mạng tiêu biểu, gắn với Chủ tịch Hồ Chí Minh và du lịch về nguồn.",
+          "rating": null
+        },
+        {
+          "name": "Công viên địa chất toàn cầu UNESCO Non nước Cao Bằng",
+          "type": "Công viên địa chất toàn cầu",
+          "description": "Không gian di sản địa chất và văn hóa tầm quốc tế của tỉnh Cao Bằng.",
+          "rating": null
+        }
+      ],
+      "last_updated": "2026-03-19",
+      "source": "Cổng du lịch tỉnh Cao Bằng; UNESCO"
+    },
+    "local_specialties": {
+      "value": [
+        {
+          "name": "Hạt dẻ Trùng Khánh",
+          "type": "Nông sản đặc sản"
+        },
+        {
+          "name": "Miến dong Nguyên Bình",
+          "type": "Thực phẩm truyền thống"
+        },
+        {
+          "name": "Nếp hương Xuân Trường",
+          "type": "Nông sản đặc sản"
+        },
+        {
+          "name": "Mác mật",
+          "type": "Cây gia vị/đặc sản địa phương"
+        }
+      ],
+      "last_updated": "2023-11-16",
+      "source": "Bài Tài nguyên rừng và đa dạng sinh học; cổng du lịch tỉnh Cao Bằng"
+    },
+    "culture": {
+      "festivals": {
+        "value": [
+          "Lễ hội đền Kỳ Sầm",
+          "Lễ hội chùa Đà Quận",
+          "Lễ hội pháo hoa Quảng Uyên",
+          "Lễ hội Nàng Hai"
+        ],
+        "last_updated": "2026-03-19",
+        "source": "Bài Một số lễ hội truyền thống ở Cao Bằng, Cổng thông tin điện tử tỉnh Cao Bằng"
+      },
+      "events": {
+        "value": [
+          "Tuần Văn hóa, Thể thao, Du lịch tỉnh Cao Bằng",
+          "Lễ hội du lịch thác Bản Giốc"
+        ],
+        "last_updated": "2026-01-02",
+        "source": "Báo cáo tình hình kinh tế - xã hội năm 2025 tỉnh Cao Bằng"
+      }
+    }
+  },
+  "infrastructure": {
+    "airport": {
+      "value": [],
+      "last_updated": "2025-07-01",
+      "source": "Trang Cơ sở hạ tầng tỉnh Cao Bằng: hệ thống giao thông duy nhất chỉ có đường bộ"
+    },
+    "seaport": {
+      "value": [],
+      "last_updated": "2025-07-01",
+      "source": "Tỉnh miền núi nội địa; trang Cơ sở hạ tầng tỉnh Cao Bằng"
+    },
+    "railway_station": {
+      "value": [],
+      "last_updated": "2025-07-01",
+      "source": "Trang Cơ sở hạ tầng tỉnh Cao Bằng nêu hiện trạng giao thông duy nhất là đường bộ"
+    },
+    "other_transport": {
+      "value": [
+        "Quốc lộ 3",
+        "Quốc lộ 4A",
+        "Quốc lộ 34",
+        "Quốc lộ 4C",
+        "Cao tốc Đồng Đăng (Lạng Sơn) - Trà Lĩnh (Cao Bằng)",
+        "Cửa khẩu quốc tế Trà Lĩnh - Long Bang",
+        "Cửa khẩu Sóc Giang - Bình Mãng",
+        "Cửa khẩu Pò Peo - Nhạc Vu",
+        "Lối mở Đình Phong - Tân Hưng"
+      ],
+      "last_updated": "2025-12-19",
+      "source": "Trang Cơ sở hạ tầng tỉnh Cao Bằng; các tin chính thức về cao tốc Đồng Đăng - Trà Lĩnh và hệ thống cửa khẩu của tỉnh"
+    }
+  },
+  "environment": {
+    "climate": {
+      "type": {
+        "value": "Nhiệt đới gió mùa lục địa núi cao",
+        "last_updated": "2023-11-16",
+        "source": "Bài Khí hậu tỉnh Cao Bằng, Cổng thông tin điện tử tỉnh Cao Bằng"
+      },
+      "average_temperature_c": {
+        "value": 20.7,
+        "last_updated": "2023-11-16",
+        "source": "Bài Khí hậu tỉnh Cao Bằng, Cổng thông tin điện tử tỉnh Cao Bằng (nhiệt độ trung bình năm dao động 19,8-21,6°C; lấy trung bình giữa khoảng)"
+      }
+    },
+    "ecology": {
+      "forests": {
+        "value": [
+          "Vườn Quốc gia Phja Oắc - Phja Đén",
+          "Rừng tự nhiên",
+          "Rừng trồng",
+          "Rừng dẻ Trùng Khánh"
+        ],
+        "last_updated": "2023-11-16",
+        "source": "Bài Tài nguyên rừng và đa dạng sinh học, Cổng thông tin điện tử tỉnh Cao Bằng"
+      },
+      "sea": {
+        "value": [],
+        "last_updated": "2025-07-01",
+        "source": "Tỉnh nội địa, không giáp biển"
+      },
+      "other_resources": {
+        "value": [
+          "Khoáng sản",
+          "Nguồn nước mặt sông Bằng Giang, Quây Sơn, Sông Gâm, Bắc Vọng",
+          "Đa dạng sinh học",
+          "Dược liệu",
+          "Cảnh quan karst/công viên địa chất"
+        ],
+        "last_updated": "2023-11-16",
+        "source": "Cổng thông tin điện tử tỉnh Cao Bằng; UNESCO"
+      }
+    }
+  }
+}
