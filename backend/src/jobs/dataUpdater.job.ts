@@ -39,7 +39,7 @@ async function updateSingleProvince(filePath: string, fileName: string) {
     const searchResults = await search(`tin tức môi trường tài nguyên rừng biển ô nhiễm tỉnh ${provinceName} mới nhất`);
     const searchContext = searchResults.results
       .slice(0, 5)
-      .map(item => `Tiêu đề: ${item.title} \nNội dung: ${item.description}`)
+      .map((item: { title: string; description: string }) => `Tiêu đề: ${item.title} \nNội dung: ${item.description}`)
       .join("\n\n");
 
     // 3. Trích xuất JSON bằng AI
