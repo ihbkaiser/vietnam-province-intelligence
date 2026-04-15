@@ -15,16 +15,6 @@ function formatDisplayValue(value: number | string | null | undefined, suffix?: 
   return value;
 }
 
-function extractPoliticalCenter(description?: string) {
-  if (!description) return null;
-  const match = description.match(/trung tâm chính trị[^.]*đặt tại\s+([^.;]+)/i);
-  if (match?.[1]) {
-    return match[1].trim();
-  }
-
-  return null;
-}
-
 export function ProvinceInfoCard({
   province
 }: {
@@ -34,7 +24,11 @@ export function ProvinceInfoCard({
   const info = data?.province_info ?? null;
   const population = info?.population?.total?.value ?? null;
   const area = info?.area?.total_km2?.value ?? null;
-  const politicalCenter = extractPoliticalCenter(info?.former_provinces?.description);
+  const rawCenter = data?.reference_snapshot?.administrative_center ?? null;
+  // Làm sạch "City, Province" → "TP. City" hoặc chỉ tên thành phố
+  const administrativeCenter = rawCenter
+    ? rawCenter.replace(/\s*,\s*[^,]+$/, '').replace(/\s+City$/, '').trim() || rawCenter
+    : null;
 
   return (
     <div className="rounded-[2rem] border border-white/70 bg-white/70 p-6 shadow-panel backdrop-blur">
@@ -51,9 +45,6 @@ export function ProvinceInfoCard({
             >
               Xem thông tin chi tiết
             </Link>
-            <span className="inline-flex items-center rounded-full bg-sand px-4 py-2 text-xs uppercase tracking-[0.18em] text-ink/55">
-              Hồ sơ hành chính
-            </span>
           </div>
           <div className="rounded-[1.5rem] border border-white/60 bg-gradient-to-br from-white/95 via-sand/80 to-mist/80 p-4 text-sm text-ink/70 shadow-[0_20px_40px_rgba(15,23,42,0.08)]">
             {loading ? (
@@ -73,9 +64,9 @@ export function ProvinceInfoCard({
                   </div>
                 </div>
                 <div className="rounded-2xl bg-white/85 p-4">
-                  <p className="text-[11px] uppercase tracking-[0.2em] text-ink/45">Trung tâm chính trị</p>
+                  <p className="text-[11px] uppercase tracking-[0.2em] text-ink/45">Trung tâm hành chính</p>
                   <p className="mt-2 text-sm font-medium text-ink">
-                    {politicalCenter ?? 'Chưa có dữ liệu'}
+                    {administrativeCenter ?? 'Chưa có dữ liệu'}
                   </p>
                 </div>
               </div>
