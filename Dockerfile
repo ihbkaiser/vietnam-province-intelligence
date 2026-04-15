@@ -24,6 +24,9 @@ RUN cp -r src/data/realProvinceFeatures.json dist/data/ && \
     cp -r src/data/province_in4 dist/data/ && \
     cp -r src/data/tinhThanhVnProvinceReference.json dist/data/
 
+# Copy provinces_data vào đúng vị trí mà provinceInfo.ts expect (../../../provinces_data từ dist/data/)
+COPY provinces_data/Province_in4 /provinces_data/Province_in4
+
 # Copy frontend build vào backend để serve static
 COPY --from=frontend-build /app/frontend/dist ./public
 
