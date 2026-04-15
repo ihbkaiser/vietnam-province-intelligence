@@ -1,9 +1,12 @@
 import cors from 'cors';
 import express from 'express';
+import path from 'path';
+import { fileURLToPath } from 'url';
 import { provincesRouter } from './routes/provinces.js';
 import { resolverRouter } from './routes/resolver.js';
-// 1. Thêm import chatRouter (Nhớ để đuôi .js cho đồng bộ với dự án)
 import chatRouter from './routes/chat.js';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 export function createApp() {
   const app = express();
@@ -17,9 +20,14 @@ export function createApp() {
 
   app.use('/api/provinces', provincesRouter);
   app.use('/api', resolverRouter);
-  
-  // 2. Đăng ký luồng xử lý chat vào hệ thống
   app.use('/api', chatRouter);
+
+  // Serve frontend static files khi production
+  const publicDir = path.resolve(__dirname, '../public');
+  app.use(express.static(publicDir));
+  app.get('*', (_req, res) => {
+    res.sendFile(path.join(publicDir, 'index.html'));
+  });
 
   return app;
 }
