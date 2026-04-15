@@ -1,18 +1,42 @@
 import { Link } from 'react-router-dom';
-import type { ProvinceFeatureProperties } from '../types/admin';
+import type { ProvinceDisplayValue, ProvinceFeatureProperties } from '../types/admin';
 import { useProvinceDetail } from '../hooks/useProvinceDetail';
 
-function formatDisplayValue(value: number | string | null | undefined, suffix?: string) {
-  if (value == null || value === '') {
-    return 'Chưa có dữ liệu';
+function parseNumeric(value: ProvinceDisplayValue | undefined): number | null {
+  if (typeof value === 'number') return value;
+  if (typeof value !== 'string') return null;
+  const cleaned = value.trim().replace(/[^\d.,-]/g, '');
+  if (!cleaned) return null;
+  if (cleaned.includes('.') && cleaned.includes(',')) {
+    const parsed = Number(cleaned.replace(/\./g, '').replace(',', '.'));
+    return Number.isFinite(parsed) ? parsed : null;
   }
-
-  if (typeof value === 'number') {
-    const formatted = value.toLocaleString('vi-VN');
-    return suffix ? `${formatted} ${suffix}` : formatted;
+  if (cleaned.includes('.') && !cleaned.includes(',')) {
+    const parts = cleaned.split('.');
+    const parsed = parts.length > 1 && parts.slice(1).every((p) => p.length === 3)
+      ? Number(parts.join(''))
+      : Number(cleaned);
+    return Number.isFinite(parsed) ? parsed : null;
   }
+  if (cleaned.includes(',') && !cleaned.includes('.')) {
+    const parts = cleaned.split(',');
+    const parsed = parts.length > 1 && parts.slice(1).every((p) => p.length === 3)
+      ? Number(parts.join(''))
+      : Number(cleaned.replace(',', '.'));
+    return Number.isFinite(parsed) ? parsed : null;
+  }
+  const parsed = Number(cleaned);
+  return Number.isFinite(parsed) ? parsed : null;
+}
 
-  return value;
+function formatArea(value: number | null) {
+  if (value == null) return 'Chưa có dữ liệu';
+  return `${value.toLocaleString('vi-VN')} km²`;
+}
+
+function formatPopulation(value: number | null) {
+  if (value == null) return 'Chưa có dữ liệu';
+  return value.toLocaleString('vi-VN');
 }
 
 export function ProvinceInfoCard({
@@ -22,10 +46,13 @@ export function ProvinceInfoCard({
 }) {
   const { data, loading, error } = useProvinceDetail(province?.province_code);
   const info = data?.province_info ?? null;
-  const population = info?.population?.total?.value ?? null;
-  const area = info?.area?.total_km2?.value ?? null;
-  const rawCenter = data?.reference_snapshot?.administrative_center ?? null;
-  // Làm sạch "City, Province" → "TP. City" hoặc chỉ tên thành phố
+  const ref = data?.reference_snapshot ?? null;
+
+  // Ưu tiên reference_snapshot (đầy đủ hơn), fallback về province_info
+  const population = ref?.population ?? parseNumeric(info?.population?.total?.value);
+  const area = ref?.area_km2 ?? parseNumeric(info?.area?.total_km2?.value);
+
+  const rawCenter = ref?.administrative_center ?? null;
   const administrativeCenter = rawCenter
     ? rawCenter.replace(/\s*,\s*[^,]+$/, '').replace(/\s+City$/, '').trim() || rawCenter
     : null;
@@ -56,11 +83,11 @@ export function ProvinceInfoCard({
                 <div className="grid gap-3 sm:grid-cols-2">
                   <div className="rounded-2xl bg-white/80 p-3">
                     <p className="text-[11px] uppercase tracking-[0.2em] text-ink/45">Dân số</p>
-                    <p className="mt-2 text-base font-semibold text-ink">{formatDisplayValue(population)}</p>
+                    <p className="mt-2 text-base font-semibold text-ink">{formatPopulation(population)}</p>
                   </div>
                   <div className="rounded-2xl bg-white/80 p-3">
                     <p className="text-[11px] uppercase tracking-[0.2em] text-ink/45">Diện tích</p>
-                    <p className="mt-2 text-base font-semibold text-ink">{formatDisplayValue(area, 'km²')}</p>
+                    <p className="mt-2 text-base font-semibold text-ink">{formatArea(area)}</p>
                   </div>
                 </div>
                 <div className="rounded-2xl bg-white/85 p-4">
