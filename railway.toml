@@ -1,0 +1,6 @@
+[build]
+dockerfilePath = "Dockerfile"
+
+[deploy]
+startCommand = "node dist/server.js"
+healthcheckPath = "/api/health"
