@@ -15,7 +15,7 @@ export default defineConfig(function (_a) {
             'import.meta.env.VITE_OPENMAP_API_KEY': JSON.stringify((_c = (_b = env.VITE_OPENMAP_API_KEY) !== null && _b !== void 0 ? _b : env.OPENMAP_API_KEY) !== null && _c !== void 0 ? _c : '')
         },
         server: {
-            port: 5173,
+            port: 5174,
             proxy: {
                 '/api': {
                     target: 'http://localhost:8787',

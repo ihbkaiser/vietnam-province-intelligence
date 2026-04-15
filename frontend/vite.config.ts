@@ -14,8 +14,12 @@ export default defineConfig(({ mode }) => {
     define: {
       'import.meta.env.VITE_OPENMAP_API_KEY': JSON.stringify(env.VITE_OPENMAP_API_KEY ?? env.OPENMAP_API_KEY ?? '')
     },
+    resolve: {
+      // npm workspaces hoist packages lên root node_modules
+      modules: [path.resolve(currentDir, 'node_modules'), path.resolve(workspaceRoot, 'node_modules'), 'node_modules']
+    },
     server: {
-      port: 5173,
+      port: 5174,
       proxy: {
         '/api': {
           target: 'http://localhost:8787',

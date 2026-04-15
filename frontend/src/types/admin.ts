@@ -1,4 +1,4 @@
-import type { FeatureCollection, Polygon } from 'geojson';
+import type { FeatureCollection, MultiPolygon, Polygon } from 'geojson';
 
 export interface ProvinceFeatureProperties {
   province_id: string;
@@ -7,7 +7,7 @@ export interface ProvinceFeatureProperties {
   province_kind: 'province' | 'city';
 }
 
-export type ProvinceCollection = FeatureCollection<Polygon, ProvinceFeatureProperties>;
+export type ProvinceCollection = FeatureCollection<Polygon | MultiPolygon, ProvinceFeatureProperties>;
 
 export interface ProvinceInfoField<T> {
   value: T;
@@ -17,6 +17,58 @@ export interface ProvinceInfoField<T> {
 }
 
 export type ProvinceDisplayValue = string | number | null;
+
+export interface ProvinceReferenceSource {
+  name: string;
+  url: string;
+  terms_url?: string;
+  crawled_at: string;
+  note?: string;
+}
+
+export interface ProvinceReferenceUnit {
+  ward_order: number;
+  ward_name: string;
+  ward_code: string;
+  ward_type: string;
+  admin_center: string | null;
+  merger_from: string | null;
+  population: number | null;
+  area_km2: number | null;
+  density_per_km2: number | null;
+  ward_slug: string;
+  old_district: string | null;
+}
+
+export interface ProvinceReferenceSnapshot {
+  province_name: string;
+  province_name_full: string;
+  source_slug: string;
+  hero_image_url: string | null;
+  hero_image_alt: string | null;
+  province_code_text: string | null;
+  administrative_center: string | null;
+  phone_code: string | null;
+  vehicle_plates: string[];
+  region: string | null;
+  economic_region: string | null;
+  area_km2: number | null;
+  population: number | null;
+  total_ward: number | null;
+  total_commune: number | null;
+  total_unit: number | null;
+  border_with_provinces: string[];
+  overview_summary: string | null;
+  boundary_summary: string | null;
+  update_note: string | null;
+  secretary: string | null;
+  chairman: string | null;
+  grdp_billion_vnd: number | null;
+  income_per_capita_million_vnd: number | null;
+  revenue_billion_vnd: number | null;
+  units: ProvinceReferenceUnit[];
+  source: ProvinceReferenceSource;
+}
 
 export interface ProvinceAttraction {
   name: string;
@@ -28,6 +80,11 @@ export interface ProvinceAttraction {
 export interface ProvinceSpecialty {
   name: string;
   type: string;
+}
+
+export interface ProvinceEthnicGroup {
+  name: string;
+  percentage?: number | null;
 }
 
 export interface ProvinceInfo {
@@ -53,7 +110,7 @@ export interface ProvinceInfo {
   population?: {
     total?: ProvinceInfoField<ProvinceDisplayValue>;
     density_per_km2?: ProvinceInfoField<ProvinceDisplayValue>;
-    ethnic_groups?: ProvinceInfoField<string[]>;
+    ethnic_groups?: ProvinceInfoField<Array<string | ProvinceEthnicGroup>>;
   };
   economy?: {
     scale?: ProvinceInfoField<string | null>;
@@ -92,6 +149,7 @@ export interface ProvinceDetail extends ProvinceFeatureProperties {
   description: string;
   commune_count: number;
   province_info: ProvinceInfo | null;
+  reference_snapshot: ProvinceReferenceSnapshot | null;
 }
 
 export interface ProvinceSummary {

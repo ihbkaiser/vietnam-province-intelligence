@@ -3,6 +3,7 @@ import { loadProvinceGeoJson } from '../data/loaders.js';
 import { communeSeeds } from '../data/communeSeeds.js';
 import { getProvinceByCode } from '../services/crosswalk/provinceCrosswalk.js';
 import { loadProvinceInfo } from '../data/provinceInfo.js';
+import { loadProvinceReference } from '../data/tinhThanhVnReference.js';
 
 export const provincesRouter = Router();
 
@@ -20,10 +21,12 @@ provincesRouter.get('/:provinceCode', (request, response) => {
 
   const communeCount = communeSeeds.filter((commune) => commune.province_code === province.province_code).length;
   const province_info = loadProvinceInfo(province);
+  const reference_snapshot = loadProvinceReference(province);
 
   response.json({
     ...province,
     commune_count: communeCount,
-    province_info
+    province_info,
+    reference_snapshot
   });
 });

@@ -30,6 +30,58 @@ export interface ProvinceSummary extends ProvinceFeatureProperties {
   description: string;
 }
 
+export interface ProvinceReferenceSource {
+  name: string;
+  url: string;
+  terms_url?: string;
+  crawled_at: string;
+  note?: string;
+}
+
+export interface ProvinceReferenceUnit {
+  ward_order: number;
+  ward_name: string;
+  ward_code: string;
+  ward_type: string;
+  admin_center: string | null;
+  merger_from: string | null;
+  population: number | null;
+  area_km2: number | null;
+  density_per_km2: number | null;
+  ward_slug: string;
+  old_district: string | null;
+}
+
+export interface ProvinceReferenceSnapshot {
+  province_name: string;
+  province_name_full: string;
+  source_slug: string;
+  hero_image_url: string | null;
+  hero_image_alt: string | null;
+  province_code_text: string | null;
+  administrative_center: string | null;
+  phone_code: string | null;
+  vehicle_plates: string[];
+  region: string | null;
+  economic_region: string | null;
+  area_km2: number | null;
+  population: number | null;
+  total_ward: number | null;
+  total_commune: number | null;
+  total_unit: number | null;
+  border_with_provinces: string[];
+  overview_summary: string | null;
+  boundary_summary: string | null;
+  update_note: string | null;
+  secretary: string | null;
+  chairman: string | null;
+  grdp_billion_vnd: number | null;
+  income_per_capita_million_vnd: number | null;
+  revenue_billion_vnd: number | null;
+  units: ProvinceReferenceUnit[];
+  source: ProvinceReferenceSource;
+}
+
 export interface CommuneSeed {
   commune_code: string;
   commune_name: string;
