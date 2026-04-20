@@ -25,7 +25,7 @@ class FallbackReverseGeocodeProvider implements ReverseGeocodeProvider {
           ...fallbackResult.current,
           raw_payload: {
             ...fallbackResult.current.raw_payload,
-            fallback_reason: error instanceof Error ? error.message : 'unknown'
+            fallback_reason: error instanceof Error ? error.message : 'Không rõ nguyên nhân'
           }
         }
       };
@@ -50,9 +50,9 @@ resolverRouter.post('/resolve-admin-unit', async (request, response) => {
 
     const result = await resolveAdminUnit({ lat, lon }, provider);
     response.json(result);
-  } catch (error) {
+  } catch {
     response.status(400).json({
-      message: error instanceof Error ? error.message : 'Lỗi không xác định trong pipeline phân giải địa chỉ.'
+      message: 'Không thể tra cứu địa chỉ tại thời điểm này.'
     });
   }
 });
@@ -61,7 +61,7 @@ resolverRouter.post('/resolve-address', async (request, response) => {
   try {
     const apiKey = process.env.OPENMAP_API_KEY;
     if (!apiKey) {
-      response.status(503).json({ message: 'OPENMAP_API_KEY chưa được cấu hình.' });
+      response.status(503).json({ message: 'Dịch vụ bản đồ chưa được cấu hình.' });
       return;
     }
 
@@ -84,19 +84,19 @@ resolverRouter.post('/resolve-address', async (request, response) => {
         apiKey
       });
     } else {
-      response.status(400).json({ message: 'Cần có address_text hoặc legacy_province.' });
+      response.status(400).json({ message: 'Vui lòng nhập địa chỉ hoặc tỉnh/thành trước sắp xếp.' });
       return;
     }
 
     if (!result) {
-      response.status(404).json({ message: 'Không tìm thấy địa chỉ trên OpenMap.' });
+      response.status(404).json({ message: 'Không tìm thấy địa chỉ phù hợp.' });
       return;
     }
 
     response.json(result);
-  } catch (error) {
+  } catch {
     response.status(400).json({
-      message: error instanceof Error ? error.message : 'Lỗi không xác định khi chuyển đổi địa chỉ.'
+      message: 'Không thể chuyển đổi địa chỉ tại thời điểm này.'
     });
   }
 });

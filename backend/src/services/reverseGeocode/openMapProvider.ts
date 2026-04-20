@@ -113,7 +113,7 @@ export class OpenMapReverseGeocodeProvider implements ReverseGeocodeProvider {
     const response = await fetch(url);
 
     if (!response.ok) {
-      throw new Error(`OpenMap reverse geocode failed with status ${response.status}.`);
+      throw new Error(`Dịch vụ bản đồ trả về lỗi HTTP ${response.status}.`);
     }
 
     const payload = (await response.json()) as Record<string, unknown>;

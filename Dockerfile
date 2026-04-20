@@ -22,6 +22,7 @@ RUN npm run build
 # Copy JSON data files (tsc không copy file JSON sang dist)
 RUN cp -r src/data/realProvinceFeatures.json dist/data/ && \
     cp -r src/data/province_in4 dist/data/ && \
+    cp -r src/data/pdf dist/data/ && \
     cp -r src/data/tinhThanhVnProvinceReference.json dist/data/
 
 # Copy provinces_data vào đúng vị trí mà provinceInfo.ts expect (../../../provinces_data từ dist/data/)

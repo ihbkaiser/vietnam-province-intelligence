@@ -1,6 +1,6 @@
-# Vietnam Province Intelligence
+# VietGeoAI
 
-Vietnam Province Intelligence is a full-stack MVP for two focused workflows:
+VietGeoAI is a full-stack platform prototype for two focused workflows:
 
 1. An interactive map of Vietnam's 34 current province-level administrative units
 2. A lat/lon resolution pipeline that treats reverse geocoding as candidate input, then normalizes to canonical current output:
@@ -295,4 +295,3 @@ Important rule:
 - Commune data is synthetic and incomplete
 - The mock reverse geocoder only covers selected demo zones
 - No persistence layer is included in the MVP
-

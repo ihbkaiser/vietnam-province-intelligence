@@ -77,6 +77,18 @@ function provinceKindLabel(kind: 'province' | 'city') {
   return kind === 'city' ? 'Thành phố trực thuộc Trung ương' : 'Tỉnh';
 }
 
+function formatAdministrativeCenter(value: string | null | undefined) {
+  if (!value) return 'Chưa có dữ liệu';
+
+  const cleaned = value
+    .replace(/([^,]+?)\s+City\b/g, (_match, cityName: string) => `Thành phố ${cityName.trim()}`)
+    .replace(/\bTP\./g, 'TP')
+    .replace(/\s*,\s*$/, '')
+    .trim();
+
+  return cleaned || 'Chưa có dữ liệu';
+}
+
 function normalizeSearch(value: string) {
   return value
     .normalize('NFD')
@@ -94,7 +106,7 @@ function formatEthnicGroup(item: string | ProvinceEthnicGroup) {
 
 function SurfaceCard({ children, className = '' }: { children: ReactNode; className?: string }) {
   return (
-    <div className={`rounded-[2rem] border border-slate-200/70 bg-white/88 shadow-panel backdrop-blur ${className}`}>
+    <div className={`rounded-lg border border-slate-200 bg-white/92 shadow-panel backdrop-blur ${className}`}>
       {children}
     </div>
   );
@@ -114,7 +126,7 @@ function SectionTitle({
   return (
     <div className="mb-5 flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
       <div>
-        {eyebrow && <p className="text-xs uppercase tracking-[0.28em] text-tide/70">{eyebrow}</p>}
+        {eyebrow && <p className="text-xs font-semibold uppercase tracking-[0.2em] text-tide">{eyebrow}</p>}
         <h3 className="mt-2 font-display text-2xl font-semibold text-ink">{title}</h3>
         {subtitle && <p className="mt-2 max-w-3xl text-sm leading-6 text-ink/62">{subtitle}</p>}
       </div>
@@ -137,13 +149,13 @@ function Pill({
         ? 'bg-white/14 text-white border-white/20'
         : 'bg-sand/70 text-ink/70 border-sand';
 
-  return <span className={`rounded-full border px-3 py-1 text-xs font-medium ${className}`}>{children}</span>;
+  return <span className={`rounded-md border px-3 py-1 text-xs font-medium ${className}`}>{children}</span>;
 }
 
 function KpiCard({ label, value, note }: { label: string; value: string; note?: string }) {
   return (
-    <div className="rounded-[1.6rem] border border-slate-200 bg-white/80 p-4">
-      <p className="text-[11px] uppercase tracking-[0.24em] text-ink/45">{label}</p>
+    <div className="rounded-lg border border-slate-200 bg-white/90 p-4 shadow-soft">
+      <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-ink/45">{label}</p>
       <p className="mt-3 text-xl font-semibold text-ink">{value}</p>
       {note && <p className="mt-2 text-xs leading-5 text-ink/52">{note}</p>}
     </div>
@@ -198,13 +210,13 @@ function UnitCard({ unit }: { unit: ProvinceReferenceUnit }) {
   const typeColor = unit.ward_type === 'phường' ? 'text-coral' : 'text-tide';
 
   return (
-    <div className="rounded-[1.7rem] border border-slate-200 bg-white p-4 shadow-sm">
+    <div className="rounded-lg border border-slate-200 bg-white p-4 shadow-sm">
       <div className="flex items-start justify-between gap-3">
         <div>
           <p className={`text-sm font-semibold uppercase tracking-[0.18em] ${typeColor}`}>{unit.ward_type}</p>
           <h4 className="mt-1 text-lg font-semibold text-ink">{unit.ward_name}</h4>
         </div>
-        <span className="rounded-full bg-sand px-3 py-1 text-xs font-medium text-ink/65">Mã {unit.ward_code}</span>
+        <span className="rounded-md bg-sand px-3 py-1 text-xs font-medium text-ink/65">Mã {unit.ward_code}</span>
       </div>
 
       {unit.merger_from && (
@@ -220,16 +232,16 @@ function UnitCard({ unit }: { unit: ProvinceReferenceUnit }) {
       )}
 
       <div className="mt-4 grid gap-3 sm:grid-cols-3">
-        <div className="rounded-2xl bg-mist/50 px-3 py-3">
-          <p className="text-[11px] uppercase tracking-[0.18em] text-ink/45">Dân số</p>
+        <div className="rounded-lg border border-tide/10 bg-mist/50 px-3 py-3">
+          <p className="text-[11px] font-semibold uppercase tracking-[0.16em] text-ink/45">Dân số</p>
           <p className="mt-2 text-sm font-medium text-ink">{formatPopulation(unit.population)}</p>
         </div>
-        <div className="rounded-2xl bg-sand/70 px-3 py-3">
-          <p className="text-[11px] uppercase tracking-[0.18em] text-ink/45">Diện tích</p>
+        <div className="rounded-lg border border-slate-200 bg-sand px-3 py-3">
+          <p className="text-[11px] font-semibold uppercase tracking-[0.16em] text-ink/45">Diện tích</p>
           <p className="mt-2 text-sm font-medium text-ink">{formatArea(unit.area_km2)}</p>
         </div>
-        <div className="rounded-2xl bg-coral/8 px-3 py-3">
-          <p className="text-[11px] uppercase tracking-[0.18em] text-ink/45">Mật độ</p>
+        <div className="rounded-lg border border-coral/10 bg-coral/8 px-3 py-3">
+          <p className="text-[11px] font-semibold uppercase tracking-[0.16em] text-ink/45">Mật độ</p>
           <p className="mt-2 text-sm font-medium text-ink">{formatDensity(unit.density_per_km2)}</p>
         </div>
       </div>
@@ -256,7 +268,7 @@ function AttractionGrid({ items }: { items: ProvinceAttraction[] }) {
   return (
     <div className="grid gap-4 md:grid-cols-2">
       {items.map((item) => (
-        <div key={item.name} className="rounded-[1.6rem] border border-slate-200 bg-white p-4">
+        <div key={item.name} className="rounded-lg border border-slate-200 bg-white p-4">
           <p className="text-sm uppercase tracking-[0.18em] text-tide/80">{item.type}</p>
           <h4 className="mt-1 text-lg font-semibold text-ink">{item.name}</h4>
           {item.description && <p className="mt-2 text-sm leading-6 text-ink/62">{item.description}</p>}
@@ -272,7 +284,7 @@ function SpecialtyGrid({ items }: { items: ProvinceSpecialty[] }) {
   return (
     <div className="grid gap-3 sm:grid-cols-2">
       {items.map((item) => (
-        <div key={item.name} className="rounded-[1.4rem] border border-slate-200 bg-white px-4 py-3">
+        <div key={item.name} className="rounded-lg border border-slate-200 bg-white px-4 py-3">
           <p className="text-sm font-semibold text-ink">{item.name}</p>
           <p className="mt-1 text-xs uppercase tracking-[0.18em] text-ink/45">{item.type}</p>
         </div>
@@ -339,13 +351,16 @@ export function ProvinceDetailPage() {
       <div className="flex items-center">
         <Link
           to="/"
-          className="inline-flex items-center rounded-full border border-white/70 bg-white/75 px-4 py-2 text-sm text-ink shadow-panel transition hover:bg-white"
+          className="inline-flex items-center gap-2 rounded-lg border border-slate-200 bg-white/90 px-4 py-2 text-sm font-semibold text-ink shadow-soft transition hover:bg-white"
         >
+          <svg aria-hidden="true" className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
+            <path strokeLinecap="round" strokeLinejoin="round" d="M19 12H5M11 6l-6 6 6 6" />
+          </svg>
           Quay lại bản đồ
         </Link>
       </div>
 
-      <section className="relative overflow-hidden rounded-[2.7rem] border border-slate-200 bg-[#14324b] shadow-panel">
+      <section className="relative overflow-hidden rounded-lg border border-slate-200 bg-[#14324b] shadow-panel">
         {heroImage ? (
           <img
             src={heroImage}
@@ -356,16 +371,14 @@ export function ProvinceDetailPage() {
         <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(12,26,34,0.84)_0%,rgba(16,36,48,0.72)_42%,rgba(16,36,48,0.42)_64%,rgba(255,255,255,0.94)_100%)]" />
         <div className="absolute inset-x-0 bottom-0 h-28 bg-[linear-gradient(180deg,transparent,rgba(8,18,24,0.18))]" />
         <div className="grid gap-0 xl:grid-cols-[minmax(0,1.35fr)_380px]">
-          <div className="relative overflow-hidden px-7 py-8 text-white sm:px-9 sm:py-10">
-            <div className="absolute -left-12 top-10 h-28 w-28 rounded-full bg-white/10 blur-3xl" />
-            <div className="absolute right-14 top-6 h-36 w-36 rounded-full bg-coral/20 blur-3xl" />
+          <div className="relative overflow-hidden px-6 py-8 text-white sm:px-8 sm:py-10">
             <div className="relative z-10">
               <div className="flex flex-wrap gap-2">
                 <Pill tone="light">{provinceKindLabel(data.province_kind)}</Pill>
                 {reference?.economic_region && <Pill tone="light">{reference.economic_region}</Pill>}
               </div>
 
-              <p className="mt-6 text-xs uppercase tracking-[0.32em] text-white/70">Province Intelligence Profile</p>
+              <p className="mt-6 text-xs font-semibold uppercase tracking-[0.2em] text-white/70">Hồ sơ tỉnh thành</p>
               <h2 className="mt-3 font-display text-4xl font-semibold sm:text-5xl">{data.province_name}</h2>
               <p className="mt-3 max-w-2xl text-sm leading-7 text-white/82 sm:text-base">
                 {heroSummary}
@@ -378,17 +391,16 @@ export function ProvinceDetailPage() {
               </div>
 
               <div className="mt-8 grid gap-4 md:grid-cols-2">
-                <div className="rounded-[1.9rem] border border-white/15 bg-white/10 p-5 backdrop-blur">
-                  <p className="text-xs uppercase tracking-[0.22em] text-white/62">Tổng quan địa giới</p>
+                <div className="rounded-lg border border-white/15 bg-white/10 p-5 backdrop-blur">
+                  <p className="text-xs font-semibold uppercase tracking-[0.18em] text-white/62">Tổng quan địa giới</p>
                   <p className="mt-3 text-sm leading-6 text-white/84">
-                    {boundarySummary ?? 'Đang hiển thị hồ sơ hành chính, dân cư và cấu trúc đơn vị cấp xã/phường của tỉnh.'}
+                    {boundarySummary ?? 'Thông tin tổng quan về địa giới, dân cư và đơn vị hành chính của tỉnh/thành.'}
                   </p>
                 </div>
-                <div className="rounded-[1.9rem] border border-white/15 bg-white/10 p-5 backdrop-blur">
-                  <p className="text-xs uppercase tracking-[0.22em] text-white/62">Cấu trúc hiển thị</p>
+                <div className="rounded-lg border border-white/15 bg-white/10 p-5 backdrop-blur">
+                  <p className="text-xs font-semibold uppercase tracking-[0.18em] text-white/62">Thông tin nổi bật</p>
                   <p className="mt-3 text-sm leading-6 text-white/84">
-                    Hồ sơ đầu trang ưu tiên ảnh minh họa và cụm chỉ số chính; các khối bên dưới tiếp tục mở rộng sang địa giới,
-                    kinh tế, du lịch và danh sách đơn vị hành chính.
+                    Các chỉ số chính được sắp xếp để bạn nắm nhanh quy mô, vị trí và đặc điểm nổi bật của địa phương.
                   </p>
                 </div>
               </div>
@@ -398,8 +410,8 @@ export function ProvinceDetailPage() {
           <div className="bg-[linear-gradient(180deg,rgba(255,255,255,0.14),rgba(255,255,255,0.02))] px-6 py-7 sm:px-7">
             <ProvinceShapePreview feature={feature} provinceName={data.province_name} />
 
-            <div className="mt-5 rounded-[1.8rem] border border-white/30 bg-white/14 p-5 text-white backdrop-blur">
-              <DetailRow tone="light" label="Trung tâm hành chính" value={reference?.administrative_center ?? 'Chưa có dữ liệu'} />
+            <div className="mt-5 rounded-lg border border-white/30 bg-white/14 p-5 text-white backdrop-blur">
+              <DetailRow tone="light" label="Trung tâm hành chính" value={formatAdministrativeCenter(reference?.administrative_center)} />
               <DetailRow tone="light" label="Vùng" value={reference?.region ?? 'Chưa có dữ liệu'} />
               <DetailRow tone="light" label="Vùng kinh tế" value={reference?.economic_region ?? 'Chưa có dữ liệu'} />
               <DetailRow
@@ -426,15 +438,15 @@ export function ProvinceDetailPage() {
       <div className="grid gap-6 xl:grid-cols-[minmax(0,1.2fr)_420px]">
         <SurfaceCard className="p-6 sm:p-7">
           <SectionTitle
-            eyebrow="Overview"
+            eyebrow="Tổng quan"
             title="Tổng quan hành chính và địa lý"
-            subtitle="Khối này ưu tiên hồ sơ tóm tắt đầu trang, sau đó bù thêm dữ liệu chuyên sâu sẵn có trong repo."
+            subtitle="Các thông tin nền tảng giúp nhận diện vị trí, quy mô và liên kết vùng của địa phương."
           />
 
           <div className="grid gap-5 lg:grid-cols-2">
             <div className="space-y-4">
-              <div className="rounded-[1.7rem] bg-sand/70 p-5">
-                <p className="text-xs uppercase tracking-[0.22em] text-ink/45">Biên giới hành chính</p>
+              <div className="rounded-lg border border-slate-200 bg-sand p-5">
+                <p className="text-xs font-semibold uppercase tracking-[0.18em] text-ink/45">Biên giới hành chính</p>
                 <div className="mt-3 space-y-3">
                   <div>
                     <p className="mb-2 text-sm font-medium text-ink">Giáp tỉnh/thành</p>
@@ -449,8 +461,8 @@ export function ProvinceDetailPage() {
                 </div>
               </div>
 
-              <div className="rounded-[1.7rem] bg-mist/55 p-5">
-                <p className="text-xs uppercase tracking-[0.22em] text-ink/45">Tỉnh/thành trước khi sắp xếp</p>
+              <div className="rounded-lg border border-tide/10 bg-mist/55 p-5">
+                <p className="text-xs font-semibold uppercase tracking-[0.18em] text-ink/45">Tỉnh/thành trước khi sắp xếp</p>
                 <div className="mt-3">
                   <TagCloud items={formerProvinces} />
                 </div>
@@ -467,7 +479,7 @@ export function ProvinceDetailPage() {
                   <DetailRow label="Mã hành chính" value={adminCode} />
                   <DetailRow label="Mã vùng điện thoại" value={reference?.phone_code ?? 'Chưa có dữ liệu'} />
                   <DetailRow label="Biển số xe" value={reference?.vehicle_plates?.length ? reference.vehicle_plates.join(', ') : 'Chưa có dữ liệu'} />
-                  <DetailRow label="Trung tâm hành chính" value={reference?.administrative_center ?? 'Chưa có dữ liệu'} />
+                  <DetailRow label="Trung tâm hành chính" value={formatAdministrativeCenter(reference?.administrative_center)} />
                 </div>
               </SurfaceCard>
 
@@ -483,29 +495,29 @@ export function ProvinceDetailPage() {
 
         <SurfaceCard className="p-6">
           <SectionTitle
-            eyebrow="Highlights"
+            eyebrow="Điểm nhấn"
             title="Điểm nhấn hồ sơ"
-            subtitle="Một cụm tóm tắt nhanh để người xem nắm được vị trí, quy mô và nhịp vận hành của tỉnh/thành."
+            subtitle="Tóm tắt nhanh những thông tin người xem thường cần trước khi đi vào chi tiết."
           />
           <div className="space-y-4">
-            <div className="rounded-[1.6rem] bg-slate-50 p-4">
-              <p className="text-xs uppercase tracking-[0.22em] text-ink/45">Nhịp hành chính</p>
+            <div className="rounded-lg border border-slate-200 bg-slate-50 p-4">
+              <p className="text-xs font-semibold uppercase tracking-[0.18em] text-ink/45">Nhịp hành chính</p>
               <p className="mt-2 text-base font-semibold text-ink">
                 {totalUnits != null ? `${formatNumber(totalUnits)} đơn vị cấp xã/phường` : 'Chưa có dữ liệu'}
               </p>
               <p className="mt-2 text-sm leading-6 text-ink/62">
                 {reference?.administrative_center
-                  ? `Trung tâm hành chính hiện tại đặt tại ${reference.administrative_center}.`
+                  ? `Trung tâm hành chính hiện tại đặt tại ${formatAdministrativeCenter(reference.administrative_center)}.`
                   : 'Thông tin trung tâm hành chính sẽ được bổ sung khi có dữ liệu phù hợp.'}
               </p>
             </div>
-            <div className="rounded-[1.6rem] bg-sand/70 p-4">
-              <p className="text-xs uppercase tracking-[0.22em] text-ink/45">Cập nhật hồ sơ</p>
+            <div className="rounded-lg border border-slate-200 bg-sand p-4">
+              <p className="text-xs font-semibold uppercase tracking-[0.18em] text-ink/45">Cập nhật hồ sơ</p>
               <p className="mt-2 text-base font-semibold text-ink">
-                {reference?.update_note ? 'Đã đồng bộ nội dung tóm tắt' : 'Hồ sơ nền đã sẵn sàng'}
+                {reference?.update_note ? 'Đã cập nhật thông tin chính' : 'Hồ sơ đã sẵn sàng'}
               </p>
               <p className="mt-2 text-sm leading-6 text-ink/62">
-                {reference?.update_note ?? 'Khối hiển thị đang dùng ảnh minh họa, chỉ số chính và explorer đơn vị hành chính.'}
+                {reference?.update_note ?? 'Bạn có thể xem nhanh chỉ số chính, địa giới và danh sách đơn vị hành chính bên dưới.'}
               </p>
             </div>
           </div>
@@ -514,16 +526,16 @@ export function ProvinceDetailPage() {
 
       <SurfaceCard className="p-6 sm:p-7">
           <SectionTitle
-            eyebrow="Administrative Explorer"
+            eyebrow="Đơn vị hành chính"
             title="Tra cứu xã, phường và đơn vị sau sắp xếp"
             subtitle={
               referenceUnits.length
-              ? `Đang hiển thị ${formatNumber(filteredUnits.length)} / ${formatNumber(referenceUnits.length)} đơn vị hành chính trong hồ sơ hiện tại.`
-              : 'Nếu chưa có snapshot đầy đủ, phần này sẽ rơi về danh sách đơn vị từ nguồn nội bộ.'
+              ? `Đang hiển thị ${formatNumber(filteredUnits.length)} / ${formatNumber(referenceUnits.length)} đơn vị hành chính.`
+              : 'Danh sách đơn vị hành chính sẽ được bổ sung khi có dữ liệu đầy đủ.'
             }
           action={
             referenceUnits.length ? (
-              <div className="rounded-full bg-sand px-4 py-2 text-sm font-medium text-ink/72">
+              <div className="rounded-lg border border-slate-200 bg-sand px-4 py-2 text-sm font-medium text-ink/72">
                 {formatNumber(referenceUnits.filter((unit) => unit.ward_type === 'xã').length)} xã •{' '}
                 {formatNumber(referenceUnits.filter((unit) => unit.ward_type === 'phường').length)} phường
               </div>
@@ -540,7 +552,7 @@ export function ProvinceDetailPage() {
                   value={query}
                   onChange={(event) => setQuery(event.target.value)}
                   placeholder="Tên đơn vị, mã, trụ sở hoặc thông tin sáp nhập"
-                  className="w-full rounded-2xl border border-slate-200 bg-white px-4 py-3 text-sm text-ink outline-none transition focus:border-tide"
+                  className="app-input w-full rounded-lg px-4 py-3 text-sm"
                 />
               </label>
 
@@ -550,7 +562,7 @@ export function ProvinceDetailPage() {
                   <button
                     type="button"
                     onClick={() => setUnitFilter('all')}
-                    className={`rounded-full px-4 py-2 text-sm transition ${
+                    className={`rounded-lg px-4 py-2 text-sm font-medium transition ${
                       unitFilter === 'all' ? 'bg-ink text-white' : 'bg-sand text-ink/70'
                     }`}
                   >
@@ -561,7 +573,7 @@ export function ProvinceDetailPage() {
                       key={type}
                       type="button"
                       onClick={() => setUnitFilter(type)}
-                      className={`rounded-full px-4 py-2 text-sm capitalize transition ${
+                      className={`rounded-lg px-4 py-2 text-sm font-medium capitalize transition ${
                         unitFilter === type ? 'bg-tide text-white' : 'bg-sand text-ink/70'
                       }`}
                     >
@@ -579,14 +591,14 @@ export function ProvinceDetailPage() {
                 ))}
               </div>
             ) : (
-              <div className="rounded-[1.8rem] border border-dashed border-slate-300 bg-slate-50 px-6 py-10 text-center text-sm text-ink/52">
+              <div className="rounded-lg border border-dashed border-slate-300 bg-slate-50 px-6 py-10 text-center text-sm text-ink/52">
                 Không có đơn vị nào khớp với bộ lọc hiện tại.
               </div>
             )}
           </>
         ) : (
-          <div className="rounded-[1.8rem] border border-dashed border-slate-300 bg-slate-50 px-6 py-10">
-            <p className="text-center text-sm text-ink/52">Chưa có snapshot đầy đủ cho tỉnh này.</p>
+          <div className="rounded-lg border border-dashed border-slate-300 bg-slate-50 px-6 py-10">
+            <p className="text-center text-sm text-ink/52">Chưa có danh sách chi tiết cho tỉnh/thành này.</p>
             {info?.administrative_structure?.wards_communes_list?.value?.length ? (
               <div className="mt-5">
                 <TagCloud items={info.administrative_structure.wards_communes_list.value} />
@@ -599,21 +611,21 @@ export function ProvinceDetailPage() {
       <div className="grid gap-6 xl:grid-cols-2">
         <SurfaceCard className="p-6">
           <SectionTitle
-            eyebrow="Economy"
+            eyebrow="Kinh tế"
             title="Kinh tế, dân cư và ngành chủ lực"
-            subtitle="Kết hợp chỉ số tóm tắt và dữ liệu mô tả có sẵn trong repo."
+            subtitle="Các chỉ số và mô tả giúp hình dung quy mô kinh tế, dân cư và ngành thế mạnh."
           />
           <div className="grid gap-4 md:grid-cols-2">
-            <div className="rounded-[1.7rem] bg-sand/70 p-5">
-              <p className="text-xs uppercase tracking-[0.22em] text-ink/45">Chỉ số kinh tế</p>
+            <div className="rounded-lg border border-slate-200 bg-sand p-5">
+              <p className="text-xs font-semibold uppercase tracking-[0.18em] text-ink/45">Chỉ số kinh tế</p>
               <div className="mt-4 space-y-3">
                 <DetailRow label="GRDP" value={formatCurrencyBillion(reference?.grdp_billion_vnd ?? null)} />
                 <DetailRow label="Thu nhập bình quân" value={formatIncome(reference?.income_per_capita_million_vnd ?? null)} />
                 <DetailRow label="Thu ngân sách / doanh thu" value={formatCurrencyBillion(reference?.revenue_billion_vnd ?? null)} />
               </div>
             </div>
-            <div className="rounded-[1.7rem] bg-mist/55 p-5">
-              <p className="text-xs uppercase tracking-[0.22em] text-ink/45">Diễn giải địa phương</p>
+            <div className="rounded-lg border border-tide/10 bg-mist/55 p-5">
+              <p className="text-xs font-semibold uppercase tracking-[0.18em] text-ink/45">Diễn giải địa phương</p>
               <p className="mt-3 text-sm leading-6 text-ink/62">{info?.economy?.scale?.value ?? 'Chưa có mô tả.'}</p>
             </div>
           </div>
@@ -626,9 +638,9 @@ export function ProvinceDetailPage() {
 
         <SurfaceCard className="p-6">
           <SectionTitle
-            eyebrow="Culture"
+            eyebrow="Văn hóa"
             title="Du lịch, đặc sản và lễ hội"
-            subtitle="Giữ nguyên mạch dữ liệu chuyên sâu sẵn có trong repo nhưng hiển thị lại bằng layout mới."
+            subtitle="Những điểm đến, sản phẩm địa phương và hoạt động văn hóa tiêu biểu."
           />
           <div className="space-y-5">
             <AttractionGrid items={attractions} />
@@ -640,7 +652,7 @@ export function ProvinceDetailPage() {
 
       <div className="grid gap-6 xl:grid-cols-2">
         <DataList title="Hạ tầng và kết nối" items={infrastructure} />
-        <DataList title="Nguồn nội bộ và láng giềng biên giới" items={[...borderWithProvinces, ...countryBorders]} />
+        <DataList title="Tỉnh thành và quốc gia tiếp giáp" items={[...borderWithProvinces, ...countryBorders]} />
       </div>
     </div>
   );

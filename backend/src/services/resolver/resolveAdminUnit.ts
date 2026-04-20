@@ -33,19 +33,19 @@ const EMPTY_LEGACY: ParsedLegacyAddress = {
 
 function validateCoordinates(input: ResolveAdminUnitRequest) {
   if (typeof input.lat !== 'number' || Number.isNaN(input.lat)) {
-    throw new Error('`lat` must be a valid number.');
+    throw new Error('Vĩ độ phải là số hợp lệ.');
   }
 
   if (typeof input.lon !== 'number' || Number.isNaN(input.lon)) {
-    throw new Error('`lon` must be a valid number.');
+    throw new Error('Kinh độ phải là số hợp lệ.');
   }
 
   if (input.lat < -90 || input.lat > 90) {
-    throw new Error('`lat` must be between -90 and 90.');
+    throw new Error('Vĩ độ phải nằm trong khoảng từ -90 đến 90.');
   }
 
   if (input.lon < -180 || input.lon > 180) {
-    throw new Error('`lon` must be between -180 and 180.');
+    throw new Error('Kinh độ phải nằm trong khoảng từ -180 đến 180.');
   }
 }
 

@@ -64,7 +64,7 @@ export function HomePage() {
     } catch (err) {
       if (latestLookupRequestRef.current !== requestId) return;
       setLookupResult(null);
-      setLookupError(err instanceof Error ? err.message : 'Không thể tra cứu địa chỉ tại điểm vừa bấm.');
+      setLookupError(err instanceof Error ? err.message : 'Không thể tra cứu địa chỉ tại vị trí này.');
     } finally {
       if (latestLookupRequestRef.current === requestId) {
         setLookupLoading(false);
@@ -73,7 +73,7 @@ export function HomePage() {
   };
 
   if (loading) {
-    return <LoadingState label="Đang tải polygon tỉnh/thành..." />;
+    return <LoadingState label="Đang tải bản đồ tỉnh thành..." />;
   }
 
   if (error || !data) {
@@ -81,8 +81,23 @@ export function HomePage() {
   }
 
   return (
-    <div className="space-y-8">
-      <div className="grid gap-6 xl:grid-cols-[minmax(0,1.7fr)_420px]">
+    <div className="space-y-5">
+      <section className="grid gap-3 md:grid-cols-3">
+        <div className="rounded-lg border border-slate-200 bg-white/90 p-4 shadow-soft">
+          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-tide">Bản đồ số</p>
+          <p className="mt-2 text-sm leading-6 text-ink/65">Chọn tỉnh/thành trực tiếp trên bản đồ Việt Nam.</p>
+        </div>
+        <div className="rounded-lg border border-slate-200 bg-white/90 p-4 shadow-soft">
+          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-tide">Tra cứu điểm</p>
+          <p className="mt-2 text-sm leading-6 text-ink/65">Chọn một vị trí để xem địa chỉ hiện tại và địa chỉ trước sắp xếp.</p>
+        </div>
+        <div className="rounded-lg border border-slate-200 bg-white/90 p-4 shadow-soft">
+          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-tide">AI địa phương</p>
+          <p className="mt-2 text-sm leading-6 text-ink/65">Đặt câu hỏi về địa lý, dân cư, kinh tế và văn hóa địa phương.</p>
+        </div>
+      </section>
+
+      <div className="grid gap-5 xl:grid-cols-[minmax(0,1.65fr)_400px]">
         <div className="space-y-6">
           <VietnamMap
             provinces={data}
@@ -91,20 +106,24 @@ export function HomePage() {
             onSelectLocation={handleMapLocation}
             clickHint={
               mapLookupEnabled
-                ? 'Bấm vào bản đồ để chọn tỉnh và tra địa chỉ cũ/mới tại điểm đó'
-                : 'Bấm vào bản đồ để chọn tỉnh; bật nút tra cứu nếu muốn xem địa chỉ cũ/mới'
+                ? 'Chọn một điểm trên bản đồ để xem địa chỉ mới và địa chỉ trước sắp xếp'
+                : 'Chọn tỉnh trên bản đồ hoặc bật tra cứu điểm để xem địa chỉ tại một vị trí'
             }
             overlayAction={
               <button
                 type="button"
                 onClick={handleToggleMapLookup}
-                className={`w-fit rounded-full px-4 py-2 text-xs font-medium uppercase tracking-[0.18em] shadow-panel backdrop-blur transition ${
+                className={`inline-flex w-fit items-center gap-2 rounded-lg px-3.5 py-2 text-sm font-semibold shadow-soft backdrop-blur transition ${
                   mapLookupEnabled
                     ? 'bg-ink text-white hover:bg-tide'
-                    : 'bg-white/90 text-ink/70 hover:bg-white'
+                    : 'bg-white/95 text-ink/72 hover:bg-white hover:text-ink'
                 }`}
               >
-                {mapLookupEnabled ? 'Đang bật tra cứu điểm bấm' : 'Bật tra địa chỉ cũ/mới'}
+                <svg aria-hidden="true" className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 21s7-5.1 7-11a7 7 0 1 0-14 0c0 5.9 7 11 7 11Z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 10h.01" />
+                </svg>
+                {mapLookupEnabled ? 'Đang bật tra cứu' : 'Tra cứu theo vị trí'}
               </button>
             }
           />

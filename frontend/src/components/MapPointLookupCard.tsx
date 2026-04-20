@@ -20,41 +20,42 @@ export function MapPointLookupCard({
 }: MapPointLookupCardProps) {
   return (
     <div className="space-y-4">
-      <div className="rounded-[2rem] border border-white/70 bg-white/70 p-6 shadow-panel backdrop-blur">
+      <div className="rounded-lg border border-slate-200 bg-white/92 p-5 shadow-panel backdrop-blur">
         <div className="flex flex-wrap items-start justify-between gap-3">
           <div>
-            <p className="text-xs uppercase tracking-[0.24em] text-tide">Tra cứu tại điểm bấm</p>
-            <h2 className="mt-2 font-display text-2xl font-semibold text-ink">Địa chỉ cũ và địa chỉ mới</h2>
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-tide">Tra cứu vị trí</p>
+            <h2 className="mt-2 font-display text-xl font-semibold text-ink">Tra cứu địa chỉ theo vị trí</h2>
             <p className="mt-2 text-sm leading-6 text-ink/60">
-              Bật chế độ này rồi bấm vào bản đồ để xem địa chỉ cũ, địa chỉ mới và đơn vị hành chính hiện tại ngay tại vị trí đó.
+              Bật chế độ này rồi chọn một điểm trên bản đồ để xem địa chỉ hiện tại và địa chỉ trước sắp xếp.
             </p>
           </div>
           <button
             type="button"
             onClick={onToggle}
-            className={`rounded-full px-4 py-2 text-sm font-medium transition ${
-              enabled ? 'bg-ink text-white hover:bg-tide' : 'bg-sand text-ink/70 hover:bg-white'
+            className={`inline-flex items-center gap-2 rounded-lg px-3.5 py-2 text-sm font-semibold transition ${
+              enabled ? 'bg-ink text-white hover:bg-tide' : 'border border-slate-200 bg-sand text-ink/70 hover:bg-white hover:text-ink'
             }`}
           >
-            {enabled ? 'Tắt chế độ bấm tra cứu' : 'Bật bấm để tra cứu'}
+            <span className={`h-2 w-2 rounded-full ${enabled ? 'bg-emerald-300' : 'bg-slate-400'}`} />
+            {enabled ? 'Tắt tra cứu vị trí' : 'Bật tra cứu vị trí'}
           </button>
         </div>
 
-        <div className="mt-4 rounded-[1.5rem] border border-white/60 bg-gradient-to-br from-white/95 via-sand/80 to-mist/80 p-4 text-sm text-ink/70 shadow-[0_20px_40px_rgba(15,23,42,0.08)]">
+        <div className="mt-4 rounded-lg border border-slate-200 bg-sand p-4 text-sm text-ink/70">
           {loading ? (
-            <p>Đang phân giải địa chỉ từ điểm vừa bấm...</p>
+            <p>Đang tìm địa chỉ cho vị trí vừa chọn...</p>
           ) : error ? (
             <p className="text-coral">{error}</p>
           ) : selectedPoint ? (
             <div className="space-y-2">
-              <p className="text-[11px] uppercase tracking-[0.2em] text-ink/45">Điểm vừa chọn</p>
+              <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-ink/45">Vị trí vừa chọn</p>
               <p className="font-medium text-ink">
                 {selectedPoint.lat.toFixed(6)}, {selectedPoint.lon.toFixed(6)}
               </p>
-              {!result && enabled && <p className="text-ink/55">Bấm tiếp trên bản đồ để lấy kết quả địa chỉ tại vị trí khác.</p>}
+              {!result && enabled && <p className="text-ink/55">Chọn tiếp trên bản đồ để tra cứu vị trí khác.</p>}
             </div>
           ) : (
-            <p>{enabled ? 'Bấm một điểm trên bản đồ để bắt đầu tra cứu.' : 'Chưa bật chế độ tra cứu trên bản đồ.'}</p>
+            <p>{enabled ? 'Chọn một điểm trên bản đồ để bắt đầu tra cứu.' : 'Bật tra cứu vị trí để xem địa chỉ tại điểm bạn chọn.'}</p>
           )}
         </div>
       </div>
@@ -63,8 +64,8 @@ export function MapPointLookupCard({
         result={result}
         emptyMessage={
           enabled
-            ? 'Bấm lên bản đồ để xem địa chỉ cũ, địa chỉ mới và đơn vị hành chính hiện tại của điểm đó.'
-            : 'Bật chế độ tra cứu trên bản đồ để khi bấm vào một điểm, hệ thống sẽ hiện địa chỉ cũ và địa chỉ mới.'
+            ? 'Chọn một điểm trên bản đồ để xem địa chỉ hiện tại và địa chỉ trước sắp xếp.'
+            : 'Bật tra cứu vị trí để hệ thống hiển thị địa chỉ tại điểm bạn chọn.'
         }
       />
     </div>

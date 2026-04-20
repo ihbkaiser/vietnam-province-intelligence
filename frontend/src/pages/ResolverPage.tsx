@@ -28,7 +28,7 @@ function AddressCard({
   badge?: { label: string; className: string };
 }) {
   return (
-    <div className="flex flex-col gap-4 rounded-[2rem] border border-white/70 bg-white/75 p-6 shadow-panel backdrop-blur">
+    <div className="flex flex-col gap-4 rounded-lg border border-slate-200 bg-white/92 p-5 shadow-panel backdrop-blur">
       <div className="flex items-start justify-between gap-3">
         <div>
           <p className="text-xs uppercase tracking-[0.24em] text-tide">{subtitle}</p>
@@ -42,7 +42,7 @@ function AddressCard({
       </div>
 
       {parts.formatted_address && (
-        <p className="rounded-2xl bg-mist/70 px-4 py-3 text-sm font-medium text-ink break-words">
+        <p className="break-words rounded-lg border border-tide/15 bg-mist/70 px-4 py-3 text-sm font-medium text-ink">
           {parts.formatted_address}
         </p>
       )}
@@ -118,22 +118,22 @@ export function ResolverPage() {
   };
 
   return (
-    <div className="mx-auto max-w-4xl space-y-6">
+    <div className="mx-auto max-w-5xl space-y-5">
       <form
         onSubmit={handleSubmit}
-        className="rounded-[2rem] border border-white/70 bg-white/70 p-6 shadow-panel backdrop-blur"
+        className="rounded-lg border border-slate-200 bg-white/92 p-5 shadow-panel backdrop-blur sm:p-6"
       >
-        <h1 className="font-display text-2xl font-semibold text-ink">Chuyển đổi địa chỉ cũ sang mới</h1>
+        <p className="text-xs font-semibold uppercase tracking-[0.2em] text-tide">Công cụ chuyển đổi</p>
+        <h1 className="mt-2 font-display text-2xl font-semibold text-ink">Chuyển đổi địa chỉ cũ sang mới</h1>
         <p className="mt-1 text-sm text-ink/55">
-          Nhập địa chỉ cũ (63 tỉnh/thành trước 12/6/2025) để tra địa chỉ mới (34 tỉnh/thành) qua OpenMap admin_v2.
+          Nhập địa chỉ trước sắp xếp để xem địa chỉ hành chính hiện tại.
         </p>
 
-        {/* Mode toggle */}
-        <div className="mt-5 flex gap-1 rounded-2xl bg-sand/60 p-1 w-fit">
+        <div className="mt-5 flex w-fit gap-1 rounded-lg border border-slate-200 bg-sand p-1">
           <button
             type="button"
             onClick={() => switchMode('structured')}
-            className={`rounded-xl px-4 py-2 text-sm font-medium transition ${
+            className={`rounded-md px-4 py-2 text-sm font-semibold transition ${
               mode === 'structured'
                 ? 'bg-white text-ink shadow-sm'
                 : 'text-ink/50 hover:text-ink'
@@ -144,7 +144,7 @@ export function ResolverPage() {
           <button
             type="button"
             onClick={() => switchMode('freetext')}
-            className={`rounded-xl px-4 py-2 text-sm font-medium transition ${
+            className={`rounded-md px-4 py-2 text-sm font-semibold transition ${
               mode === 'freetext'
                 ? 'bg-white text-ink shadow-sm'
                 : 'text-ink/50 hover:text-ink'
@@ -154,10 +154,9 @@ export function ResolverPage() {
           </button>
         </div>
 
-        {/* Structured input */}
         {mode === 'structured' && (
           <div className="mt-5 space-y-4">
-            <div className="flex flex-wrap items-end gap-3">
+            <div className="grid gap-3 md:grid-cols-[1fr_1fr_1fr_auto] md:items-end">
               <label className="flex flex-col gap-1.5">
                 <span className="text-sm font-medium text-ink">
                   Tỉnh / Thành phố cũ <span className="text-coral">*</span>
@@ -167,7 +166,7 @@ export function ResolverPage() {
                   value={province}
                   onChange={(e) => setProvince(e.target.value)}
                   placeholder="vd: Bình Dương"
-                  className="w-48 rounded-2xl border border-ink/10 bg-sand/70 px-4 py-3 text-sm text-ink outline-none transition focus:border-tide"
+                  className="app-input w-full rounded-lg px-4 py-3 text-sm"
                 />
               </label>
 
@@ -177,7 +176,7 @@ export function ResolverPage() {
                   value={district}
                   onChange={(e) => setDistrict(e.target.value)}
                   placeholder="vd: Thủ Dầu Một"
-                  className="w-48 rounded-2xl border border-ink/10 bg-sand/70 px-4 py-3 text-sm text-ink outline-none transition focus:border-tide"
+                  className="app-input w-full rounded-lg px-4 py-3 text-sm"
                 />
               </label>
 
@@ -187,21 +186,24 @@ export function ResolverPage() {
                   value={commune}
                   onChange={(e) => setCommune(e.target.value)}
                   placeholder="vd: Phú Hòa"
-                  className="w-48 rounded-2xl border border-ink/10 bg-sand/70 px-4 py-3 text-sm text-ink outline-none transition focus:border-tide"
+                  className="app-input w-full rounded-lg px-4 py-3 text-sm"
                 />
               </label>
 
               <button
                 type="submit"
                 disabled={loading || !canSubmit}
-                className="rounded-full bg-ink px-6 py-3 text-sm font-medium text-white transition hover:bg-tide disabled:cursor-not-allowed disabled:opacity-60"
+                className="inline-flex h-[46px] items-center justify-center gap-2 rounded-lg bg-ink px-5 text-sm font-semibold text-white transition hover:bg-tide disabled:cursor-not-allowed disabled:opacity-60"
               >
+                <svg aria-hidden="true" className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M7 7h11l-3-3M17 17H6l3 3" />
+                </svg>
                 {loading ? 'Đang tra...' : 'Chuyển đổi'}
               </button>
             </div>
 
-            <p className="text-xs text-ink/40">
-              Ví dụ nhanh:{' '}
+            <p className="flex flex-wrap items-center gap-2 text-xs text-ink/45">
+              <span>Ví dụ nhanh:</span>
               {STRUCTURED_EXAMPLES.map((ex) => (
                 <button
                   key={ex.label}
@@ -213,7 +215,7 @@ export function ResolverPage() {
                     setResult(null);
                     setError(null);
                   }}
-                  className="mr-2 underline underline-offset-2 transition hover:text-tide"
+                  className="rounded-md border border-slate-200 bg-white px-2.5 py-1 transition hover:border-tide/35 hover:text-tide"
                 >
                   {ex.label}
                 </button>
@@ -222,10 +224,9 @@ export function ResolverPage() {
           </div>
         )}
 
-        {/* Free text input */}
         {mode === 'freetext' && (
           <div className="mt-5 space-y-4">
-            <div className="flex flex-wrap items-end gap-3">
+            <div className="grid gap-3 md:grid-cols-[1fr_auto] md:items-end">
               <label className="flex flex-col gap-1.5 flex-1 min-w-64">
                 <span className="text-sm font-medium text-ink">
                   Địa chỉ cũ <span className="text-coral">*</span>
@@ -235,21 +236,24 @@ export function ResolverPage() {
                   value={addressText}
                   onChange={(e) => setAddressText(e.target.value)}
                   placeholder="vd: 134 Phú Lợi, phường Phú Hòa, Thủ Dầu Một, Bình Dương"
-                  className="rounded-2xl border border-ink/10 bg-sand/70 px-4 py-3 text-sm text-ink outline-none transition focus:border-tide"
+                  className="app-input rounded-lg px-4 py-3 text-sm"
                 />
               </label>
 
               <button
                 type="submit"
                 disabled={loading || !canSubmit}
-                className="rounded-full bg-ink px-6 py-3 text-sm font-medium text-white transition hover:bg-tide disabled:cursor-not-allowed disabled:opacity-60"
+                className="inline-flex h-[46px] items-center justify-center gap-2 rounded-lg bg-ink px-5 text-sm font-semibold text-white transition hover:bg-tide disabled:cursor-not-allowed disabled:opacity-60"
               >
+                <svg aria-hidden="true" className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M7 7h11l-3-3M17 17H6l3 3" />
+                </svg>
                 {loading ? 'Đang tra...' : 'Chuyển đổi'}
               </button>
             </div>
 
-            <p className="text-xs text-ink/40">
-              Ví dụ nhanh:{' '}
+            <p className="flex flex-wrap items-center gap-2 text-xs text-ink/45">
+              <span>Ví dụ nhanh:</span>
               {FREETEXT_EXAMPLES.map((ex) => (
                 <button
                   key={ex}
@@ -259,7 +263,7 @@ export function ResolverPage() {
                     setResult(null);
                     setError(null);
                   }}
-                  className="mr-2 underline underline-offset-2 transition hover:text-tide"
+                  className="rounded-md border border-slate-200 bg-white px-2.5 py-1 transition hover:border-tide/35 hover:text-tide"
                 >
                   {ex.length > 40 ? ex.slice(0, 38) + '…' : ex}
                 </button>
@@ -274,17 +278,17 @@ export function ResolverPage() {
       {result && (
         <div className="grid gap-4 md:grid-cols-2">
           <AddressCard
-            title="Địa chỉ cũ"
-            subtitle="Trước 12/6/2025 · 3 cấp"
+            title="Địa chỉ trước sắp xếp"
+            subtitle="Thông tin bạn đã nhập"
             parts={result.old_address}
           />
           <AddressCard
-            title="Địa chỉ mới"
-            subtitle="Sau 12/6/2025 · 2 cấp"
+            title="Địa chỉ hiện tại"
+            subtitle="Kết quả sau chuyển đổi"
             parts={result.new_address}
             badge={
               result.found
-                ? { label: 'OpenMap admin_v2', className: 'bg-emerald-100 text-emerald-700' }
+                ? { label: 'Đã tìm thấy', className: 'bg-emerald-100 text-emerald-700' }
                 : { label: 'Không tìm thấy', className: 'bg-rose-100 text-rose-700' }
             }
           />

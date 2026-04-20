@@ -3,11 +3,9 @@
 @tailwind utilities;
 
 :root {
-  color: #102430;
+  color: #17202a;
   background:
-    radial-gradient(circle at top left, rgba(220, 127, 95, 0.16), transparent 30%),
-    radial-gradient(circle at top right, rgba(15, 109, 112, 0.18), transparent 34%),
-    linear-gradient(180deg, #fbf7ef 0%, #f6efe2 100%);
+    linear-gradient(180deg, #f8fbfd 0%, #eef4f7 48%, #f7f9fb 100%);
 }
 
 body {
@@ -15,6 +13,7 @@ body {
   min-width: 320px;
   min-height: 100vh;
   font-family: "IBM Plex Sans", system-ui, sans-serif;
+  font-feature-settings: "ss01" on, "cv01" on;
 }
 
 #root {
@@ -23,9 +22,31 @@ body {
 
 .map-shell {
   background-image:
-    linear-gradient(135deg, rgba(255, 255, 255, 0.55), rgba(255, 255, 255, 0.08)),
-    linear-gradient(rgba(16, 36, 48, 0.06) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(16, 36, 48, 0.06) 1px, transparent 1px);
-  background-size: auto, 24px 24px, 24px 24px;
+    linear-gradient(135deg, rgba(255, 255, 255, 0.72), rgba(255, 255, 255, 0.18)),
+    linear-gradient(rgba(23, 32, 42, 0.055) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(23, 32, 42, 0.055) 1px, transparent 1px);
+  background-size: auto, 28px 28px, 28px 28px;
 }
 
+::selection {
+  background: rgba(0, 122, 120, 0.18);
+}
+
+.app-surface {
+  border: 1px solid rgba(203, 213, 225, 0.82);
+  background: rgba(255, 255, 255, 0.88);
+  box-shadow: 0 14px 36px rgba(23, 32, 42, 0.10);
+  backdrop-filter: blur(18px);
+}
+
+.app-input {
+  border: 1px solid rgba(148, 163, 184, 0.45);
+  background: #f8fafc;
+  color: #17202a;
+}
+
+.app-input:focus {
+  border-color: #007a78;
+  box-shadow: 0 0 0 3px rgba(0, 122, 120, 0.12);
+  outline: none;
+}

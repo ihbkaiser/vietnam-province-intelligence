@@ -3,8 +3,7 @@ import { Layout } from './components/Layout';
 import { HomePage } from './pages/HomePage';
 import { ProvinceDetailPage } from './pages/ProvinceDetailPage';
 import { ResolverPage } from './pages/ResolverPage';
-// 1. Import ChatBox (Đảm bảo đường dẫn này đúng với nơi bạn vừa tạo file)
-import ChatBox from './components/ChatBox'; 
+import ChatBox from './components/ChatBox';
 
 export default function App() {
   return (
@@ -21,4 +20,3 @@ export default function App() {
     </>
   );
 }
-

@@ -81,13 +81,13 @@ export class NominatimReverseGeocodeProvider implements ReverseGeocodeProvider {
     });
 
     if (!response.ok) {
-      throw new Error(`Nominatim reverse geocode thất bại: HTTP ${response.status}`);
+      throw new Error(`Dịch vụ bản đồ trả về lỗi HTTP ${response.status}.`);
     }
 
     const payload = (await response.json()) as NominatimResponse;
 
     if (payload.error) {
-      throw new Error(`Nominatim trả lỗi: ${payload.error}`);
+      throw new Error(`Dịch vụ bản đồ trả về lỗi: ${payload.error}`);
     }
 
     const address = payload.address ?? {};

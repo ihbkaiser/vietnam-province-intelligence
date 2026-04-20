@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "tsx watch --env-file .env src/server.ts",
-    "build": "tsc -p tsconfig.json && cp -r src/data/realProvinceFeatures.json dist/data/ && cp -r src/data/province_in4 dist/data/ && cp src/data/tinhThanhVnProvinceReference.json dist/data/",
+    "build": "tsc -p tsconfig.json && cp -r src/data/realProvinceFeatures.json dist/data/ && cp -r src/data/province_in4 dist/data/ && cp -r src/data/pdf dist/data/ && cp src/data/tinhThanhVnProvinceReference.json dist/data/",
     "start": "node --env-file .env dist/server.js",
     "lint": "tsc --noEmit -p tsconfig.json"
   },

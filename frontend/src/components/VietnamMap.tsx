@@ -22,11 +22,11 @@ interface VietnamMapProps {
   clickHint?: string;
 }
 
-const PROVINCE_DEFAULT = '#9fc7c7';
-const PROVINCE_SELECTED = '#dc7f5f';
-const PROVINCE_BORDER = '#fdfaf4';
-const PROVINCE_LABEL = '#17393a';
-const PROVINCE_LABEL_HALO = 'rgba(253, 250, 244, 0.92)';
+const PROVINCE_DEFAULT = '#86c8c3';
+const PROVINCE_SELECTED = '#e25f3f';
+const PROVINCE_BORDER = '#ffffff';
+const PROVINCE_LABEL = '#17202a';
+const PROVINCE_LABEL_HALO = 'rgba(255, 255, 255, 0.94)';
 const OPENMAP_STYLE_URL = 'https://maptiles.openmap.vn/styles/day-v1/style.json';
 const PROVINCE_SOURCE_ID = 'province-polygons';
 const PROVINCE_LABEL_SOURCE_ID = 'province-label-points';
@@ -164,7 +164,7 @@ function addOrUpdateProvinceLayers(
       layout: {
         'text-field': ['get', 'province_name'],
         'text-font': ['Noto Sans Regular', 'Arial Unicode MS Regular'],
-        'text-size': 11,
+        'text-size': 11.5,
         'text-max-width': 8,
         'text-justify': 'center',
         'text-anchor': 'center',
@@ -173,7 +173,7 @@ function addOrUpdateProvinceLayers(
       paint: {
         'text-color': PROVINCE_LABEL,
         'text-halo-color': PROVINCE_LABEL_HALO,
-        'text-halo-width': 1.2
+        'text-halo-width': 1.4
       }
     });
 
@@ -280,17 +280,17 @@ function OpenMapVietnamMap({
   }, [provinces, selectedProvinceCode]);
 
   return (
-    <div className="map-shell relative overflow-hidden rounded-[2rem] border border-white/70 shadow-panel">
-      <div className="absolute left-4 top-4 z-[1000] flex max-w-[calc(100%-2rem)] flex-col gap-2">
+    <div className="map-shell relative overflow-hidden rounded-lg border border-slate-200 shadow-panel">
+      <div className="absolute left-3 top-3 z-[1000] flex max-w-[calc(100%-1.5rem)] flex-col gap-2 sm:left-4 sm:top-4">
         {overlayAction}
-        <div className="rounded-full bg-white/85 px-4 py-2 text-xs uppercase tracking-[0.18em] text-ink/65 backdrop-blur">
-          {clickHint ?? 'Bấm vào bản đồ để lấy `lat`, `lon`'}
+        <div className="rounded-lg border border-slate-200 bg-white/92 px-3.5 py-2 text-xs font-medium text-ink/68 shadow-soft backdrop-blur">
+          {clickHint ?? 'Chọn một điểm trên bản đồ để tra cứu'}
         </div>
       </div>
-      <div className="absolute bottom-4 left-4 z-[1000] rounded-full bg-white/85 px-4 py-2 text-[11px] uppercase tracking-[0.18em] text-ink/55 backdrop-blur">
-        OpenMap
+      <div className="absolute bottom-3 left-3 z-[1000] rounded-lg border border-slate-200 bg-white/90 px-3 py-1.5 text-[11px] font-semibold uppercase tracking-[0.16em] text-ink/50 backdrop-blur sm:bottom-4 sm:left-4">
+        Bản đồ số
       </div>
-      <div ref={mapContainerRef} className="h-[520px] w-full" />
+      <div ref={mapContainerRef} className="h-[560px] w-full min-h-[520px]" />
     </div>
   );
 }
@@ -377,12 +377,12 @@ function LeafletFallbackMap({ provinces, selectedProvinceCode, onSelectProvince 
   }, [provinces, selectedProvinceCode, onSelectProvince]);
 
   return (
-    <div className="map-shell relative overflow-hidden rounded-[2rem] border border-white/70 shadow-panel">
-      <div className="absolute left-4 top-4 z-[1000] rounded-full bg-white/85 px-4 py-2 text-xs uppercase tracking-[0.18em] text-ink/65 backdrop-blur">
-        Bấm vào bản đồ để lấy `lat`, `lon`
+    <div className="map-shell relative overflow-hidden rounded-lg border border-slate-200 shadow-panel">
+      <div className="absolute left-3 top-3 z-[1000] rounded-lg border border-slate-200 bg-white/92 px-3.5 py-2 text-xs font-medium text-ink/68 shadow-soft backdrop-blur sm:left-4 sm:top-4">
+        Chọn một điểm trên bản đồ để tra cứu
       </div>
-      <div className="absolute bottom-4 left-4 z-[1000] rounded-full bg-white/85 px-4 py-2 text-[11px] uppercase tracking-[0.18em] text-ink/55 backdrop-blur">
-        OpenStreetMap fallback
+      <div className="absolute bottom-3 left-3 z-[1000] rounded-lg border border-slate-200 bg-white/90 px-3 py-1.5 text-[11px] font-semibold uppercase tracking-[0.16em] text-ink/50 backdrop-blur sm:bottom-4 sm:left-4">
+        Bản đồ nền
       </div>
       <style>{`
         .province-map-label {
@@ -405,7 +405,7 @@ function LeafletFallbackMap({ provinces, selectedProvinceCode, onSelectProvince 
           white-space: normal;
         }
       `}</style>
-      <div ref={mapContainerRef} className="h-[520px] w-full" />
+      <div ref={mapContainerRef} className="h-[560px] w-full min-h-[520px]" />
     </div>
   );
 }

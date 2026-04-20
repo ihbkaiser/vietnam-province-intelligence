@@ -17,10 +17,31 @@ interface ProvinceReferenceFile {
 
 const currentDir = path.dirname(fileURLToPath(import.meta.url));
 const DATA_PATH = path.join(currentDir, 'tinhThanhVnProvinceReference.json');
+const SOURCE_NOTE_VIETNAMESE = 'Nguồn tham chiếu công khai đã được chuẩn hóa để phục vụ hiển thị trong hệ thống.';
 
 function loadReferenceFile() {
   const raw = readFileSync(DATA_PATH, 'utf8');
   return JSON.parse(raw) as ProvinceReferenceFile;
+}
+
+function vietnamizeDisplayText(value: string | null): string | null {
+  if (!value) return value;
+
+  return value
+    .replace(/([^,]+?)\s+City\b/g, (_match, cityName: string) => `Thành phố ${cityName.trim()}`)
+    .replace(/\bTP\./g, 'TP')
+    .replace(/\bPublic reference snapshot transformed into an internal schema with attribution\./g, SOURCE_NOTE_VIETNAMESE);
+}
+
+function normalizeSnapshotForDisplay(snapshot: ProvinceReferenceSnapshot): ProvinceReferenceSnapshot {
+  return {
+    ...snapshot,
+    administrative_center: vietnamizeDisplayText(snapshot.administrative_center),
+    source: {
+      ...snapshot.source,
+      note: vietnamizeDisplayText(snapshot.source.note ?? null) ?? snapshot.source.note
+    }
+  };
 }
 
 function buildReferenceLookup() {
@@ -74,7 +95,7 @@ export function loadProvinceReference(
   for (const key of buildCandidateKeys(province)) {
     const snapshot = provinceReferenceLookup.get(key);
     if (snapshot) {
-      return snapshot;
+      return normalizeSnapshotForDisplay(snapshot);
     }
   }
 

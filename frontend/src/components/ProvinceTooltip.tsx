@@ -20,7 +20,7 @@ function formatValue(value: number | string | null | undefined, suffix?: string)
 
 export function ProvinceTooltip({ provinceName, population, areaKm2, loading }: ProvinceTooltipProps) {
   return (
-    <div className="pointer-events-none rounded-2xl border border-white/70 bg-ink px-4 py-3 text-xs text-white shadow-panel">
+    <div className="pointer-events-none rounded-lg border border-white/15 bg-ink px-4 py-3 text-xs text-white shadow-panel">
       <p className="font-display text-sm font-semibold">{provinceName}</p>
       <div className="mt-2 space-y-1 text-white/80">
         <p>Dân số: {loading ? 'Đang tải...' : formatValue(population)}</p>

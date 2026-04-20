@@ -4,5 +4,5 @@ const port = Number(process.env.PORT ?? 8787);
 const app = createApp();
 
 app.listen(port, () => {
-  console.log(`Vietnam Province Intelligence backend listening on http://localhost:${port}`);
+  console.log(`VietGeoAI backend listening on http://localhost:${port}`);
 });

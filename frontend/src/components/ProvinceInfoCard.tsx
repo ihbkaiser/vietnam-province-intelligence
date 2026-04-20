@@ -48,32 +48,39 @@ export function ProvinceInfoCard({
   const info = data?.province_info ?? null;
   const ref = data?.reference_snapshot ?? null;
 
-  // Ưu tiên reference_snapshot (đầy đủ hơn), fallback về province_info
+  // Ưu tiên nguồn tham chiếu đầy đủ hơn, sau đó dùng hồ sơ tỉnh có sẵn.
   const population = ref?.population ?? parseNumeric(info?.population?.total?.value);
   const area = ref?.area_km2 ?? parseNumeric(info?.area?.total_km2?.value);
 
   const rawCenter = ref?.administrative_center ?? null;
   const administrativeCenter = rawCenter
-    ? rawCenter.replace(/\s*,\s*[^,]+$/, '').replace(/\s+City$/, '').trim() || rawCenter
+    ? rawCenter
+        .replace(/([^,]+?)\s+City\b/g, (_match, cityName: string) => `Thành phố ${cityName.trim()}`)
+        .replace(/\bTP\./g, 'TP')
+        .replace(/\s*,\s*[^,]+$/, '')
+        .trim() || rawCenter
     : null;
 
   return (
-    <div className="rounded-[2rem] border border-white/70 bg-white/70 p-6 shadow-panel backdrop-blur">
-      <p className="text-xs uppercase tracking-[0.24em] text-tide">Tỉnh đang chọn</p>
+    <div className="rounded-lg border border-slate-200 bg-white/92 p-5 shadow-panel backdrop-blur">
+      <p className="text-xs font-semibold uppercase tracking-[0.2em] text-tide">Tỉnh đang chọn</p>
       {province ? (
-        <div className="mt-4 space-y-5">
+        <div className="mt-4 space-y-4">
           <div>
             <h2 className="font-display text-2xl font-semibold text-ink">{province.province_name}</h2>
           </div>
           <div className="flex flex-wrap gap-3">
             <Link
               to={`/province/${province.province_code}`}
-              className="inline-flex items-center gap-2 rounded-full bg-ink px-4 py-2 text-sm text-white shadow-soft transition hover:bg-tide"
+              className="inline-flex items-center gap-2 rounded-lg bg-ink px-4 py-2.5 text-sm font-semibold text-white shadow-soft transition hover:bg-tide"
             >
+              <svg aria-hidden="true" className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M5 12h14M13 6l6 6-6 6" />
+              </svg>
               Xem thông tin chi tiết
             </Link>
           </div>
-          <div className="rounded-[1.5rem] border border-white/60 bg-gradient-to-br from-white/95 via-sand/80 to-mist/80 p-4 text-sm text-ink/70 shadow-[0_20px_40px_rgba(15,23,42,0.08)]">
+          <div className="rounded-lg border border-slate-200 bg-sand p-4 text-sm text-ink/70">
             {loading ? (
               <p>Đang tải dữ liệu...</p>
             ) : error ? (
@@ -81,17 +88,17 @@ export function ProvinceInfoCard({
             ) : (
               <div className="space-y-4">
                 <div className="grid gap-3 sm:grid-cols-2">
-                  <div className="rounded-2xl bg-white/80 p-3">
-                    <p className="text-[11px] uppercase tracking-[0.2em] text-ink/45">Dân số</p>
+                  <div className="rounded-lg border border-slate-200 bg-white p-3">
+                    <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-ink/45">Dân số</p>
                     <p className="mt-2 text-base font-semibold text-ink">{formatPopulation(population)}</p>
                   </div>
-                  <div className="rounded-2xl bg-white/80 p-3">
-                    <p className="text-[11px] uppercase tracking-[0.2em] text-ink/45">Diện tích</p>
+                  <div className="rounded-lg border border-slate-200 bg-white p-3">
+                    <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-ink/45">Diện tích</p>
                     <p className="mt-2 text-base font-semibold text-ink">{formatArea(area)}</p>
                   </div>
                 </div>
-                <div className="rounded-2xl bg-white/85 p-4">
-                  <p className="text-[11px] uppercase tracking-[0.2em] text-ink/45">Trung tâm hành chính</p>
+                <div className="rounded-lg border border-slate-200 bg-white p-4">
+                  <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-ink/45">Trung tâm hành chính</p>
                   <p className="mt-2 text-sm font-medium text-ink">
                     {administrativeCenter ?? 'Chưa có dữ liệu'}
                   </p>
@@ -101,8 +108,8 @@ export function ProvinceInfoCard({
           </div>
         </div>
       ) : (
-        <div className="mt-4 rounded-2xl border border-dashed border-ink/15 bg-sand/80 p-5 text-sm text-ink/65">
-          Bấm vào một vùng trên bản đồ để xem thông tin tỉnh/thành.
+        <div className="mt-4 rounded-lg border border-dashed border-slate-300 bg-sand p-5 text-sm leading-6 text-ink/65">
+          Chọn một vùng trên bản đồ để xem thông tin tỉnh/thành.
         </div>
       )}
     </div>
