@@ -23,7 +23,8 @@ RUN npm run build
 RUN cp -r src/data/realProvinceFeatures.json dist/data/ && \
     cp -r src/data/province_in4 dist/data/ && \
     cp -r src/data/pdf dist/data/ && \
-    cp -r src/data/tinhThanhVnProvinceReference.json dist/data/
+    cp -r src/data/tinhThanhVnProvinceReference.json dist/data/ && \
+    cp -r src/data/questionBank.json dist/data/
 
 # Copy provinces_data vào đúng vị trí mà provinceInfo.ts expect (../../../provinces_data từ dist/data/)
 COPY provinces_data/Province_in4 /provinces_data/Province_in4
