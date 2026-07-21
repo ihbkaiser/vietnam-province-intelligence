@@ -11,12 +11,14 @@ services:
       - /app/node_modules    # Giữ lại thư viện riêng trong Docker, không bị ghi đè
     environment:
       - NODE_ENV=development
+    env_file:
+      - .env
 
   # --- Dịch vụ số 2: Giao diện Frontend ---
   frontend:
     build: ./frontend       # Tìm file Dockerfile trong thư mục frontend để build
     ports:
-      - "5173:5173"         # Kết nối cổng 5173 (Vite) ra ngoài trình duyệt
+      - "5174:5174"         # Kết nối cổng 5174 (Vite) ra ngoài trình duyệt
     volumes:
       - ./frontend:/app     # Đồng bộ code giao diện thời gian thực
       - /app/node_modules

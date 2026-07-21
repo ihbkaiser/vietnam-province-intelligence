@@ -5,6 +5,7 @@ import { fileURLToPath } from 'url';
 import { provincesRouter } from './routes/provinces.js';
 import { resolverRouter } from './routes/resolver.js';
 import chatRouter from './routes/chat.js';
+import { quizRouter } from './routes/quiz.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -21,6 +22,7 @@ export function createApp() {
   app.use('/api/provinces', provincesRouter);
   app.use('/api', resolverRouter);
   app.use('/api', chatRouter);
+  app.use('/api', quizRouter);
 
   // Serve frontend static files khi production
   const publicDir = path.resolve(__dirname, '../public');

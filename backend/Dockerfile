@@ -18,4 +18,4 @@ COPY . .
 EXPOSE 8787
 
 # 7. Lệnh khởi chạy: Dùng 'npm run dev' để code tự cập nhật khi bạn sửa
-CMD ["npm", "run", "dev"]
+CMD ["npm", "run", "dev:docker"]

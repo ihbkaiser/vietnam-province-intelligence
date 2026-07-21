@@ -6,6 +6,7 @@ VietGeoAI is a full-stack platform prototype for two focused workflows:
 2. A lat/lon resolution pipeline that treats reverse geocoding as candidate input, then normalizes to canonical current output:
    - current commune-level unit
    - current province-level unit
+3. A multiple-choice question bank and quiz mode with server-side scoring
 
 The app is intentionally structured so mock data can be swapped later for:
 
@@ -164,6 +165,16 @@ Response shape:
 }
 ```
 
+### Multiple-choice quiz
+
+- `GET /api/questions`: list the question bank and available categories
+- `POST /api/questions`: add a validated multiple-choice question
+- `DELETE /api/questions/:questionId`: remove a question
+- `GET /api/quiz?count=5&category=Địa lý&difficulty=easy`: generate a random quiz without exposing answers
+- `POST /api/quiz/submit`: score a set of answers and return explanations
+
+The question bank is stored in `backend/src/data/questionBank.json` in development. Set `QUESTION_BANK_PATH` to use another persistent JSON location.
+
 ## Setup
 
 ### 1. Install dependencies
@@ -182,7 +193,7 @@ npm run dev
 
 This starts:
 
-- frontend on `http://localhost:5173`
+- frontend on `http://localhost:5174`
 - backend on `http://localhost:8787`
 
 ### 3. Production build
@@ -279,6 +290,7 @@ Important rule:
 - `/`: interactive province map + selection card
 - `/province/:provinceCode`: province detail placeholder
 - `/resolver`: lat/lon resolution form + result panel
+- `/quiz`: question bank management + interactive quiz
 
 ## Notes for production hardening
 

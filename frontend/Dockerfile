@@ -13,9 +13,9 @@ RUN npm install
 # 5. Copy toàn bộ code giao diện vào
 COPY . .
 
-# 6. Mở cổng 5173 (Cổng mặc định của Vite)
-EXPOSE 5173
+# 6. Mở cổng 5174 (được cấu hình trong vite.config.ts)
+EXPOSE 5174
 
 # 7. Lệnh chạy: Cực kỳ quan trọng phải có thêm "-- --host"
-# Nếu không có nó, Docker sẽ chạy nhưng bạn vào localhost:5173 sẽ bị trắng trang
+# Nếu không có nó, Docker sẽ chạy nhưng bạn vào localhost:5174 sẽ bị trắng trang
 CMD ["npm", "run", "dev", "--", "--host"]

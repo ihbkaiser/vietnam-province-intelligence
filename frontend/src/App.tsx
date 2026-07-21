@@ -4,6 +4,7 @@ import { HomePage } from './pages/HomePage';
 import { ProvinceDetailPage } from './pages/ProvinceDetailPage';
 import { ResolverPage } from './pages/ResolverPage';
 import ChatBox from './components/ChatBox';
+import { QuizPage } from './pages/QuizPage';
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/province/:provinceCode" element={<ProvinceDetailPage />} />
           <Route path="/resolver" element={<ResolverPage />} />
+          <Route path="/quiz" element={<QuizPage />} />
         </Route>
       </Routes>
       

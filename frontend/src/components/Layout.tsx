@@ -24,6 +24,15 @@ function SwapIcon() {
   );
 }
 
+function QuizIcon() {
+  return (
+    <svg aria-hidden="true" className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
+      <path strokeLinecap="round" strokeLinejoin="round" d="M7 4h10a2 2 0 0 1 2 2v14l-7-3-7 3V6a2 2 0 0 1 2-2Z" />
+      <path strokeLinecap="round" strokeLinejoin="round" d="M9.5 9a2.5 2.5 0 1 1 3.5 2.3c-.65.3-1 .7-1 1.2M12 14.8h.01" />
+    </svg>
+  );
+}
+
 export function Layout() {
   return (
     <div className="min-h-screen px-4 py-4 sm:px-6 lg:px-8">
@@ -55,6 +64,10 @@ export function Layout() {
               <NavLink to="/resolver" className={navClassName}>
                 <SwapIcon />
                 Chuyển đổi địa chỉ
+              </NavLink>
+              <NavLink to="/quiz" className={navClassName}>
+                <QuizIcon />
+                Trắc nghiệm
               </NavLink>
             </nav>
           </div>

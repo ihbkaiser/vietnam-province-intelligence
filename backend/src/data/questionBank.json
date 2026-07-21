@@ -1,0 +1,83 @@
+[
+  {
+    "id": "vinh-ha-long",
+    "prompt": "Vịnh Hạ Long thuộc tỉnh nào?",
+    "options": ["Quảng Ninh", "Hải Phòng", "Thanh Hóa", "Khánh Hòa"],
+    "correctOptionIndex": 0,
+    "category": "Du lịch",
+    "difficulty": "easy",
+    "explanation": "Vịnh Hạ Long nằm ở tỉnh Quảng Ninh và là một trong những điểm du lịch nổi tiếng nhất Việt Nam.",
+    "createdAt": "2026-07-20T00:00:00.000Z"
+  },
+  {
+    "id": "thu-do-viet-nam",
+    "prompt": "Thủ đô của Việt Nam là thành phố nào?",
+    "options": ["Huế", "Hà Nội", "Đà Nẵng", "Thành phố Hồ Chí Minh"],
+    "correctOptionIndex": 1,
+    "category": "Hành chính",
+    "difficulty": "easy",
+    "explanation": "Hà Nội là thủ đô và là một thành phố trực thuộc trung ương của Việt Nam.",
+    "createdAt": "2026-07-20T00:00:00.000Z"
+  },
+  {
+    "id": "cuc-nam-dat-lien",
+    "prompt": "Điểm cực Nam trên đất liền của Việt Nam nằm ở tỉnh nào?",
+    "options": ["An Giang", "Cà Mau", "Đồng Tháp", "Vĩnh Long"],
+    "correctOptionIndex": 1,
+    "category": "Địa lý",
+    "difficulty": "easy",
+    "explanation": "Mũi Cà Mau thuộc tỉnh Cà Mau là khu vực cực Nam trên đất liền của Việt Nam.",
+    "createdAt": "2026-07-20T00:00:00.000Z"
+  },
+  {
+    "id": "song-huong",
+    "prompt": "Dòng sông nào gắn liền với thành phố Huế?",
+    "options": ["Sông Hồng", "Sông Hương", "Sông Thu Bồn", "Sông Đồng Nai"],
+    "correctOptionIndex": 1,
+    "category": "Văn hóa",
+    "difficulty": "easy",
+    "explanation": "Sông Hương chảy qua trung tâm Huế và là một biểu tượng văn hóa, cảnh quan của thành phố.",
+    "createdAt": "2026-07-20T00:00:00.000Z"
+  },
+  {
+    "id": "da-lat",
+    "prompt": "Thành phố Đà Lạt thuộc tỉnh nào?",
+    "options": ["Đắk Lắk", "Gia Lai", "Lâm Đồng", "Khánh Hòa"],
+    "correctOptionIndex": 2,
+    "category": "Địa lý",
+    "difficulty": "easy",
+    "explanation": "Đà Lạt là đô thị cao nguyên nổi tiếng thuộc tỉnh Lâm Đồng.",
+    "createdAt": "2026-07-20T00:00:00.000Z"
+  },
+  {
+    "id": "pho-co-hoi-an",
+    "prompt": "Theo cơ cấu 34 đơn vị cấp tỉnh, phố cổ Hội An hiện thuộc đơn vị nào?",
+    "options": ["Thành phố Đà Nẵng", "Tỉnh Quảng Ngãi", "Thành phố Huế", "Tỉnh Gia Lai"],
+    "correctOptionIndex": 0,
+    "category": "Hành chính",
+    "difficulty": "medium",
+    "explanation": "Sau sắp xếp cấp tỉnh năm 2025, Quảng Nam và Đà Nẵng hợp nhất thành thành phố Đà Nẵng.",
+    "createdAt": "2026-07-20T00:00:00.000Z"
+  },
+  {
+    "id": "phu-quoc",
+    "prompt": "Theo cơ cấu 34 đơn vị cấp tỉnh, Phú Quốc hiện thuộc tỉnh nào?",
+    "options": ["Cà Mau", "An Giang", "Vĩnh Long", "Đồng Tháp"],
+    "correctOptionIndex": 1,
+    "category": "Hành chính",
+    "difficulty": "medium",
+    "explanation": "Sau sắp xếp cấp tỉnh năm 2025, Kiên Giang và An Giang hợp nhất thành tỉnh An Giang.",
+    "createdAt": "2026-07-20T00:00:00.000Z"
+  },
+  {
+    "id": "di-san-trang-an",
+    "prompt": "Quần thể danh thắng Tràng An thuộc tỉnh nào?",
+    "options": ["Ninh Bình", "Thanh Hóa", "Phú Thọ", "Bắc Ninh"],
+    "correctOptionIndex": 0,
+    "category": "Du lịch",
+    "difficulty": "medium",
+    "explanation": "Quần thể danh thắng Tràng An nằm tại Ninh Bình, nổi bật với cảnh quan karst và các di tích văn hóa.",
+    "createdAt": "2026-07-20T00:00:00.000Z"
+  }
+]
+
