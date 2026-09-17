@@ -1,309 +1,108 @@
-# VietGeoAI
+# GeoHist AI
 
-VietGeoAI is a full-stack platform prototype for two focused workflows:
+GeoHist AI is an AI-powered teaching platform for History and Geography. The main application runs on port `3020` and helps teachers turn their own lesson materials into grounded learning experiences: RAG-based Q&A, summaries, flashcards, quizzes, assignments, and student results.
 
-1. An interactive map of Vietnam's 34 current province-level administrative units
-2. A lat/lon resolution pipeline that treats reverse geocoding as candidate input, then normalizes to canonical current output:
-   - current commune-level unit
-   - current province-level unit
-3. A multiple-choice question bank and quiz mode with server-side scoring
+The repository also includes VietGeoAI, a geospatial module for exploring Vietnam's province-level units, resolving latitude/longitude to current administrative units, normalizing legacy addresses, and looking up geographic and tourism information.
 
-The app is intentionally structured so mock data can be swapped later for:
+## What the system does
 
-- official province polygons
-- official commune polygons
-- real reverse geocoding providers
-- real legacy-to-current crosswalk datasets
+- **Teacher workspace:** create classes, manage students, upload teaching materials, organize lessons, and review learning activity.
+- **RAG learning assistant:** answer questions using indexed classroom materials, with filters for class, subject, lesson, and grade level.
+- **AI content generation:** generate quiz drafts, multiple-choice questions, flashcards, summaries, and revision material; teachers can edit and approve generated content before publishing.
+- **Assessment workflow:** publish quizzes to a class, collect submissions, calculate scores, show explanations, and retain student results.
+- **VietGeoAI:** display Vietnam's 34 province-level units, resolve coordinates and addresses, crosswalk legacy administrative names, and expose province information.
+- **Role-based access:** separate Admin, Teacher, and Student experiences with session-based authentication.
 
-Important date note:
+## Architecture
 
-- Province names in this repo follow Vietnam's 34 province-level administrative structure effective June 12, 2025.
-- The included GeoJSON geometries are stylized mock bounding boxes, not official boundaries.
-- The included commune seeds and legacy crosswalks are mock examples designed to exercise the resolver architecture.
+The repository is organized as several cooperating services:
 
-## Stack
+| Service | Port | Purpose |
+| --- | ---: | --- |
+| `edugeo-ai` | `3020` | Main Next.js application, UI, authentication, classes, documents, quizzes, RAG actions, and proxy routes |
+| `notebooklm` | `8020` | Local document indexing and RAG generation for answers, quizzes, flashcards, and summaries |
+| `backend` | `8787` | VietGeoAI Express service for maps, administrative resolution, address lookup, chat, and legacy quiz APIs |
 
-- Frontend: React, TypeScript, Vite, React Router, Tailwind CSS, react-simple-maps
-- Backend: Node.js, Express, TypeScript
-- Geospatial utilities: Turf.js
-- Data: local TypeScript seed files exporting GeoJSON-compatible objects
+The EduGeo launcher checks the health of NotebookLM and VietGeoAI and starts available services automatically. If the external RAG service is unavailable, the application falls back to deterministic local responses so the UI remains usable during development.
 
-## Project structure
+## Tech stack
 
-```text
-.
-├── backend
-│   ├── src
-│   │   ├── data
-│   │   ├── routes
-│   │   ├── services
-│   │   │   ├── crosswalk
-│   │   │   ├── geo
-│   │   │   ├── normalize
-│   │   │   ├── resolver
-│   │   │   └── reverseGeocode
-│   │   ├── types
-│   │   ├── app.ts
-│   │   └── server.ts
-├── frontend
-│   ├── src
-│   │   ├── components
-│   │   ├── hooks
-│   │   ├── pages
-│   │   ├── types
-│   │   ├── utils
-│   │   ├── App.tsx
-│   │   └── main.tsx
-├── package.json
-└── README.md
-```
+- Next.js, React, TypeScript
+- Node.js and Express
+- Python RAG/NotebookLM service
+- Turf.js and GeoJSON for geospatial resolution
+- In-memory repositories for the local prototype
+- Optional OpenAI-compatible and Google AI integrations
 
-## Features
+## Run locally
 
-### UC-01 Interactive province map
+Install the root and EduGeo dependencies:
 
-- Loads a local backend GeoJSON collection for 34 province-level units
-- Highlights provinces on hover
-- Selects provinces on click
-- Shows province name and code in an info card
-- Navigates to `/province/:provinceCode`
-
-### Lat/lon to canonical administrative output
-
-`POST /api/resolve-admin-unit`
-
-Pipeline:
-
-1. Validate `lat` and `lon`
-2. Reverse geocode through a provider abstraction
-3. Resolve current province via local province point-in-polygon
-4. Normalize Vietnamese administrative labels
-5. Parse legacy address fields
-6. Crosswalk legacy province names to current province names
-7. Resolve current commune by:
-   - commune polygon lookup first
-   - name, alias, and legacy crosswalk fallback second
-8. Return confidence, alternatives, debug notes, and a resolution path
-
-Canonical output:
-
-- province-level unit
-- commune-level unit
-
-District-level names are treated only as legacy or intermediate hints.
-
-## API
-
-### `GET /api/health`
-
-Simple health check.
-
-### `GET /api/provinces`
-
-Returns a GeoJSON `FeatureCollection` for the 34 province-level units.
-
-### `GET /api/provinces/:provinceCode`
-
-Returns province metadata and placeholder detail content.
-
-### `POST /api/resolve-admin-unit`
-
-Request:
-
-```json
-{
-  "lat": 10.7769,
-  "lon": 106.7009
-}
-```
-
-Response shape:
-
-```json
-{
-  "input": {
-    "lat": 10.7769,
-    "lon": 106.7009
-  },
-  "raw_reverse_geocode": {
-    "formatted_address": "Ben Thanh Ward, District 1, Ho Chi Minh City, Vietnam",
-    "raw_commune_or_ward_name": "Ben Thanh Ward",
-    "raw_district_name": "District 1",
-    "raw_province_name": "Ho Chi Minh City",
-    "provider_name": "mock",
-    "raw_payload": {
-      "zone": "hcm-center"
-    }
-  },
-  "legacy_match": {
-    "legacy_commune_or_ward": "Ben Thanh Ward",
-    "legacy_district": "District 1",
-    "legacy_province": "Ho Chi Minh City"
-  },
-  "current_match": {
-    "province_code": "ho-chi-minh-city",
-    "province_name": "Ho Chi Minh City",
-    "commune_code": "hcm-ben-thanh",
-    "commune_name": "Ben Thanh Ward",
-    "commune_type": "phuong"
-  },
-  "alternatives": [],
-  "confidence": "high",
-  "resolution_path": [
-    "province_polygon",
-    "reverse_geocode",
-    "legacy_crosswalk",
-    "commune_polygon_or_name_match"
-  ],
-  "debug": {
-    "province_polygon_match": true,
-    "commune_polygon_match": true,
-    "crosswalk_used": true,
-    "provider_conflict": false,
-    "notes": []
-  }
-}
-```
-
-### Multiple-choice quiz
-
-- `GET /api/questions`: list the question bank and available categories
-- `POST /api/questions`: add a validated multiple-choice question
-- `DELETE /api/questions/:questionId`: remove a question
-- `GET /api/quiz?count=5&category=Địa lý&difficulty=easy`: generate a random quiz without exposing answers
-- `POST /api/quiz/submit`: score a set of answers and return explanations
-
-The question bank is stored in `backend/src/data/questionBank.json` in development. Set `QUESTION_BANK_PATH` to use another persistent JSON location.
-
-## Setup
-
-### 1. Install dependencies
-
-```bash
+```powershell
+npm install
+cd edugeo-ai
 npm install
 ```
 
-### 2. Start the app
+Copy `.env.example` to `.env` and provide the required API keys. Then start the main application:
 
-From the repository root:
-
-```bash
+```powershell
+cd edugeo-ai
 npm run dev
 ```
 
-This starts:
+Open [http://127.0.0.1:3020](http://127.0.0.1:3020).
 
-- frontend on `http://localhost:5174`
-- backend on `http://localhost:8787`
+The launcher attempts to start NotebookLM on `8020` and VietGeoAI on `8787`. The services can also be checked directly:
 
-### 3. Production build
-
-```bash
-npm run build
+```text
+http://127.0.0.1:8020
+http://127.0.0.1:8787/api/health
 ```
 
-## Mock data coverage
+For a production build:
 
-Current local data includes:
+```powershell
+cd edugeo-ai
+npm run build
+npm run start
+```
 
-- 34 current province-level units
-- stylized province GeoJSON placeholder polygons
-- generated mock commune-level polygons
-- legacy province-to-current province mappings
-- legacy commune-to-current commune mappings
-- alias records for province and commune matching
+## Public preview with ngrok
 
-The commune dataset is deliberately lightweight and synthetic. It exists to validate the pipeline architecture and UI, not to represent the full current commune register.
+Expose the main application:
 
-## Replacing mock data with real Vietnam administrative data
+```powershell
+ngrok http 3020
+```
 
-### Province polygons
+If the VietGeoAI iframe must be reachable by remote browsers, expose port `8787` with a second ngrok endpoint and set `NEXT_PUBLIC_VIETGEO_URL` to that public URL before starting EduGeo. Accounts that allow only one ngrok endpoint should use the main `3020` tunnel or place VietGeoAI behind a reverse proxy.
 
-Replace:
+## Main routes
 
-- `backend/src/data/provinceSeeds.ts`
-- `backend/src/data/geojson.ts`
+The main UI includes:
 
-Recommended target:
+- `/` — teacher/student dashboard
+- `/workspace` — documents and AI learning tools
+- `/quiz` — quiz creation, review, publishing, and statistics
+- `/vietgeo` — integrated VietGeoAI experience
 
-- load official GeoJSON or TopoJSON converted to GeoJSON
-- keep `province_id`, `province_code`, `province_name`
-- preserve stable `province_code` values used by routes
+Important API groups include `/api/auth/*`, `/api/classes`, `/api/documents`, `/api/rag/chat`, `/api/quizzes`, `/api/assignments`, `/api/submissions`, `/api/flashcards`, `/api/summaries`, and `/api/vietgeo/*`.
 
-### Commune polygons
+## Data and prototype scope
 
-Replace:
+The repository contains local seed data, example course material, question-generation pipelines, RAG scripts, and GeoJSON-compatible administrative data. The current prototype uses synthetic or lightweight commune data and an in-memory application store; production hardening would replace these with a persistent database, versioned official datasets, durable object storage, background workers, and production authentication.
 
-- `backend/src/data/communeSeeds.ts`
-- `backend/src/data/geojson.ts`
+## Repository layout
 
-Recommended target:
-
-- one feature per current commune-level unit
-- include `commune_code`, `commune_name`, `commune_type`, `province_code`
-- if real commune polygons exist, the current resolver already prioritizes polygon matching
-
-### Legacy crosswalks
-
-Replace:
-
-- `backend/src/data/legacyProvinceMappings.ts`
-- `backend/src/data/legacyCommuneMappings.ts`
-- optionally `backend/src/data/aliasRecords.ts`
-
-Recommended target:
-
-- one-to-one mappings where available
-- many-to-one records for mergers
-- one-to-many records for ambiguous splits
-- default flags for best-guess behavior
-
-### Reverse geocoder
-
-Current provider:
-
-- `backend/src/services/reverseGeocode/mockProvider.ts`
-
-Provider contract:
-
-- `backend/src/services/reverseGeocode/provider.ts`
-
-To add a real provider:
-
-1. Create a class implementing `ReverseGeocodeProvider`
-2. Return:
-   - `formatted_address`
-   - `raw_commune_or_ward_name`
-   - `raw_district_name`
-   - `raw_province_name`
-   - `provider_name`
-   - `raw_payload`
-3. Inject that provider in `backend/src/routes/resolver.ts`
-
-Important rule:
-
-- reverse geocode output remains supporting evidence only
-- province polygon lookup remains the strongest source of truth for province-level resolution
-
-## UI routes
-
-- `/`: interactive province map + selection card
-- `/province/:provinceCode`: province detail placeholder
-- `/resolver`: lat/lon resolution form + result panel
-- `/quiz`: question bank management + interactive quiz
-
-## Notes for production hardening
-
-- Move seed data to versioned datasets or a spatial database
-- Add schema validation for inbound and outbound payloads
-- Introduce request logging and structured observability
-- Cache reverse geocode provider responses
-- Add tests for crosswalk conflicts and ambiguous mappings
-- Add official shapefile or GeoJSON ingestion scripts
-
-## Known limitations
-
-- Province shapes are not official administrative boundaries
-- Commune data is synthetic and incomplete
-- The mock reverse geocoder only covers selected demo zones
-- No persistence layer is included in the MVP
+```text
+.
+├── edugeo-ai/          # Main Next.js application on port 3020
+├── backend/            # VietGeoAI Express service on port 8787
+├── notebooklm/         # Local RAG/NotebookLM service on port 8020
+├── RAG/                # Standalone RAG pipeline and API utilities
+├── QuestionGeneration/ # Question-generation pipeline and exports
+├── frontend/           # Legacy VietGeoAI React/Vite frontend
+├── books/              # Course source material
+└── scripts/            # Extraction, indexing, and deployment utilities
+```
