@@ -1,7 +1,33 @@
 node_modules
 dist
+.env
+.env.*
+!.env.example
 .DS_Store
 coverage
 frontend/.vite
 backend/dist
+edugeo-ai/.next
+edugeo-ai/node_modules
+edugeo-ai/.env.local
+*.log
+*.tsbuildinfo
+*.tmp
+*.bak
+__pycache__/
+*.pyc
+_logs/
+
+# Local RAG indexes, caches and generated extraction artefacts
+notebooklm/storage/
+notebooklm/.logs/
+RAG/storage/
+extracted/
+_render*/
+_sample/
+Folder_need_fix/
+
+# Local virtual environments and temporary smoke-test output
+.venv*/
+.tmp_*
 

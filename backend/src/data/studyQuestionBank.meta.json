@@ -1,0 +1,516 @@
+{
+  "generatedAt": "2026-08-10T08:58:35.319340+00:00",
+  "source": "QuestionGeneration\\class_6_qg_output_20260810_051649\\QuestionGeneration\\data\\class_6\\validated_questions.jsonl",
+  "output": "backend\\src\\data\\studyQuestionBank.json",
+  "totalAcceptedFromQG": 586,
+  "importedQuestions": 571,
+  "skippedQuestions": 15,
+  "skipped": [
+    {
+      "id": "4f5f0c943908",
+      "page_number": 203,
+      "reason": "outside_lesson_pages"
+    },
+    {
+      "id": "ff05c0131c6c",
+      "page_number": 203,
+      "reason": "outside_lesson_pages"
+    },
+    {
+      "id": "84e9b3ee9cb4",
+      "page_number": 203,
+      "reason": "outside_lesson_pages"
+    },
+    {
+      "id": "734ff72e2ffe",
+      "page_number": 203,
+      "reason": "outside_lesson_pages"
+    },
+    {
+      "id": "ef2460132fd3",
+      "page_number": 203,
+      "reason": "outside_lesson_pages"
+    },
+    {
+      "id": "33095dae2e7c",
+      "page_number": 204,
+      "reason": "outside_lesson_pages"
+    },
+    {
+      "id": "e02f341f9fcd",
+      "page_number": 204,
+      "reason": "outside_lesson_pages"
+    },
+    {
+      "id": "d14dfe2cabfb",
+      "page_number": 204,
+      "reason": "outside_lesson_pages"
+    },
+    {
+      "id": "e889f6917629",
+      "page_number": 204,
+      "reason": "outside_lesson_pages"
+    },
+    {
+      "id": "cb7f6683ca02",
+      "page_number": 204,
+      "reason": "outside_lesson_pages"
+    },
+    {
+      "id": "442d1bd21a9e",
+      "page_number": 204,
+      "reason": "outside_lesson_pages"
+    },
+    {
+      "id": "4e3fb74deaf4",
+      "page_number": 204,
+      "reason": "outside_lesson_pages"
+    },
+    {
+      "id": "875813a3c2c4",
+      "page_number": 205,
+      "reason": "outside_lesson_pages"
+    },
+    {
+      "id": "5a2091d17866",
+      "page_number": 205,
+      "reason": "outside_lesson_pages"
+    },
+    {
+      "id": "5f8240c09ea9",
+      "page_number": 205,
+      "reason": "outside_lesson_pages"
+    }
+  ],
+  "bySubject": {
+    "Lịch sử": 272,
+    "Địa lí": 299
+  },
+  "byDifficulty": {
+    "medium": 207,
+    "easy": 283,
+    "hard": 81
+  },
+  "byAnswer": {
+    "D": 156,
+    "A": 135,
+    "C": 137,
+    "B": 143
+  },
+  "lessons": [
+    {
+      "lessonId": "history_bai_01",
+      "subject": "history",
+      "subjectLabel": "Lịch sử",
+      "lessonNumber": 1,
+      "lessonTitle": "Bài 1. Lịch sử là gì?",
+      "startPage": 6,
+      "questionCount": 13
+    },
+    {
+      "lessonId": "history_bai_02",
+      "subject": "history",
+      "subjectLabel": "Lịch sử",
+      "lessonNumber": 2,
+      "lessonTitle": "Bài 2. Thời gian trong lịch sử",
+      "startPage": 11,
+      "questionCount": 5
+    },
+    {
+      "lessonId": "history_bai_03",
+      "subject": "history",
+      "subjectLabel": "Lịch sử",
+      "lessonNumber": 3,
+      "lessonTitle": "Bài 3. Nguồn gốc loài người",
+      "startPage": 14,
+      "questionCount": 13
+    },
+    {
+      "lessonId": "history_bai_04",
+      "subject": "history",
+      "subjectLabel": "Lịch sử",
+      "lessonNumber": 4,
+      "lessonTitle": "Bài 4. Xã hội nguyên thủy",
+      "startPage": 18,
+      "questionCount": 17
+    },
+    {
+      "lessonId": "history_bai_05",
+      "subject": "history",
+      "subjectLabel": "Lịch sử",
+      "lessonNumber": 5,
+      "lessonTitle": "Bài 5. Chuyển biến về kinh tế, xã hội cuối thời nguyên thủy",
+      "startPage": 23,
+      "questionCount": 13
+    },
+    {
+      "lessonId": "history_bai_06",
+      "subject": "history",
+      "subjectLabel": "Lịch sử",
+      "lessonNumber": 6,
+      "lessonTitle": "Bài 6. Ai Cập và Lưỡng Hà cổ đại",
+      "startPage": 27,
+      "questionCount": 13
+    },
+    {
+      "lessonId": "history_bai_07",
+      "subject": "history",
+      "subjectLabel": "Lịch sử",
+      "lessonNumber": 7,
+      "lessonTitle": "Bài 7. Ấn Độ cổ đại",
+      "startPage": 32,
+      "questionCount": 12
+    },
+    {
+      "lessonId": "history_bai_08",
+      "subject": "history",
+      "subjectLabel": "Lịch sử",
+      "lessonNumber": 8,
+      "lessonTitle": "Bài 8. Trung Quốc từ thời cổ đại đến thế kỉ VII",
+      "startPage": 37,
+      "questionCount": 16
+    },
+    {
+      "lessonId": "history_bai_09",
+      "subject": "history",
+      "subjectLabel": "Lịch sử",
+      "lessonNumber": 9,
+      "lessonTitle": "Bài 9. Hy Lạp và La Mã cổ đại",
+      "startPage": 43,
+      "questionCount": 21
+    },
+    {
+      "lessonId": "history_bai_10",
+      "subject": "history",
+      "subjectLabel": "Lịch sử",
+      "lessonNumber": 10,
+      "lessonTitle": "Bài 10. Sự ra đời và phát triển của các vương quốc ở Đông Nam Á",
+      "startPage": 50,
+      "questionCount": 11
+    },
+    {
+      "lessonId": "history_bai_11",
+      "subject": "history",
+      "subjectLabel": "Lịch sử",
+      "lessonNumber": 11,
+      "lessonTitle": "Bài 11. Giao lưu thương mại và văn hóa ở Đông Nam Á",
+      "startPage": 54,
+      "questionCount": 14
+    },
+    {
+      "lessonId": "history_bai_12",
+      "subject": "history",
+      "subjectLabel": "Lịch sử",
+      "lessonNumber": 12,
+      "lessonTitle": "Bài 12. Nước Văn Lang",
+      "startPage": 58,
+      "questionCount": 18
+    },
+    {
+      "lessonId": "history_bai_13",
+      "subject": "history",
+      "subjectLabel": "Lịch sử",
+      "lessonNumber": 13,
+      "lessonTitle": "Bài 13. Nước Âu Lạc",
+      "startPage": 63,
+      "questionCount": 16
+    },
+    {
+      "lessonId": "history_bai_14",
+      "subject": "history",
+      "subjectLabel": "Lịch sử",
+      "lessonNumber": 14,
+      "lessonTitle": "Bài 14. Chính sách cai trị của các triều đại phong kiến phương Bắc",
+      "startPage": 68,
+      "questionCount": 16
+    },
+    {
+      "lessonId": "history_bai_15",
+      "subject": "history",
+      "subjectLabel": "Lịch sử",
+      "lessonNumber": 15,
+      "lessonTitle": "Bài 15. Các cuộc khởi nghĩa tiêu biểu giành độc lập, tự chủ",
+      "startPage": 74,
+      "questionCount": 25
+    },
+    {
+      "lessonId": "history_bai_16",
+      "subject": "history",
+      "subjectLabel": "Lịch sử",
+      "lessonNumber": 16,
+      "lessonTitle": "Bài 16. Cuộc đấu tranh giữ gìn và phát triển văn hóa dân tộc thời Bắc thuộc",
+      "startPage": 83,
+      "questionCount": 10
+    },
+    {
+      "lessonId": "history_bai_17",
+      "subject": "history",
+      "subjectLabel": "Lịch sử",
+      "lessonNumber": 17,
+      "lessonTitle": "Bài 17. Bước ngoặt lịch sử đầu thế kỉ X",
+      "startPage": 86,
+      "questionCount": 13
+    },
+    {
+      "lessonId": "history_bai_18",
+      "subject": "history",
+      "subjectLabel": "Lịch sử",
+      "lessonNumber": 18,
+      "lessonTitle": "Bài 18. Vương quốc Chăm-pa",
+      "startPage": 92,
+      "questionCount": 14
+    },
+    {
+      "lessonId": "history_bai_19",
+      "subject": "history",
+      "subjectLabel": "Lịch sử",
+      "lessonNumber": 19,
+      "lessonTitle": "Bài 19. Vương quốc Phù Nam",
+      "startPage": 96,
+      "questionCount": 12
+    },
+    {
+      "lessonId": "geography_intro",
+      "subject": "geography",
+      "subjectLabel": "Địa lí",
+      "lessonNumber": 0,
+      "lessonTitle": "Tại sao cần học Địa lí?",
+      "startPage": 101,
+      "questionCount": 18
+    },
+    {
+      "lessonId": "geography_bai_01",
+      "subject": "geography",
+      "subjectLabel": "Địa lí",
+      "lessonNumber": 1,
+      "lessonTitle": "Bài 1. Hệ thống kinh vĩ tuyến. Tọa độ địa lí của một địa điểm trên bản đồ",
+      "startPage": 104,
+      "questionCount": 5
+    },
+    {
+      "lessonId": "geography_bai_02",
+      "subject": "geography",
+      "subjectLabel": "Địa lí",
+      "lessonNumber": 2,
+      "lessonTitle": "Bài 2. Các yếu tố cơ bản của bản đồ",
+      "startPage": 107,
+      "questionCount": 14
+    },
+    {
+      "lessonId": "geography_bai_03",
+      "subject": "geography",
+      "subjectLabel": "Địa lí",
+      "lessonNumber": 3,
+      "lessonTitle": "Bài 3. Lược đồ trí nhớ",
+      "startPage": 114,
+      "questionCount": 6
+    },
+    {
+      "lessonId": "geography_bai_04",
+      "subject": "geography",
+      "subjectLabel": "Địa lí",
+      "lessonNumber": 4,
+      "lessonTitle": "Bài 4. Thực hành: Đọc bản đồ và tìm đường đi trên bản đồ",
+      "startPage": 118,
+      "questionCount": 8
+    },
+    {
+      "lessonId": "geography_bai_05",
+      "subject": "geography",
+      "subjectLabel": "Địa lí",
+      "lessonNumber": 5,
+      "lessonTitle": "Bài 5. Trái Đất trong hệ Mặt Trời. Hình dạng và kích thước của Trái Đất",
+      "startPage": 120,
+      "questionCount": 10
+    },
+    {
+      "lessonId": "geography_bai_06",
+      "subject": "geography",
+      "subjectLabel": "Địa lí",
+      "lessonNumber": 6,
+      "lessonTitle": "Bài 6. Chuyển động tự quay quanh trục của Trái Đất và các hệ quả địa lí",
+      "startPage": 123,
+      "questionCount": 12
+    },
+    {
+      "lessonId": "geography_bai_07",
+      "subject": "geography",
+      "subjectLabel": "Địa lí",
+      "lessonNumber": 7,
+      "lessonTitle": "Bài 7. Chuyển động của Trái Đất quanh Mặt Trời và các hệ quả địa lí",
+      "startPage": 128,
+      "questionCount": 17
+    },
+    {
+      "lessonId": "geography_bai_08",
+      "subject": "geography",
+      "subjectLabel": "Địa lí",
+      "lessonNumber": 8,
+      "lessonTitle": "Bài 8. Xác định phương hướng ngoài thực địa",
+      "startPage": 133,
+      "questionCount": 12
+    },
+    {
+      "lessonId": "geography_bai_09",
+      "subject": "geography",
+      "subjectLabel": "Địa lí",
+      "lessonNumber": 9,
+      "lessonTitle": "Bài 9. Cấu tạo của Trái Đất. Các mảng kiến tạo. Núi lửa và động đất",
+      "startPage": 137,
+      "questionCount": 20
+    },
+    {
+      "lessonId": "geography_bai_10",
+      "subject": "geography",
+      "subjectLabel": "Địa lí",
+      "lessonNumber": 10,
+      "lessonTitle": "Bài 10. Quá trình nội sinh và ngoại sinh. Hiện tượng tạo núi",
+      "startPage": 142,
+      "questionCount": 7
+    },
+    {
+      "lessonId": "geography_bai_11",
+      "subject": "geography",
+      "subjectLabel": "Địa lí",
+      "lessonNumber": 11,
+      "lessonTitle": "Bài 11. Các dạng địa hình chính. Khoáng sản",
+      "startPage": 144,
+      "questionCount": 17
+    },
+    {
+      "lessonId": "geography_bai_12",
+      "subject": "geography",
+      "subjectLabel": "Địa lí",
+      "lessonNumber": 12,
+      "lessonTitle": "Bài 12. Thực hành: Đọc lược đồ địa hình tỉ lệ lớn và lát cắt địa hình",
+      "startPage": 149,
+      "questionCount": 3
+    },
+    {
+      "lessonId": "geography_bai_13",
+      "subject": "geography",
+      "subjectLabel": "Địa lí",
+      "lessonNumber": 13,
+      "lessonTitle": "Bài 13. Khí quyển của Trái Đất. Các khối khí. Khí áp và gió",
+      "startPage": 151,
+      "questionCount": 16
+    },
+    {
+      "lessonId": "geography_bai_14",
+      "subject": "geography",
+      "subjectLabel": "Địa lí",
+      "lessonNumber": 14,
+      "lessonTitle": "Bài 14. Nhiệt độ và mưa. Thời tiết và khí hậu",
+      "startPage": 156,
+      "questionCount": 13
+    },
+    {
+      "lessonId": "geography_bai_15",
+      "subject": "geography",
+      "subjectLabel": "Địa lí",
+      "lessonNumber": 15,
+      "lessonTitle": "Bài 15. Biến đổi khí hậu và ứng phó với biến đổi khí hậu",
+      "startPage": 161,
+      "questionCount": 5
+    },
+    {
+      "lessonId": "geography_bai_16",
+      "subject": "geography",
+      "subjectLabel": "Địa lí",
+      "lessonNumber": 16,
+      "lessonTitle": "Bài 16. Thực hành: Đọc lược đồ khí hậu và biểu đồ nhiệt độ - lượng mưa",
+      "startPage": 163,
+      "questionCount": 4
+    },
+    {
+      "lessonId": "geography_bai_17",
+      "subject": "geography",
+      "subjectLabel": "Địa lí",
+      "lessonNumber": 17,
+      "lessonTitle": "Bài 17. Các thành phần chủ yếu của thủy quyển. Tuần hoàn nước trên Trái Đất",
+      "startPage": 165,
+      "questionCount": 5
+    },
+    {
+      "lessonId": "geography_bai_18",
+      "subject": "geography",
+      "subjectLabel": "Địa lí",
+      "lessonNumber": 18,
+      "lessonTitle": "Bài 18. Sông. Nước ngầm và băng hà",
+      "startPage": 167,
+      "questionCount": 17
+    },
+    {
+      "lessonId": "geography_bai_19",
+      "subject": "geography",
+      "subjectLabel": "Địa lí",
+      "lessonNumber": 19,
+      "lessonTitle": "Bài 19. Biển và đại dương. Một số đặc điểm của môi trường biển",
+      "startPage": 171,
+      "questionCount": 12
+    },
+    {
+      "lessonId": "geography_bai_20",
+      "subject": "geography",
+      "subjectLabel": "Địa lí",
+      "lessonNumber": 20,
+      "lessonTitle": "Bài 20. Thực hành: Xác định trên lược đồ các đại dương thế giới",
+      "startPage": 175,
+      "questionCount": 2
+    },
+    {
+      "lessonId": "geography_bai_21",
+      "subject": "geography",
+      "subjectLabel": "Địa lí",
+      "lessonNumber": 21,
+      "lessonTitle": "Bài 21. Lớp đất trên Trái Đất",
+      "startPage": 176,
+      "questionCount": 13
+    },
+    {
+      "lessonId": "geography_bai_22",
+      "subject": "geography",
+      "subjectLabel": "Địa lí",
+      "lessonNumber": 22,
+      "lessonTitle": "Bài 22. Sự đa dạng của thế giới sinh vật. Các đới thiên nhiên trên Trái Đất",
+      "startPage": 180,
+      "questionCount": 12
+    },
+    {
+      "lessonId": "geography_bai_23",
+      "subject": "geography",
+      "subjectLabel": "Địa lí",
+      "lessonNumber": 23,
+      "lessonTitle": "Bài 23. Thực hành: Tìm hiểu lớp phủ thực vật ở địa phương",
+      "startPage": 184,
+      "questionCount": 3
+    },
+    {
+      "lessonId": "geography_bai_24",
+      "subject": "geography",
+      "subjectLabel": "Địa lí",
+      "lessonNumber": 24,
+      "lessonTitle": "Bài 24. Dân số thế giới. Sự phân bố dân cư thế giới. Các thành phố lớn",
+      "startPage": 185,
+      "questionCount": 7
+    },
+    {
+      "lessonId": "geography_bai_25",
+      "subject": "geography",
+      "subjectLabel": "Địa lí",
+      "lessonNumber": 25,
+      "lessonTitle": "Bài 25. Con người và thiên nhiên",
+      "startPage": 190,
+      "questionCount": 10
+    },
+    {
+      "lessonId": "geography_bai_26",
+      "subject": "geography",
+      "subjectLabel": "Địa lí",
+      "lessonNumber": 26,
+      "lessonTitle": "Bài 26. Thực hành: Tìm hiểu tác động của con người lên môi trường tự nhiên",
+      "startPage": 193,
+      "questionCount": 31
+    }
+  ]
+}

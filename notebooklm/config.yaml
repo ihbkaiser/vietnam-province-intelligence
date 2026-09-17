@@ -1,0 +1,54 @@
+data:
+  extracted_dir: ../extracted/class_6_phase1_local_cpu_full
+  rag_chunks_path: ../extracted/class_6_phase1_local_cpu_full/rag_chunks.jsonl
+  book_metadata_path: ../extracted/class_6_phase1_local_cpu_full/metadata/book.json
+  image_metadata_path: ../extracted/class_6_phase1_local_cpu_full/metadata/images.json
+  lesson_metadata_path: ../backend/src/data/studyQuestionBank.meta.json
+  uploaded_dir: data/uploads
+  reference_start_page: 194
+  exclude_from_index_start_page: 203
+
+index:
+  output_dir: storage/class_6
+  collection_name: class_6_textbook
+  chunk_size: 1000
+  chunk_overlap: 150
+  min_chunk_chars: 80
+  max_features: 60000
+  dense_svd_components: 256
+
+retrieval:
+  final_top_k: 5
+  initial_top_k: 15
+  sparse_weight: 1.0
+  dense_weight: 0.85
+  exact_match_weight: 0.025
+  rrf_k: 60
+  use_reranker: false
+  reranker_model: BAAI/bge-reranker-v2-m3
+  rerank_top_k: 5
+
+generation:
+  default_provider: openai_compatible
+  ollama_base_url: http://localhost:11434
+  ollama_model: qwen3:4b
+  hf_model: Qwen/Qwen3-4B-Instruct-2507
+  hf_device: -1
+  hf_max_new_tokens: 900
+  openai_api_base: https://openrouter.ai/api/v1
+  openai_api_key: ${OPENROUTER_API_KEY}
+  openai_model: deepseek/deepseek-v4-flash-0731
+  quiz_model: deepseek/deepseek-v4-flash-0731
+  vision_model: google/gemini-3.7-flash
+  vision_batch_model: google/gemini-3.7-flash:batch
+  timeout_s: 360
+  max_output_tokens: 4096
+  max_context_chars: 9000
+  temperature: 0.1
+
+learning:
+  summarize_batch_size: 8
+  summarize_retrieval_k: 12
+  generation_retrieval_k: 12
+  quiz_default_count: 6
+  flashcards_default_count: 12

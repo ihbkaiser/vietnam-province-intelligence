@@ -3,7 +3,9 @@ import type {
   CreateQuizQuestionInput,
   PublicQuizQuestion,
   QuizDifficulty,
+  QuizLessonSummary,
   QuizQuestion,
+  QuizStats,
   QuizSubmissionResult
 } from '../types/quiz';
 
@@ -57,6 +59,8 @@ export async function fetchQuestionBank(): Promise<{
   questions: QuizQuestion[];
   count: number;
   categories: string[];
+  lessons: QuizLessonSummary[];
+  stats: QuizStats;
 }> {
   const response = await fetch('/api/questions');
   return handleJson(response);
@@ -82,11 +86,17 @@ export async function deleteQuizQuestion(questionId: string): Promise<void> {
 export async function generateQuiz(params: {
   count: number;
   category?: string;
+  subject?: string;
+  lessonId?: string;
   difficulty?: QuizDifficulty;
-}): Promise<{ questions: PublicQuizQuestion[]; count: number }> {
+  seed?: string;
+}): Promise<{ questions: PublicQuizQuestion[]; count: number; examCode: string }> {
   const query = new URLSearchParams({ count: String(params.count) });
   if (params.category) query.set('category', params.category);
+  if (params.subject) query.set('subject', params.subject);
+  if (params.lessonId) query.set('lessonId', params.lessonId);
   if (params.difficulty) query.set('difficulty', params.difficulty);
+  if (params.seed) query.set('seed', params.seed);
   const response = await fetch(`/api/quiz?${query.toString()}`);
   return handleJson(response);
 }

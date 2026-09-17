@@ -1,0 +1,29 @@
+data:
+  extracted_dir: ../extracted/class_6_phase1_local_cpu_full
+  rag_chunks_path: ../extracted/class_6_phase1_local_cpu_full/rag_chunks.jsonl
+  book_metadata_path: ../extracted/class_6_phase1_local_cpu_full/metadata/book.json
+  image_metadata_path: ../extracted/class_6_phase1_local_cpu_full/metadata/images.json
+
+index:
+  output_dir: storage/class_6
+  embedding_backend: hf
+  embedding_model: intfloat/multilingual-e5-small
+  device: cpu
+  batch_size: 16
+  max_length: 512
+  build_sparse_index: true
+
+retrieval:
+  dense_top_k: 12
+  sparse_top_k: 12
+  final_top_k: 5
+  rrf_k: 60
+  dense_weight: 1.0
+  sparse_weight: 1.0
+  exact_match_weight: 0.018
+
+generation:
+  default_provider: extractive
+  ollama_base_url: http://localhost:11434
+  ollama_model: qwen3:4b
+  max_context_chars: 7000

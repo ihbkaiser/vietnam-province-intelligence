@@ -49,10 +49,10 @@ export function Layout() {
               <div className="min-w-0">
                 <p className="text-xs font-semibold uppercase tracking-[0.2em] text-tide">VIETGEOAI</p>
                 <h1 className="mt-1 font-display text-xl font-semibold text-ink sm:text-2xl">
-                  Nền tảng bản đồ số tích hợp trí tuệ nhân tạo
+                  Nền tảng địa danh và học liệu Việt Nam
                 </h1>
                 <p className="mt-1 max-w-3xl text-sm leading-6 text-ink/62">
-                  Xem bản đồ hành chính, tra cứu địa chỉ mới và hỏi AI về dữ liệu tỉnh thành.
+                  Tra cứu hành chính sau sáp nhập, hỏi đáp dữ liệu tỉnh thành và ôn tập kiến thức phổ thông.
                 </p>
               </div>
             </div>
@@ -67,7 +67,7 @@ export function Layout() {
               </NavLink>
               <NavLink to="/quiz" className={navClassName}>
                 <QuizIcon />
-                Trắc nghiệm
+                Ôn tập SGK
               </NavLink>
             </nav>
           </div>

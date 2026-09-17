@@ -10,6 +10,7 @@ export default defineConfig(({ mode }) => {
 
   return {
     envDir: workspaceRoot,
+    base: env.VITE_BASE_PATH ?? '/',
     plugins: [react()],
     define: {
       'import.meta.env.VITE_OPENMAP_API_KEY': JSON.stringify(env.VITE_OPENMAP_API_KEY ?? env.OPENMAP_API_KEY ?? '')

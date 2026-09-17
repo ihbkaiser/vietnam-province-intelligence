@@ -1,0 +1,25 @@
+{
+  "generated_at": "2026-08-08T15:36:13.469821+00:00",
+  "config": "D:\\vietnam-province-intelligence\\QuestionGeneration\\config.yaml",
+  "chunks_path": "D:\\vietnam-province-intelligence\\RAG\\storage\\class_6\\documents.jsonl",
+  "output_dir": "D:\\vietnam-province-intelligence\\QuestionGeneration\\data\\smoke_ollama_retry",
+  "teacher_model": "qwen3:4b",
+  "student_model": "qwen3:4b",
+  "chunks_seen": 1,
+  "candidates_generated": 0,
+  "accepted": 0,
+  "rejected": 0,
+  "acceptance_rate": 0.0,
+  "errors": [
+    {
+      "chunk_id": "page_006_01",
+      "page_number": 6,
+      "error": "ValueError: Ollama returned empty response. done_reason=stop, thinking_chars=939"
+    }
+  ],
+  "outputs": {
+    "generated_candidates": "D:\\vietnam-province-intelligence\\QuestionGeneration\\data\\smoke_ollama_retry\\generated_candidates.jsonl",
+    "validated_questions": "D:\\vietnam-province-intelligence\\QuestionGeneration\\data\\smoke_ollama_retry\\validated_questions.jsonl",
+    "rejected_questions": "D:\\vietnam-province-intelligence\\QuestionGeneration\\data\\smoke_ollama_retry\\rejected_questions.jsonl"
+  }
+}

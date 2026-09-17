@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-08-08T15:49:31.012196+00:00",
+  "config": "D:\\vietnam-province-intelligence\\QuestionGeneration\\config.yaml",
+  "chunks_path": "D:\\vietnam-province-intelligence\\RAG\\storage\\class_6\\documents.jsonl",
+  "output_dir": "D:\\vietnam-province-intelligence\\QuestionGeneration\\data\\smoke_ollama_no_json_mode",
+  "teacher_model": "qwen3:4b",
+  "student_model": "qwen3:4b",
+  "chunks_seen": 1,
+  "candidates_generated": 1,
+  "accepted": 1,
+  "rejected": 0,
+  "acceptance_rate": 1.0,
+  "errors": [],
+  "outputs": {
+    "generated_candidates": "D:\\vietnam-province-intelligence\\QuestionGeneration\\data\\smoke_ollama_no_json_mode\\generated_candidates.jsonl",
+    "validated_questions": "D:\\vietnam-province-intelligence\\QuestionGeneration\\data\\smoke_ollama_no_json_mode\\validated_questions.jsonl",
+    "rejected_questions": "D:\\vietnam-province-intelligence\\QuestionGeneration\\data\\smoke_ollama_no_json_mode\\rejected_questions.jsonl"
+  }
+}

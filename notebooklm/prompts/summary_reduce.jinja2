@@ -1,0 +1,24 @@
+Tổng hợp các bản tóm tắt con thành một bản tóm tắt cuối cùng.
+
+Chỉ trả về JSON hợp lệ theo schema:
+{
+  "summary": "bản tổng hợp bằng Markdown",
+  "key_points": ["ý chính 1", "ý chính 2", "ý chính 3"],
+  "image_hints": ["mô tả ảnh minh họa nếu thật sự cần"]
+}
+
+Yêu cầu:
+- summary phải là bản học liệu dễ nhìn, không phải một đoạn văn dài dồn cục.
+- Có thể dùng tiêu đề cấp 2/3, bullet hoặc bảng ngắn.
+- image_hints tối đa 4 mục, chỉ giữ ảnh/loại hình thật sự giúp hiểu nội dung.
+
+CÁC TÓM TẮT CON:
+{% for item in partials %}
+- {{ item.summary }}
+{% for point in item.key_points %}
+  - {{ point }}
+{% endfor %}
+{% for hint in item.image_hints or [] %}
+  - Ảnh gợi ý: {{ hint }}
+{% endfor %}
+{% endfor %}

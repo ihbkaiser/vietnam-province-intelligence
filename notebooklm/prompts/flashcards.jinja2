@@ -1,0 +1,49 @@
+Tạo {{ count }} flashcards ôn tập từ ngữ cảnh SGK.
+
+Quy tắc bắt buộc:
+- Toàn bộ front, back, hint, topic, evidence_text, image_hint phải viết bằng tiếng Việt tự nhiên.
+- Chỉ dùng thông tin trong ngữ cảnh; không thêm kiến thức ngoài tài liệu.
+- Ưu tiên tạo 2 loại thẻ:
+  1. Thẻ thuật ngữ: front chỉ là thuật ngữ/khái niệm ngắn, ví dụ "Kinh độ", "Tỉ lệ bản đồ"; back là định nghĩa/ý nghĩa.
+  2. Thẻ quy trình/tính toán: front bắt đầu bằng "Cách ...", ví dụ "Cách tính khoảng cách thực tế trên bản đồ"; back viết đủ các bước.
+- Không viết front theo dạng "Bài 2...", "Ý chính cần nhớ...", "Nêu...", "Trình bày...", "Khái niệm nào..." hoặc "... là gì?".
+- Không đưa tên bài học vào front/back nếu không cần thiết; học sinh đã chọn bài ở giao diện.
+- Mỗi thẻ chỉ kiểm tra một ý rõ ràng: khái niệm, thao tác, công thức, mốc thời gian, đặc điểm, so sánh hoặc ví dụ.
+- Mặt trước ngắn gọn, thường 2-12 từ. Với thẻ thuật ngữ, front nên là cụm danh từ, không phải câu hỏi.
+- Mặt sau dùng Markdown dễ đọc, đủ ý nhưng không lan man; không được chỉ viết một cụm "Định nghĩa: ..." quá ngắn.
+- Với thẻ thuật ngữ, mặt sau nên có dạng:
+  "**Định nghĩa:** ..."
+  "- **Ý cần nhớ:** ..."
+  "- **Ví dụ/nhận biết:** ..." nếu ngữ cảnh có ví dụ phù hợp.
+- Với thẻ quy trình/tính toán, mặt sau bắt buộc viết rõ:
+  "**Bước 1:** ..."
+  "**Bước 2:** ..."
+  "**Bước 3:** ..."
+  thêm bước tiếp theo nếu cần.
+- Nếu mặt trước là mốc thời gian/sự kiện, mặt sau phải nêu: thời điểm, nội dung xảy ra, và ý nghĩa cần nhớ.
+- Văn phong phải trôi chảy, logic, không máy móc kiểu copy nguyên một câu dài từ OCR.
+- Nếu có công thức, tỉ lệ, tọa độ hoặc biểu thức, viết đúng Markdown/LaTeX inline, ví dụ `$1 : 500 000$`.
+- hint chỉ là gợi ý ngắn, không được lộ toàn bộ đáp án.
+- evidence_text là dẫn chứng ngắn hiển thị ở mặt sau. Viết Markdown 1-3 dòng, không ghi "chunk", không ghi metadata kỹ thuật.
+- image_hint mô tả ảnh cần đi kèm nếu thẻ thật sự hưởng lợi từ ảnh, ví dụ "hình đo khoảng cách theo đường gấp khúc" hoặc "sơ đồ kinh tuyến và vĩ tuyến"; để chuỗi rỗng nếu không cần ảnh.
+- source_markers chỉ dùng marker có trong ngữ cảnh.
+- Không tạo thẻ về mã trang, mã chunk, tên nguồn, hay metadata kỹ thuật.
+- Nếu không đủ ngữ cảnh để tạo đủ {{ count }} thẻ tốt, trả ít thẻ hơn nhưng vẫn phải là JSON hợp lệ.
+
+Chỉ trả về JSON hợp lệ:
+{
+  "cards": [
+    {
+      "front": "...",
+      "back": "...",
+      "hint": "...",
+      "topic": "...",
+      "source_markers": ["S1"],
+      "evidence_text": "...",
+      "image_hint": "..."
+    }
+  ]
+}
+
+NGỮ CẢNH:
+{{ context }}

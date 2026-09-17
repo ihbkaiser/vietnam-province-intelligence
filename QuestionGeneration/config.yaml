@@ -1,0 +1,45 @@
+data:
+  chunks_path: ../RAG/storage/class_6/documents.jsonl
+  output_dir: data/class_6
+
+models:
+  provider: ollama
+  ollama_base_url: http://localhost:11434
+  teacher_model: qwen3:4b
+  student_model: qwen3:4b
+
+generation:
+  questions_per_chunk: 2
+  min_page: 6
+  max_page: null
+  min_chunk_chars: 350
+  max_context_chars: 2600
+  allowed_types:
+    - multiple_choice
+  difficulty_targets:
+    easy: 0.35
+    medium: 0.45
+    hard: 0.20
+  teacher_options:
+    temperature: 0.55
+    top_p: 0.9
+    num_predict: 6000
+  student_options:
+    temperature: 0.15
+    top_p: 0.85
+    num_predict: 3500
+
+validation:
+  require_student_consensus: true
+  allow_same_teacher_student_model: true
+  min_student_confidence: 0.65
+  min_evidence_chars: 18
+  min_evidence_overlap: 0.72
+  min_question_chars: 18
+  max_question_chars: 260
+  min_option_chars: 3
+  max_option_chars: 180
+  reject_if_answer_in_question: true
+  reject_duplicate_options: true
+  shuffle_options_after_validation: true
+  random_seed: 42

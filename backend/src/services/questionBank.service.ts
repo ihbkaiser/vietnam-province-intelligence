@@ -2,13 +2,20 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { randomUUID } from 'crypto';
-import type { CreateQuizQuestionInput, QuizDifficulty, QuizQuestion } from '../types/quiz.js';
+import type { CreateQuizQuestionInput, QuizDifficulty, QuizQuestion, QuizStats } from '../types/quiz.js';
 
 const currentDirectory = path.dirname(fileURLToPath(import.meta.url));
 const defaultQuestionBankPath = path.resolve(currentDirectory, '../data/questionBank.json');
+const defaultStudyQuestionBankPath = path.resolve(currentDirectory, '../data/studyQuestionBank.json');
+const defaultStudyQuestionBankMetaPath = path.resolve(currentDirectory, '../data/studyQuestionBank.meta.json');
 const questionBankPath = process.env.QUESTION_BANK_PATH
   ? path.resolve(process.env.QUESTION_BANK_PATH)
-  : defaultQuestionBankPath;
+  : fs.existsSync(defaultStudyQuestionBankPath)
+    ? defaultStudyQuestionBankPath
+    : defaultQuestionBankPath;
+const questionBankMetaPath = process.env.QUESTION_BANK_META_PATH
+  ? path.resolve(process.env.QUESTION_BANK_META_PATH)
+  : defaultStudyQuestionBankMetaPath;
 
 const difficulties: QuizDifficulty[] = ['easy', 'medium', 'hard'];
 
@@ -28,6 +35,18 @@ function readQuestionBank(): QuizQuestion[] {
 function writeQuestionBank(questions: QuizQuestion[]) {
   fs.mkdirSync(path.dirname(questionBankPath), { recursive: true });
   fs.writeFileSync(questionBankPath, `${JSON.stringify(questions, null, 2)}\n`, 'utf8');
+}
+
+function readQuestionBankMetadata(): Partial<QuizStats> {
+  try {
+    const content = fs.readFileSync(questionBankMetaPath, 'utf8');
+    return JSON.parse(content) as Partial<QuizStats>;
+  } catch (error) {
+    if ((error as NodeJS.ErrnoException).code === 'ENOENT') {
+      return {};
+    }
+    throw error;
+  }
 }
 
 function cleanText(value: unknown) {
@@ -87,6 +106,64 @@ export function validateQuestionInput(body: unknown):
 
 export function listQuestions() {
   return readQuestionBank().sort((a, b) => b.createdAt.localeCompare(a.createdAt));
+}
+
+export function listLessons() {
+  const questions = readQuestionBank();
+  const lessonById = new Map<string, {
+    lessonId: string;
+    lessonTitle: string;
+    subject: string;
+    subjectLabel: string;
+    lessonNumber?: number;
+    questionCount: number;
+  }>();
+
+  for (const question of questions) {
+    if (!question.lessonId || !question.lessonTitle) continue;
+    const current = lessonById.get(question.lessonId) ?? {
+      lessonId: question.lessonId,
+      lessonTitle: question.lessonTitle,
+      subject: question.subject ?? question.category,
+      subjectLabel: question.subjectLabel ?? question.category,
+      lessonNumber: question.lessonNumber,
+      questionCount: 0
+    };
+    current.questionCount += 1;
+    lessonById.set(question.lessonId, current);
+  }
+
+  return [...lessonById.values()].sort((a, b) => {
+    const subjectCompare = a.subject.localeCompare(b.subject, 'vi');
+    if (subjectCompare !== 0) return subjectCompare;
+    return (a.lessonNumber ?? 999) - (b.lessonNumber ?? 999);
+  });
+}
+
+export function getQuestionBankStats(): QuizStats {
+  const questions = readQuestionBank();
+  const metadata = readQuestionBankMetadata();
+  const bySubject: Record<string, number> = {};
+  const byDifficulty: Record<string, number> = {};
+  const byAnswer: Record<string, number> = {};
+
+  for (const question of questions) {
+    const subject = question.subjectLabel ?? question.category;
+    bySubject[subject] = (bySubject[subject] ?? 0) + 1;
+    byDifficulty[question.difficulty] = (byDifficulty[question.difficulty] ?? 0) + 1;
+    const answerKey = String.fromCharCode(65 + question.correctOptionIndex);
+    byAnswer[answerKey] = (byAnswer[answerKey] ?? 0) + 1;
+  }
+
+  return {
+    totalQuestions: questions.length,
+    bySubject,
+    byDifficulty,
+    byAnswer,
+    lessons: metadata.lessons?.length ? metadata.lessons : listLessons(),
+    generatedAt: metadata.generatedAt,
+    source: metadata.source
+  };
 }
 
 export function createQuestion(input: CreateQuizQuestionInput) {

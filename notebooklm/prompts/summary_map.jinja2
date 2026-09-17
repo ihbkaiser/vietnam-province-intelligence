@@ -1,0 +1,16 @@
+Tóm tắt một nhóm chunk SGK thành JSON hợp lệ.
+
+Schema:
+{
+  "summary": "tóm tắt ngắn bằng Markdown",
+  "key_points": ["ý chính quan trọng"],
+  "image_hints": ["mô tả ảnh minh họa nếu thật sự cần"]
+}
+
+Yêu cầu:
+- Chỉ dùng thông tin trong ngữ cảnh.
+- Viết ngắn, rõ, đúng Markdown.
+- image_hints tối đa 3 mục, để rỗng nếu không có ảnh thật sự hữu ích.
+
+NGỮ CẢNH:
+{{ context }}

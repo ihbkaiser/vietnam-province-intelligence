@@ -1,0 +1,57 @@
+Tạo {{ count }} câu hỏi trắc nghiệm từ ngữ cảnh SGK.
+
+Quy tắc bắt buộc:
+- Toàn bộ question, options, explanation, evidence_text, image_hint và topic phải viết bằng tiếng Việt tự nhiên.
+- Không dùng tiếng Anh trong câu hỏi/đáp án/giải thích, trừ khi đó là thuật ngữ gốc xuất hiện nguyên văn trong SGK.
+- Chỉ hỏi những thông tin có thể trả lời trực tiếp từ ngữ cảnh.
+- Mỗi câu có đúng 4 lựa chọn.
+- Chỉ có một đáp án đúng.
+- Distractor phải hợp lý nhưng không được gây nhập nhằng.
+- Distractor nên là khái niệm, sự kiện, mốc thời gian hoặc đối tượng thật có trong ngữ cảnh; không bịa tên riêng/kí hiệu lạ chỉ để đủ 4 lựa chọn.
+- Câu hỏi phải giống đề kiểm tra cho học sinh, không giống flashcard đảo chiều.
+- Không tạo câu hỏi dạng "Khái niệm nào phù hợp với mô tả sau...", "Cụm từ nào hoàn thành đúng nhận định...", "Nhận định nào đúng về...", hoặc câu có dấu "[...]".
+- Không dùng đáp án rời rạc/vô nghĩa như "Dưới đây", "Cùng phát", cụm OCR thiếu chủ ngữ, tiêu đề bị cắt, hay một mảnh câu chưa đủ nghĩa.
+- Ưu tiên các dạng câu:
+  - hỏi nguyên nhân/kết quả/ý nghĩa;
+  - hỏi cách áp dụng kiến thức trong tình huống ngắn;
+  - hỏi đọc hình/bảng/lược đồ khi ngữ cảnh và ảnh đủ dữ kiện;
+  - hỏi phân biệt hai khái niệm gần nhau.
+- Không tạo câu hỏi dạng "sự kiện nào xảy ra trước/sau" nếu trong options có thể có nhiều sự kiện cùng thỏa điều kiện; nếu hỏi mốc thời gian, hãy gắn rõ một sự kiện/mốc duy nhất.
+- Không dùng lựa chọn "Không có", "Không xác định", "Tất cả", "Cả A và B", "All of the above", "None" trừ khi ngữ cảnh thật sự yêu cầu.
+- Câu hỏi phải tự đủ thông tin để học sinh làm bài; không bắt người học tự mở SGK.
+- Không mở đầu question bằng "Theo SGK", "Theo ví dụ trong SGK" hoặc "Theo đoạn trích"; hãy viết câu hỏi tự nhiên như đề kiểm tra.
+- Với câu có số liệu, ưu tiên câu vận dụng ngắn có đủ dữ kiện trong question thay vì hỏi học sinh nhớ lại một con số rời rạc.
+- Viết đơn vị có khoảng trắng, ví dụ "20 km", "3,3 cm", không viết "20km".
+- Nếu câu hỏi dựa vào ví dụ, bảng hoặc hình trong ngữ cảnh, hãy nêu rõ tên hình/trang/ví dụ trong question hoặc explanation.
+- Nếu ngữ cảnh có dòng "Ảnh liên quan" trong block S1, S2..., hãy: (1) chọn source_markers trỏ tới đúng block đó; (2) nhắc số hình (ví dụ "Hình 3.3") ngay trong question hoặc explanation nếu hình có mô tả trong ngữ cảnh; (3) viết image_hint mô tả ngắn ảnh đó theo nội dung hình đã nêu trong ngữ cảnh, ví dụ "Bộ xương hoá thạch Cô gái Lu-cy".
+- Mọi câu hỏi có nguồn "Ảnh liên quan" đều BẮT BUỘC có image_hint mô tả hình phù hợp; chỉ để image_hint rỗng khi block nguồn của câu hỏi không có ảnh.
+- explanation phải giải thích ngắn vì sao đáp án đúng. Không mở đầu bằng "Dẫn chứng:".
+- evidence_text là thông tin nội bộ để kiểm chứng nguồn; có thể để chuỗi rỗng. Nếu viết, dùng Markdown ngắn, không mở đầu bằng "Dẫn chứng:" và không viết kiểu debug như "Nguồn S1" hoặc "chunk".
+- image_hint mô tả ngắn ảnh cần đi kèm nếu câu hỏi cần hình minh họa, ví dụ "bản đồ địa hình có đường đồng mức hoặc thang màu"; để chuỗi rỗng nếu không cần ảnh.
+- source_markers chỉ dùng các marker có trong ngữ cảnh như S1, S2; mỗi item nên có ít nhất 1 marker.
+- Không hỏi về ảnh nếu ngữ cảnh không mô tả đủ nội dung ảnh.
+- Không đặt câu hỏi về mã trang, mã chunk, tên nguồn, hay metadata kỹ thuật.
+- options chỉ chứa nội dung đáp án, không thêm tiền tố A/B/C/D.
+- Không tạo câu hỏi quá chung như "Nhận định nào đúng" nếu có thể hỏi cụ thể hơn.
+- Không dùng cụm OCR rời rạc, tiêu đề bảng, hoặc nhãn bản đồ làm đáp án nếu cụm đó không phải khái niệm/phương án hợp lý.
+- Nếu không đủ ngữ cảnh để tạo đủ {{ count }} câu tốt, trả ít câu hơn nhưng vẫn phải là JSON hợp lệ.
+
+Chỉ trả về JSON hợp lệ:
+{
+  "items": [
+    {
+      "question": "...",
+      "options": ["A", "B", "C", "D"],
+      "correct_index": 0,
+      "explanation": "...",
+      "source_markers": ["S1"],
+      "difficulty": "easy|medium|hard",
+      "topic": "...",
+      "evidence_text": "...",
+      "image_hint": "..."
+    }
+  ]
+}
+
+NGỮ CẢNH:
+{{ context }}

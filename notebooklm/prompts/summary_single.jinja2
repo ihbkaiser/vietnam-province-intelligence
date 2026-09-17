@@ -1,0 +1,18 @@
+Tóm tắt nội dung SGK dưới đây thành JSON hợp lệ.
+
+Yêu cầu:
+- Chỉ dùng thông tin trong ngữ cảnh.
+- Không thêm kiến thức ngoài tài liệu.
+- summary phải viết bằng Markdown rõ ràng, có thể gồm tiêu đề cấp 2/3, bullet hoặc bảng ngắn nếu phù hợp.
+- Văn phong dành cho học sinh phổ thông: ngắn gọn, dễ học, không copy nguyên văn OCR quá dài.
+- Nếu có công thức, tọa độ, tỉ lệ hoặc biểu thức, viết đúng Markdown/LaTeX inline, ví dụ `$1 : 500 000$`.
+- image_hints là danh sách 0-4 mô tả ảnh minh họa nên đi kèm tóm tắt; chỉ thêm khi ảnh giúp hiểu bài hơn.
+- Trả về đúng schema:
+{
+  "summary": "nội dung Markdown",
+  "key_points": ["ý chính 1", "ý chính 2"],
+  "image_hints": ["mô tả ảnh cần minh họa"]
+}
+
+NGỮ CẢNH:
+{{ context }}

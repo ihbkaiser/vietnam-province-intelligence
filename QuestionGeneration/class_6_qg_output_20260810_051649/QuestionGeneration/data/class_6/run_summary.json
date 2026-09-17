@@ -1,0 +1,60 @@
+{
+  "generated_at": "2026-08-08T18:19:14.810601+00:00",
+  "config": "/home/aidev/cross-sensor/ideas/question_generation_run/QuestionGeneration/config.yaml",
+  "chunks_path": "/home/aidev/cross-sensor/ideas/question_generation_run/RAG/storage/class_6/documents.jsonl",
+  "output_dir": "/home/aidev/cross-sensor/ideas/question_generation_run/QuestionGeneration/data/class_6",
+  "teacher_model": "qwen2.5:7b-instruct",
+  "student_model": "qwen2.5:7b-instruct",
+  "chunks_seen": 220,
+  "candidates_generated": 848,
+  "accepted": 586,
+  "rejected": 262,
+  "acceptance_rate": 0.6910377358490566,
+  "errors": [
+    {
+      "chunk_id": "page_009_01",
+      "page_number": 9,
+      "error": "ValueError: LLM response did not contain valid JSON."
+    },
+    {
+      "chunk_id": "page_034_01",
+      "page_number": 34,
+      "error": "ValueError: LLM response did not contain valid JSON."
+    },
+    {
+      "chunk_id": "page_077_01",
+      "page_number": 77,
+      "error": "ValueError: LLM response did not contain valid JSON."
+    },
+    {
+      "chunk_id": "page_091_01",
+      "page_number": 91,
+      "error": "ValueError: LLM response did not contain valid JSON."
+    },
+    {
+      "chunk_id": "page_154_01",
+      "page_number": 154,
+      "error": "ValueError: LLM response did not contain valid JSON."
+    },
+    {
+      "chunk_id": "page_160_01",
+      "page_number": 160,
+      "error": "ValueError: LLM response did not contain valid JSON."
+    },
+    {
+      "chunk_id": "page_187_01",
+      "page_number": 187,
+      "error": "ValueError: LLM response did not contain valid JSON."
+    },
+    {
+      "chunk_id": "page_206_01",
+      "page_number": 206,
+      "error": "ValueError: LLM response did not contain valid JSON."
+    }
+  ],
+  "outputs": {
+    "generated_candidates": "/home/aidev/cross-sensor/ideas/question_generation_run/QuestionGeneration/data/class_6/generated_candidates.jsonl",
+    "validated_questions": "/home/aidev/cross-sensor/ideas/question_generation_run/QuestionGeneration/data/class_6/validated_questions.jsonl",
+    "rejected_questions": "/home/aidev/cross-sensor/ideas/question_generation_run/QuestionGeneration/data/class_6/rejected_questions.jsonl"
+  }
+}

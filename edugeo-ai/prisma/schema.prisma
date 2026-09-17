@@ -1,0 +1,280 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum UserRole {
+  TEACHER
+  STUDENT
+  ADMIN
+}
+
+enum Subject {
+  HISTORY
+  GEOGRAPHY
+  MIXED
+}
+
+enum MembershipRole {
+  OWNER_TEACHER
+  CO_TEACHER
+  STUDENT
+}
+
+enum DocumentStatus {
+  UPLOADED
+  PROCESSING
+  INDEXED
+  FAILED
+}
+
+enum QuizStatus {
+  DRAFT
+  REVIEWING
+  APPROVED
+  PUBLISHED
+  ARCHIVED
+}
+
+enum AssignmentStatus {
+  OPEN
+  CLOSED
+}
+
+enum SubmissionStatus {
+  IN_PROGRESS
+  SUBMITTED
+  GRADED
+}
+
+enum NotificationType {
+  QUIZ_ASSIGNED
+  QUIZ_SUBMITTED
+  DOCUMENT_INDEXED
+  AI_JOB_DONE
+}
+
+model User {
+  id            String            @id @default(cuid())
+  username      String            @unique
+  displayName   String
+  email         String?           @unique
+  role          UserRole
+  passwordHash  String?
+  sessions      AuthSession[]
+  memberships   ClassMembership[]
+  documents     Document[]        @relation("UploadedDocuments")
+  quizzes       Quiz[]            @relation("QuizAuthor")
+  submissions   QuizSubmission[]
+  notifications Notification[]
+  createdAt     DateTime          @default(now())
+  updatedAt     DateTime          @updatedAt
+}
+
+model AuthSession {
+  id        String   @id @default(cuid())
+  userId    String
+  tokenHash String   @unique
+  userAgent String?
+  ipAddress String?
+  expiresAt DateTime
+  revokedAt DateTime?
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  createdAt DateTime @default(now())
+
+  @@index([userId, expiresAt])
+}
+
+model AccountAuditLog {
+  id          String   @id @default(cuid())
+  actorId     String?
+  targetUserId String?
+  action      String
+  metadata    Json?
+  createdAt   DateTime @default(now())
+
+  @@index([actorId])
+  @@index([targetUserId])
+}
+
+model ClassRoom {
+  id              String            @id @default(cuid())
+  name            String
+  subject         Subject
+  grade           Int?
+  academicYear    String
+  knowledgeScopes String[]
+  memberships     ClassMembership[]
+  documents       Document[]
+  assignments     QuizAssignment[]
+  createdById     String
+  createdAt       DateTime          @default(now())
+  updatedAt       DateTime          @updatedAt
+
+  @@index([createdById])
+}
+
+model ClassMembership {
+  id        String         @id @default(cuid())
+  classId   String
+  userId    String
+  role      MembershipRole
+  classRoom ClassRoom      @relation(fields: [classId], references: [id], onDelete: Cascade)
+  user      User           @relation(fields: [userId], references: [id], onDelete: Cascade)
+  joinedAt  DateTime       @default(now())
+
+  @@unique([classId, userId])
+  @@index([userId])
+}
+
+model Document {
+  id              String         @id @default(cuid())
+  classId          String?
+  uploadedById     String
+  filename         String
+  mimeType         String
+  sizeBytes        Int
+  status           DocumentStatus @default(UPLOADED)
+  storageKey       String?
+  extractedTextKey String?
+  ragIndex         RagIndex?
+  classRoom        ClassRoom?     @relation(fields: [classId], references: [id], onDelete: SetNull)
+  uploadedBy       User           @relation("UploadedDocuments", fields: [uploadedById], references: [id])
+  createdAt        DateTime       @default(now())
+  updatedAt        DateTime       @updatedAt
+
+  @@index([classId])
+  @@index([uploadedById])
+}
+
+model RagIndex {
+  id          String   @id @default(cuid())
+  documentId  String   @unique
+  namespace   String
+  chunkCount  Int      @default(0)
+  embedding   String?
+  readyAt     DateTime?
+  document    Document @relation(fields: [documentId], references: [id], onDelete: Cascade)
+}
+
+model AiJob {
+  id          String   @id @default(cuid())
+  kind        String
+  status      String
+  input       Json
+  output      Json?
+  error       String?
+  createdById String
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model Quiz {
+  id              String           @id @default(cuid())
+  title           String
+  subject         Subject
+  classId         String?
+  documentId      String?
+  knowledgeScope  String?
+  status          QuizStatus       @default(DRAFT)
+  authorId        String
+  author          User             @relation("QuizAuthor", fields: [authorId], references: [id])
+  questions       QuizQuestion[]
+  assignments     QuizAssignment[]
+  createdAt       DateTime         @default(now())
+  updatedAt       DateTime         @updatedAt
+
+  @@index([authorId])
+  @@index([classId])
+}
+
+model QuizQuestion {
+  id           String       @id @default(cuid())
+  quizId        String
+  order         Int
+  prompt        String
+  explanation   String?
+  sourceMarkers String[]
+  imageRefs     Json?
+  quiz          Quiz         @relation(fields: [quizId], references: [id], onDelete: Cascade)
+  options       QuizOption[]
+}
+
+model QuizOption {
+  id         String       @id @default(cuid())
+  questionId String
+  label      String
+  text       String
+  isCorrect  Boolean      @default(false)
+  question   QuizQuestion @relation(fields: [questionId], references: [id], onDelete: Cascade)
+}
+
+model QuizAssignment {
+  id          String             @id @default(cuid())
+  quizId       String
+  classId      String
+  status       AssignmentStatus   @default(OPEN)
+  dueAt        DateTime?
+  showResult   String             @default("AFTER_SUBMIT")
+  quiz         Quiz               @relation(fields: [quizId], references: [id], onDelete: Cascade)
+  classRoom    ClassRoom          @relation(fields: [classId], references: [id], onDelete: Cascade)
+  submissions  QuizSubmission[]
+  createdAt    DateTime           @default(now())
+
+  @@index([classId])
+}
+
+model QuizSubmission {
+  id           String           @id @default(cuid())
+  assignmentId String
+  studentId    String
+  status       SubmissionStatus @default(IN_PROGRESS)
+  score        Float?
+  answers      QuizAnswer[]
+  assignment   QuizAssignment   @relation(fields: [assignmentId], references: [id], onDelete: Cascade)
+  student      User             @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  submittedAt  DateTime?
+  createdAt    DateTime         @default(now())
+
+  @@unique([assignmentId, studentId])
+}
+
+model QuizAnswer {
+  id           String         @id @default(cuid())
+  submissionId String
+  questionId   String
+  optionId     String?
+  textAnswer   String?
+  isCorrect    Boolean?
+  submission   QuizSubmission @relation(fields: [submissionId], references: [id], onDelete: Cascade)
+}
+
+model Notification {
+  id        String           @id @default(cuid())
+  userId    String
+  type      NotificationType
+  title     String
+  body      String
+  actionUrl String?
+  readAt    DateTime?
+  user      User             @relation(fields: [userId], references: [id], onDelete: Cascade)
+  createdAt DateTime         @default(now())
+
+  @@index([userId, readAt])
+}
+
+model LearningArtifact {
+  id          String   @id @default(cuid())
+  kind        String
+  ownerId     String
+  classId     String?
+  documentId  String?
+  title       String
+  content     Json
+  sourceRefs  Json?
+  createdAt   DateTime @default(now())
+}

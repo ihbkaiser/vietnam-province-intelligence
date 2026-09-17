@@ -1,0 +1,1060 @@
+
+===== PDF_PAGE_1 =====
+đại học quốc gia tphcm
+trường đại học khoa học tựnhiên
+khoa công nghệthông tin
+Xửlý ngôn ngữtựnhiên
+Báo cáo đồán giữa kì
+Đềtài: 28 - Vietnamese Chatbot history/traditional medeical
+Môn học: Nhập môn xửlý ngôn ngữtựnhiên
+Sinh viên thực hiện:
+Nguyễn Đình Hà Dương
+Lê Hoàng Minh Huy
+Huỳnh Trung Kiệt
+Đào SỹDuy Minh
+Giáo viên hướng dẫn:
+Assoc. Prof. Đinh Điền
+TS. Nguyễn Hồng Bửu Long
+Thầy Lê Đức Khoan
+Ngày 28 tháng 7 năm 2026
+
+===== PDF_PAGE_2 =====
+Báo cáo đồán giữa kì
+Trường Đại học Khoa học Tựnhiên - ĐHQG HCM
+Nhập môn xửlý ngôn ngữtựnhiên
+Mục lục
+1
+Thông tin nhóm
+3
+1.1
+Thành viên
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+1.2
+Bảng phân công công việc . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+1.3
+Tựđánh giá nhóm
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+2
+Giới thiệu
+5
+2.1
+Bối cảnh bài toán . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+2.2
+Mục tiêu báo cáo giữa kì . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+3
+Cách tiếp cận và phương pháp thực hiện
+6
+3.1
+Ý tưởng tổng thể. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+6
+3.2
+Lý do lựa chọn phương pháp . . . . . . . . . . . . . . . . . . . . . . . . . .
+6
+4
+Quy trình xửlý dữliệu
+7
+4.1
+Pipeline tổng thể. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+4.2
+Mô tảcác bước trong pipeline . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+5
+Các bước chính
+8
+5.1
+Tiền xửlý dữliệu . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+5.2
+OCR và trích xuất nội dung từPDF
+. . . . . . . . . . . . . . . . . . . . .
+8
+5.3
+Hợp nhất và quản lý metadata . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+5.4
+Chuẩn hóa sang Markdown và hậu xửlý nội dung . . . . . . . . . . . . . .
+10
+6
+Công cụvà công nghệsửdụng
+10
+6.1
+Phân tích các mô hình và công cụOCR . . . . . . . . . . . . . . . . . . . .
+10
+6.1.1
+Giai đoạn đềxuất và khảo sát công cụ. . . . . . . . . . . . . . . .
+10
+6.1.2
+DeepSeek OCR 3B . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+6.1.3
+PaddleOCR . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+6.1.4
+PDF-Extract-Kit . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+LATEX by Quan, Tran Hoang
+Trang 1
+
+===== PDF_PAGE_3 =====
+Báo cáo đồán giữa kì
+Trường Đại học Khoa học Tựnhiên - ĐHQG HCM
+Nhập môn xửlý ngôn ngữtựnhiên
+6.1.5
+So sánh và lựa chọn công cụ. . . . . . . . . . . . . . . . . . . . . .
+13
+6.1.6
+Đềxuất lựa chọn của nhóm . . . . . . . . . . . . . . . . . . . . . .
+13
+6.2
+Công cụkiểm tra và hiệu chỉnh chính tả(Gemini 3 Pro và Qwen 3 4B) . .
+14
+7
+Thống kê
+16
+7.1
+Sách: Những cây thuốc và vịthuốc Việt Nam
+. . . . . . . . . . . . . . . .
+16
+7.2
+Sách: Chuẩn đoán và điều trịnhững bệnh cơ xương khớp thường gặp . . .
+16
+8
+Ví dụminh họa
+17
+8.1
+Kết quảđầu ra của quá trình OCR bằng DeepSeek OCR 3B . . . . . . . .
+17
+8.1.1
+Kết quảtrên sách Những cây thuốc và vịthuốc Việt Nam
+. . . . .
+17
+8.1.2
+Kết quảtrên sách Chuẩn đoán và điều trịnhững bệnh cơ xương
+khớp thường gặp
+. . . . . . . . . . . . . . . . . . . . . . . . . . . .
+19
+8.1.3
+Nhận xét
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+21
+8.2
+Kết quảđầu ra của quá trình phân tích PDF bằng PDF-Extract-Kit
+. . .
+21
+8.3
+Kết quảxuất tài liệu Word hoàn chỉnh . . . . . . . . . . . . . . . . . . . .
+22
+8.3.1
+Kết quả. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+22
+8.3.2
+Nhận xét
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+23
+8.4
+Xây dựng và tổchức Metadata tài liệu đểsinh dữliệu cho giai đoạn tiếp theo 23
+8.5
+Xây dựng và tổchức Metadata tài liệu đểsinh dữliệu cho giai đoạn tiếp theo 23
+9
+Kết luận và hướng phát triển và kếhoạch tương lai
+25
+9.1
+Kết luận . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+25
+9.2
+Hướng phát triển và kếhoạch tương lai . . . . . . . . . . . . . . . . . . . .
+26
+Tài liệu tham khảo
+28
+LATEX by Quan, Tran Hoang
+Trang 2
+
+===== PDF_PAGE_4 =====
+Báo cáo đồán giữa kì
+Trường Đại học Khoa học Tựnhiên - ĐHQG HCM
+Nhập môn xửlý ngôn ngữtựnhiên
+1
+Thông tin nhóm
+1.1
+Thành viên
+Mã sốsinh viên
+Họvà tên
+23122002
+Nguyễn Đình Hà Dương
+23122033
+Lê Hoàng Minh Huy
+23122039
+Huỳnh Trung Kiệt
+23122041
+Đào SỹDuy Minh
+1.2
+Bảng phân công công việc
+Thành viên
+Nhiệm vụ
+Đóng góp (%)
+Nguyễn Đình Hà Dương
+Xây dựng hệthống trích xuất OCR sửdụng
+DeepSeek. Xây dựng metadata và chạy thử
+nghiệm trên một phần dữliệu. Tham gia viết
+và hoàn thiện báo cáo.
+100
+Lê Hoàng Minh Huy
+Xây dựng hệthống trích xuất OCR sửdụng
+PDF-Extract-Kit. Xây dựng metadata và
+chạy thửnghiệm trên một phần dữliệu.
+100
+Đào SỹDuy Minh
+Xây dựng hệthống kiểm tra chính tảvà hoàn
+thiện tài liệu Word bằng mô hình ngôn ngữ
+lớn (LLM). Chạy và hoành thành dữliệu.
+Tham gia viết và hoàn thiện báo cáo.
+100
+Huỳnh Trung Kiệt
+Xây dựng hệthống kiểm tra chính tảvà hoàn
+thiện tài liệu Word bằng mô hình ngôn ngữ
+lớn (LLM). Chạy và hoành thành dữliệu.
+Tham gia viết và hoàn thiện báo cáo.
+100
+Bảng 1: Phân công nhiệm vụvà mức độđóng góp của các thành viên
+1.3
+Tựđánh giá nhóm
+Nhóm đã hoàn thành đầy đủcác nội dung theo đúng tiến độđềra. Hệthống trích xuất
+được xây dựng và triển khai ổn định, đáp ứng tốt các yêu cầu đặt ra vềchất lượng, tính
+LATEX by Quan, Tran Hoang
+Trang 3
+
+===== PDF_PAGE_5 =====
+Báo cáo đồán giữa kì
+Trường Đại học Khoa học Tựnhiên - ĐHQG HCM
+Nhập môn xửlý ngôn ngữtựnhiên
+chính xác và khảnăng mởrộng. Quá trình làm việc nhóm được thực hiện nghiêm túc,
+phối hợp hiệu quả, đảm bảo tiến độvà chất lượng của đồán.
+LATEX by Quan, Tran Hoang
+Trang 4
+
+===== PDF_PAGE_6 =====
+Báo cáo đồán giữa kì
+Trường Đại học Khoa học Tựnhiên - ĐHQG HCM
+Nhập môn xửlý ngôn ngữtựnhiên
+2
+Giới thiệu
+2.1
+Bối cảnh bài toán
+Mục tiêu cuối cùng của đồán là xây dựng một chatbot hỏi–đáp dựa trên nội dung
+sách và giáo trình. Tuy nhiên, dữliệu của chatbot sẽlà những file PDF được scanned,
+những file PDF này biểu diễn dưới dạng hình ảnh và không có text layer.
+Do đó, chatbot không thểtrực tiếp đọc, tìm kiếm hay xửlý nội dung tài liệu. Đểgiải
+quyết vấn đềnày, ta phải xây dựng một hệthống thực hiện (OCR) nhằm chuyển đổi nội
+dung từhình ảnh sang văn bản có thểxửlý tựđộng.
+Vì vậy, trong phạm vi đồán giữa kỳ, nhóm tập trung vào trích xuất và tái tạo nội
+dung văn bản từPDF quét bằng OCR, làm tiền đềcho việc xây dựng chatbot ởcác
+giai đoạn tiếp theo.
+2.2
+Mục tiêu báo cáo giữa kì
+Mục tiêu của báo cáo là đềxuất, triển khai và đánh giá một hệthống xửlý tựđộng cho
+bài toán chuyển đổi tài liệu PDF dạng quét sang văn bản có cấu trúc ởđịnh dạng
+Word. Hệthống được xây dựng nhằm thỏa mãn đầy đủcác yêu cầu của đềbài, đồng
+thời phục vụcho việc khai thác và tái sửdụng nội dung tài liệu một cách hiệu quả.
+Theo yêu cầu của đềbài, mỗi sinh viên thực hiện quá trình OCR tối thiểu 3000 câu từ
+tài liệu PDF dạng quét. Kết quảđầu ra của hệthống cần đáp ứng các tiêu chí sau:
+• Bảo toàn đầy đủnội dung văn bản, cho phép lược bỏphần header và footer
+trong trường hợp không ảnh hưởng đến nội dung chính của tài liệu.
+• Bảo toàn đầy đủhình ảnh, đồthịvà bảng biểu; các thành phần này được
+lưu dưới dạng file hình ảnh độc lập, có đánh mã định danh và được đính kèm
+đúng vịtrí tương ứng trong nội dung văn bản.
+LATEX by Quan, Tran Hoang
+Trang 5
+
+===== PDF_PAGE_7 =====
+Báo cáo đồán giữa kì
+Trường Đại học Khoa học Tựnhiên - ĐHQG HCM
+Nhập môn xửlý ngôn ngữtựnhiên
+• Giữnguyên bốcục và cấu trúc tài liệu, bao gồm thứtựcác đoạn văn, mục,
+tiểu mục và cách trình bày tổng thểcủa tài liệu gốc.
+• Tại cuối mỗi chỉmục cấp độ2 (ví dụ: 2.1, 2.2, . . . ), chèn chuỗi ký tựđặc biệt
+</break> nhằm hỗtrợcho bước tách mục trong quá trình hậu xửlý và tổchức dữ
+liệu.
+• Định dạng đầu ra là file Word, đảm bảo khảnăng chỉnh sửa, khai thác và tích
+hợp vào các quy trình xửlý tiếp theo.
+• Đềxuất sửdụng công cụEasyDataset đểhỗtrợquá trình xửlý, tổchức và quản
+lý dữliệu OCR một cách hiệu quả.
+3
+Cách tiếp cận và phương pháp thực hiện
+3.1
+Ý tưởng tổng thể
+Hệthống được thiết kếtheo kiến trúc pipeline, trong đó dữliệu đầu vào là các tài liệu
+PDF scan. Quá trình trích xuất nội dung được thực hiện thông qua hai nhánh xửlý song
+song: (i) nhận dạng văn bản từảnh bằng OCR và (ii) trích xuất trực tiếp nội dung từ
+PDF trong trường hợp tài liệu có chứa lớp văn bản. Kết quảtừhai nhánh được hợp nhất
+và chuẩn hóa nhằm tạo ra biểu diễn thống nhất cho dữliệu văn bản.
+3.2
+Lý do lựa chọn phương pháp
+Việc áp dụng OCR đơn thuần thường dẫn đến nhiều hạn chế, bao gồm lỗi chính tả, mất
+dấu tiếng Việt và phá vỡcấu trúc tài liệu. Do đó, hệthống được mởrộng bằng cách kết
+hợp công cụtrích xuất PDF và sửdụng mô hình ngôn ngữlớn (LLM) trong giai đoạn hậu
+xửlý. Cách tiếp cận này giúp tận dụng ưu điểm của từng phương pháp, đồng thời nâng
+cao độchính xác, tính mạch lạc và mức độhoàn thiện của văn bản đầu ra.
+LATEX by Quan, Tran Hoang
+Trang 6
+
+===== PDF_PAGE_8 =====
+Báo cáo đồán giữa kì
+Trường Đại học Khoa học Tựnhiên - ĐHQG HCM
+Nhập môn xửlý ngôn ngữtựnhiên
+4
+Quy trình xửlý dữliệu
+4.1
+Pipeline tổng thể
+Hình 1 trình bày pipeline tổng thểcủa hệthống, mô tảtoàn bộquá trình xửlý từtài liệu
+PDF scan đầu vào đến file Word có cấu trúc ởđầu ra. Pipeline được thiết kếtheo hướng
+tuần tựkết hợp song song, nhằm tối ưu hóa chất lượng trích xuất nội dung và đảm bảo
+tính toàn vẹn của văn bản.
+Hình 1: Pipeline xửlý tài liệu PDF scan sang Word
+4.2
+Mô tảcác bước trong pipeline
+Quy trình xửlý dữliệu bao gồm các bước chính sau:
+• Chuyển đổi PDF scan sang ảnh: Mỗi tài liệu PDF được tách thành các trang
+ảnh riêng lẻnhằm phục vụcho quá trình nhận dạng ký tựquang học.
+• Nhận dạng văn bản từảnh (OCR): Các ảnh của từng trang được đưa vào mô
+hình chuyễn xửlý vềtác vụOCR đểtrích xuất nội dung văn bản thô từtài liệu
+hình ảnh được trích xuất ra từvăn bản scan.
+• Trích xuất nội dung từPDF: Trong trường hợp PDF có chứa lớp văn bản, hình
+ảnh, nội dung và thông tin cấu trúc được trích xuất trực tiếp nhằm bổsung hình
+ảnh và đối chiếu với kết quảOCR.
+LATEX by Quan, Tran Hoang
+Trang 7
+
+===== PDF_PAGE_9 =====
+Báo cáo đồán giữa kì
+Trường Đại học Khoa học Tựnhiên - ĐHQG HCM
+Nhập môn xửlý ngôn ngữtựnhiên
+• Hợp nhất metadata: Kết quảtừcác nhánh xửlý được hợp nhất, kèm theo các
+metadata như văn bản đã OCR, sốtrang, ảnh và vịtrí xuất hiện các đối tượng trong
+tài liệu.
+• Chuẩn hóa sang Markdown: Văn bản sau khi được hợp nhất từcác nguồn khác
+nhau được chuyển đổi sang định dạng Markdown nhằm biểu diễn rõ ràng cấu trúc
+tài liệu, bao gồm tiêu đề, đoạn văn và các đối tượng hình ảnh, đồng thời xác định
+vịtrí chèn phù hợp cho từng đối tượng.
+• Hậu xửlý bằng LLM và Human-in-the-loop: LLM được sửdụng đểsửa lỗi
+chính tả, khôi phục dấu tiếng Việt và cải thiện tính mạch lạc của nội dung văn bản.
+Sau đó dò và chỉnh sửa bằng tay những điểm mà LLM không thểsửa một cách chi
+tiết
+• Xuất file Word: Nội dung Markdown cuối cùng được chuyển đổi sang định dạng
+Word, đảm bảo giữnguyên cấu trúc và khảnăng chỉnh sửa.
+5
+Các bước chính
+5.1
+Tiền xửlý dữliệu
+Các tài liệu PDF đầu vào chủyếu tồn tại dưới dạng PDF scan, trong đó toàn bộnội dung
+văn bản được lưu trữdưới dạng hình ảnh. Do đó, bước tiền xửlý đóng vai trò quan trọng
+nhằm chuẩn bịdữliệu phù hợp cho các bước trích xuất tiếp theo. Mỗi file PDF được tách
+thành các trang ảnh riêng lẻ, đảm bảo giữnguyên thứtựvà mối quan hệgiữa các trang
+trong tài liệu gốc.Các ảnh sau khi tách được chuẩn hóa vềkích thước đểthực hiện OCR.
+5.2
+OCR và trích xuất nội dung từPDF
+Đối với các trang tài liệu đã được chuyển đổi sang dạng ảnh ởbước tiền xửlý, mô hình
+DeepSeek OCR 3B được sửdụng đểthực hiện nhận dạng ký tựquang học và trích xuất
+nội dung văn bản thô. Mô hình này cho khảnăng nhận dạng tương đối tốt đối với văn
+LATEX by Quan, Tran Hoang
+Trang 8
+
+===== PDF_PAGE_10 =====
+Báo cáo đồán giữa kì
+Trường Đại học Khoa học Tựnhiên - ĐHQG HCM
+Nhập môn xửlý ngôn ngữtựnhiên
+bản in tiếng Việt, đồng thời xửlý hiệu quảcác bốcục tài liệu phổbiến như đoạn văn và
+tiêu đề.
+Tuy nhiên, mặc dù DeepSeek OCR cho chất lượng trích xuất văn bản cao, phương pháp
+này không bảo toàn được các thông tin vềhình ảnh và layout của tài liệu gốc. Điều này
+gây hạn chếtrong các bài toán yêu cầu tái hiện nội dung tài liệu một cách đầy đủvà có
+cấu trúc.
+Đểkhắc phục nhược điểm trên, một framework xửlý song song, nhẹ, nhưng đảm bảo độ
+chính xác cao được xây dựng. Song song với quá trình OCR, PDF-Extract-Kit được sử
+dụng đểtrích xuất trực tiếp nội dung văn bản, hình ảnh và các thông tin cấu trúc từfile
+PDF gốc. Phương pháp này đặc biệt hiệu quảtrong các trường hợp tài liệu chứa lớp văn
+bản (text layer) hoặc các thành phần đồhọa mà OCR không thểxửlý tốt.
+Việc kết hợp hai hướng tiếp cận theo mô hình xửlý song song cho phép tận dụng ưu điểm
+của từng phương pháp: DeepSeek OCR đảm bảo chất lượng nhận dạng văn bản từảnh,
+trong khi PDF-Extract-Kit giúp bảo toàn hình ảnh và bốcục tài liệu. Cách tiếp cận này
+giúp giảm thiểu sai sót phát sinh khi chỉsửdụng một nguồn trích xuất duy nhất, đồng
+thời nâng cao độtin cậy và tính đầy đủcủa dữliệu đầu ra.
+5.3
+Hợp nhất và quản lý metadata
+Sau khi hoàn tất quá trình trích xuất từOCR và PDF, dữliệu thu được từhai nguồn
+được hợp nhất thành một biểu diễn thống nhất. Trong quá trình hợp nhất, các metadata
+quan trọng như sốtrang, thứtựdòng, vịtrí xuất hiện của văn bản và mối quan hệgiữa
+các thành phần nội dung được gán kèm nhằm bảo toàn cấu trúc và ngữcảnh của tài liệu
+gốc.
+Việc quản lý metadata không chỉgiúp duy trì tính toàn vẹn của tài liệu mà còn đóng vai
+LATEX by Quan, Tran Hoang
+Trang 9
+
+===== PDF_PAGE_11 =====
+Báo cáo đồán giữa kì
+Trường Đại học Khoa học Tựnhiên - ĐHQG HCM
+Nhập môn xửlý ngôn ngữtựnhiên
+trò quan trọng trong các bước xửlý tiếp theo, đặc biệt là khi tái tạo bốcục tài liệu và
+đặt vịtrí cho các đối tượng như hình ảnh hoặc bảng biểu trong file Word đầu ra.
+5.4
+Chuẩn hóa sang Markdown và hậu xửlý nội dung
+Nội dung văn bản sau khi hợp nhất được chuyển đổi sang định dạng Markdown nhằm tạo
+ra một biểu diễn trung gian có cấu trúc rõ ràng và dễxửlý. Markdown cho phép biểu diễn
+hiệu quảcác thành phần như tiêu đề, đoạn văn, danh sách, bảng biểu và các công thức
+toán học, đồng thời hỗtrợxác định vịtrí chèn các đối tượng hình ảnh dựa trên metadata
+đã thu thập.
+Định dạng Markdown cũng được lựa chọn nhằm tối ưu quá trình xửlý bằng mô hình ngôn
+ngữlớn (LLM), do đây là định dạng văn bản nhẹ, dễphân tích cú pháp và dễtái cấu trúc.
+Cuối cùng, kết quảsau hậu xửlý được rà soát và hiệu chỉnh thủcông ởnhững trường hợp
+đặc thù mà LLM chưa thểxửlý chính xác, nhằm đảm bảo chất lượng và độtin cậy của
+tài liệu trước khi xuất ra định dạng Word.
+6
+Công cụvà công nghệsửdụng
+6.1
+Phân tích các mô hình và công cụOCR
+6.1.1
+Giai đoạn đềxuất và khảo sát công cụ
+Trong giai đoạn đầu của đồán, nhóm tiến hành khảo sát và đềxuất một sốcông cụOCR
+phổbiến nhằm đánh giá mức độphù hợp với bài toán trích xuất nội dung từtài liệu PDF
+tiếng Việt. Các tiêu chí đánh giá chính bao gồm: khảnăng nhận dạng tiếng Việt, hiệu quả
+với tài liệu scan, khảnăng giữcấu trúc văn bản, tốc độxửlý và mức độtùy chỉnh.
+Dựa trên khảo sát ban đầu, nhóm tập trung phân tích ba hướng tiếp cận chính:
+• Các mô hình OCR dựa trên Large Language Model (đại diện là DeepSeek OCR 3B).
+LATEX by Quan, Tran Hoang
+Trang 10
+
+===== PDF_PAGE_12 =====
+Báo cáo đồán giữa kì
+Trường Đại học Khoa học Tựnhiên - ĐHQG HCM
+Nhập môn xửlý ngôn ngữtựnhiên
+• Các framework OCR truyền thống hiệu năng cao (đại diện là PaddleOCR).
+• Các bộcông cụtrích xuất PDF tổng hợp (đại diện là PDF-Extract-Kit).
+6.1.2
+DeepSeek OCR 3B
+DeepSeek OCR 3B là mô hình OCR dựa trên kiến trúc Large Language Model đa phương
+thức, được huấn luyện với quy mô lớn nhằm kết hợp khảnăng nhận dạng ký tựvà hiểu
+ngữcảnh văn bản. Khác với các hệthống OCR truyền thống chỉtập trung vào nhận dạng
+ký tự, DeepSeek OCR có khảnăng sinh văn bản mạch lạc và hỗtrợsuy luận ngữnghĩa
+từnội dung ảnh đầu vào.
+Ưu điểm:
+• Khảnăng nhận dạng tiếng Việt tốt, đặc biệt với tài liệu in và văn bản học thuật.
+• Hoạt động ổn định với tài liệu scan chất lượng trung bình, giảm phụthuộc vào các
+bước tiền xửlý phức tạp.
+• Có thểkết hợp với LLM đểhiệu chỉnh lỗi OCR, tái cấu trúc đoạn văn và chuẩn hóa
+nội dung.
+• Phù hợp với các pipeline xửlý tài liệu có bước hậu xửlý thông minh.
+Nhược điểm:
+• Chưa tối ưu cho các tài liệu có bốcục phức tạp như bảng biểu hoặc đa cột.
+• Yêu cầu tài nguyên tính toán cao hơn so với các mô hình OCR truyền thống.
+6.1.3
+PaddleOCR
+PaddleOCR là framework OCR mã nguồn mởđược phát triển bởi Baidu, dựa trên nền
+tảng PaddlePaddle. Đây là một trong những giải pháp OCR phổbiến nhờhiệu năng cao
+và khảnăng hỗtrợnhiều ngôn ngữ.
+Ưu điểm:
+LATEX by Quan, Tran Hoang
+Trang 11
+
+===== PDF_PAGE_13 =====
+Báo cáo đồán giữa kì
+Trường Đại học Khoa học Tựnhiên - ĐHQG HCM
+Nhập môn xửlý ngôn ngữtựnhiên
+• Tốc độxửlý nhanh và ổn định trên nhiều loại tài liệu.
+• Hỗtrợtốt tiếng Việt, bao gồm cảvăn bản in và văn bản ảnh chụp.
+• Cung cấp pipeline OCR hoàn chỉnh từphát hiện vùng chữđến nhận dạng ký tự.
+Nhược điểm:
+• Kết quảđầu ra chủyếu là văn bản thô, khảnăng bảo toàn cấu trúc tài liệu còn hạn
+chế.
+• Việc tinh chỉnh mô hình đòi hỏi kiến thức chuyên sâu vềframework PaddlePaddle.
+6.1.4
+PDF-Extract-Kit
+PDF-Extract-Kit là bộcông cụmã nguồn mởchuyên dụng cho việc trích xuất nội dung
+từtài liệu PDF, bao gồm cảPDF dạng text-based và image-based. Công cụnày tập trung
+vào phân tích bốcục tài liệu thay vì chỉthực hiện OCR đơn thuần.
+Ưu điểm:
+• Khảnăng phân tích và giữcấu trúc tài liệu PDF tốt (tiêu đề, đoạn văn, bảng, hình
+ảnh).
+• Cho phép kết hợp linh hoạt giữa OCR và trích xuất trực tiếp từtext-layer của PDF.
+• Phù hợp với các tài liệu học thuật và báo cáo có bốcục phức tạp.
+Nhược điểm:
+• Chất lượng trích xuất phụthuộc nhiều vào chất lượng PDF đầu vào.
+• Không phải là mô hình OCR thuần túy mà là bộcông cụtổng hợp, cần cấu hình
+nhiều thành phần.
+LATEX by Quan, Tran Hoang
+Trang 12
+
+===== PDF_PAGE_14 =====
+Báo cáo đồán giữa kì
+Trường Đại học Khoa học Tựnhiên - ĐHQG HCM
+Nhập môn xửlý ngôn ngữtựnhiên
+6.1.5
+So sánh và lựa chọn công cụ
+Tiêu chí
+DeepSeek
+OCR 3B
+PaddleOCR
+PDF-Extract-
+Kit
+Khả
+năng
+tiếng
+Việt
+Tốt
+Trung bình
+Không tốt
+Xửlý tài liệu scan
+Tốt
+Trung bình
+Trung bình
+Giữcấu trúc tài
+liệu
+Trung bình
+Thấp
+Tốt
+Tốc độxửlý
+Trung bình
+Trung bình
+Cao
+Khảnăng mởrộng
+Cao
+Cao
+Trung bình
+Mức độtùy chỉnh
+Cao
+Trung bình
+Cao
+Mục tiêu sửdụng
+OCR + hiểu ngữ
+nghĩa
+OCR thuần túy
+Trích xuất PDF
+toàn diện
+6.1.6
+Đềxuất lựa chọn của nhóm
+Xuất phát từyêu cầu xây dựng hệthống có kiến trúc gọn nhẹvà thời gian trích xuất
+nhanh, sau quá trình khảo sát và so sánh các công cụOCR, nhóm quyết định lựa chọn
+DeepSeek OCR 3B kết hợp với PDF-Extract-Kit cho hệthống đềxuất. Trong đó,
+DeepSeek OCR 3B đảm nhiệm vai trò nhận dạng văn bản tiếng Việt và hỗtrợhiệu chỉnh
+ngữnghĩa, giúp cải thiện chất lượng nội dung trích xuất. Đồng thời, PDF-Extract-Kit
+được sửdụng đểphân tích bốcục và bảo toàn cấu trúc tài liệu PDF. Sựkết hợp này cho
+phép hệthống đạt được sựcân bằng giữa độchính xác trong nhận dạng ký tựvà khả
+năng trích xuất nội dung có tổchức, đáp ứng hiệu quảyêu cầu xửlý các tài liệu học thuật
+tiếng Việt.
+LATEX by Quan, Tran Hoang
+Trang 13
+
+===== PDF_PAGE_15 =====
+Báo cáo đồán giữa kì
+Trường Đại học Khoa học Tựnhiên - ĐHQG HCM
+Nhập môn xửlý ngôn ngữtựnhiên
+6.2
+Công cụkiểm tra và hiệu chỉnh chính tả(Gemini 3 Pro và
+Qwen 3 4B)
+Bên cạnh bài toán nhận dạng ký tựquang học (OCR), một thách thức quan trọng trong
+quá trình trích xuất nội dung từtài liệu PDF tiếng Việt là lỗi chính tảvà lỗi ngữnghĩa
+phát sinh sau OCR, đặc biệt đối với các tài liệu scan hoặc văn bản có chất lượng hình ảnh
+trung bình. Do đó, nhóm nghiên cứu xem xét bổsung các mô hình ngôn ngữlớn (LLM)
+nhằm thực hiện bước kiểm tra và hiệu chỉnh chính tả, cải thiện tính mạch lạc và độtin
+cậy của văn bản đầu ra.
+Trong giai đoạn khảo sát, hai mô hình được xem xét cho nhiệm vụnày là Gemini 3 Pro
+và Qwen 3 4B.
+Gemini 3 Pro là mô hình ngôn ngữlớn đa phương thức do Google phát triển, có khả
+năng hiểu ngữcảnh tốt và hỗtrợhiệu chỉnh văn bản ởmức độngữnghĩa. Khi áp dụng
+cho văn bản sau OCR, Gemini 3 Pro có thểphát hiện và sửa các lỗi chính tảphổbiến, lỗi
+tách từ, cũng như cải thiện cấu trúc câu và đoạn văn.
+Ưu điểm:
+• Khảnăng hiểu ngữcảnh mạnh, phù hợp cho việc hiệu chỉnh văn bản dài và mang
+tính học thuật.
+• Có thểtái cấu trúc câu, chuẩn hóa thuật ngữvà cải thiện tính mạch lạc của nội
+dung.
+Nhược điểm:
+• Phụthuộc vào dịch vụbên ngoài, không phù hợp với yêu cầu triển khai cục bộ
+(on-premise).
+• Chi phí sửdụng cao và khó tích hợp vào pipeline xửlý gọn nhẹ.
+LATEX by Quan, Tran Hoang
+Trang 14
+
+===== PDF_PAGE_16 =====
+Báo cáo đồán giữa kì
+Trường Đại học Khoa học Tựnhiên - ĐHQG HCM
+Nhập môn xửlý ngôn ngữtựnhiên
+Qwen 3 4B là mô hình ngôn ngữlớn mã nguồn mởvới kích thước trung bình, có thể
+triển khai cục bộvà tùy chỉnh theo nhu cầu. Mô hình này được đánh giá phù hợp cho các
+tác vụnhư kiểm tra chính tả, sửa lỗi từvựng và hiệu chỉnh câu ởmức cơ bản.
+Ưu điểm:
+• Có thểtriển khai local, phù hợp với yêu cầu kiểm soát dữliệu và tài nguyên.
+• Hiệu năng chấp nhận được cho nhiệm vụkiểm tra chính tảvà hiệu chỉnh văn bản
+sau OCR.
+• Dễtích hợp vào pipeline xửlý tài liệu hiện có.
+Nhược điểm:
+• Khảnăng hiểu ngữnghĩa tiếng Việt chưa sâu bằng các mô hình thương mại lớn.
+• Chủyếu phù hợp cho sửa lỗi chính tảvà lỗi câu đơn giản, chưa tối ưu cho tái cấu
+trúc văn bản phức tạp.
+Nhìn chung, các công cụkiểm tra chính tảdựa trên LLM đóng vai trò bổtrợquan trọng
+trong pipeline xửlý tài liệu. Tuy nhiên, trong phạm vi đồán, nhóm không đặt trọng tâm
+vào việc hoàn thiện nội dung văn bản đầu ra vềmặt ngữnghĩa, mà ưu tiên độchính xác
+của vịtrí, bốcục và metadata phục vụcho các bước xửlý tiếp theo. Do đó, các mô hình
+như Gemini 3 Pro và Qwen 3 4B được xem là các lựa chọn tiềm năng cho giai đoạn mở
+rộng trong tương lai, thay vì thành phần cốt lõi của hệthống hiện tại.
+LATEX by Quan, Tran Hoang
+Trang 15
+
+===== PDF_PAGE_17 =====
+Báo cáo đồán giữa kì
+Trường Đại học Khoa học Tựnhiên - ĐHQG HCM
+Nhập môn xửlý ngôn ngữtựnhiên
+7
+Thống kê
+7.1
+Sách: Những cây thuốc và vịthuốc Việt Nam
+Bảng 3:
+Hạng mục
+Sốlượng
+Tổng sốtrang xửlý
+1297
+Sốtrang Word sau xửlý
+3419
+Tổng sốhình ảnh trích xuất
+1096
+Tổng sốbảng trích xuất
+33
+Tổng sốkhối nội dung
+1129
+7.2
+Sách: Chuẩn đoán và điều trịnhững bệnh cơ xương khớp
+thường gặp
+Bảng 4: Sách: Thống kê kết quảxửlý tài liệu
+Hạng mục
+Sốlượng
+Tổng sốtrang xửlý
+162
+Sốtrang Word sau xửlý
+201
+Tổng sốhình ảnh trích xuất
+49
+Tổng sốbảng trích xuất
+5
+Tổng sốkhối nội dung
+54
+LATEX by Quan, Tran Hoang
+Trang 16
+
+===== PDF_PAGE_18 =====
+Báo cáo đồán giữa kì
+Trường Đại học Khoa học Tựnhiên - ĐHQG HCM
+Nhập môn xửlý ngôn ngữtựnhiên
+8
+Ví dụminh họa
+8.1
+Kết quảđầu ra của quá trình OCR bằng DeepSeek OCR 3B
+8.1.1
+Kết quảtrên sách Những cây thuốc và vịthuốc Việt Nam
+Kết quảminh họa nhận dạng văn bản từmô hình DeepSeek OCR 3B trên trang 20 của
+tài liệu
+Hình 2: Ảnh gốc trang 20
+Page 20:
+bệnh khá mơ hồnhư đau bụng, ho, hậu sản,
+cam, v.v... Trách nhiệm của người thầy thuốc là
+phải theo dõi tác dụng của thuốc trên lâm sàng,
+có đủnhững xét nghiệm, phương tiện chẩn đoán
+hiện đại đểdần dần có thểviết lại những tên
+bệnh, triệu chứng tật bệnh theo đúng như khoa
+học y học hiện đại. Có như vậy chúng ta mới
+thực hiện đúng chủtrương thừa kếnhưng phải
+phát huy hết vốn cũ của ông cha ta. Chúng ta
+không thểđứng ngoài mà chê trách các cụlương
+y, các tài liệu y học cũ là lạc hậu, là mơ hồđểrồi
+không dùng, không theo, mà thái độđúng của
+chúng ta là phải nghiên cứu tìm hiểu trên thực
+tếnhững tên bệnh đó tương ứng với những bệnh
+theo nghĩa khoa học y học hiện đại.
+ểtiện cho các bạn tham khảo, đối chiếu, trong
+phạm vi có thể, ngoài những tên bệnh mới, chúng
+tôi đều có ghi tác dụng và tính chất của vịthuốc
+theo các tài liệu cổ, theo tiếng nói của các cụ
+lương y. Kinh nghiệm bản thân tôi cho thấy
+những tính chất và tác dụng đó, tuy viết theo
+những danh từcổ, nhưng cũng giúp ta một ý
+niệm quan trọng vềnhững chỉđịnh của người
+xưa đểcó thểrút kinh nghiệm vận dụng trong
+điều kiện hiện nay.
+Mặc dù chúng tôi đã cốgắng thu thập nhiều tài
+liệu và dẫn chứng Việt Nam, nhưng vẫn còn quá
+ít, vì phần lớn những kinh nghiệm dùng thuốc
+nam chưa được chính thức công bố.
+Hình 3: Kết quảOCR bằng DeepSeek OCR 3B trên trang 20
+LATEX by Quan, Tran Hoang
+Trang 17
+
+===== PDF_PAGE_19 =====
+Báo cáo đồán giữa kì
+Trường Đại học Khoa học Tựnhiên - ĐHQG HCM
+Nhập môn xửlý ngôn ngữtựnhiên
+Hình 4: Ảnh gốc trang 26
+Page 26: sinh và chống lại nhau gọi là **tương khắc**.
+Trên cơ ở**sinh** và **khắc** lại thêm hiện tượng
+**chếhóa** và **tương thừa tương vũ**. Tương sinh,
+tương khắc, chếhóa, tương thừa tương vũ biểu thịmọi
+sựbiến hóa phức tạp của sựvật. **Luật tương sinh.**
+Tương sinh có nghĩa là giúp đỡnhau đểsinh trưởng.
+Đem ngũ hành liên hệvới nhau thì thấy 5 hành đồquan
+hệxúc tiến lẫn nhau, nương tựa lẫn nhau. Theo luật
+tương sinh thì thủy sinh mộc, mộc sinh hóa, hóa sinh
+thổ, thổsinh kim, kim sinh thủy, thủy lại sinh mộc và
+cứnhư vậy tiếp diễn mãi, thúc đẩy sựphát triển không
+bao giờngừng. Trong luật tương sinh của ngũ hành còn
+bao hàm ý nữa là hành nào cũng có **quan hệvếhai
+phương diện: cái sinh ra nó và cái nó sinh ra** tức là
+quan hệmẫu tử. Ví dụkim sinh thủy thì kim là mẹ
+của thủy, thủy lại sinh ra mộc vậy mộc là con của thủy.
+Trong quan hệtương sinh lại có quan hệtương khắc để
+biểu hiện cái ý thăng bằng, giữgìn lẫn nhau. **Luật
+tương khắc.** Tương khắc có nghĩa là ức chếvà thắng
+nhau. Trong quy luật tương khắc thì mộc khắc thổ, thổ
+khắc thủy, thủy khắc hóa, hóa khắc kim, kim khắc mộc
+và mộc lại khắc thổ, và cứnhư vậy tiếp diễn mãi.
+Trong tình trạng bình thường, sựtương khắc có tác dụng
+duy trì sựthăng bằng, nhưng nếu tương khắc thái quá
+thì lại làm cho sựbiến hóa trởngại khác thường.
+Trong tương khắc, mỗi hành cũng lại có hai quan hệ:
+giữa cái thắng nó và cái nó thắng. Ví dụhành mộc thì
+nó khắc thổ, nhưng nó lại bịkim khắc nó.
+Hiện tương tương khắc không tồn tại đơn độc; trong
+tương khắc đã có ngụý tương sinh, do đó vạn vật tồn
+tại và phát triển.
+**Luật chếhóa.** Chếhóa là chếức là sinh hóa phối
+hợp với nhau. Trong chếhóa bao gồm cảhiện tượng
+tương sinh và tương khắc. Hai hiện tượng này gắn liền
+với nhau.
+Lẽtạo hóa không thểkhông có sinh mà cũng
+—
+**Hình 2**
+a. Ngũ hành tương sinh b. Ngũ hành tương khắc c. Quan
+hệ**chếhóa**
+Hình 5: Kết quảOCR bằng DeepSeek OCR 3B trên trang 26
+LATEX by Quan, Tran Hoang
+Trang 18
+
+===== PDF_PAGE_20 =====
+Báo cáo đồán giữa kì
+Trường Đại học Khoa học Tựnhiên - ĐHQG HCM
+Nhập môn xửlý ngôn ngữtựnhiên
+8.1.2
+Kết quảtrên sách Chuẩn đoán và điều trịnhững bệnh cơ xương khớp
+thường gặp
+Kết quảminh họa nhận dạng văn bản từmô hình DeepSeek OCR 3B trên trang 21 của
+tài liệu
+Hình 6: Ảnh gốc trang 21
+Page 21:
+2. Cấu trúc mô xương
+Xương là một mô liên kết đặc biệt bao gồm các
+tếbào và chất khuôn xương (bone matrix). Chất
+khuôn xương bao gồm các sợi collagen và các mô
+liên kết khác giàu chất glucoaminoglycin, khuôn
+xương có thểtrởthành calci hoá. Mô xương có
+xương đặc (xương vỏ) và xương xốp; 80
+Các tếbào xương bao gồm: huỷcốt bào là các tế
+bào khổng lồđa nhân, có nhiệm vụtiêu xương.
+Tạo cốt bào là tếbào có nhân hình thoi, có nhiệm
+vụsăn sinh ra các thành phần của nền xương
+(các sợi collagen và các chất nền), có vai trò quan
+trọng trong quá trình calci hoá.
+Việc tạo xương (bone formation) và huỷxương
+(bone resorption) diễn ra theo cơ chếthay xương
+cũ bằng xương mới. Bình thường hai quá trình
+này được duy trì một cách cân bằng cho đến
+khoảng 30 - 35 tuổi, từtuổi này trởlên tạo cốt
+bào hoạt động quá mức, huỷxương cao hơn tạo
+xương dẫn tới giảm khối xương theo thời gian,
+đặc biệt ởgiai đoạn mãn kinh, gây nên tình trạng
+loãng xương.
+3. Khối lượng xương đỉnh (peak bone mass -
+PBM)
+Là mật độxương đạt được tối đa vào tuổi từ
+20 - 35 (Tuy nhiên tuổi đạt được PBM tùy theo
+từng tác giả). PBM càng cao thì nguy cơ loãng
+xương sau này càng thấp.
+Những yếu tốảnh hưởng đến PBM:
+- Di truyền: 60-80 do yếu tốdi truyền. Một số
+gen liên quan đến giảm MĐX là những gen điều
+hoà sựtổng hợp collagen, các thụthểestrogen,
+vitamin D.
+19 ————————————————–
+Hình 7: Kết quảOCR bằng DeepSeek OCR 3B trên trang 21
+LATEX by Quan, Tran Hoang
+Trang 19
+
+===== PDF_PAGE_21 =====
+Báo cáo đồán giữa kì
+Trường Đại học Khoa học Tựnhiên - ĐHQG HCM
+Nhập môn xửlý ngôn ngữtựnhiên
+Hình 8: Ảnh gốc trang 26
+Page 26: Chú ý triệu chứng âm tính quan trọng
+là không có các vùng huỷxương trên hình ảnh
+X-quang của thân đốt sống. Các đốt sống có mật
+độđồng nhất, có kết đặc ởvùng mâm đốt sống
+(hình ảnh viền tang). Khe đĩa đệm không bịhẹp.
+Các cung sau hầu như bình thường.
+Chỉđịnh X-quang cột sống: giảm chiều cao, gù
+vẹo cột sống, lâm sàng nghi ngờcó xẹp đốt sống.
+Lưu ý:
+- Cần nhớ: không phải tất cảcác trường hợp gãy
+xương đều do loãng xương
+- Cần nhắc Scan xương nếu gãy không rõ hoặc
+gãy do tác động gián tiếp
+- Cần nhắc chụp MRI hoặc sinh thiết xương nếu
+nghi ngờgãy liên quan đến carcinoma di căn
+- Cần nhắc chụp MRI nếu nghi ngờcó di lệch
+sau hoặc bên
+1.2.2. Phương pháp đo mật độxương
+1) Phương pháp hấp phụnăng lượng tia X kép
+(Dual Energy Xray-Absorptionmetry - DEXA):
+Đo hấp thụtia X kép (DXA)
+Những vịtrí đo chính
+Cột sống trước sau (PA) Đoạn gân (trên) xương
+đùi
+Hình 4. Đo hấp thụtia X kép (DXA)
+24 ————————————————-
+Hình 9: Kết quảOCR bằng DeepSeek OCR 3B trên trang 26
+LATEX by Quan, Tran Hoang
+Trang 20
+
+===== PDF_PAGE_22 =====
+Báo cáo đồán giữa kì
+Trường Đại học Khoa học Tựnhiên - ĐHQG HCM
+Nhập môn xửlý ngôn ngữtựnhiên
+8.1.3
+Nhận xét
+• Mô hình DeepSeek OCR cho thấy chất lượng nhận dạng tiếng Việt tương đối tốt;
+tuy nhiên, đối với một sốthuật ngữkhoa học hoặc từchuyên ngành có cấu trúc
+phức tạp, độchính xác vẫn còn hạn.
+• Mặc dù layout của tài liệu phức tạp nhưng mô hình có thểnhận diện nội dung tốt.
+Mô hình có thểhiểu tốt tài liệu.
+• Mặc dù chất lượng bản scan không cao (như minh họa trong Hình 4), nhờviệc áp
+dụng kiến trúc LLM, mô hình vẫn có khảnăng suy luận và trích xuất nội dung văn
+bản gần như chính xác so với tài liệu gốc.
+• Bên cạnh những ưu điểm vềtốc độvà độgọn nhẹ, mô hình hiện tại chưa hỗtrợ
+trích xuất hình ảnh, đây là một nhược điểm đáng chú ý của phiên bản OCR dung
+lượng nhỏ.
+8.2
+Kết quảđầu ra của quá trình phân tích PDF bằng PDF-
+Extract-Kit
+Sau khi thực hiện phân tích tài liệu PDF bằng PDF-Extract-Kit, hệthống sinh ra một
+tập các tệp đầu ra bao gồm hình ảnh, tệp văn bản định dạng Markdown (MD) và các tệp
+JSON trung gian.
+Trong phạm vi nghiên cứu này, các tệp Markdown không được sửdụng đểđánh giá nội
+dung do chất lượng chính tảtiếng Việt chưa đảm bảo độtin cậy. Thay vào đó, nhóm tập
+trung khai thác các tệp hình ảnh được trích xuất cùng với thông tin vịtrí của chúng trong
+tài liệu gốc, nhằm phục vụcho việc xây dựng metadata và liên kết ngữcảnh giữa hình
+ảnh và trang PDF tương ứng.
+LATEX by Quan, Tran Hoang
+Trang 21
+
+===== PDF_PAGE_23 =====
+Báo cáo đồán giữa kì
+Trường Đại học Khoa học Tựnhiên - ĐHQG HCM
+Nhập môn xửlý ngôn ngữtựnhiên
+Cấu trúc thư mục đầu ra của PDF-Extract-Kit được tổchức như sau:
+output/
+images/
+page_001_img_01.png
+page_001_img_02.png
+page_002_img_01.png
+...
+result.md .........Nội dung văn bản trích xuất (không sửdụng do lỗi chính tả)
+content.json ............Loại hình nội dung, văn bản, sốtrang, đường dẫn ảnh
+layout.json ..............................Thông tin bốcục và tọa độcác khối
+...
+8.3
+Kết quảxuất tài liệu Word hoàn chỉnh
+8.3.1
+Kết quả
+Hình 10: Trang Word nhóm trích xuất
+Hình 11: Trang PDF
+LATEX by Quan, Tran Hoang
+Trang 22
+
+===== PDF_PAGE_24 =====
+Báo cáo đồán giữa kì
+Trường Đại học Khoa học Tựnhiên - ĐHQG HCM
+Nhập môn xửlý ngôn ngữtựnhiên
+Hình 12: Trang Word – phần nội dung
+Hình 13: Trang PDF
+8.3.2
+Nhận xét
+Bằng công cụnhóm sửdụng, hệthống đã tái tạo gần như chính xác cấu trúc tài liệu gốc,
+bao gồm các khối nội dung và cách tổchức bốcục. Đặc biệt, các vịtrí ngắt trang (\break)
+được bảo toàn và chèn đúng theo yêu cầu của giảng viên, góp phần đảm bảo tính nhất
+quán và chuẩn mực của tài liệu đầu r
+8.4
+Xây dựng và tổchức Metadata tài liệu đểsinh dữliệu cho
+giai đoạn tiếp theo
+8.5
+Xây dựng và tổchức Metadata tài liệu đểsinh dữliệu cho
+giai đoạn tiếp theo
+Nhằm phục vụcho hai mục tiêu chính là xây dựng bộbenchmark đánh giá hệthống và
+phát triển mô-đun chatbox hỏi–đáp trên tài liệu, nhóm tiến hành thiết kếvà tổchức lại
+LATEX by Quan, Tran Hoang
+Trang 23
+
+===== PDF_PAGE_25 =====
+Báo cáo đồán giữa kì
+Trường Đại học Khoa học Tựnhiên - ĐHQG HCM
+Nhập môn xửlý ngôn ngữtựnhiên
+toàn bộnội dung tài liệu dưới dạng metadata có cấu trúc. Việc chuẩn hóa dữliệu ở
+mức metadata giúp hệthống dễdàng truy xuất, so khớp ngữcảnh và mởrộng trong các
+giai đoạn xửlý tiếp theo.
+Thay vì lưu trữtài liệu dưới dạng văn bản thuần hoặc file PDF, mỗi trang tài liệu sau khi
+phân tích được biểu diễn dưới dạng một đối tượng JSON, trong đó nội dung được chia
+thành các khối (text blocks) có thứtựlogic rõ ràng. Mỗi khối dữliệu được gán nhãn theo
+loại nội dung, bao gồm đoạn văn, hình ảnh và bảng biểu, đồng thời được liên kết với trang
+tương ứng trong tài liệu gốc.
+Cấu trúc metadata được thiết kếsao cho phù hợp với bài toán xây dựng chatbox, cho
+phép hệthống dễdàng:
+• Truy xuất nội dung theo sốtrang, loại dữliệu hoặc thứtựxuất hiện.
+• Liên kết hình ảnh và bảng biểu với đoạn văn mô tảtương ứng.
+• Phục vụviệc tạo tập dữliệu benchmark cho các tác vụtruy vấn, hỏi–đáp và trích
+xuất thông tin.
+Ví dụvềcấu trúc metadata của một trang tài liệu được mô tảnhư sau:
+1 {
+2
+"page_number ": 20,
+3
+"text ": "Document
+content ...",
+4
+"text_blocks ": [
+5
+{
+6
+"type ": "image",
+7
+"image_path ": ".../ images/img_20_3.png",
+8
+"page_image_path ":
+9
+"caption ": ""
+10
+"bbox" :
+11
+},
+12
+{
+13
+"type ": "table",
+14
+"caption ": ""
+15
+}
+LATEX by Quan, Tran Hoang
+Trang 24
+
+===== PDF_PAGE_26 =====
+Báo cáo đồán giữa kì
+Trường Đại học Khoa học Tựnhiên - ĐHQG HCM
+Nhập môn xửlý ngôn ngữtựnhiên
+16
+]
+17 }
+Trong cấu trúc trên, mỗi khối nội dung đều được gán thuộc tính order nhằm bảo toàn
+thứtựxuất hiện trong tài liệu gốc. Đối với khối hình ảnh, ngoài đường dẫn ảnh và chú
+thích.Thông tin này đặc biệt quan trọng trong việc xác định ngữcảnh phù hợp khi hệ
+thống chatbox cần trảlời các câu hỏi liên quan đến hình ảnh.
+Nhờcách tổchức metadata theo hướng cấu trúc và giàu ngữcảnh, dữliệu đầu ra không
+chỉphục vụcho giai đoạn xây dựng chatbox mà còn có thểtái sửdụng cho các
+9
+Kết luận và hướng phát triển và kếhoạch tương lai
+9.1
+Kết luận
+Đồán đã đềxuất và triển khai một quy trình hoàn chỉnh cho bài toán trích xuất và tái
+tạo nội dung từtài liệu PDF quét tiếng Việt. Quy trình này kết hợp giữa mô-đun nhận
+dạng ký tựquang học đểtrích xuất văn bản thô và mô-đun phân tích bốcục nhằm bảo
+toàn cấu trúc tài liệu, từđó xây dựng metadata có tổchức bao gồm văn bản, hình ảnh,
+bảng biểu và thông tin vịtrí. Trên cơ sởmetadata này, các mô hình ngôn ngữlớn được
+sửdụng đểhiệu chỉnh nội dung, tái cấu trúc và sinh ra tài liệu đầu ra có định dạng gần
+với bản gốc.
+Kết quảthực nghiệm cho thấy phương pháp đềxuất giúp duy trì tương đối tốt bốcục tài
+liệu và vịtrí các thành phần trực quan, đáp ứng yêu cầu chính của bài toán. Mặc dù chất
+lượng văn bản nhận dạng tiếng Việt còn tồn tại sai sót, đặc biệt ởmức ký tựvà chính tả,
+nhưng việc tách biệt rõ ràng giữa giai đoạn trích xuất và giai đoạn tinh chỉnh đã giúp hệ
+thống đảm bảo tính linh hoạt, dễmởrộng và có khảnăng cải thiện trong các nghiên cứu
+tiếp theo.
+LATEX by Quan, Tran Hoang
+Trang 25
+
+===== PDF_PAGE_27 =====
+Báo cáo đồán giữa kì
+Trường Đại học Khoa học Tựnhiên - ĐHQG HCM
+Nhập môn xửlý ngôn ngữtựnhiên
+9.2
+Hướng phát triển và kếhoạch tương lai
+Trong thời gian tới, hệthống có thểđược mởrộng và hoàn thiện theo các hướng nghiên
+cứu sau:
+• Xây dựng hệthống hỏi–đáp dựa trên RAG (Retrieval-Augmented Generation):
+Phát triển cơ chếtruy xuất tài liệu dựa trên biểu diễn embedding kết hợp với mô
+hình ngôn ngữlớn đểsinh câu trảlời, cho phép người dùng truy vấn trực tiếp trên
+tập tài liệu đã được xửlý với độchính xác và tính liên quan cao hơn.
+• Xây dựng và đánh giá bộdữliệu tiếng Việt chuyên ngành: Thu thập và xây
+dựng các bộdữliệu tiếng Việt mới, đặc biệt trong các lĩnh vực chuyên ngành như
+y tế, đồng thời đềxuất các bộbenchmark đánh giá riêng cho bài toán trích xuất và
+hỏi–đáp trên tài liệu tiếng Việt. Trên cơ sởđó, tiến hành tinh chỉnh (fine-tuning)
+các mô hình phù hợp nhằm nâng cao hiệu năng hệthống.
+• Sinh dữliệu hỏi–đáp tựđộng: Nghiên cứu các phương pháp tựđộng sinh câu
+hỏi và câu trảlời từtài liệu đã trích xuất nhằm mởrộng tập dữliệu huấn luyện
+và đánh giá cho các bài toán hỏi–đáp, giảm sựphụthuộc vào dữliệu gán nhãn thủ
+công.
+• Tích hợp mô hình ngôn ngữlớn chuyên ngành: Khảo sát và tích hợp các mô
+hình ngôn ngữlớn chuyên sâu theo từng lĩnh vực (ví dụ: y tế) đểcải thiện độchính
+xác, tính nhất quán và giá trịchuyên môn của các câu trảlời được sinh ra.
+• Mởrộng hình thức tương tác người–máy:
+– Hỗtrợtương tác bằng giọng nói, cho phép người dùng thực hiện truy vấn và
+nhận phản hồi thông qua hội thoại âm thanh.
+– Hỗtrợtruy vấn dựa trên hình ảnh thông qua các mô hình thịgiác–ngôn ngữ,
+cho phép đặt câu hỏi trực tiếp trên hình ảnh, bảng biểu hoặc trang tài liệu.
+LATEX by Quan, Tran Hoang
+Trang 26
+
+===== PDF_PAGE_28 =====
+Báo cáo đồán giữa kì
+Trường Đại học Khoa học Tựnhiên - ĐHQG HCM
+Nhập môn xửlý ngôn ngữtựnhiên
+• Nâng cấp khảnăng suy luận và hạtầng hệthống: Phát triển cơ chếhội thoại
+nhiều lượt kết hợp với các chiến lược suy luận sâu, đồng thời xây dựng hạtầng máy
+chủphục vụtruy vấn thời gian thực và mởrộng quy mô hệthống.
+• Cải thiện truy xuất và tái tạo bốcục tài liệu: Trong các nghiên cứu tiếp theo,
+hệthống truy xuất có thểđược nâng cấp bằng các mô hình có quy mô lớn hơn, đồng
+thời cải thiện khảnăng tái tạo tài liệu với bốcục rõ ràng, nhất quán và sát với tài
+liệu gốc hơn.
+Những hướng phát triển này kỳvọng sẽgóp phần hoàn thiện hệthống đềxuất, đồng thời
+mởrộng khảnăng ứng dụng trong các bài toán khai thác tri thức, trợlý thông minh và
+hỗtrợchuyên môn trên tập tài liệu tiếng Việt.
+LATEX by Quan, Tran Hoang
+Trang 27
+
+===== PDF_PAGE_29 =====
+Báo cáo đồán giữa kì
+Trường Đại học Khoa học Tựnhiên - ĐHQG HCM
+Nhập môn xửlý ngôn ngữtựnhiên
+Tài liệu tham khảo
+[1] Du, Y., Li, C., Guo, R., Yin, X., Liu, W., Zhou, J. (2020). PaddleOCR: An Ultra
+Lightweight Optical Character Recognition System. arXiv preprint arXiv:2009.09941.
+[2] DeepSeek AI (2024). DeepSeek OCR: High-Performance Multilingual Optical Character
+Recognition System. Available at: https://deepseekocr.dev.
+[3] OpenDataLab (2023). PDF-Extract-Kit: A Comprehensive Toolkit for PDF Content
+Extraction. GitHub repository: https://github.com/opendatalab/PDF-Extract-Kit.
+[4] Qwen Team (2024). Qwen: Advancing Open-Source Large Language Models. arXiv
+preprint arXiv:2309.16609.
+LATEX by Quan, Tran Hoang
+Trang 28
+
+===== PDF_PAGE_30 =====
+Báo cáo đồán giữa kì
+Trường Đại học Khoa học Tựnhiên - ĐHQG HCM
+Nhập môn xửlý ngôn ngữtựnhiên
+LATEX by Quan, Tran Hoang
+Trang 29
